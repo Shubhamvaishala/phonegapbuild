@@ -1,1 +1,897 @@
-webpackJsonp([12],{1776:function(n,l,e){"use strict";function t(n){return d._42(0,[(n()(),d._16(0,0,null,null,7,"ion-chip",[["class","addon-messages-date"],["color","light"]],null,null,null,null,null)),d._15(1,16384,null,0,z.a,[$.a,d.p,d.K],{color:[0,"color"]},null),(n()(),d._40(-1,null,["\n                    "])),(n()(),d._16(3,0,null,null,3,"ion-label",[],null,null,null,null,null)),d._15(4,16384,null,0,N.a,[$.a,d.p,d.K,[8,null],[8,null],[8,null],[8,null]],null,null),(n()(),d._40(5,null,["",""])),d._34(6,2),(n()(),d._40(-1,null,["\n                "]))],function(n,l){n(l,1,0,"light")},function(n,l){n(l,5,0,d._41(l,5,0,n(l,6,0,d._29(l.parent.parent,0),l.parent.context.$implicit.timecreated,"LL")))})}function s(n){return d._42(0,[(n()(),d._16(0,0,null,null,11,"ion-chip",[["class","addon-messages-unreadfrom"],["color","light"]],null,null,null,null,null)),d._15(1,16384,null,0,z.a,[$.a,d.p,d.K],{color:[0,"color"]},null),(n()(),d._40(-1,null,["\n                    "])),(n()(),d._16(3,0,null,null,4,"ion-label",[],null,null,null,null,null)),d._15(4,16384,null,0,N.a,[$.a,d.p,d.K,[8,null],[8,null],[8,null],[8,null]],null,null),(n()(),d._40(5,null,["",""])),d._33(6,{$a:0}),d._32(131072,H.a,[W.a,d.i]),(n()(),d._40(-1,null,["\n                    "])),(n()(),d._16(9,0,null,null,1,"ion-icon",[["name","arrow-round-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),d._15(10,147456,null,0,V.a,[$.a,d.p,d.K],{name:[0,"name"]},null),(n()(),d._40(-1,null,["\n                "]))],function(n,l){n(l,1,0,"light");n(l,10,0,"arrow-round-down")},function(n,l){var e=l.component;n(l,5,0,d._41(l,5,0,d._29(l,7).transform("addon.messages.newmessages",n(l,6,0,e.title))));n(l,9,0,d._29(l,10)._hidden)})}function a(n){return d._42(0,[(n()(),d._16(0,0,null,null,3,"ion-note",[],null,null,null,null,null)),d._15(1,16384,null,0,j.a,[$.a,d.p,d.K],null,null),(n()(),d._40(2,null,["\n                        ","\n                    "])),d._34(3,2)],null,function(n,l){n(l,2,0,d._41(l,2,0,n(l,3,0,d._29(l.parent.parent,0),l.parent.context.$implicit.timecreated,"dftimedate")))})}function o(n){return d._42(0,[(n()(),d._16(0,0,null,null,3,"ion-note",[],null,null,null,null,null)),d._15(1,16384,null,0,j.a,[$.a,d.p,d.K],null,null),(n()(),d._16(2,0,null,null,1,"ion-icon",[["name","time"],["role","img"]],[[2,"hide",null]],null,null,null,null)),d._15(3,147456,null,0,V.a,[$.a,d.p,d.K],{name:[0,"name"]},null)],function(n,l){n(l,3,0,"time")},function(n,l){n(l,2,0,d._29(l,3)._hidden)})}function i(n){return d._42(0,[(n()(),d._16(0,0,null,null,6,"button",[["class","addon-messages-delete-button"],["clear","true"],["icon-only",""],["ion-button",""]],[[24,"@coreSlideInOut",0],[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.deleteMessage(n.parent.context.$implicit,n.parent.context.index)&&t}return t},G.b,G.a)),d._15(1,1097728,[[5,4]],0,q.a,[[8,""],$.a,d.p,d.K],{clear:[0,"clear"]},null),d._32(131072,H.a,[W.a,d.i]),(n()(),d._40(-1,0,["\n                        "])),(n()(),d._16(4,0,null,0,1,"ion-icon",[["color","danger"],["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),d._15(5,147456,null,0,V.a,[$.a,d.p,d.K],{color:[0,"color"],name:[1,"name"]},null),(n()(),d._40(-1,0,["\n                    "]))],function(n,l){n(l,1,0,"true");n(l,5,0,"danger","trash")},function(n,l){n(l,0,0,"fromRight",d._41(l,0,1,d._29(l,2).transform("addon.messages.deletemessage")));n(l,4,0,d._29(l,5)._hidden)})}function u(n){return d._42(0,[(n()(),d._16(0,0,null,null,32,null,null,null,null,null,null,null)),(n()(),d._40(-1,null,["\n                "])),(n()(),d._11(16777216,null,null,1,null,t)),d._15(3,16384,null,0,Y.k,[d.W,d.T],{ngIf:[0,"ngIf"]},null),(n()(),d._40(-1,null,["\n\n                "])),(n()(),d._11(16777216,null,null,1,null,s)),d._15(6,16384,null,0,Y.k,[d.W,d.T],{ngIf:[0,"ngIf"]},null),(n()(),d._40(-1,null,["\n\n                "])),(n()(),d._16(8,0,null,null,23,"ion-item",[["class","addon-message item item-block"],["text-wrap",""]],[[2,"addon-message-mine",null],[24,"@coreSlideInOut",0]],[[null,"longPress"]],function(n,l,e){var t=!0;if("longPress"===l){t=!1!==n.component.copyMessage(n.context.$implicit.smallmessage)&&t}return t},J.b,J.a)),d._15(9,212992,null,0,Q.a,[d.p],null,{longPress:"longPress"}),d._15(10,1097728,null,3,Z.a,[nn.a,$.a,d.p,d.K,[2,ln.a]],null,null),d._37(335544320,4,{contentLabel:0}),d._37(603979776,5,{_buttons:1}),d._37(603979776,6,{_icons:1}),d._15(14,16384,null,0,en.a,[],null,null),(n()(),d._40(-1,2,["\n                    "])),(n()(),d._40(-1,2,["\n                    "])),(n()(),d._16(17,0,null,2,4,"p",[["class","addon-message-text"]],null,null,null,null,null)),(n()(),d._40(-1,null,["\n                        "])),(n()(),d._16(19,0,null,null,1,"core-format-text",[],null,[[null,"afterRender"]],function(n,l,e){var t=!0;if("afterRender"===l){t=!1!==(n.context.last&&n.component.scrollToBottom())&&t}return t},null,null)),d._15(20,540672,null,0,tn.a,[d.p,m.a,y.a,sn.a,W.a,an.a,v.a,on.a,b.a,un.a,M.a,rn.a,[2,cn.a],[2,dn.a],[2,gn.a],fn.a,f.a],{text:[0,"text"]},{afterRender:"afterRender"}),(n()(),d._40(-1,null,["\n                    "])),(n()(),d._40(-1,2,["\n                    "])),(n()(),d._11(16777216,null,2,1,null,a)),d._15(24,16384,null,0,Y.k,[d.W,d.T],{ngIf:[0,"ngIf"]},null),(n()(),d._40(-1,2,["\n                    "])),(n()(),d._11(16777216,null,2,1,null,o)),d._15(27,16384,null,0,Y.k,[d.W,d.T],{ngIf:[0,"ngIf"]},null),(n()(),d._40(-1,2,["\n\n                    "])),(n()(),d._11(16777216,null,2,1,null,i)),d._15(30,16384,null,0,Y.k,[d.W,d.T],{ngIf:[0,"ngIf"]},null),(n()(),d._40(-1,2,["\n                "])),(n()(),d._40(-1,null,["\n            "]))],function(n,l){var e=l.component;n(l,3,0,e.showDate(l.context.$implicit,e.messages[l.context.index-1]));n(l,6,0,l.context.$implicit.unreadFrom),n(l,9,0);n(l,20,0,l.context.$implicit.text);n(l,24,0,!l.context.$implicit.pending);n(l,27,0,l.context.$implicit.pending);n(l,30,0,!l.context.$implicit.sending&&e.showDelete)},function(n,l){var e=l.component;n(l,8,0,l.context.$implicit.useridfrom==e.currentUserId,l.context.$implicit.useridfrom==e.currentUserId?"":"fromLeft")})}function r(n){return d._42(0,[(n()(),d._16(0,0,null,null,2,"core-empty-box",[["icon","chatbubbles"]],null,null,null,mn.b,mn.a)),d._15(1,49152,null,0,hn.a,[],{message:[0,"message"],icon:[1,"icon"]},null),d._32(131072,H.a,[W.a,d.i])],function(n,l){n(l,1,0,d._41(l,1,0,d._29(l,2).transform("addon.messages.nomessages")),"chatbubbles")},null)}function c(n){return d._42(0,[d._32(0,_n.a,[b.a,W.a]),d._37(402653184,1,{content:0}),(n()(),d._16(2,0,null,null,36,"ion-header",[],null,null,null,null,null)),d._15(3,16384,null,0,pn.a,[$.a,d.p,d.K,[2,yn.a]],null,null),(n()(),d._40(-1,null,["\n    "])),(n()(),d._16(5,0,null,null,12,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,vn.b,vn.a)),d._15(6,49152,null,0,bn.a,[Mn.a,[2,yn.a],[2,cn.a],$.a,d.p,d.K],null,null),d._15(7,212992,null,0,wn.a,[bn.a,an.a,W.a,f.a],null,null),(n()(),d._40(-1,3,["\n        "])),(n()(),d._16(9,0,null,3,3,"ion-title",[],null,null,null,In.b,In.a)),d._15(10,49152,null,0,Pn.a,[$.a,d.p,d.K,[2,Cn.a],[2,bn.a]],null,null),(n()(),d._16(11,0,null,0,1,"core-format-text",[],null,null,null,null,null)),d._15(12,540672,null,0,tn.a,[d.p,m.a,y.a,sn.a,W.a,an.a,v.a,on.a,b.a,un.a,M.a,rn.a,[2,cn.a],[2,dn.a],[2,gn.a],fn.a,f.a],{text:[0,"text"]},null),(n()(),d._40(-1,3,["\n        "])),(n()(),d._16(14,0,null,2,2,"ion-buttons",[["end",""]],null,null,null,null,null)),d._15(15,16384,null,1,Dn.a,[$.a,d.p,d.K,[2,Cn.a],[2,bn.a]],null,null),d._37(603979776,2,{_buttons:1}),(n()(),d._40(-1,3,["\n    "])),(n()(),d._40(-1,null,["\n    "])),(n()(),d._16(19,0,null,null,18,"core-navbar-buttons",[["end",""]],null,null,null,kn.b,kn.a)),d._15(20,245760,null,1,xn.a,[d.p,b.a,y.a],null,null),d._37(603979776,3,{buttons:1}),(n()(),d._40(-1,0,["\n        "])),(n()(),d._16(23,0,null,0,5,"button",[["clear","true"],["icon-only",""],["ion-button",""]],[[8,"hidden",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.toggleDelete()&&t}return t},G.b,G.a)),d._15(24,1097728,[[3,4]],0,q.a,[[8,""],$.a,d.p,d.K],{clear:[0,"clear"]},null),(n()(),d._40(-1,0,["\n            "])),(n()(),d._16(26,0,null,0,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),d._15(27,147456,null,0,V.a,[$.a,d.p,d.K],{name:[0,"name"]},null),(n()(),d._40(-1,0,["\n        "])),(n()(),d._40(-1,0,["\n        "])),(n()(),d._16(30,0,null,0,6,"a",[["core-user-link",""]],[[8,"hidden",0],[1,"aria-label",0]],null,null,null,null)),d._15(31,81920,null,0,Un.a,[d.p,[2,cn.a]],{userId:[0,"userId"]},null),d._32(131072,H.a,[W.a,d.i]),(n()(),d._40(-1,null,["\n            "])),(n()(),d._16(34,0,null,null,1,"img",[["class","button core-bar-button-image"],["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"]],[[8,"src",4]],null,null,null,null)),d._15(35,4210688,null,0,Kn.a,[d.p,b.a,un.a,an.a,m.a,y.a,on.a,M.a,v.a],null,null),(n()(),d._40(-1,null,["\n        "])),(n()(),d._40(-1,0,["\n    "])),(n()(),d._40(-1,null,["\n"])),(n()(),d._40(-1,null,["\n"])),(n()(),d._16(40,0,null,null,20,"ion-content",[["class","has-footer"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),d._15(41,4374528,[[1,4]],0,dn.a,[$.a,an.a,Sn.a,d.p,d.K,Mn.a,En.a,d.D,[2,yn.a],[2,cn.a]],null,null),(n()(),d._40(-1,1,["\n    "])),(n()(),d._16(43,0,null,1,16,"core-loading",[],null,null,null,Fn.b,Fn.a)),d._15(44,638976,null,0,Rn.a,[W.a,d.p,f.a,v.a],{hideUntil:[0,"hideUntil"]},null),(n()(),d._40(-1,0,["\n        "])),(n()(),d._40(-1,0,["\n        "])),(n()(),d._16(47,0,null,0,1,"core-infinite-loading",[["position","top"]],null,[[null,"action"]],function(n,l,e){var t=!0;if("action"===l){t=!1!==n.component.loadPrevious(e)&&t}return t},Tn.b,Tn.a)),d._15(48,49152,null,0,An.a,[],{enabled:[0,"enabled"],position:[1,"position"]},{action:"action"}),(n()(),d._40(-1,0,["\n        "])),(n()(),d._16(50,0,null,0,5,"ion-list",[["class","addon-messages-discussion-container"]],[[1,"aria-live",0]],null,null,null,null)),d._15(51,16384,null,0,Bn.a,[$.a,d.p,d.K,an.a,On.l,Sn.a],null,null),(n()(),d._40(-1,null,["\n            "])),(n()(),d._11(16777216,null,null,1,null,u)),d._15(54,802816,null,0,Y.j,[d.W,d.T,d.v],{ngForOf:[0,"ngForOf"]},null),(n()(),d._40(-1,null,["\n        "])),(n()(),d._40(-1,0,["\n        "])),(n()(),d._11(16777216,null,0,1,null,r)),d._15(58,16384,null,0,Y.k,[d.W,d.T],{ngIf:[0,"ngIf"]},null),(n()(),d._40(-1,0,["\n    "])),(n()(),d._40(-1,1,["\n"])),(n()(),d._40(-1,null,["\n"])),(n()(),d._16(62,0,null,null,10,"ion-footer",[["class","footer-adjustable"],["color","light"]],null,null,null,null,null)),d._15(63,16384,null,0,Xn.a,[$.a,d.p,d.K,[2,yn.a]],{color:[0,"color"]},null),(n()(),d._40(-1,null,["\n    "])),(n()(),d._16(65,0,null,null,6,"ion-toolbar",[["class","toolbar"],["color","light"],["position","bottom"]],[[2,"statusbar-padding",null]],null,null,zn.b,zn.a)),d._15(66,49152,null,0,Cn.a,[$.a,d.p,d.K],{color:[0,"color"]},null),(n()(),d._40(-1,3,["\n        "])),(n()(),d._16(68,0,null,3,2,"core-send-message-form",[],null,[[null,"onSubmit"],[null,"onResize"]],function(n,l,e){var t=!0,s=n.component;if("onSubmit"===l){t=!1!==s.sendMessage(e)&&t}if("onResize"===l){t=!1!==s.resizeContent()&&t}return t},$n.b,$n.a)),d._15(69,114688,null,0,Nn.a,[v.a,sn.a],{placeholder:[0,"placeholder"],showKeyboard:[1,"showKeyboard"]},{onSubmit:"onSubmit",onResize:"onResize"}),d._32(131072,H.a,[W.a,d.i]),(n()(),d._40(-1,3,["\n    "])),(n()(),d._40(-1,null,["\n"])),(n()(),d._40(-1,null,["\n"]))],function(n,l){var e=l.component;n(l,7,0);n(l,12,0,e.title),n(l,20,0);n(l,24,0,"true");n(l,27,0,"trash");n(l,31,0,e.userId);n(l,44,0,e.loaded);n(l,48,0,e.canLoadMore,"top");n(l,54,0,e.messages);n(l,58,0,!e.messages||e.messages.length<=0);n(l,63,0,"light");n(l,66,0,"light");n(l,69,0,d._41(l,69,0,d._29(l,70).transform("addon.messages.newmessage")),e.showKeyboard)},function(n,l){var e=l.component;n(l,5,0,d._29(l,6)._hidden,d._29(l,6)._sbPadding);n(l,23,0,!e.canDelete);n(l,26,0,d._29(l,27)._hidden);n(l,30,0,!e.showProfileLink,d._41(l,30,1,d._29(l,32).transform("core.user.viewprofile")));n(l,34,0,e.profileLink);n(l,40,0,d._29(l,41).statusbarPadding,d._29(l,41)._hasRefresher);n(l,50,0,e.polite);n(l,65,0,d._29(l,66)._sbPadding)})}Object.defineProperty(l,"__esModule",{value:!0});var d=e(1),g=(e(0),e(11),e(6)),f=e(13),m=e(2),h=e(169),_=e(438),p=e(45),y=e(4),v=e(3),b=e(5),M=e(12),w=(e(1360),e(190)),I=e(14),P=function(){function n(n,l,e,t,s,a,o,i,u,r,c,d){var g=this;this.eventsProvider=n,this.userProvider=t,this.navCtrl=s,this.messagesSync=a,this.domUtils=o,this.messagesProvider=i,this.utils=r,this.appProvider=c,this.translate=d,this.unreadMessageFrom=0,this.messagesBeingSent=0,this.pagesLoaded=1,this.lastMessage={text:"",timecreated:0},this.keepMessageMap={},this.oldContentHeight=0,this.loaded=!1,this.showKeyboard=!1,this.canLoadMore=!1,this.messages=[],this.showDelete=!1,this.canDelete=!1,this.scrollBottom=!0,this.viewDestroyed=!1,this.siteId=l.getCurrentSiteId(),this.currentUserId=l.getCurrentSiteUserId(),this.logger=u.getInstance("AddonMessagesDiscussionPage"),this.userId=e.get("userId"),this.showKeyboard=e.get("showKeyboard"),this.syncObserver=n.on(_.a.AUTO_SYNCED,function(n){n.userId==g.userId&&(g.fetchData(),n.warnings&&n.warnings[0]&&g.domUtils.showErrorModal(n.warnings[0]))},this.siteId)}return n.prototype.addMessage=function(n,l){void 0===l&&(l=!0),n.hash=w.Md5.hashAsciiStr(n.smallmessage)+"#"+n.timecreated+"#"+n.useridfrom,void 0===this.keepMessageMap[n.hash]&&this.messages.push(n),this.keepMessageMap[n.hash]=l},n.prototype.removeMessage=function(n){if(this.keepMessageMap[n])this.keepMessageMap[n]=!1;else{delete this.keepMessageMap[n];var l=this.messages.findIndex(function(l){return l.hash==n});l>0&&this.messages.splice(l,1)}},n.prototype.ionViewDidLoad=function(){var n=this,l=this.navCtrl.getPrevious()&&this.navCtrl.getPrevious().component.name;this.showProfileLink=!l||"CoreUserProfilePage"!==l,this.userProvider.getProfile(this.userId,void 0,!0).then(function(l){n.title||(n.title=l.fullname),n.profileLink=l.profileimageurl}),this.messagesSync.syncDiscussion(this.userId).catch(function(){}).then(function(l){return l&&l[0]&&n.domUtils.showErrorModal(l[0]),n.fetchData().then(function(){!n.title&&n.messages.length&&(n.title=n.messages[0].useridto!=n.currentUserId?n.messages[0].usertofullname||"":n.messages[0].userfromfullname||"")}).catch(function(l){n.domUtils.showErrorModalDefault(l,"addon.messages.errorwhileretrievingmessages",!0)}).finally(function(){n.checkCanDelete(),n.resizeContent(),n.loaded=!0})}),this.keyboardObserver=this.eventsProvider.on(f.a.KEYBOARD_CHANGE,function(l){n.content.resize()})},n.prototype.ionViewDidEnter=function(){this.setPolling()},n.prototype.ionViewWillLeave=function(){this.unsetPolling()},n.prototype.fetchData=function(){var n=this;return this.logger.debug("Polling new messages for discussion with user '"+this.userId+"'"),this.messagesBeingSent>0?Promise.reject(null):this.fetching?Promise.reject(null):(this.fetching=!0,this.messagesSync.waitForSync(this.userId).then(function(){return n.messagesProvider.invalidateDiscussionCache(n.userId).catch(function(){})}).then(function(){return n.getDiscussion(n.pagesLoaded)}).then(function(l){if(n.viewDestroyed)return Promise.resolve();if(n.scrollBottom=n.domUtils.getScrollHeight(n.content)-n.domUtils.getScrollTop(n.content)===n.domUtils.getContentHeight(n.content),n.messagesBeingSent>0)return Promise.reject(null);l.forEach(function(l){n.addMessage(l)});for(var e in n.keepMessageMap)n.removeMessage(e);n.messagesProvider.sortMessages(n.messages),n.notifyNewMessage(),n.markMessagesAsRead()}).finally(function(){n.fetching=!1}))},n.prototype.getDiscussion=function(n,l,e,t,s){var a=this;void 0===l&&(l=0),void 0===e&&(e=0),void 0===t&&(t=0),void 0===s&&(s=0);return this.messagesProvider.getDiscussion(this.userId,l>0||e>0||t>0||s>0,l,e,t,s).then(function(o){return--n>0&&o.canLoadMore?(o.messages.forEach(function(n){n.pending||(n.useridfrom==a.userId?n.read?e++:l++:n.read?s++:t++)}),a.getDiscussion(n,l,e,t,s).then(function(n){return o.messages.concat(n)})):(a.canLoadMore=o.canLoadMore,o.messages)})},n.prototype.markMessagesAsRead=function(){var n=this,l=!1,e=[];if(this.messagesProvider.isMarkAllMessagesReadEnabled()){var t=!1;for(var s in this.messages){var a=this.messages[s];if(a.useridfrom!=this.currentUserId&&0==a.read){t=!0;break}}t&&(this.setUnreadLabelPosition(),e.push(this.messagesProvider.markAllMessagesRead(this.userId).then(function(){l=!0,n.messages.forEach(function(n){n.read=1})})))}else this.setUnreadLabelPosition(),this.messages.forEach(function(t){t.useridfrom!=n.currentUserId&&0==t.read&&e.push(n.messagesProvider.markMessageRead(t.id).then(function(){l=!0,t.read=1}))});Promise.all(e).finally(function(){l&&n.eventsProvider.trigger(h.a.READ_CHANGED_EVENT,{userId:n.userId},n.siteId)})},n.prototype.notifyNewMessage=function(){var n=this.messages[this.messages.length-1],l=!1;if(n?n.text===this.lastMessage.text&&n.timecreated===this.lastMessage.timecreated||(this.lastMessage={text:n.text,timecreated:n.timecreated},l=!0):(this.lastMessage={text:"",timecreated:0},l=!0),l){this.eventsProvider.trigger(h.a.NEW_MESSAGE_EVENT,{userId:this.userId,message:this.lastMessage.text,timecreated:this.lastMessage.timecreated},this.siteId);this.canDelete!=(n&&n.id&&1==this.messages.length||this.messages.length>1)&&this.checkCanDelete()}},n.prototype.setUnreadLabelPosition=function(){if(0==this.unreadMessageFrom){var n=!1;for(var l in this.messages){var e=this.messages[l];if(e.useridfrom!=this.currentUserId){if(e.unreadFrom=0==e.read&&n,e.unreadFrom){this.unreadMessageFrom=parseInt(e.id,10);break}n=0!=e.read}}0==this.unreadMessageFrom&&(this.unreadMessageFrom=-1)}},n.prototype.checkCanDelete=function(){var n=this.messages[0];this.canDelete=n&&!n.sending},n.prototype.hideUnreadLabel=function(){if(this.unreadMessageFrom>0){for(var n in this.messages){var l=this.messages[n];if(l.id==this.unreadMessageFrom){l.unreadFrom=!1;break}}this.unreadMessageFrom=-1}},n.prototype.waitForFetch=function(){var n=this;if(!this.fetching)return Promise.resolve();var l=this.utils.promiseDefer();return setTimeout(function(){return n.waitForFetch().finally(function(){l.resolve()})},400),l.promise},n.prototype.setPolling=function(){var n=this;this.polling||(this.polling=setInterval(function(){n.fetchData().catch(function(){})},h.a.POLL_INTERVAL))},n.prototype.unsetPolling=function(){this.polling&&(this.logger.debug("Cancelling polling for conversation with user '"+this.userId+"'"),clearInterval(this.polling),this.polling=void 0)},n.prototype.copyMessage=function(n){this.utils.copyToClipboard(n)},n.prototype.deleteMessage=function(n,l){var e=this;this.domUtils.showConfirm(this.translate.instant(n.pending?"core.areyousure":"addon.messages.deletemessageconfirmation")).then(function(){var t=e.domUtils.showModalLoading("core.deleting",!0);return e.messagesProvider.deleteMessage(n).then(function(){e.messages.splice(l,1),e.removeMessage(n.hash),e.notifyNewMessage(),e.fetchData()}).finally(function(){t.dismiss()})}).catch(function(n){e.domUtils.showErrorModalDefault(n,"addon.messages.errordeletemessage",!0)})},n.prototype.loadPrevious=function(n){var l=this;return this.waitForFetch().finally(function(){l.pagesLoaded++,l.fetchData().catch(function(n){l.pagesLoaded--,l.domUtils.showErrorModalDefault(n,"addon.messages.errorwhileretrievingmessages",!0)}).finally(function(){n&&n()})})},n.prototype.resizeContent=function(){var n=this,l=this.content.getContentDimensions().scrollTop;this.content.resize(),setTimeout(function(){!n.viewDestroyed&&n.content&&n.domUtils.getContentHeight(n.content)!=n.oldContentHeight&&(l||(l=n.content.getContentDimensions().scrollTop),l+=n.oldContentHeight-n.domUtils.getContentHeight(n.content),n.oldContentHeight=n.domUtils.getContentHeight(n.content),n.domUtils.scrollTo(n.content,0,l,0))})},n.prototype.scrollToBottom=function(){var n=this;this.scrollBottom&&(setTimeout(function(){n.viewDestroyed||n.domUtils.scrollToBottom(n.content,0)}),this.scrollBottom=!1)},n.prototype.sendMessage=function(n){var l,e=this;this.hideUnreadLabel(),this.showDelete=!1,this.scrollBottom=!0,l={pending:!0,sending:!0,useridfrom:this.currentUserId,smallmessage:n,text:n,timecreated:(new Date).getTime()},this.addMessage(l,!1),this.messagesBeingSent++,this.waitForFetch().finally(function(){e.messagesProvider.sendMessage(e.userId,n).then(function(n){e.messagesBeingSent--,(n.sent?e.fetchData():Promise.reject(null)).catch(function(){l.sending=!1,n.sent?l.pending=!1:n.message&&(l.timecreated=n.message.timecreated),e.notifyNewMessage()})}).catch(function(n){e.messagesBeingSent--,e.appProvider.closeKeyboard(),e.domUtils.showErrorModalDefault(n,"addon.messages.messagenotsent",!0),e.removeMessage(l.hash)})})},n.prototype.showDate=function(n,l){return!l||!n.pending&&!I(n.timecreated).isSame(l.timecreated,"day")},n.prototype.toggleDelete=function(){this.showDelete=!this.showDelete},n.prototype.ngOnDestroy=function(){this.unsetPolling(),this.syncObserver&&this.syncObserver.off(),this.keyboardObserver&&this.keyboardObserver.off(),this.viewDestroyed=!0},n}(),C=e(33),D=e(30),k=e(105),x=function(){return function(){}}(),U=e(1277),K=e(1278),L=e(1279),S=e(1280),E=e(1281),F=e(1282),R=e(1283),T=e(1284),A=e(1285),B=e(1288),O=e(1289),X=e(1290),z=e(679),$=e(7),N=e(61),H=e(29),W=e(18),V=e(42),j=e(215),G=e(46),q=e(41),Y=e(9),J=e(34),Q=e(1357),Z=e(21),nn=e(20),ln=e(28),en=e(31),tn=e(40),sn=e(10),an=e(15),on=e(26),un=e(17),rn=e(23),cn=e(22),dn=e(24),gn=e(35),fn=e(38),mn=e(164),hn=e(135),_n=e(237),pn=e(421),yn=e(36),vn=e(1286),bn=e(192),Mn=e(27),wn=e(635),In=e(1287),Pn=e(325),Cn=e(235),Dn=e(422),kn=e(88),xn=e(80),Un=e(239),Kn=e(162),Ln=e(179),Sn=e(25),En=e(101),Fn=e(55),Rn=e(50),Tn=e(432),An=e(270),Bn=e(74),On=e(37),Xn=e(655),zn=e(1886),$n=e(1891),Nn=e(1303),Hn=e(60),Wn=d._14({encapsulation:2,styles:[],data:{animation:[{type:7,name:"coreSlideInOut",definitions:[{type:1,expr:"void => fromLeft",animation:[{type:6,styles:{transform:"translateX(0)",opacity:1},offset:null},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:0,transform:"translateX(-100%)",offset:0},offset:null},{type:6,styles:{opacity:1,transform:"translateX(5%)",offset:.7},offset:null},{type:6,styles:{opacity:1,transform:"translateX(0)",offset:1},offset:null}]},timings:300}],options:null},{type:1,expr:"fromLeft => void",animation:[{type:6,styles:{transform:"translateX(-100%)",opacity:0},offset:null},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:1,transform:"translateX(0)",offset:0},offset:null},{type:6,styles:{opacity:1,transform:"translateX(5%)",offset:.3},offset:null},{type:6,styles:{opacity:0,transform:"translateX(-100%)",offset:1},offset:null}]},timings:300}],options:null},{type:1,expr:"void => fromRight",animation:[{type:6,styles:{transform:"translateX(0)",opacity:1},offset:null},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:0,transform:"translateX(100%)",offset:0},offset:null},{type:6,styles:{opacity:1,transform:"translateX(-5%)",offset:.7},offset:null},{type:6,styles:{opacity:1,transform:"translateX(0)",offset:1},offset:null}]},timings:300}],options:null},{type:1,expr:"fromRight => void",animation:[{type:6,styles:{transform:"translateX(-100%)",opacity:0},offset:null},{type:4,styles:{type:5,steps:[{type:6,styles:{opacity:1,transform:"translateX(0)",offset:0},offset:null},{type:6,styles:{opacity:1,transform:"translateX(-5%)",offset:.3},offset:null},{type:6,styles:{opacity:0,transform:"translateX(100%)",offset:1},offset:null}]},timings:300}],options:null}],options:{}}]}}),Vn=d._12("page-addon-messages-discussion",P,function(n){return d._42(0,[(n()(),d._16(0,0,null,null,1,"page-addon-messages-discussion",[],null,null,null,c,Wn)),d._15(1,180224,null,0,P,[f.a,m.a,Hn.a,p.a,cn.a,_.a,y.a,h.a,b.a,v.a,M.a,W.a],null,null)],null,null)},{},{},[]),jn=e(19),Gn=e(321),qn=e(322),Yn=e(324),Jn=e(323),Qn=e(420),Zn=e(634),nl=e(236);e.d(l,"AddonMessagesDiscussionPageModuleNgFactory",function(){return ll});var ll=d._13(x,[],function(n){return d._25([d._26(512,d.n,d._6,[[8,[U.a,K.a,L.a,S.a,E.a,F.a,R.a,T.a,A.a,B.a,O.a,X.a,Vn]],[3,d.n],d.B]),d._26(4608,Y.m,Y.l,[d.x,[2,Y.v]]),d._26(4608,jn.x,jn.x,[]),d._26(4608,jn.d,jn.d,[]),d._26(4608,Gn.b,Gn.a,[]),d._26(4608,qn.a,qn.b,[]),d._26(4608,Yn.b,Yn.a,[]),d._26(4608,Jn.b,Jn.a,[]),d._26(4608,W.a,W.a,[Qn.a,Gn.b,qn.a,Yn.b,Jn.b,W.b,W.c]),d._26(512,Y.b,Y.b,[]),d._26(512,jn.v,jn.v,[]),d._26(512,jn.i,jn.i,[]),d._26(512,jn.s,jn.s,[]),d._26(512,Zn.a,Zn.a,[]),d._26(512,g.a,g.a,[]),d._26(512,D.a,D.a,[]),d._26(512,k.a,k.a,[]),d._26(512,C.a,C.a,[]),d._26(512,Zn.b,Zn.b,[]),d._26(512,x,x,[]),d._26(256,W.c,void 0,[]),d._26(256,W.b,void 0,[]),d._26(256,nl.a,P,[])])})},1886:function(n,l,e){"use strict";function t(n){return s._42(2,[(n()(),s._16(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),s._15(1,278528,null,0,a.i,[s.v,s.w,s.p,s.L],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),s._28(null,0),s._28(null,1),s._28(null,2),(n()(),s._16(5,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),s._15(6,278528,null,0,a.i,[s.v,s.w,s.p,s.L],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),s._28(null,3)],function(n,l){var e=l.component;n(l,1,0,"toolbar-background","toolbar-background-"+e._mode);n(l,6,0,"toolbar-content","toolbar-content-"+e._mode)},null)}e.d(l,"a",function(){return o}),l.b=t;var s=e(1),a=e(9),o=(e(7),s._14({encapsulation:2,styles:[],data:{}}))},1891:function(n,l,e){"use strict";function t(n){return s._42(0,[(n()(),s._16(0,0,null,null,28,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(n,l,e){var t=!0;if("submit"===l){t=!1!==s._29(n,2).onSubmit(e)&&t}if("reset"===l){t=!1!==s._29(n,2).onReset()&&t}return t},null,null)),s._15(1,16384,null,0,a.w,[],null,null),s._15(2,4210688,null,0,a.p,[[8,null],[8,null]],null,null),s._35(2048,null,a.b,null,[a.p]),s._15(4,16384,null,0,a.o,[a.b],null,null),(n()(),s._40(-1,null,["\n    "])),(n()(),s._16(6,0,null,null,7,"textarea",[["class","core-send-message-input"],["core-auto-rows",""],["name","message"],["rows","1"]],[[8,"placeholder",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"onResize"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"],[null,"change"]],function(n,l,e){var t=!0,a=n.component;if("input"===l){t=!1!==s._29(n,7)._handleInput(e.target.value)&&t}if("blur"===l){t=!1!==s._29(n,7).onTouched()&&t}if("compositionstart"===l){t=!1!==s._29(n,7)._compositionStart()&&t}if("compositionend"===l){t=!1!==s._29(n,7)._compositionEnd(e.target.value)&&t}if("input"===l){t=!1!==s._29(n,13).onInput()&&t}if("change"===l){t=!1!==s._29(n,13).onChange()&&t}if("ngModelChange"===l){t=!1!==(a.message=e)&&t}if("onResize"===l){t=!1!==a.textareaResized()&&t}return t},null,null)),s._15(7,16384,null,0,a.c,[s.L,s.p,[2,a.a]],null,null),s._35(1024,null,a.l,function(n){return[n]},[a.c]),s._15(9,671744,null,0,a.q,[[2,a.b],[8,null],[8,null],[2,a.l]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),s._35(2048,null,a.m,null,[a.q]),s._15(11,16384,null,0,a.n,[a.m],null,null),s._15(12,81920,null,0,o.a,[s.p,i.a,u.a,[2,r.a]],{coreAutoFocus:[0,"coreAutoFocus"]},null),s._15(13,4210688,null,0,c.a,[s.p],null,{onResize:"onResize"}),(n()(),s._40(-1,null,["\n    "])),(n()(),s._16(15,0,null,null,12,"ion-buttons",[["end",""]],null,null,null,null,null)),s._15(16,16384,null,1,d.a,[g.a,s.p,s.K,[2,f.a],[2,m.a]],null,null),s._37(603979776,1,{_buttons:1}),(n()(),s._40(-1,null,["\n        "])),(n()(),s._16(19,0,null,null,7,"button",[["clear","true"],["icon-only",""],["ion-button",""],["type","submit"]],[[8,"disabled",0],[1,"aria-label",0]],[[null,"onClick"]],function(n,l,e){var t=!0;if("onClick"===l){t=!1!==n.component.submitForm(e)&&t}return t},h.b,h.a)),s._15(20,1097728,[[1,4]],0,_.a,[[8,""],g.a,s.p,s.K],{clear:[0,"clear"]},null),s._15(21,81920,null,0,p.a,[s.p],null,{onClick:"onClick"}),s._32(131072,y.a,[v.a,s.i]),(n()(),s._40(-1,0,["\n            "])),(n()(),s._16(24,0,null,0,1,"ion-icon",[["color","dark"],["name","send"],["role","img"]],[[2,"hide",null]],null,null,null,null)),s._15(25,147456,null,0,b.a,[g.a,s.p,s.K],{color:[0,"color"],name:[1,"name"]},null),(n()(),s._40(-1,0,["\n        "])),(n()(),s._40(-1,null,["\n    "])),(n()(),s._40(-1,null,["\n"])),(n()(),s._40(-1,null,["\n"]))],function(n,l){var e=l.component;n(l,9,0,"message",e.message);n(l,12,0,e.showKeyboard);n(l,20,0,"true"),n(l,21,0);n(l,25,0,"dark","send")},function(n,l){var e=l.component;n(l,0,0,s._29(l,4).ngClassUntouched,s._29(l,4).ngClassTouched,s._29(l,4).ngClassPristine,s._29(l,4).ngClassDirty,s._29(l,4).ngClassValid,s._29(l,4).ngClassInvalid,s._29(l,4).ngClassPending);n(l,6,0,e.placeholder,s._29(l,11).ngClassUntouched,s._29(l,11).ngClassTouched,s._29(l,11).ngClassPristine,s._29(l,11).ngClassDirty,s._29(l,11).ngClassValid,s._29(l,11).ngClassInvalid,s._29(l,11).ngClassPending);n(l,19,0,!e.message,s._41(l,19,1,s._29(l,22).transform("core.send")));n(l,24,0,s._29(l,25)._hidden)})}e.d(l,"a",function(){return M}),l.b=t;var s=e(1),a=e(19),o=e(327),i=e(4),u=e(3),r=e(22),c=e(335),d=e(422),g=e(7),f=e(235),m=e(192),h=e(46),_=e(41),p=e(339),y=e(29),v=e(18),b=e(42),M=(e(10),s._14({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([12],{
+
+/***/ 1785:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
+var core = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
+var ionic_angular = __webpack_require__(10);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
+var _ngx_translate_core = __webpack_require__(5);
+
+// EXTERNAL MODULE: ./src/components/components.module.ts
+var components_module = __webpack_require__(32);
+
+// EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
+var directives_module = __webpack_require__(29);
+
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 1 modules
+var pipes_module = __webpack_require__(104);
+
+// EXTERNAL MODULE: ./src/providers/app.ts
+var app = __webpack_require__(11);
+
+// EXTERNAL MODULE: ./src/providers/events.ts
+var events = __webpack_require__(12);
+
+// EXTERNAL MODULE: ./src/providers/logger.ts
+var logger = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./src/providers/sites.ts
+var sites = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./src/providers/utils/dom.ts
+var dom = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./src/providers/utils/text.ts
+var utils_text = __webpack_require__(9);
+
+// EXTERNAL MODULE: ./src/addon/mod/chat/providers/chat.ts
+var chat = __webpack_require__(331);
+
+// EXTERNAL MODULE: ./node_modules/@ionic-native/network/index.js
+var network = __webpack_require__(199);
+
+// EXTERNAL MODULE: ./node_modules/moment/moment.js
+var moment = __webpack_require__(13);
+var moment_default = /*#__PURE__*/__webpack_require__.n(moment);
+
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/chat/chat.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a chat session.
+ */
+var chat_AddonModChatChatPage = /** @class */ (function () {
+    function AddonModChatChatPage(navParams, logger, network, zone, navCtrl, chatProvider, appProvider, sitesProvider, modalCtrl, domUtils, textUtils, eventsProvider) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.chatProvider = chatProvider;
+        this.appProvider = appProvider;
+        this.modalCtrl = modalCtrl;
+        this.domUtils = domUtils;
+        this.textUtils = textUtils;
+        this.eventsProvider = eventsProvider;
+        this.loaded = false;
+        this.messages = [];
+        this.lastTime = 0;
+        this.oldContentHeight = 0;
+        this.viewDestroyed = false;
+        this.pollingRunning = false;
+        this.chatId = navParams.get('chatId');
+        this.courseId = navParams.get('courseId');
+        this.title = navParams.get('title');
+        this.logger = logger.getInstance('AddonModChoiceChoicePage');
+        this.currentUserBeep = 'beep ' + sitesProvider.getCurrentSiteUserId();
+        this.isOnline = this.appProvider.isOnline();
+        this.onlineObserver = network.onchange().subscribe(function (online) {
+            // Execute the callback in the Angular zone, so change detection doesn't stop working.
+            zone.run(function () {
+                _this.isOnline = _this.appProvider.isOnline();
+            });
+        });
+    }
+    /**
+     * View loaded.
+     */
+    AddonModChatChatPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.loginUser().then(function () {
+            return _this.fetchMessages().then(function () {
+                _this.startPolling();
+            }).catch(function (error) {
+                _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhileretrievingmessages', true);
+                _this.navCtrl.pop();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhileconnecting', true);
+            _this.navCtrl.pop();
+        }).finally(function () {
+            _this.loaded = true;
+        });
+        // Recalculate footer position when keyboard is shown or hidden.
+        this.keyboardObserver = this.eventsProvider.on(events["a" /* CoreEventsProvider */].KEYBOARD_CHANGE, function (kbHeight) {
+            _this.content.resize();
+        });
+    };
+    /**
+     * Runs when the page has fully entered and is now the active page.
+     * This event will fire, whether it was the first load or a cached page.
+     */
+    AddonModChatChatPage.prototype.ionViewDidEnter = function () {
+        this.startPolling();
+    };
+    /**
+     * Runs when the page is about to leave and no longer be the active page.
+     */
+    AddonModChatChatPage.prototype.ionViewWillLeave = function () {
+        this.stopPolling();
+    };
+    /**
+     * Display the chat users modal.
+     */
+    AddonModChatChatPage.prototype.showChatUsers = function () {
+        var _this = this;
+        var modal = this.modalCtrl.create('AddonModChatUsersPage', { sessionId: this.sessionId });
+        modal.onDidDismiss(function (data) {
+            if (data && data.talkTo) {
+                _this.newMessage = "To " + data.talkTo + ": ";
+            }
+            if (data && data.beepTo) {
+                _this.sendMessage('', data.beepTo);
+            }
+        });
+        modal.present();
+    };
+    /**
+     * Convenience function to login the user.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModChatChatPage.prototype.loginUser = function () {
+        var _this = this;
+        return this.chatProvider.loginUser(this.chatId).then(function (sessionId) {
+            _this.sessionId = sessionId;
+        });
+    };
+    /**
+     * Convenience function to fetch chat messages.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModChatChatPage.prototype.fetchMessages = function () {
+        var _this = this;
+        return this.chatProvider.getLatestMessages(this.sessionId, this.lastTime).then(function (messagesInfo) {
+            _this.lastTime = messagesInfo.chatnewlasttime || 0;
+            return _this.chatProvider.getMessagesUserData(messagesInfo.messages, _this.courseId).then(function (messages) {
+                _this.messages = _this.messages.concat(messages);
+                if (messages.length) {
+                    // New messages or beeps, scroll to bottom.
+                    setTimeout(function () { return _this.scrollToBottom(); });
+                }
+            });
+        });
+    };
+    /**
+     * Start the polling to get chat messages periodically.
+     */
+    AddonModChatChatPage.prototype.startPolling = function () {
+        var _this = this;
+        // We already have the polling in place.
+        if (this.polling) {
+            return;
+        }
+        // Start polling.
+        this.polling = setInterval(function () {
+            _this.fetchMessagesInterval().catch(function () {
+                // Ignore errors.
+            });
+        }, chat["a" /* AddonModChatProvider */].POLL_INTERVAL);
+    };
+    /**
+     * Stop polling for messages.
+     */
+    AddonModChatChatPage.prototype.stopPolling = function () {
+        if (this.polling) {
+            this.logger.debug('Cancelling polling for messages');
+            clearInterval(this.polling);
+        }
+    };
+    /**
+     * Convenience function to be called every certain time to fetch chat messages.
+     *
+     * @return {Promise<any>} Promised resolved when done.
+     */
+    AddonModChatChatPage.prototype.fetchMessagesInterval = function () {
+        var _this = this;
+        this.logger.debug('Polling for messages');
+        if (!this.isOnline || this.pollingRunning) {
+            // Obviously we cannot check for new messages when the app is offline.
+            return Promise.reject(null);
+        }
+        this.pollingRunning = true;
+        return this.fetchMessages().catch(function () {
+            // Try to login, it might have failed because the session expired.
+            return _this.loginUser().then(function () {
+                return _this.fetchMessages();
+            }).catch(function (error) {
+                // Fail again. Stop polling if needed.
+                if (_this.polling) {
+                    clearInterval(_this.polling);
+                    _this.polling = undefined;
+                }
+                _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhileretrievingmessages', true);
+                return Promise.reject(null);
+            });
+        }).finally(function () {
+            _this.pollingRunning = false;
+        });
+    };
+    /**
+     * Check if the date should be displayed between messages (when the day changes at midnight for example).
+     *
+     * @param  {any} message     New message object.
+     * @param  {any} prevMessage Previous message object.
+     * @return {boolean} True if messages are from diferent days, false othetwise.
+     */
+    AddonModChatChatPage.prototype.showDate = function (message, prevMessage) {
+        if (!prevMessage) {
+            return true;
+        }
+        // Check if day has changed.
+        return !moment(message.timestamp * 1000).isSame(prevMessage.timestamp * 1000, 'day');
+    };
+    /**
+     * Send a message to the chat.
+     *
+     * @param {string} text     Text of the nessage.
+     * @param {number} [beep=0] ID of the user to beep.
+     */
+    AddonModChatChatPage.prototype.sendMessage = function (text, beep) {
+        var _this = this;
+        if (beep === void 0) { beep = 0; }
+        if (!this.isOnline) {
+            // Silent error, the view should prevent this.
+            return;
+        }
+        else if (beep === 0 && !text.trim()) {
+            // Silent error.
+            return;
+        }
+        text = this.textUtils.replaceNewLines(text, '<br>');
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        this.chatProvider.sendMessage(this.sessionId, text, beep).then(function () {
+            // Update messages to show the sent message.
+            _this.fetchMessagesInterval().catch(function () {
+                // Ignore errors.
+            });
+        }).catch(function (error) {
+            /* Only close the keyboard if an error happens, we want the user to be able to send multiple
+              messages without the keyboard being closed. */
+            _this.appProvider.closeKeyboard();
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhilesendingmessage', true);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    AddonModChatChatPage.prototype.reconnect = function () {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading();
+        // Call startPolling would take a while for the first execution, so we'll execute it manually to check if it works now.
+        return this.fetchMessagesInterval().then(function () {
+            // It works, start the polling again.
+            _this.startPolling();
+        }).catch(function () {
+            // Ignore errors.
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Scroll bottom when render has finished.
+     */
+    AddonModChatChatPage.prototype.scrollToBottom = function () {
+        var _this = this;
+        // Need a timeout to leave time to the view to be rendered.
+        setTimeout(function () {
+            if (!_this.viewDestroyed) {
+                _this.domUtils.scrollToBottom(_this.content, 0);
+            }
+        });
+    };
+    /**
+     * Content or scroll has been resized. For content, only call it if it's been added on top.
+     */
+    AddonModChatChatPage.prototype.resizeContent = function () {
+        var _this = this;
+        var top = this.content.getContentDimensions().scrollTop;
+        this.content.resize();
+        // Wait for new content height to be calculated.
+        setTimeout(function () {
+            // Visible content size changed, maintain the bottom position.
+            if (!_this.viewDestroyed && _this.content && _this.domUtils.getContentHeight(_this.content) != _this.oldContentHeight) {
+                if (!top) {
+                    top = _this.content.getContentDimensions().scrollTop;
+                }
+                top += _this.oldContentHeight - _this.domUtils.getContentHeight(_this.content);
+                _this.oldContentHeight = _this.domUtils.getContentHeight(_this.content);
+                _this.content.scrollTo(0, top, 0);
+            }
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonModChatChatPage.prototype.ngOnDestroy = function () {
+        this.onlineObserver && this.onlineObserver.unsubscribe();
+        this.keyboardObserver && this.keyboardObserver.off();
+        this.stopPolling();
+        this.viewDestroyed = true;
+    };
+    __decorate([
+        Object(core["_9" /* ViewChild */])(ionic_angular["f" /* Content */]),
+        __metadata("design:type", ionic_angular["f" /* Content */])
+    ], AddonModChatChatPage.prototype, "content", void 0);
+    AddonModChatChatPage = __decorate([
+        Object(core["m" /* Component */])({
+            selector: 'page-addon-mod-chat-chat',
+            templateUrl: 'chat.html',
+        }),
+        __metadata("design:paramtypes", [ionic_angular["s" /* NavParams */], logger["a" /* CoreLoggerProvider */], network["a" /* Network */], core["M" /* NgZone */], ionic_angular["r" /* NavController */],
+            chat["a" /* AddonModChatProvider */], app["a" /* CoreAppProvider */], sites["a" /* CoreSitesProvider */],
+            ionic_angular["p" /* ModalController */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */],
+            events["a" /* CoreEventsProvider */]])
+    ], AddonModChatChatPage);
+    return AddonModChatChatPage;
+}());
+
+//# sourceMappingURL=chat.js.map
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/chat/chat.module.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var chat_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var chat_module_AddonModChatChatPageModule = /** @class */ (function () {
+    function AddonModChatChatPageModule() {
+    }
+    AddonModChatChatPageModule = chat_module___decorate([
+        Object(core["I" /* NgModule */])({
+            declarations: [
+                chat_AddonModChatChatPage,
+            ],
+            imports: [
+                components_module["a" /* CoreComponentsModule */],
+                directives_module["a" /* CoreDirectivesModule */],
+                pipes_module["a" /* CorePipesModule */],
+                ionic_angular["l" /* IonicPageModule */].forChild(chat_AddonModChatChatPage),
+                _ngx_translate_core["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModChatChatPageModule);
+    return AddonModChatChatPageModule;
+}());
+
+//# sourceMappingURL=chat.module.js.map
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
+var action_sheet_component_ngfactory = __webpack_require__(1277);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
+var alert_component_ngfactory = __webpack_require__(1278);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
+var app_root_ngfactory = __webpack_require__(1279);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
+var loading_component_ngfactory = __webpack_require__(1280);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
+var modal_component_ngfactory = __webpack_require__(1281);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
+var picker_component_ngfactory = __webpack_require__(1282);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
+var popover_component_ngfactory = __webpack_require__(1283);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
+var select_popover_component_ngfactory = __webpack_require__(1284);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
+var toast_component_ngfactory = __webpack_require__(1285);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
+var context_menu_popover_ngfactory = __webpack_require__(1288);
+
+// EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
+var course_picker_menu_popover_ngfactory = __webpack_require__(1289);
+
+// EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
+var recaptchamodal_ngfactory = __webpack_require__(1290);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.ngfactory.js
+var button_ngfactory = __webpack_require__(45);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.js
+var button_button = __webpack_require__(40);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
+var config = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/icon/icon.js
+var icon = __webpack_require__(41);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/badge/badge.js
+var badge = __webpack_require__(212);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
+var translate_pipe = __webpack_require__(28);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
+var translate_service = __webpack_require__(17);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.ngfactory.js + 1 modules
+var item_ngfactory = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.js
+var item = __webpack_require__(20);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/form.js
+var util_form = __webpack_require__(19);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
+var item_reorder = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-content.js
+var item_content = __webpack_require__(30);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/avatar/avatar.js
+var avatar = __webpack_require__(180);
+
+// EXTERNAL MODULE: ./src/directives/external-content.ts
+var external_content = __webpack_require__(162);
+
+// EXTERNAL MODULE: ./src/providers/filepool.ts
+var filepool = __webpack_require__(16);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./src/providers/utils/url.ts
+var url = __webpack_require__(25);
+
+// EXTERNAL MODULE: ./src/providers/utils/utils.ts
+var utils = __webpack_require__(2);
+
+// EXTERNAL MODULE: ./src/directives/format-text.ts
+var format_text = __webpack_require__(39);
+
+// EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
+var helper = __webpack_require__(22);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
+var nav_controller = __webpack_require__(21);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(23);
+
+// EXTERNAL MODULE: ./src/components/split-view/split-view.ts
+var split_view = __webpack_require__(34);
+
+// EXTERNAL MODULE: ./src/providers/utils/iframe.ts
+var iframe = __webpack_require__(37);
+
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./src/components/send-message-form/send-message-form.ngfactory.js
+var send_message_form_ngfactory = __webpack_require__(1891);
+
+// EXTERNAL MODULE: ./src/components/send-message-form/send-message-form.ts
+var send_message_form = __webpack_require__(1303);
+
+// EXTERNAL MODULE: ./src/pipes/format-date.ts
+var format_date = __webpack_require__(237);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
+var toolbar_header = __webpack_require__(421);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(35);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
+var navbar_ngfactory = __webpack_require__(1286);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
+var navbar = __webpack_require__(192);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app_app = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./src/directives/back-button.ts
+var back_button = __webpack_require__(635);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
+var toolbar_title_ngfactory = __webpack_require__(1287);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
+var toolbar_title = __webpack_require__(325);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
+var toolbar = __webpack_require__(235);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
+var toolbar_item = __webpack_require__(422);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(179);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(24);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(100);
+
+// EXTERNAL MODULE: ./src/components/loading/loading.ngfactory.js
+var loading_ngfactory = __webpack_require__(54);
+
+// EXTERNAL MODULE: ./src/components/loading/loading.ts
+var loading = __webpack_require__(49);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-footer.js
+var toolbar_footer = __webpack_require__(655);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.ngfactory.js
+var toolbar_ngfactory = __webpack_require__(1886);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
+var nav_params = __webpack_require__(59);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-controller.js
+var modal_controller = __webpack_require__(198);
+
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/chat/chat.ngfactory.js
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_AddonModChatChatPage = [];
+var RenderType_AddonModChatChatPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_AddonModChatChatPage, data: {} });
+
+function View_AddonModChatChatPage_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 5, "button", [["icon-only", ""], ["ion-button", ""]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.showChatUsers() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, button_ngfactory["b" /* View_Button_0 */], button_ngfactory["a" /* RenderType_Button */])), core["_30" /* ɵdid */](1, 1097728, [[2, 4]], 0, button_button["a" /* Button */], [[8, ""], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n                "])), (_l()(), core["_31" /* ɵeld */](3, 0, null, 0, 1, "ion-icon", [["name", "people"], ["role", "img"]], [[2, "hide", null]], null, null, null, null)), core["_30" /* ɵdid */](4, 147456, null, 0, icon["a" /* Icon */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { name: [0, "name"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n            "]))], function (_ck, _v) { var currVal_1 = "people"; _ck(_v, 4, 0, currVal_1); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 4)._hidden; _ck(_v, 3, 0, currVal_0); }); }
+function View_AddonModChatChatPage_3(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 9, "div", [["class", "addon-mod-chat-notice"], ["text-center", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 6, "ion-badge", [["color", "light"], ["text-wrap", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](3, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](5, 0, null, null, 2, "span", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](6, null, ["", ""])), core["_49" /* ɵppd */](7, 2), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "]))], function (_ck, _v) { var currVal_0 = "light"; _ck(_v, 3, 0, currVal_0); }, function (_ck, _v) { var currVal_1 = core["_56" /* ɵunv */](_v, 6, 0, _ck(_v, 7, 0, core["_44" /* ɵnov */](_v.parent.parent, 0), (_v.parent.context.$implicit.timestamp * 1000), "dfdayweekmonth")); _ck(_v, 6, 0, currVal_1); }); }
+function View_AddonModChatChatPage_4(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 11, "div", [["class", "addon-mod-chat-notice"], ["text-center", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 8, "ion-badge", [["color", "light"], ["text-wrap", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](3, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](5, 0, null, null, 4, "span", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](6, null, ["", " ", ""])), core["_49" /* ɵppd */](7, 2), core["_48" /* ɵpod */](8, { $a: 0 }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "]))], function (_ck, _v) { var currVal_0 = "light"; _ck(_v, 3, 0, currVal_0); }, function (_ck, _v) { var currVal_1 = core["_56" /* ɵunv */](_v, 6, 0, _ck(_v, 7, 0, core["_44" /* ɵnov */](_v.parent.parent, 0), (_v.parent.context.$implicit.timestamp * 1000), "dftimedate")); var currVal_2 = core["_56" /* ɵunv */](_v, 6, 1, core["_44" /* ɵnov */](_v, 9).transform("addon.mod_chat.messageenter", _ck(_v, 8, 0, _v.parent.context.$implicit.userfullname))); _ck(_v, 6, 0, currVal_1, currVal_2); }); }
+function View_AddonModChatChatPage_5(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 11, "div", [["class", "addon-mod-chat-notice"], ["text-center", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 8, "ion-badge", [["color", "light"], ["text-wrap", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](3, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](5, 0, null, null, 4, "span", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](6, null, ["", " ", ""])), core["_49" /* ɵppd */](7, 2), core["_48" /* ɵpod */](8, { $a: 0 }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "]))], function (_ck, _v) { var currVal_0 = "light"; _ck(_v, 3, 0, currVal_0); }, function (_ck, _v) { var currVal_1 = core["_56" /* ɵunv */](_v, 6, 0, _ck(_v, 7, 0, core["_44" /* ɵnov */](_v.parent.parent, 0), (_v.parent.context.$implicit.timestamp * 1000), "dftimedate")); var currVal_2 = core["_56" /* ɵunv */](_v, 6, 1, core["_44" /* ɵnov */](_v, 9).transform("addon.mod_chat.messageexit", _ck(_v, 8, 0, _v.parent.context.$implicit.userfullname))); _ck(_v, 6, 0, currVal_1, currVal_2); }); }
+function View_AddonModChatChatPage_6(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 10, "div", [["class", "addon-mod-chat-notice"], ["text-center", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 7, "ion-badge", [["color", "light"], ["text-wrap", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](3, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](5, 0, null, null, 3, "span", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](6, null, ["", ""])), core["_48" /* ɵpod */](7, { $a: 0 }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "]))], function (_ck, _v) { var currVal_0 = "light"; _ck(_v, 3, 0, currVal_0); }, function (_ck, _v) { var currVal_1 = core["_56" /* ɵunv */](_v, 6, 0, core["_44" /* ɵnov */](_v, 8).transform("addon.mod_chat.messagebeepsyou", _ck(_v, 7, 0, _v.parent.context.$implicit.userfullname))); _ck(_v, 6, 0, currVal_1); }); }
+function View_AddonModChatChatPage_7(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 28, "ion-item", [["class", "addon-mod-chat-message item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 3, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 4, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 5, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 0, 7, "ion-avatar", [["item-start", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](8, 16384, null, 0, avatar["a" /* Avatar */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](10, 0, null, null, 3, "img", [["core-external-content", ""], ["onError", "this.src='assets/img/user-avatar.png'"], ["role", "presentation"]], [[8, "src", 4], [8, "alt", 0]], null, null, null, null)), core["_30" /* ɵdid */](11, 4210688, null, 0, external_content["a" /* CoreExternalContentDirective */], [core["t" /* ElementRef */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], platform["a" /* Platform */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], app["a" /* CoreAppProvider */], utils["a" /* CoreUtilsProvider */]], null, null), core["_48" /* ɵpod */](12, { $a: 0 }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](16, 0, null, 2, 8, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](18, 0, null, null, 2, "p", [["float-end", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](19, null, ["", ""])), core["_49" /* ɵppd */](20, 2), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](22, 0, null, null, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](23, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](26, 0, null, 2, 1, "core-format-text", [], null, [[null, "afterRender"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("afterRender" === en)) {
+        var pd_0 = ((_v.parent.context.last && _co.scrollToBottom()) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), core["_30" /* ɵdid */](27, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, { afterRender: "afterRender" }), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "]))], function (_ck, _v) { var currVal_3 = _v.parent.context.$implicit.userfullname; _ck(_v, 23, 0, currVal_3); var currVal_4 = _v.parent.context.$implicit.message; _ck(_v, 27, 0, currVal_4); }, function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.userprofileimageurl; var currVal_1 = core["_56" /* ɵunv */](_v, 10, 1, core["_44" /* ɵnov */](_v, 13).transform("core.pictureof", _ck(_v, 12, 0, _v.parent.context.$implicit.userfullname))); _ck(_v, 10, 0, currVal_0, currVal_1); var currVal_2 = core["_56" /* ɵunv */](_v, 19, 0, _ck(_v, 20, 0, core["_44" /* ɵnov */](_v.parent.parent, 0), (_v.parent.context.$implicit.timestamp * 1000), "dftimedate")); _ck(_v, 19, 0, currVal_2); }); }
+function View_AddonModChatChatPage_2(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 16, "div", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_3)), core["_30" /* ɵdid */](3, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_4)), core["_30" /* ɵdid */](6, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_5)), core["_30" /* ɵdid */](9, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_6)), core["_30" /* ɵdid */](12, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_7)), core["_30" /* ɵdid */](15, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.showDate(_co.messages[_v.context.index], _co.messages[(_v.context.index - 1)]); _ck(_v, 3, 0, currVal_0); var currVal_1 = (_v.context.$implicit.system && (_v.context.$implicit.message == "enter")); _ck(_v, 6, 0, currVal_1); var currVal_2 = (_v.context.$implicit.system && (_v.context.$implicit.message == "exit")); _ck(_v, 9, 0, currVal_2); var currVal_3 = (_v.context.$implicit.message == _co.currentUserBeep); _ck(_v, 12, 0, currVal_3); var currVal_4 = (!_v.context.$implicit.system && (_v.context.$implicit.message.substr(0, 4) != "beep")); _ck(_v, 15, 0, currVal_4); }, null); }
+function View_AddonModChatChatPage_8(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 5, "div", [["margin", ""], ["text-center", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](3, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "]))], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 3, 0, core["_44" /* ɵnov */](_v, 4).transform("addon.mod_chat.nomessages")); _ck(_v, 3, 0, currVal_0); }); }
+function View_AddonModChatChatPage_9(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "p", [["text-center", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](1, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, core["_44" /* ɵnov */](_v, 2).transform("addon.mod_chat.mustbeonlinetosendmessages")); _ck(_v, 1, 0, currVal_0); }); }
+function View_AddonModChatChatPage_10(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "core-send-message-form", [], null, [[null, "onSubmit"], [null, "onResize"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("onSubmit" === en)) {
+        var pd_0 = (_co.sendMessage($event) !== false);
+        ad = (pd_0 && ad);
+    } if (("onResize" === en)) {
+        var pd_1 = (_co.resizeContent() !== false);
+        ad = (pd_1 && ad);
+    } return ad; }, send_message_form_ngfactory["b" /* View_CoreSendMessageFormComponent_0 */], send_message_form_ngfactory["a" /* RenderType_CoreSendMessageFormComponent */])), core["_30" /* ɵdid */](1, 114688, null, 0, send_message_form["a" /* CoreSendMessageFormComponent */], [utils["a" /* CoreUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */]], { message: [0, "message"], placeholder: [1, "placeholder"], showKeyboard: [2, "showKeyboard"] }, { onSubmit: "onSubmit", onResize: "onResize" }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.newMessage; var currVal_1 = core["_56" /* ɵunv */](_v, 1, 1, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.newmessage")); var currVal_2 = _co.showKeyboard; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
+function View_AddonModChatChatPage_11(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 3, "button", [["block", ""], ["color", "light"], ["ion-button", ""]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.reconnect() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, button_ngfactory["b" /* View_Button_0 */], button_ngfactory["a" /* RenderType_Button */])), core["_30" /* ɵdid */](1, 1097728, null, 0, button_button["a" /* Button */], [[8, ""], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"], block: [1, "block"] }, null), (_l()(), core["_55" /* ɵted */](2, 0, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var currVal_0 = "light"; var currVal_1 = ""; _ck(_v, 1, 0, currVal_0, currVal_1); }, function (_ck, _v) { var currVal_2 = core["_56" /* ɵunv */](_v, 2, 0, core["_44" /* ɵnov */](_v, 3).transform("core.login.reconnect")); _ck(_v, 2, 0, currVal_2); }); }
+function View_AddonModChatChatPage_0(_l) { return core["_57" /* ɵvid */](0, [core["_47" /* ɵpid */](0, format_date["a" /* CoreFormatDatePipe */], [logger["a" /* CoreLoggerProvider */], translate_service["a" /* TranslateService */]]), core["_52" /* ɵqud */](402653184, 1, { content: 0 }), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 20, "ion-header", [], null, null, null, null, null)), core["_30" /* ɵdid */](3, 16384, null, 0, toolbar_header["a" /* Header */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](5, 0, null, null, 16, "ion-navbar", [["class", "toolbar"], ["core-back-button", ""]], [[8, "hidden", 0], [2, "statusbar-padding", null]], null, null, navbar_ngfactory["b" /* View_Navbar_0 */], navbar_ngfactory["a" /* RenderType_Navbar */])), core["_30" /* ɵdid */](6, 49152, null, 0, navbar["a" /* Navbar */], [app_app["a" /* App */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_30" /* ɵdid */](7, 212992, null, 0, back_button["a" /* CoreBackButtonDirective */], [navbar["a" /* Navbar */], platform["a" /* Platform */], translate_service["a" /* TranslateService */], events["a" /* CoreEventsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](9, 0, null, 3, 3, "ion-title", [], null, null, null, toolbar_title_ngfactory["b" /* View_ToolbarTitle_0 */], toolbar_title_ngfactory["a" /* RenderType_ToolbarTitle */])), core["_30" /* ɵdid */](10, 49152, null, 0, toolbar_title["a" /* ToolbarTitle */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), (_l()(), core["_31" /* ɵeld */](11, 0, null, 0, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](12, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](14, 0, null, 2, 6, "ion-buttons", [["end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](15, 16384, null, 1, toolbar_item["a" /* ToolbarItem */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), core["_52" /* ɵqud */](603979776, 2, { _buttons: 1 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_1)), core["_30" /* ɵdid */](19, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](24, 0, null, null, 15, "ion-content", [["class", "has-footer"]], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](25, 4374528, [[1, 4]], 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app_app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](27, 0, null, 1, 11, "core-loading", [], null, null, null, loading_ngfactory["b" /* View_CoreLoadingComponent_0 */], loading_ngfactory["a" /* RenderType_CoreLoadingComponent */])), core["_30" /* ɵdid */](28, 638976, null, 0, loading["a" /* CoreLoadingComponent */], [translate_service["a" /* TranslateService */], core["t" /* ElementRef */], events["a" /* CoreEventsProvider */], utils["a" /* CoreUtilsProvider */]], { hideUntil: [0, "hideUntil"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_31" /* ɵeld */](30, 0, null, 0, 7, "div", [["aria-live", "polite"]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_2)), core["_30" /* ɵdid */](33, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModChatChatPage_8)), core["_30" /* ɵdid */](36, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](41, 0, null, null, 15, "ion-footer", [["class", "footer-adjustable"], ["color", "light"]], null, null, null, null, null)), core["_30" /* ɵdid */](42, 16384, null, 0, toolbar_footer["a" /* Footer */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](44, 0, null, null, 11, "ion-toolbar", [["class", "toolbar"], ["color", "light"], ["position", "bottom"]], [[2, "statusbar-padding", null]], null, null, toolbar_ngfactory["b" /* View_Toolbar_0 */], toolbar_ngfactory["a" /* RenderType_Toolbar */])), core["_30" /* ɵdid */](45, 49152, null, 0, toolbar["a" /* Toolbar */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 3, 1, null, View_AddonModChatChatPage_9)), core["_30" /* ɵdid */](48, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 3, 1, null, View_AddonModChatChatPage_10)), core["_30" /* ɵdid */](51, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 3, 1, null, View_AddonModChatChatPage_11)), core["_30" /* ɵdid */](54, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 7, 0); var currVal_2 = _co.title; _ck(_v, 12, 0, currVal_2); var currVal_3 = _co.loaded; _ck(_v, 19, 0, currVal_3); var currVal_6 = _co.loaded; _ck(_v, 28, 0, currVal_6); var currVal_7 = _co.messages; _ck(_v, 33, 0, currVal_7); var currVal_8 = (!_co.messages || (_co.messages.length <= 0)); _ck(_v, 36, 0, currVal_8); var currVal_9 = "light"; _ck(_v, 42, 0, currVal_9); var currVal_11 = "light"; _ck(_v, 45, 0, currVal_11); var currVal_12 = !_co.isOnline; _ck(_v, 48, 0, currVal_12); var currVal_13 = ((_co.isOnline && _co.polling) && _co.loaded); _ck(_v, 51, 0, currVal_13); var currVal_14 = ((_co.isOnline && !_co.polling) && _co.loaded); _ck(_v, 54, 0, currVal_14); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 6)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 6)._sbPadding; _ck(_v, 5, 0, currVal_0, currVal_1); var currVal_4 = core["_44" /* ɵnov */](_v, 25).statusbarPadding; var currVal_5 = core["_44" /* ɵnov */](_v, 25)._hasRefresher; _ck(_v, 24, 0, currVal_4, currVal_5); var currVal_10 = core["_44" /* ɵnov */](_v, 45)._sbPadding; _ck(_v, 44, 0, currVal_10); }); }
+function View_AddonModChatChatPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-addon-mod-chat-chat", [], null, null, null, View_AddonModChatChatPage_0, RenderType_AddonModChatChatPage)), core["_30" /* ɵdid */](1, 180224, null, 0, chat_AddonModChatChatPage, [nav_params["a" /* NavParams */], logger["a" /* CoreLoggerProvider */], network["a" /* Network */], core["M" /* NgZone */], nav_controller["a" /* NavController */], chat["a" /* AddonModChatProvider */], app["a" /* CoreAppProvider */], sites["a" /* CoreSitesProvider */], modal_controller["a" /* ModalController */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], events["a" /* CoreEventsProvider */]], null, null)], null, null); }
+var AddonModChatChatPageNgFactory = core["_27" /* ɵccf */]("page-addon-mod-chat-chat", chat_AddonModChatChatPage, View_AddonModChatChatPage_Host_0, {}, {}, []);
+
+//# sourceMappingURL=chat.ngfactory.js.map
+// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
+var esm5_forms = __webpack_require__(18);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
+var translate_loader = __webpack_require__(321);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
+var translate_compiler = __webpack_require__(322);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
+var translate_parser = __webpack_require__(324);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
+var missing_translation_handler = __webpack_require__(323);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
+var translate_store = __webpack_require__(420);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
+var ionic_angular_module = __webpack_require__(634);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
+var module_loader = __webpack_require__(236);
+
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/chat/chat.module.ngfactory.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChatChatPageModuleNgFactory", function() { return AddonModChatChatPageModuleNgFactory; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AddonModChatChatPageModuleNgFactory = core["_28" /* ɵcmf */](chat_module_AddonModChatChatPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], AddonModChatChatPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* CoreComponentsModule */], components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, chat_module_AddonModChatChatPageModule, chat_module_AddonModChatChatPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], chat_AddonModChatChatPage, [])]); });
+
+//# sourceMappingURL=chat.module.ngfactory.js.map
+
+/***/ }),
+
+/***/ 1886:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_Toolbar; });
+/* harmony export (immutable) */ __webpack_exports__["b"] = View_Toolbar_0;
+/* unused harmony export View_Toolbar_Host_0 */
+/* unused harmony export ToolbarNgFactory */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(6);
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+var styles_Toolbar = [];
+var RenderType_Toolbar = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_Toolbar, data: {} });
+
+function View_Toolbar_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](2, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 1, "div", [["class", "toolbar-background"]], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 278528, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_common__["i" /* NgClass */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* IterableDiffers */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* KeyValueDiffers */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer2 */]], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_43" /* ɵncd */](null, 0), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_43" /* ɵncd */](null, 1), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_43" /* ɵncd */](null, 2), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](5, 0, null, null, 2, "div", [["class", "toolbar-content"]], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](6, 278528, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_common__["i" /* NgClass */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* IterableDiffers */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* KeyValueDiffers */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer2 */]], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_43" /* ɵncd */](null, 3)], function (_ck, _v) { var _co = _v.component; var currVal_0 = "toolbar-background"; var currVal_1 = ("toolbar-background-" + _co._mode); _ck(_v, 1, 0, currVal_0, currVal_1); var currVal_2 = "toolbar-content"; var currVal_3 = ("toolbar-content-" + _co._mode); _ck(_v, 6, 0, currVal_2, currVal_3); }, null); }
+function View_Toolbar_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 1, "ion-toolbar", [["class", "toolbar"]], [[2, "statusbar-padding", null]], null, null, View_Toolbar_0, RenderType_Toolbar)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__toolbar__["a" /* Toolbar */], [__WEBPACK_IMPORTED_MODULE_3__config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */]], null, null)], null, function (_ck, _v) { var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 1)._sbPadding; _ck(_v, 0, 0, currVal_0); }); }
+var ToolbarNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵccf */]("ion-toolbar", __WEBPACK_IMPORTED_MODULE_2__toolbar__["a" /* Toolbar */], View_Toolbar_Host_0, { color: "color", mode: "mode" }, {}, ["[menuToggle],ion-buttons[left]", "ion-buttons[start]", "ion-buttons[end],ion-buttons[right]", "*"]);
+
+//# sourceMappingURL=toolbar.ngfactory.js.map
+
+/***/ }),
+
+/***/ 1891:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_CoreSendMessageFormComponent; });
+/* harmony export (immutable) */ __webpack_exports__["b"] = View_CoreSendMessageFormComponent_0;
+/* unused harmony export View_CoreSendMessageFormComponent_Host_0 */
+/* unused harmony export CoreSendMessageFormComponentNgFactory */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_auto_focus__ = __webpack_require__(327);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular_navigation_nav_controller__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_auto_rows__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_toolbar_toolbar_item__ = __webpack_require__(422);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_angular_components_toolbar_toolbar__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_toolbar_navbar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node_modules_ionic_angular_components_button_button_ngfactory__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_button_button__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__directives_supress_events__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_pipe__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_service__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_ionic_angular_components_icon_icon__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__send_message_form__ = __webpack_require__(1303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_utils_text__ = __webpack_require__(9);
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_CoreSendMessageFormComponent = [];
+var RenderType_CoreSendMessageFormComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_CoreSendMessageFormComponent, data: {} });
+
+function View_CoreSendMessageFormComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 28, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; if (("submit" === en)) {
+        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 2).onSubmit($event) !== false);
+        ad = (pd_0 && ad);
+    } if (("reset" === en)) {
+        var pd_1 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 2).onReset() !== false);
+        ad = (pd_1 && ad);
+    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["w" /* ɵbf */], [], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](2, 4210688, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["p" /* NgForm */], [[8, null], [8, null]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_50" /* ɵprd */](2048, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */], null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["p" /* NgForm */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](4, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["o" /* NgControlStatusGroup */], [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](6, 0, null, null, 7, "textarea", [["class", "core-send-message-input"], ["core-auto-rows", ""], ["name", "message"], ["rows", "1"]], [[8, "placeholder", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "onResize"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "change"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 7)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 7).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 7)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 7)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("input" === en)) {
+        var pd_4 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 13).onInput() !== false);
+        ad = (pd_4 && ad);
+    } if (("change" === en)) {
+        var pd_5 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 13).onChange() !== false);
+        ad = (pd_5 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_6 = ((_co.message = $event) !== false);
+        ad = (pd_6 && ad);
+    } if (("onResize" === en)) {
+        var pd_7 = (_co.textareaResized() !== false);
+        ad = (pd_7 && ad);
+    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](7, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["c" /* DefaultValueAccessor */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer2 */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], [2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* COMPOSITION_BUFFER_MODE */]]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_50" /* ɵprd */](1024, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["l" /* NG_VALUE_ACCESSOR */], function (p0_0) { return [p0_0]; }, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["c" /* DefaultValueAccessor */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](9, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["q" /* NgModel */], [[2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */]], [8, null], [8, null], [2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["l" /* NG_VALUE_ACCESSOR */]]], { name: [0, "name"], model: [1, "model"] }, { update: "ngModelChange" }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_50" /* ɵprd */](2048, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["m" /* NgControl */], null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["q" /* NgModel */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](11, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["n" /* NgControlStatus */], [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["m" /* NgControl */]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](12, 81920, null, 0, __WEBPACK_IMPORTED_MODULE_2__directives_auto_focus__["a" /* CoreAutoFocusDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], [2, __WEBPACK_IMPORTED_MODULE_5_ionic_angular_navigation_nav_controller__["a" /* NavController */]]], { coreAutoFocus: [0, "coreAutoFocus"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](13, 4210688, null, 0, __WEBPACK_IMPORTED_MODULE_6__directives_auto_rows__["a" /* CoreAutoRowsDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]], null, { onResize: "onResize" }), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](15, 0, null, null, 12, "ion-buttons", [["end", ""]], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](16, 16384, null, 1, __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_toolbar_toolbar_item__["a" /* ToolbarItem */], [__WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */], [2, __WEBPACK_IMPORTED_MODULE_9_ionic_angular_components_toolbar_toolbar__["a" /* Toolbar */]], [2, __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_toolbar_navbar__["a" /* Navbar */]]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_52" /* ɵqud */](603979776, 1, { _buttons: 1 }), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](19, 0, null, null, 7, "button", [["clear", "true"], ["icon-only", ""], ["ion-button", ""], ["type", "submit"]], [[8, "disabled", 0], [1, "aria-label", 0]], [[null, "onClick"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("onClick" === en)) {
+        var pd_0 = (_co.submitForm($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, __WEBPACK_IMPORTED_MODULE_11__node_modules_ionic_angular_components_button_button_ngfactory__["b" /* View_Button_0 */], __WEBPACK_IMPORTED_MODULE_11__node_modules_ionic_angular_components_button_button_ngfactory__["a" /* RenderType_Button */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](20, 1097728, [[1, 4]], 0, __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_button_button__["a" /* Button */], [[8, ""], __WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */]], { clear: [0, "clear"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](21, 81920, null, 0, __WEBPACK_IMPORTED_MODULE_13__directives_supress_events__["a" /* CoreSupressEventsDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]], null, { onClick: "onClick" }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_47" /* ɵpid */](131072, __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_pipe__["a" /* TranslatePipe */], [__WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */]]), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 0, ["\n            "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](24, 0, null, 0, 1, "ion-icon", [["color", "dark"], ["name", "send"], ["role", "img"]], [[2, "hide", null]], null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](25, 147456, null, 0, __WEBPACK_IMPORTED_MODULE_16_ionic_angular_components_icon_icon__["a" /* Icon */], [__WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */]], { color: [0, "color"], name: [1, "name"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_15 = "message"; var currVal_16 = _co.message; _ck(_v, 9, 0, currVal_15, currVal_16); var currVal_17 = _co.showKeyboard; _ck(_v, 12, 0, currVal_17); var currVal_20 = "true"; _ck(_v, 20, 0, currVal_20); _ck(_v, 21, 0); var currVal_22 = "dark"; var currVal_23 = "send"; _ck(_v, 25, 0, currVal_22, currVal_23); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassUntouched; var currVal_1 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassTouched; var currVal_2 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassPristine; var currVal_3 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassDirty; var currVal_4 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassValid; var currVal_5 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassInvalid; var currVal_6 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassPending; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_7 = _co.placeholder; var currVal_8 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassUntouched; var currVal_9 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassTouched; var currVal_10 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassPristine; var currVal_11 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassDirty; var currVal_12 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassValid; var currVal_13 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassInvalid; var currVal_14 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassPending; _ck(_v, 6, 0, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14); var currVal_18 = !_co.message; var currVal_19 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_56" /* ɵunv */](_v, 19, 1, __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 22).transform("core.send")); _ck(_v, 19, 0, currVal_18, currVal_19); var currVal_21 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 25)._hidden; _ck(_v, 24, 0, currVal_21); }); }
+function View_CoreSendMessageFormComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 1, "core-send-message-form", [], null, null, null, View_CoreSendMessageFormComponent_0, RenderType_CoreSendMessageFormComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_17__send_message_form__["a" /* CoreSendMessageFormComponent */], [__WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_18__providers_utils_text__["a" /* CoreTextUtilsProvider */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+var CoreSendMessageFormComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵccf */]("core-send-message-form", __WEBPACK_IMPORTED_MODULE_17__send_message_form__["a" /* CoreSendMessageFormComponent */], View_CoreSendMessageFormComponent_Host_0, { message: "message", placeholder: "placeholder", showKeyboard: "showKeyboard" }, { onSubmit: "onSubmit", onResize: "onResize" }, []);
+
+//# sourceMappingURL=send-message-form.ngfactory.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=12.js.map
