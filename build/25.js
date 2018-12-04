@@ -1,6 +1,6 @@
 webpackJsonp([25],{
 
-/***/ 1842:
+/***/ 1862:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19,22 +19,22 @@ var _ngx_translate_core = __webpack_require__(3);
 var directives_module = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./src/components/components.module.ts
-var components_module = __webpack_require__(29);
+var components_module = __webpack_require__(27);
 
 // EXTERNAL MODULE: ./src/addon/mod/feedback/components/components.module.ts
-var components_components_module = __webpack_require__(657);
+var components_components_module = __webpack_require__(665);
 
 // EXTERNAL MODULE: ./node_modules/@ionic-native/network/index.js
-var _ionic_native_network = __webpack_require__(186);
+var _ionic_native_network = __webpack_require__(189);
 
 // EXTERNAL MODULE: ./src/addon/mod/feedback/providers/feedback.ts
-var feedback = __webpack_require__(131);
+var feedback = __webpack_require__(136);
 
 // EXTERNAL MODULE: ./src/addon/mod/feedback/providers/helper.ts
-var helper = __webpack_require__(270);
+var helper = __webpack_require__(276);
 
 // EXTERNAL MODULE: ./src/addon/mod/feedback/providers/sync.ts
-var sync = __webpack_require__(279);
+var sync = __webpack_require__(285);
 
 // EXTERNAL MODULE: ./src/providers/utils/dom.ts
 var dom = __webpack_require__(4);
@@ -43,7 +43,7 @@ var dom = __webpack_require__(4);
 var utils_utils = __webpack_require__(2);
 
 // EXTERNAL MODULE: ./src/providers/app.ts
-var app = __webpack_require__(11);
+var app = __webpack_require__(10);
 
 // EXTERNAL MODULE: ./src/providers/events.ts
 var events = __webpack_require__(12);
@@ -52,10 +52,10 @@ var events = __webpack_require__(12);
 var course = __webpack_require__(15);
 
 // EXTERNAL MODULE: ./src/core/login/providers/helper.ts
-var providers_helper = __webpack_require__(128);
+var providers_helper = __webpack_require__(135);
 
 // EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
-var contentlinks_providers_helper = __webpack_require__(17);
+var contentlinks_providers_helper = __webpack_require__(18);
 
 // EXTERNAL MODULE: ./src/providers/sites.ts
 var sites = __webpack_require__(1);
@@ -152,7 +152,9 @@ var form_AddonModFeedbackFormPage = /** @class */ (function () {
         var _this = this;
         this.fetchData().then(function () {
             _this.feedbackProvider.logView(_this.feedback.id, true).then(function () {
-                _this.courseProvider.checkModuleCompletion(_this.courseId, _this.module.completionstatus);
+                _this.courseProvider.checkModuleCompletion(_this.courseId, _this.module.completiondata);
+            }).catch(function () {
+                // Ignore errors.
             });
         });
     };
@@ -377,8 +379,8 @@ var form_AddonModFeedbackFormPage = /** @class */ (function () {
             templateUrl: 'form.html',
         }),
         __param(15, Object(core["N" /* Optional */])()),
-        __metadata("design:paramtypes", [ionic_angular["s" /* NavParams */], feedback["a" /* AddonModFeedbackProvider */], app["a" /* CoreAppProvider */],
-            utils_utils["a" /* CoreUtilsProvider */], dom["a" /* CoreDomUtilsProvider */], ionic_angular["r" /* NavController */],
+        __metadata("design:paramtypes", [ionic_angular["t" /* NavParams */], feedback["a" /* AddonModFeedbackProvider */], app["a" /* CoreAppProvider */],
+            utils_utils["a" /* CoreUtilsProvider */], dom["a" /* CoreDomUtilsProvider */], ionic_angular["s" /* NavController */],
             helper["a" /* AddonModFeedbackHelperProvider */], course["a" /* CoreCourseProvider */],
             events["a" /* CoreEventsProvider */], sync["a" /* AddonModFeedbackSyncProvider */], _ionic_native_network["a" /* Network */],
             _ngx_translate_core["c" /* TranslateService */], providers_helper["a" /* CoreLoginHelperProvider */],
@@ -438,55 +440,55 @@ var form_module_AddonModFeedbackFormPageModule = /** @class */ (function () {
 
 //# sourceMappingURL=form.module.js.map
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
-var action_sheet_component_ngfactory = __webpack_require__(1327);
+var action_sheet_component_ngfactory = __webpack_require__(1344);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
-var alert_component_ngfactory = __webpack_require__(1328);
+var alert_component_ngfactory = __webpack_require__(1345);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
-var app_root_ngfactory = __webpack_require__(1329);
+var app_root_ngfactory = __webpack_require__(1346);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
-var loading_component_ngfactory = __webpack_require__(1330);
+var loading_component_ngfactory = __webpack_require__(1347);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
-var modal_component_ngfactory = __webpack_require__(1331);
+var modal_component_ngfactory = __webpack_require__(1348);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
-var picker_component_ngfactory = __webpack_require__(1332);
+var picker_component_ngfactory = __webpack_require__(1349);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
-var popover_component_ngfactory = __webpack_require__(1333);
+var popover_component_ngfactory = __webpack_require__(1350);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
-var select_popover_component_ngfactory = __webpack_require__(1334);
+var select_popover_component_ngfactory = __webpack_require__(1351);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
-var toast_component_ngfactory = __webpack_require__(1335);
+var toast_component_ngfactory = __webpack_require__(1352);
 
 // EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
-var context_menu_popover_ngfactory = __webpack_require__(1338);
+var context_menu_popover_ngfactory = __webpack_require__(1355);
 
 // EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
-var course_picker_menu_popover_ngfactory = __webpack_require__(1339);
+var course_picker_menu_popover_ngfactory = __webpack_require__(1356);
 
 // EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
-var recaptchamodal_ngfactory = __webpack_require__(1340);
+var recaptchamodal_ngfactory = __webpack_require__(1357);
 
 // EXTERNAL MODULE: ./src/core/course/components/unsupported-module/unsupported-module.ngfactory.js
-var unsupported_module_ngfactory = __webpack_require__(1341);
+var unsupported_module_ngfactory = __webpack_require__(1358);
 
 // EXTERNAL MODULE: ./src/addon/mod/feedback/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1347);
+var index_ngfactory = __webpack_require__(1364);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
-var translate_pipe = __webpack_require__(26);
+var translate_pipe = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
-var translate_service = __webpack_require__(18);
+var translate_service = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.ngfactory.js + 1 modules
-var item_ngfactory = __webpack_require__(31);
+var item_ngfactory = __webpack_require__(29);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.js
 var item = __webpack_require__(20);
@@ -498,10 +500,10 @@ var util_form = __webpack_require__(19);
 var config = __webpack_require__(6);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
-var item_reorder = __webpack_require__(25);
+var item_reorder = __webpack_require__(26);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-divider.js
-var item_divider = __webpack_require__(119);
+var item_divider = __webpack_require__(109);
 
 // EXTERNAL MODULE: ./src/components/mark-required/mark-required.ngfactory.js
 var mark_required_ngfactory = __webpack_require__(80);
@@ -510,7 +512,7 @@ var mark_required_ngfactory = __webpack_require__(80);
 var mark_required = __webpack_require__(74);
 
 // EXTERNAL MODULE: ./src/providers/utils/text.ts
-var utils_text = __webpack_require__(10);
+var utils_text = __webpack_require__(9);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/label/label.js
 var label = __webpack_require__(61);
@@ -525,7 +527,7 @@ var format_text = __webpack_require__(39);
 var platform = __webpack_require__(14);
 
 // EXTERNAL MODULE: ./src/providers/utils/url.ts
-var url = __webpack_require__(24);
+var url = __webpack_require__(25);
 
 // EXTERNAL MODULE: ./src/providers/logger.ts
 var logger = __webpack_require__(5);
@@ -534,7 +536,7 @@ var logger = __webpack_require__(5);
 var filepool = __webpack_require__(16);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
-var nav_controller = __webpack_require__(22);
+var nav_controller = __webpack_require__(21);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
 var content_content = __webpack_require__(23);
@@ -549,28 +551,28 @@ var iframe = __webpack_require__(36);
 var input_ngfactory = __webpack_require__(93);
 
 // EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
-var esm5_forms = __webpack_require__(21);
+var esm5_forms = __webpack_require__(22);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/input/input.js
 var input = __webpack_require__(78);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
-var app_app = __webpack_require__(30);
+var app_app = __webpack_require__(32);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
-var dom_controller = __webpack_require__(27);
+var dom_controller = __webpack_require__(30);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-content.js
-var item_content = __webpack_require__(32);
+var item_content = __webpack_require__(31);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/radio/radio-button.ngfactory.js
-var radio_button_ngfactory = __webpack_require__(162);
+var radio_button_ngfactory = __webpack_require__(164);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/radio/radio-button.js
-var radio_button = __webpack_require__(133);
+var radio_button = __webpack_require__(137);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/radio/radio-group.js
-var radio_group = __webpack_require__(122);
+var radio_group = __webpack_require__(128);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/list/list.js + 1 modules
 var list = __webpack_require__(76);
@@ -579,88 +581,88 @@ var list = __webpack_require__(76);
 var gesture_controller = __webpack_require__(37);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/checkbox/checkbox.ngfactory.js
-var checkbox_ngfactory = __webpack_require__(224);
+var checkbox_ngfactory = __webpack_require__(228);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/checkbox/checkbox.js
-var checkbox_checkbox = __webpack_require__(174);
+var checkbox_checkbox = __webpack_require__(175);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/option/option.js
 var option_option = __webpack_require__(91);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select.ngfactory.js
-var select_ngfactory = __webpack_require__(106);
+var select_ngfactory = __webpack_require__(112);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select.js
 var select_select = __webpack_require__(92);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/deep-linker.js
-var deep_linker = __webpack_require__(49);
+var deep_linker = __webpack_require__(51);
 
 // EXTERNAL MODULE: ./src/components/recaptcha/recaptcha.ngfactory.js
-var recaptcha_ngfactory = __webpack_require__(1940);
+var recaptcha_ngfactory = __webpack_require__(1961);
 
 // EXTERNAL MODULE: ./src/components/recaptcha/recaptcha.ts
-var recaptcha = __webpack_require__(1353);
+var recaptcha = __webpack_require__(1371);
 
 // EXTERNAL MODULE: ./src/providers/lang.ts
-var lang = __webpack_require__(145);
+var lang = __webpack_require__(147);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-controller.js
-var modal_controller = __webpack_require__(201);
+var modal_controller = __webpack_require__(204);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/icon/icon.js
-var icon = __webpack_require__(43);
+var icon = __webpack_require__(45);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/grid/col.js
-var col = __webpack_require__(107);
+var col = __webpack_require__(99);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.ngfactory.js
-var button_ngfactory = __webpack_require__(45);
+var button_ngfactory = __webpack_require__(44);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.js
 var button_button = __webpack_require__(41);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/grid/grid.js
-var grid = __webpack_require__(141);
+var grid = __webpack_require__(126);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/grid/row.js
-var row = __webpack_require__(108);
+var row = __webpack_require__(100);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
-var toolbar_header = __webpack_require__(430);
+var toolbar_header = __webpack_require__(434);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
 var view_controller = __webpack_require__(35);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
-var navbar_ngfactory = __webpack_require__(1336);
+var navbar_ngfactory = __webpack_require__(1353);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
-var navbar = __webpack_require__(197);
+var navbar = __webpack_require__(200);
 
 // EXTERNAL MODULE: ./src/directives/back-button.ts
-var back_button = __webpack_require__(654);
+var back_button = __webpack_require__(662);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
-var toolbar_title_ngfactory = __webpack_require__(1337);
+var toolbar_title_ngfactory = __webpack_require__(1354);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
-var toolbar_title = __webpack_require__(331);
+var toolbar_title = __webpack_require__(335);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
-var toolbar = __webpack_require__(242);
+var toolbar = __webpack_require__(247);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
-var content_ngfactory = __webpack_require__(182);
+var content_ngfactory = __webpack_require__(184);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
-var keyboard = __webpack_require__(105);
+var keyboard = __webpack_require__(108);
 
 // EXTERNAL MODULE: ./src/components/loading/loading.ngfactory.js
-var loading_ngfactory = __webpack_require__(50);
+var loading_ngfactory = __webpack_require__(48);
 
 // EXTERNAL MODULE: ./src/components/loading/loading.ts
-var loading = __webpack_require__(48);
+var loading = __webpack_require__(47);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
 var nav_params = __webpack_require__(60);
@@ -788,7 +790,7 @@ function View_AddonModFeedbackFormPage_19(_l) { return core["_57" /* ɵvid */](0
     } return ad; }, checkbox_ngfactory["b" /* View_Checkbox_0 */], checkbox_ngfactory["a" /* RenderType_Checkbox */])), core["_30" /* ɵdid */](13, 16384, null, 0, esm5_forms["t" /* RequiredValidator */], [], { required: [0, "required"] }, null), core["_50" /* ɵprd */](1024, null, esm5_forms["k" /* NG_VALIDATORS */], function (p0_0) { return [p0_0]; }, [esm5_forms["t" /* RequiredValidator */]]), core["_30" /* ɵdid */](15, 1228800, null, 0, checkbox_checkbox["a" /* Checkbox */], [config["a" /* Config */], util_form["a" /* Form */], [2, item["a" /* Item */]], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_50" /* ɵprd */](1024, null, esm5_forms["l" /* NG_VALUE_ACCESSOR */], function (p0_0) { return [p0_0]; }, [checkbox_checkbox["a" /* Checkbox */]]), core["_30" /* ɵdid */](17, 671744, null, 0, esm5_forms["q" /* NgModel */], [[8, null], [2, esm5_forms["k" /* NG_VALIDATORS */]], [8, null], [2, esm5_forms["l" /* NG_VALUE_ACCESSOR */]]], { name: [0, "name"], model: [1, "model"] }, { update: "ngModelChange" }), core["_50" /* ɵprd */](2048, null, esm5_forms["m" /* NgControl */], null, [esm5_forms["q" /* NgModel */]]), core["_30" /* ɵdid */](19, 16384, null, 0, esm5_forms["n" /* NgControlStatus */], [esm5_forms["m" /* NgControl */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                                    "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.label; var currVal_1 = _co.component; var currVal_2 = _co.componentId; _ck(_v, 10, 0, currVal_0, currVal_1, currVal_2); var currVal_12 = _v.parent.parent.parent.parent.context.$implicit.required; _ck(_v, 13, 0, currVal_12); var currVal_13 = core["_34" /* ɵinlineInterpolate */](2, "", _v.parent.parent.parent.parent.context.$implicit.typ, "_", _v.parent.parent.parent.parent.context.$implicit.id, ""); var currVal_14 = _v.context.$implicit.checked; _ck(_v, 17, 0, currVal_13, currVal_14); }, function (_ck, _v) { var currVal_3 = (core["_44" /* ɵnov */](_v, 13).required ? "" : null); var currVal_4 = core["_44" /* ɵnov */](_v, 15)._disabled; var currVal_5 = core["_44" /* ɵnov */](_v, 19).ngClassUntouched; var currVal_6 = core["_44" /* ɵnov */](_v, 19).ngClassTouched; var currVal_7 = core["_44" /* ɵnov */](_v, 19).ngClassPristine; var currVal_8 = core["_44" /* ɵnov */](_v, 19).ngClassDirty; var currVal_9 = core["_44" /* ɵnov */](_v, 19).ngClassValid; var currVal_10 = core["_44" /* ɵnov */](_v, 19).ngClassInvalid; var currVal_11 = core["_44" /* ɵnov */](_v, 19).ngClassPending; _ck(_v, 12, 0, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11); }); }
 function View_AddonModFeedbackFormPage_18(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 5, "ion-list", [], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, list["a" /* List */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], platform["a" /* Platform */], gesture_controller["l" /* GestureController */], dom_controller["a" /* DomController */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModFeedbackFormPage_19)), core["_30" /* ɵdid */](4, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                "]))], function (_ck, _v) { var currVal_0 = _v.parent.parent.parent.context.$implicit.choices; _ck(_v, 4, 0, currVal_0); }, null); }
 function View_AddonModFeedbackFormPage_21(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 3, "ion-option", [], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, [[17, 4]], 0, option_option["a" /* Option */], [core["t" /* ElementRef */]], { value: [0, "value"] }, null), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](3, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils_utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], contentlinks_providers_helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content_content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"], component: [1, "component"], componentId: [2, "componentId"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.value; _ck(_v, 1, 0, currVal_0); var currVal_1 = _v.context.$implicit.label; var currVal_2 = _co.component; var currVal_3 = _co.componentId; _ck(_v, 3, 0, currVal_1, currVal_2, currVal_3); }, null); }
-function View_AddonModFeedbackFormPage_20(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 15, null, null, null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                    "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 12, "ion-select", [["interface", "popover"]], [[1, "required", 0], [2, "select-disabled", null], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "click"], [null, "keyup.space"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+function View_AddonModFeedbackFormPage_20(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 15, null, null, null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                    "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 12, "ion-select", [["interface", "action-sheet"]], [[1, "required", 0], [2, "select-disabled", null], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "click"], [null, "keyup.space"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (core["_44" /* ɵnov */](_v, 5)._click($event) !== false);
         ad = (pd_0 && ad);
     } if (("keyup.space" === en)) {
@@ -797,7 +799,7 @@ function View_AddonModFeedbackFormPage_20(_l) { return core["_57" /* ɵvid */](0
     } if (("ngModelChange" === en)) {
         var pd_2 = ((_v.parent.parent.parent.context.$implicit.value = $event) !== false);
         ad = (pd_2 && ad);
-    } return ad; }, select_ngfactory["b" /* View_Select_0 */], select_ngfactory["a" /* RenderType_Select */])), core["_30" /* ɵdid */](3, 16384, null, 0, esm5_forms["t" /* RequiredValidator */], [], { required: [0, "required"] }, null), core["_50" /* ɵprd */](1024, null, esm5_forms["k" /* NG_VALIDATORS */], function (p0_0) { return [p0_0]; }, [esm5_forms["t" /* RequiredValidator */]]), core["_30" /* ɵdid */](5, 1228800, null, 1, select_select["a" /* Select */], [app_app["a" /* App */], util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item["a" /* Item */]], deep_linker["a" /* DeepLinker */]], { interface: [0, "interface"] }, null), core["_52" /* ɵqud */](603979776, 17, { options: 1 }), core["_50" /* ɵprd */](1024, null, esm5_forms["l" /* NG_VALUE_ACCESSOR */], function (p0_0) { return [p0_0]; }, [select_select["a" /* Select */]]), core["_30" /* ɵdid */](8, 671744, null, 0, esm5_forms["q" /* NgModel */], [[8, null], [2, esm5_forms["k" /* NG_VALIDATORS */]], [8, null], [2, esm5_forms["l" /* NG_VALUE_ACCESSOR */]]], { name: [0, "name"], model: [1, "model"] }, { update: "ngModelChange" }), core["_50" /* ɵprd */](2048, null, esm5_forms["m" /* NgControl */], null, [esm5_forms["q" /* NgModel */]]), core["_30" /* ɵdid */](10, 16384, null, 0, esm5_forms["n" /* NgControlStatus */], [esm5_forms["m" /* NgControl */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModFeedbackFormPage_21)), core["_30" /* ɵdid */](13, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                "]))], function (_ck, _v) { var currVal_9 = _v.parent.parent.parent.context.$implicit.required; _ck(_v, 3, 0, currVal_9); var currVal_10 = "popover"; _ck(_v, 5, 0, currVal_10); var currVal_11 = core["_34" /* ɵinlineInterpolate */](2, "", _v.parent.parent.parent.context.$implicit.typ, "_", _v.parent.parent.parent.context.$implicit.id, ""); var currVal_12 = _v.parent.parent.parent.context.$implicit.value; _ck(_v, 8, 0, currVal_11, currVal_12); var currVal_13 = _v.parent.parent.parent.context.$implicit.choices; _ck(_v, 13, 0, currVal_13); }, function (_ck, _v) { var currVal_0 = (core["_44" /* ɵnov */](_v, 3).required ? "" : null); var currVal_1 = core["_44" /* ɵnov */](_v, 5)._disabled; var currVal_2 = core["_44" /* ɵnov */](_v, 10).ngClassUntouched; var currVal_3 = core["_44" /* ɵnov */](_v, 10).ngClassTouched; var currVal_4 = core["_44" /* ɵnov */](_v, 10).ngClassPristine; var currVal_5 = core["_44" /* ɵnov */](_v, 10).ngClassDirty; var currVal_6 = core["_44" /* ɵnov */](_v, 10).ngClassValid; var currVal_7 = core["_44" /* ɵnov */](_v, 10).ngClassInvalid; var currVal_8 = core["_44" /* ɵnov */](_v, 10).ngClassPending; _ck(_v, 2, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); }); }
+    } return ad; }, select_ngfactory["b" /* View_Select_0 */], select_ngfactory["a" /* RenderType_Select */])), core["_30" /* ɵdid */](3, 16384, null, 0, esm5_forms["t" /* RequiredValidator */], [], { required: [0, "required"] }, null), core["_50" /* ɵprd */](1024, null, esm5_forms["k" /* NG_VALIDATORS */], function (p0_0) { return [p0_0]; }, [esm5_forms["t" /* RequiredValidator */]]), core["_30" /* ɵdid */](5, 1228800, null, 1, select_select["a" /* Select */], [app_app["a" /* App */], util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item["a" /* Item */]], deep_linker["a" /* DeepLinker */]], { interface: [0, "interface"] }, null), core["_52" /* ɵqud */](603979776, 17, { options: 1 }), core["_50" /* ɵprd */](1024, null, esm5_forms["l" /* NG_VALUE_ACCESSOR */], function (p0_0) { return [p0_0]; }, [select_select["a" /* Select */]]), core["_30" /* ɵdid */](8, 671744, null, 0, esm5_forms["q" /* NgModel */], [[8, null], [2, esm5_forms["k" /* NG_VALIDATORS */]], [8, null], [2, esm5_forms["l" /* NG_VALUE_ACCESSOR */]]], { name: [0, "name"], model: [1, "model"] }, { update: "ngModelChange" }), core["_50" /* ɵprd */](2048, null, esm5_forms["m" /* NgControl */], null, [esm5_forms["q" /* NgModel */]]), core["_30" /* ɵdid */](10, 16384, null, 0, esm5_forms["n" /* NgControlStatus */], [esm5_forms["m" /* NgControl */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModFeedbackFormPage_21)), core["_30" /* ɵdid */](13, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                "]))], function (_ck, _v) { var currVal_9 = _v.parent.parent.parent.context.$implicit.required; _ck(_v, 3, 0, currVal_9); var currVal_10 = "action-sheet"; _ck(_v, 5, 0, currVal_10); var currVal_11 = core["_34" /* ɵinlineInterpolate */](2, "", _v.parent.parent.parent.context.$implicit.typ, "_", _v.parent.parent.parent.context.$implicit.id, ""); var currVal_12 = _v.parent.parent.parent.context.$implicit.value; _ck(_v, 8, 0, currVal_11, currVal_12); var currVal_13 = _v.parent.parent.parent.context.$implicit.choices; _ck(_v, 13, 0, currVal_13); }, function (_ck, _v) { var currVal_0 = (core["_44" /* ɵnov */](_v, 3).required ? "" : null); var currVal_1 = core["_44" /* ɵnov */](_v, 5)._disabled; var currVal_2 = core["_44" /* ɵnov */](_v, 10).ngClassUntouched; var currVal_3 = core["_44" /* ɵnov */](_v, 10).ngClassTouched; var currVal_4 = core["_44" /* ɵnov */](_v, 10).ngClassPristine; var currVal_5 = core["_44" /* ɵnov */](_v, 10).ngClassDirty; var currVal_6 = core["_44" /* ɵnov */](_v, 10).ngClassValid; var currVal_7 = core["_44" /* ɵnov */](_v, 10).ngClassInvalid; var currVal_8 = core["_44" /* ɵnov */](_v, 10).ngClassPending; _ck(_v, 2, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); }); }
 function View_AddonModFeedbackFormPage_23(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-recaptcha", [["modelValueName", "value"]], null, null, null, recaptcha_ngfactory["b" /* View_CoreRecaptchaComponent_0 */], recaptcha_ngfactory["a" /* RenderType_CoreRecaptchaComponent */])), core["_30" /* ɵdid */](1, 114688, null, 0, recaptcha["a" /* CoreRecaptchaComponent */], [sites["a" /* CoreSitesProvider */], lang["a" /* CoreLangProvider */], utils_text["a" /* CoreTextUtilsProvider */], modal_controller["a" /* ModalController */]], { model: [0, "model"], publicKey: [1, "publicKey"], modelValueName: [2, "modelValueName"] }, null)], function (_ck, _v) { var currVal_0 = _v.parent.parent.parent.parent.context.$implicit; var currVal_1 = _v.parent.parent.parent.parent.context.$implicit.captcha.recaptchapublickey; var currVal_2 = "value"; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
 function View_AddonModFeedbackFormPage_24(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 5, "div", [["class", "core-warning-card"], ["icon-start", ""]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                        "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 1, "ion-icon", [["name", "warning"], ["role", "img"]], [[2, "hide", null]], null, null, null, null)), core["_30" /* ɵdid */](3, 147456, null, 0, icon["a" /* Icon */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { name: [0, "name"] }, null), (_l()(), core["_55" /* ɵted */](4, null, ["\n                                        ", "\n                                    "])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var currVal_1 = "warning"; _ck(_v, 3, 0, currVal_1); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 3)._hidden; _ck(_v, 2, 0, currVal_0); var currVal_2 = core["_56" /* ɵunv */](_v, 4, 0, core["_44" /* ɵnov */](_v, 5).transform("addon.mod_feedback.captchaofflinewarning")); _ck(_v, 4, 0, currVal_2); }); }
 function View_AddonModFeedbackFormPage_22(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 7, null, null, null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModFeedbackFormPage_23)), core["_30" /* ɵdid */](3, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonModFeedbackFormPage_24)), core["_30" /* ɵdid */](6, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                                "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = (!_co.preview && !_co.offline); _ck(_v, 3, 0, currVal_0); var currVal_1 = (!_co.preview && (!_v.parent.parent.parent.context.$implicit.captcha || _co.offline)); _ck(_v, 6, 0, currVal_1); }, null); }
@@ -837,31 +839,31 @@ var AddonModFeedbackFormPageNgFactory = core["_27" /* ɵccf */]("page-addon-mod-
 
 //# sourceMappingURL=form.ngfactory.js.map
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
-var translate_loader = __webpack_require__(327);
+var translate_loader = __webpack_require__(331);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
-var translate_compiler = __webpack_require__(328);
+var translate_compiler = __webpack_require__(332);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
-var translate_parser = __webpack_require__(330);
+var translate_parser = __webpack_require__(334);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
-var missing_translation_handler = __webpack_require__(329);
+var missing_translation_handler = __webpack_require__(333);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
-var translate_store = __webpack_require__(429);
+var translate_store = __webpack_require__(433);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
-var ionic_angular_module = __webpack_require__(653);
+var ionic_angular_module = __webpack_require__(661);
 
 // EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 1 modules
-var pipes_module = __webpack_require__(104);
+var pipes_module = __webpack_require__(107);
 
 // EXTERNAL MODULE: ./src/core/course/components/components.module.ts
 var course_components_components_module = __webpack_require__(65);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
-var module_loader = __webpack_require__(243);
+var module_loader = __webpack_require__(248);
 
 // CONCATENATED MODULE: ./src/addon/mod/feedback/pages/form/form.module.ngfactory.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackFormPageModuleNgFactory", function() { return AddonModFeedbackFormPageModuleNgFactory; });
@@ -911,7 +913,7 @@ var AddonModFeedbackFormPageModuleNgFactory = core["_28" /* ɵcmf */](form_modul
 
 /***/ }),
 
-/***/ 1940:
+/***/ 1961:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -920,18 +922,18 @@ var AddonModFeedbackFormPageModuleNgFactory = core["_28" /* ɵcmf */](form_modul
 /* unused harmony export View_CoreRecaptchaComponent_Host_0 */
 /* unused harmony export CoreRecaptchaComponentNgFactory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_ionic_angular_components_button_button_ngfactory__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_ionic_angular_components_button_button_ngfactory__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular_components_button_button__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular_config_config__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ngx_translate_core_src_translate_pipe__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core_src_translate_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ngx_translate_core_src_translate_pipe__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core_src_translate_service__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_icon_icon__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__recaptcha__ = __webpack_require__(1353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_icon_icon__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__recaptcha__ = __webpack_require__(1371);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_sites__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_lang__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_utils_text__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_modal_modal_controller__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_lang__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_utils_text__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_modal_modal_controller__ = __webpack_require__(204);
 /**
  * @fileoverview This file was generated by the Angular template compiler. Do not edit.
  *
