@@ -132,7 +132,6 @@
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
     </edit-config>
     <plugin name="cordova-plugin-screen-orientation" spec="^3.0.1" />
-    <!-- <plugin name="com-darryncampbell-cordova-plugin-intent" spec="^1.1.1" /> -->
     <plugin name="cordova-sqlite-evcore-extbuild-free" spec="^0.9.9" />
     <engine name="android" spec="7.0.0" />
     <engine name="ios" spec="4.5.4" />
