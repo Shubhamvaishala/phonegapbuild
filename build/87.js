@@ -1,6 +1,6 @@
 webpackJsonp([87],{
 
-/***/ 1873:
+/***/ 1900:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -168,10 +168,10 @@ var recaptchamodal_ngfactory = __webpack_require__(1357);
 var unsupported_module_ngfactory = __webpack_require__(1358);
 
 // EXTERNAL MODULE: ./src/addon/mod/imscp/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1402);
+var index_ngfactory = __webpack_require__(1410);
 
 // EXTERNAL MODULE: ./src/addon/mod/imscp/components/toc-popover/toc-popover.ngfactory.js
-var toc_popover_ngfactory = __webpack_require__(1428);
+var toc_popover_ngfactory = __webpack_require__(1432);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
 var toolbar_header = __webpack_require__(434);
