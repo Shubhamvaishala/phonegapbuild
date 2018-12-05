@@ -125,9 +125,9 @@
     <plugin name="cordova-plugin-local-notifications-mm" spec="^1.0.13" />
     <plugin name="cordova-plugin-file-opener2" spec="^2.0.19" />
     <plugin name="cordova-plugin-badge" spec="^0.8.7" />
-    <gap:plugin name="cordova-android-support-gradle-release" source="npm" >
-        <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
-    </gap:plugin>
+    <plugin name="cordova-android-support-gradle-release" spec="https://github.com/dpa99c/cordova-android-support-gradle-release.git">
+        <variable name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
+    </plugin>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='MainActivity']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
     </edit-config>
