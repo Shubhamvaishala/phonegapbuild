@@ -1,6 +1,6 @@
 webpackJsonp([103],{
 
-/***/ 1852:
+/***/ 1854:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19,10 +19,10 @@ var _ngx_translate_core = __webpack_require__(3);
 var directives_module = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./src/addon/mod/chat/components/components.module.ts
-var components_module = __webpack_require__(689);
+var components_module = __webpack_require__(690);
 
 // EXTERNAL MODULE: ./src/addon/mod/chat/components/index/index.ts
-var index = __webpack_require__(454);
+var index = __webpack_require__(455);
 
 // CONCATENATED MODULE: ./src/addon/mod/chat/pages/index/index.ts
 // (C) Copyright 2015 Martin Dougiamas
@@ -168,7 +168,7 @@ var recaptchamodal_ngfactory = __webpack_require__(1357);
 var unsupported_module_ngfactory = __webpack_require__(1358);
 
 // EXTERNAL MODULE: ./src/addon/mod/chat/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1395);
+var index_ngfactory = __webpack_require__(1396);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
 var toolbar_header = __webpack_require__(434);
