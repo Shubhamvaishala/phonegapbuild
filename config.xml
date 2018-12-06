@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35210" id="com.vidyamantra.cmoodleapp55" version="3.5.2" versionCode="35210" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="35210" id="com.vidyamantra.cmoodleapp55" version="3.5.3" versionCode="35210" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>VidyaMantra</name>
     <description>
         This is internal staff training program to provide comprehensive and well-planned induction for ensuring the long-term effectiveness of our staff.
@@ -137,7 +137,7 @@
         <string>3.5.3</string>
     </gap:config-file>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='VidyaMantra']">
-        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
     </edit-config>
     <preference name="permissions" value="none" />
     <config-file parent="CFBundleDocumentTypes" target="*-Info.plist">
