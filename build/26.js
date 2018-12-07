@@ -1,6 +1,6 @@
 webpackJsonp([26],{
 
-/***/ 1842:
+/***/ 1841:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25,7 +25,7 @@ var directives_module = __webpack_require__(28);
 var dom = __webpack_require__(4);
 
 // EXTERNAL MODULE: ./src/addon/pushnotifications/providers/pushnotifications.ts
-var pushnotifications = __webpack_require__(344);
+var pushnotifications = __webpack_require__(343);
 
 // EXTERNAL MODULE: ./src/addon/messageoutput/airnotifier/providers/airnotifier.ts
 var airnotifier = __webpack_require__(451);
