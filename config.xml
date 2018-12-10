@@ -7,6 +7,12 @@
     <author email="sales@vidyamantra.com" href="http://moodleapp.keytoschool.com">
         Vidya Mantra EduSystems Pvt. Ltd.
     </author>
+    <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
+        <string>3.5.4</string>
+    </edit-config>
+    <gap:config-file parent="CFBundleVersion" platform="ios">
+        <string>3.5.4</string>
+    </gap:config-file>
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <access origin="*" />
@@ -48,6 +54,7 @@
     </feature>
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="iosPersistentFileLocation" value="Compatibility" />
+    <icon src="icon.png" />
     <gap:splash src="splash.png" />
     <platform name="android">
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
@@ -133,13 +140,19 @@
     <gap:plugin name="cordova-android-support-gradle-release" source="npm">
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </gap:plugin>
-    <gap:config-file parent="CFBundleVersion" platform="ios">
-        <string>3.5.4</string>
-    </gap:config-file>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='TIMeSMobile']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
     </edit-config>
     <preference name="permissions" value="none" />
+    <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+        <string>We need camera access to take pictures so you can attach them as part of your submissions.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
+        <string>We need microphone access to record sounds so you can attach them as part of your submissions.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+        <string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>
+    </edit-config>
     <config-file parent="CFBundleDocumentTypes" target="*-Info.plist">
         <array>
             <dict>
@@ -521,6 +534,5 @@
     </config-file>
     <content src="index.html" />
     <preference name="SplashScreen" value="screen" />
-    <engine name="android" spec="7.0.0" />
     <engine name="ios" spec="4.5.5" />
 </widget>
