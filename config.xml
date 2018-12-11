@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35210" id="com.vidyamantra.cmoodleapp178" version="3.5.2" versionCode="35210" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="35500" id="com.vidyamantra.cmoodleapp178" version="3.5.5" versionCode="35500" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Ranger Academy</name>
     <description>
         The Ranger Academy is an e-learning platform designed to the specific requirements of park rangers worldwide.
@@ -7,6 +7,12 @@
     <author email="sales@vidyamantra.com" href="http://moodleapp.keytoschool.com">
         Vidya Mantra EduSystems Pvt. Ltd.
     </author>
+    <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
+        <string>3.5.5</string>
+    </edit-config>
+    <gap:config-file parent="CFBundleVersion" platform="ios">
+        <string>3.5.5</string>
+    </gap:config-file>
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <access origin="*" />
@@ -48,6 +54,7 @@
     </feature>
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="iosPersistentFileLocation" value="Compatibility" />
+    <icon src="icon.png" />
     <gap:splash src="splash.png" />
     <platform name="android">
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
@@ -137,6 +144,15 @@
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
     </edit-config>
     <preference name="permissions" value="none" />
+    <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+        <string>We need camera access to take pictures so you can attach them as part of your submissions.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
+        <string>We need microphone access to record sounds so you can attach them as part of your submissions.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+        <string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>
+    </edit-config>
     <config-file parent="CFBundleDocumentTypes" target="*-Info.plist">
         <array>
             <dict>
@@ -518,6 +534,5 @@
     </config-file>
     <content src="index.html" />
     <preference name="SplashScreen" value="screen" />
-    <engine name="android" spec="7.0.0" />
     <engine name="ios" spec="4.5.5" />
 </widget>
