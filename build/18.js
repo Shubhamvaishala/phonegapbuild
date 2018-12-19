@@ -1,1 +1,556 @@
-webpackJsonp([18],{1886:function(l,n,u){"use strict";function t(l){return T._42(0,[(l()(),T._16(0,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.navigationModal.present()&&t}return t},Y.b,Y.a)),T._15(1,1097728,[[2,4]],0,Z.a,[[8,""],ll.a,T.p,T.K],null,null),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,0,["\n                "])),(l()(),T._16(4,0,null,0,1,"ion-icon",[["name","bookmark"],["role","img"]],[[2,"hide",null]],null,null,null,null)),T._15(5,147456,null,0,tl.a,[ll.a,T.p,T.K],{name:[0,"name"]},null),(l()(),T._40(-1,0,["\n            "]))],function(l,n){l(n,5,0,"bookmark")},function(l,n){l(n,0,0,T._41(n,0,0,T._29(n,2).transform("addon.mod_quiz.opentoc")));l(n,4,0,T._29(n,5)._hidden)})}function a(l){return T._42(0,[(l()(),T._16(0,0,null,null,2,"h2",[],null,null,null,null,null)),(l()(),T._40(1,null,["",""])),T._32(131072,nl.a,[ul.a,T.i])],null,function(l,n){l(n,1,0,T._41(n,1,0,T._29(n,2).transform("addon.mod_quiz.reviewofpreview")))})}function e(l){return T._42(0,[(l()(),T._16(0,0,null,null,3,"h2",[],null,null,null,null,null)),(l()(),T._40(1,null,["",""])),T._33(2,{$a:0}),T._32(131072,nl.a,[ul.a,T.i])],null,function(l,n){var u=n.component;l(n,1,0,T._41(n,1,0,T._29(n,3).transform("addon.mod_quiz.reviewofattempt",l(n,2,0,u.attempt.attempt))))})}function o(l){return T._42(0,[(l()(),T._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(1,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,9,{contentLabel:0}),T._37(603979776,10,{_buttons:1}),T._37(603979776,11,{_icons:1}),T._15(5,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(7,0,null,2,2,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(8,null,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),T._40(12,null,["",""])),T._34(13,2),(l()(),T._40(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,T._41(n,8,0,T._29(n,9).transform("addon.mod_quiz.completedon")));l(n,12,0,T._41(n,12,0,l(n,13,0,T._29(n.parent.parent,0),1e3*u.attempt.timefinish,"dfmediumdate")))})}function i(l){return T._42(0,[(l()(),T._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(1,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,12,{contentLabel:0}),T._37(603979776,13,{_buttons:1}),T._37(603979776,14,{_icons:1}),T._15(5,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(7,0,null,2,2,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(8,null,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),T._40(12,null,["",""])),(l()(),T._40(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,T._41(n,8,0,T._29(n,9).transform("addon.mod_quiz.timetaken")));l(n,12,0,u.attempt.timeTaken)})}function _(l){return T._42(0,[(l()(),T._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(1,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,15,{contentLabel:0}),T._37(603979776,16,{_buttons:1}),T._37(603979776,17,{_icons:1}),T._15(5,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(7,0,null,2,2,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(8,null,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),T._40(12,null,["",""])),(l()(),T._40(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,T._41(n,8,0,T._29(n,9).transform("addon.mod_quiz.overdue")));l(n,12,0,u.attempt.overTime)})}function r(l){return T._42(0,[(l()(),T._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(1,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,18,{contentLabel:0}),T._37(603979776,19,{_buttons:1}),T._37(603979776,20,{_icons:1}),T._15(5,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(7,0,null,2,2,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(8,null,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),T._16(12,0,null,null,1,"core-format-text",[],null,null,null,null,null)),T._15(13,540672,null,0,rl.a,[T.p,cl.a,M.a,O.a,ul.a,sl.a,ml.a,dl.a,pl.a,fl.a,hl.a,gl.a,[2,bl.a],[2,vl.a],[2,ql.a],Il.a,kl.a],{text:[0,"text"]},null),(l()(),T._40(-1,2,["\n                "]))],function(l,n){l(n,13,0,n.component.attempt.readableMark)},function(l,n){l(n,8,0,T._41(n,8,0,T._29(n,9).transform("addon.mod_quiz.marks")))})}function c(l){return T._42(0,[(l()(),T._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(1,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,21,{contentLabel:0}),T._37(603979776,22,{_buttons:1}),T._37(603979776,23,{_icons:1}),T._15(5,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(7,0,null,2,2,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(8,null,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),T._40(12,null,["",""])),(l()(),T._40(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,T._41(n,8,0,T._29(n,9).transform("addon.mod_quiz.grade")));l(n,12,0,u.attempt.readableGrade)})}function s(l){return T._42(0,[(l()(),T._16(0,0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(1,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,24,{contentLabel:0}),T._37(603979776,25,{_buttons:1}),T._37(603979776,26,{_icons:1}),T._15(5,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(7,0,null,2,1,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(8,null,["",""])),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(10,0,null,2,1,"core-format-text",[],null,null,null,null,null)),T._15(11,540672,null,0,rl.a,[T.p,cl.a,M.a,O.a,ul.a,sl.a,ml.a,dl.a,pl.a,fl.a,hl.a,gl.a,[2,bl.a],[2,vl.a],[2,ql.a],Il.a,kl.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null),(l()(),T._40(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,11,0,n.context.$implicit.content,u.component,u.componentId)},function(l,n){l(n,8,0,n.context.$implicit.title)})}function m(l){return T._42(0,[(l()(),T._16(0,0,null,null,65,"ion-card",[],null,null,null,null,null)),T._15(1,16384,null,0,zl.a,[ll.a,T.p,T.K],null,null),(l()(),T._40(-1,null,["\n            "])),(l()(),T._16(3,0,null,null,8,"ion-card-header",[["text-wrap",""]],null,null,null,null,null)),T._15(4,16384,null,0,xl.a,[ll.a,T.p,T.K],null,null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,a)),T._15(7,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,e)),T._15(10,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n            "])),(l()(),T._40(-1,null,["\n            "])),(l()(),T._16(13,0,null,null,51,"ion-list",[],null,null,null,null,null)),T._15(14,16384,null,0,Tl.a,[ll.a,T.p,T.K,sl.a,Pl.l,Kl.a],null,null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._16(16,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(17,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,3,{contentLabel:0}),T._37(603979776,4,{_buttons:1}),T._37(603979776,5,{_icons:1}),T._15(21,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(23,0,null,2,2,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(24,null,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(27,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),T._40(28,null,["",""])),T._34(29,2),(l()(),T._40(-1,2,["\n                "])),(l()(),T._40(-1,null,["\n                "])),(l()(),T._16(32,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),T._15(33,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],null,null),T._37(335544320,6,{contentLabel:0}),T._37(603979776,7,{_buttons:1}),T._37(603979776,8,{_icons:1}),T._15(37,16384,null,0,_l.a,[],null,null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(39,0,null,2,2,"p",[["class","item-heading"]],null,null,null,null,null)),(l()(),T._40(40,null,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._16(43,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),T._40(44,null,["",""])),(l()(),T._40(-1,2,["\n                "])),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,o)),T._15(48,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,i)),T._15(51,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,_)),T._15(54,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,r)),T._15(57,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,c)),T._15(60,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._11(16777216,null,null,1,null,s)),T._15(63,802816,null,0,wl.j,[T.W,T.T,T.v],{ngForOf:[0,"ngForOf"]},null),(l()(),T._40(-1,null,["\n            "])),(l()(),T._40(-1,null,["\n        "]))],function(l,n){var u=n.component;l(n,7,0,u.attempt.preview);l(n,10,0,!u.attempt.preview);l(n,48,0,u.showCompleted);l(n,51,0,u.attempt.timeTaken);l(n,54,0,u.attempt.overTime);l(n,57,0,u.attempt.readableMark);l(n,60,0,u.attempt.readableGrade);l(n,63,0,u.additionalData)},function(l,n){var u=n.component;l(n,24,0,T._41(n,24,0,T._29(n,25).transform("addon.mod_quiz.startedon")));l(n,28,0,T._41(n,28,0,l(n,29,0,T._29(n.parent,0),1e3*u.attempt.timestart,"dfmediumdate")));l(n,40,0,T._41(n,40,0,T._29(n,41).transform("addon.mod_quiz.attemptstate")));l(n,44,0,u.attempt.readableState)})}function d(l){return T._42(0,[(l()(),T._16(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function p(l){return T._42(0,[(l()(),T._16(0,0,null,null,3,"h2",[["class","inline"]],null,null,null,null,null)),(l()(),T._40(1,null,["",""])),T._33(2,{$a:0}),T._32(131072,nl.a,[ul.a,T.i])],null,function(l,n){l(n,1,0,T._41(n,1,0,T._29(n,3).transform("core.question.questionno",l(n,2,0,n.parent.context.$implicit.number))))})}function f(l){return T._42(0,[(l()(),T._16(0,0,null,null,2,"h2",[["class","inline"]],null,null,null,null,null)),(l()(),T._40(1,null,["",""])),T._32(131072,nl.a,[ul.a,T.i])],null,function(l,n){l(n,1,0,T._41(n,1,0,T._29(n,2).transform("core.question.information")))})}function h(l){return T._42(0,[(l()(),T._16(0,0,null,null,1,"p",[["class","block"]],null,null,null,null,null)),(l()(),T._40(1,null,["",""]))],null,function(l,n){l(n,1,0,n.parent.parent.context.$implicit.status)})}function g(l){return T._42(0,[(l()(),T._16(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),T._16(1,0,null,null,1,"core-format-text",[],null,null,null,null,null)),T._15(2,540672,null,0,rl.a,[T.p,cl.a,M.a,O.a,ul.a,sl.a,ml.a,dl.a,pl.a,fl.a,hl.a,gl.a,[2,bl.a],[2,vl.a],[2,ql.a],Il.a,kl.a],{text:[0,"text"]},null)],function(l,n){l(n,2,0,n.parent.parent.context.$implicit.readableMark)},null)}function b(l){return T._42(0,[(l()(),T._16(0,0,null,null,8,"ion-note",[["item-end",""],["text-wrap",""]],null,null,null,null,null)),T._15(1,16384,null,0,yl.a,[ll.a,T.p,T.K],null,null),(l()(),T._40(-1,null,["\n                            "])),(l()(),T._11(16777216,null,null,1,null,h)),T._15(4,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                            "])),(l()(),T._11(16777216,null,null,1,null,g)),T._15(7,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n                        "]))],function(l,n){l(n,4,0,n.parent.context.$implicit.status);l(n,7,0,n.parent.context.$implicit.readableMark)},null)}function v(l){return T._42(0,[(l()(),T._16(0,0,null,null,27,"div",[],null,null,null,null,null)),(l()(),T._40(-1,null,["\n                "])),(l()(),T._16(2,0,null,null,24,"ion-card",[],[[8,"id",0]],null,null,null,null)),T._15(3,16384,null,0,zl.a,[ll.a,T.p,T.K],null,null),(l()(),T._40(-1,null,["\n                    "])),(l()(),T._40(-1,null,["\n                    "])),(l()(),T._16(6,0,null,null,15,"ion-item-divider",[["class","item item-divider"],["color","light"]],null,null,null,al.b,al.a)),T._15(7,1097728,null,3,el.a,[ol.a,ll.a,T.p,T.K,[2,il.a]],{color:[0,"color"]},null),T._37(335544320,27,{contentLabel:0}),T._37(603979776,28,{_buttons:1}),T._37(603979776,29,{_icons:1}),T._15(11,16384,null,0,Wl.a,[ll.a,T.p,T.K],{color:[0,"color"]},null),(l()(),T._40(-1,2,["\n                        "])),(l()(),T._11(16777216,null,2,1,null,p)),T._15(14,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,2,["\n                        "])),(l()(),T._11(16777216,null,2,1,null,f)),T._15(17,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,2,["\n                        "])),(l()(),T._11(16777216,null,4,1,null,b)),T._15(20,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,2,["\n                    "])),(l()(),T._40(-1,null,["\n                    "])),(l()(),T._40(-1,null,["\n                    "])),(l()(),T._16(24,0,null,null,1,"core-question",[["text-wrap",""]],null,null,null,$l.b,$l.a)),T._15(25,114688,null,0,Ml.a,[pl.a,T.u,Ol.a,ml.a,Dl.a,A.a,ul.a,Al.a,M.a],{question:[0,"question"],component:[1,"component"],componentId:[2,"componentId"],attemptId:[3,"attemptId"],offlineEnabled:[4,"offlineEnabled"]},null),(l()(),T._40(-1,null,["\n                "])),(l()(),T._40(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,7,0,"light");l(n,11,0,"light");l(n,14,0,n.context.$implicit.number);l(n,17,0,!n.context.$implicit.number);l(n,20,0,n.context.$implicit.status||n.context.$implicit.readableMark);l(n,25,0,n.context.$implicit,u.component,u.componentId,u.attempt.id,!1)},function(l,n){l(n,2,0,T._19(1,"addon-mod_quiz-question-",n.context.$implicit.slot,""))})}function q(l){return T._42(0,[(l()(),T._16(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function I(l){return T._42(0,[(l()(),T._16(0,0,null,null,13,"div",[],null,null,null,null,null)),(l()(),T._40(-1,null,["\n            "])),(l()(),T._40(-1,null,["\n            "])),(l()(),T._11(16777216,null,null,1,null,d)),T._15(4,540672,null,0,wl.r,[T.W],{ngTemplateOutlet:[0,"ngTemplateOutlet"]},null),(l()(),T._40(-1,null,["\n\n            "])),(l()(),T._40(-1,null,["\n            "])),(l()(),T._11(16777216,null,null,1,null,v)),T._15(8,802816,null,0,wl.j,[T.W,T.T,T.v],{ngForOf:[0,"ngForOf"]},null),(l()(),T._40(-1,null,["\n\n            "])),(l()(),T._40(-1,null,["\n            "])),(l()(),T._11(16777216,null,null,1,null,q)),T._15(12,540672,null,0,wl.r,[T.W],{ngTemplateOutlet:[0,"ngTemplateOutlet"]},null),(l()(),T._40(-1,null,["\n        "]))],function(l,n){var u=n.component;l(n,4,0,T._29(n.parent,49));l(n,8,0,u.questions);l(n,12,0,T._29(n.parent,49))},null)}function k(l){return T._42(0,[(l()(),T._16(0,0,null,null,6,"a",[["color","light"],["icon-only",""],["ion-button",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.changePage(a.previousPage)&&t}return t},Y.b,Y.a)),T._15(1,1097728,null,0,Z.a,[[8,""],ll.a,T.p,T.K],{color:[0,"color"]},null),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,0,["\n                "])),(l()(),T._16(4,0,null,0,1,"ion-icon",[["md","ios-arrow-back"],["name","arrow-back"],["role","img"]],[[2,"hide",null]],null,null,null,null)),T._15(5,147456,null,0,tl.a,[ll.a,T.p,T.K],{name:[0,"name"],md:[1,"md"]},null),(l()(),T._40(-1,0,["\n            "]))],function(l,n){l(n,1,0,"light");l(n,5,0,"arrow-back","ios-arrow-back")},function(l,n){l(n,0,0,T._41(n,0,0,T._29(n,2).transform("core.previous")));l(n,4,0,T._29(n,5)._hidden)})}function z(l){return T._42(0,[(l()(),T._16(0,0,null,null,6,"a",[["color","light"],["icon-only",""],["ion-button",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.changePage(a.nextPage)&&t}return t},Y.b,Y.a)),T._15(1,1097728,null,0,Z.a,[[8,""],ll.a,T.p,T.K],{color:[0,"color"]},null),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,0,["\n                "])),(l()(),T._16(4,0,null,0,1,"ion-icon",[["md","ios-arrow-forward"],["name","arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),T._15(5,147456,null,0,tl.a,[ll.a,T.p,T.K],{name:[0,"name"],md:[1,"md"]},null),(l()(),T._40(-1,0,["\n            "]))],function(l,n){l(n,1,0,"light");l(n,5,0,"arrow-forward","ios-arrow-forward")},function(l,n){l(n,0,0,T._41(n,0,0,T._29(n,2).transform("core.next")));l(n,4,0,T._29(n,5)._hidden)})}function x(l){return T._42(0,[(l()(),T._40(-1,null,["\n    "])),(l()(),T._16(1,0,null,null,16,"ion-row",[["align-items-center",""],["class","row"]],null,null,null,null,null)),T._15(2,16384,null,0,Cl.a,[],null,null),(l()(),T._40(-1,null,["\n        "])),(l()(),T._16(4,0,null,null,5,"ion-col",[["class","col"],["text-start",""]],null,null,null,null,null)),T._15(5,16384,null,0,El.a,[],null,null),(l()(),T._40(-1,null,["\n            "])),(l()(),T._11(16777216,null,null,1,null,k)),T._15(8,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n        "])),(l()(),T._40(-1,null,["\n        "])),(l()(),T._16(11,0,null,null,5,"ion-col",[["class","col"],["text-end",""]],null,null,null,null,null)),T._15(12,16384,null,0,El.a,[],null,null),(l()(),T._40(-1,null,["\n            "])),(l()(),T._11(16777216,null,null,1,null,z)),T._15(15,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n        "])),(l()(),T._40(-1,null,["\n    "])),(l()(),T._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,u.previousPage>=0);l(n,15,0,u.nextPage>=-1)},null)}function w(l){return T._42(0,[T._32(0,Rl.a,[pl.a,ul.a]),T._37(402653184,1,{content:0}),(l()(),T._16(2,0,null,null,20,"ion-header",[],null,null,null,null,null)),T._15(3,16384,null,0,Ul.a,[ll.a,T.p,T.K,[2,Fl.a]],null,null),(l()(),T._40(-1,null,["\n    "])),(l()(),T._16(5,0,null,null,16,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Hl.b,Hl.a)),T._15(6,49152,null,0,Ll.a,[Nl.a,[2,Fl.a],[2,bl.a],ll.a,T.p,T.K],null,null),T._15(7,212992,null,0,Gl.a,[Ll.a,sl.a,ul.a,kl.a],null,null),(l()(),T._40(-1,3,["\n        "])),(l()(),T._16(9,0,null,3,3,"ion-title",[],null,null,null,Ql.b,Ql.a)),T._15(10,49152,null,0,Sl.a,[ll.a,T.p,T.K,[2,Bl.a],[2,Ll.a]],null,null),(l()(),T._40(11,0,["",""])),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,3,["\n\n        "])),(l()(),T._16(14,0,null,2,6,"ion-buttons",[["end",""]],null,null,null,null,null)),T._15(15,16384,null,1,jl.a,[ll.a,T.p,T.K,[2,Bl.a],[2,Ll.a]],null,null),T._37(603979776,2,{_buttons:1}),(l()(),T._40(-1,null,["\n            "])),(l()(),T._11(16777216,null,null,1,null,t)),T._15(19,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,null,["\n        "])),(l()(),T._40(-1,3,["\n    "])),(l()(),T._40(-1,null,["\n"])),(l()(),T._40(-1,null,["\n"])),(l()(),T._16(24,0,null,null,22,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Jl.b,Jl.a)),T._15(25,4374528,[[1,4]],0,vl.a,[ll.a,sl.a,Kl.a,T.p,T.K,Nl.a,Vl.a,T.D,[2,Fl.a],[2,bl.a]],null,null),(l()(),T._40(-1,1,["\n    "])),(l()(),T._16(27,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var t=!0;if("ionRefresh"===n){t=!1!==l.component.refreshData(u)&&t}return t},null,null)),T._15(28,212992,null,0,Xl.a,[sl.a,vl.a,T.D,Pl.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),T._40(-1,null,["\n        "])),(l()(),T._16(30,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Yl.b,Yl.a)),T._15(31,114688,null,0,Zl.a,[Xl.a,ll.a],{pullingText:[0,"pullingText"]},null),T._32(131072,nl.a,[ul.a,T.i]),(l()(),T._40(-1,null,["\n    "])),(l()(),T._40(-1,1,["\n    "])),(l()(),T._16(35,0,null,1,10,"core-loading",[],null,null,null,ln.b,ln.a)),T._15(36,638976,null,0,nn.a,[ul.a,T.p,kl.a,ml.a],{hideUntil:[0,"hideUntil"]},null),(l()(),T._40(-1,0,["\n\n        "])),(l()(),T._40(-1,0,["\n        "])),(l()(),T._11(16777216,null,0,1,null,m)),T._15(40,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,0,["\n\n        "])),(l()(),T._40(-1,0,["\n        "])),(l()(),T._11(16777216,null,0,1,null,I)),T._15(44,16384,null,0,wl.k,[T.W,T.T],{ngIf:[0,"ngIf"]},null),(l()(),T._40(-1,0,["\n    "])),(l()(),T._40(-1,1,["\n"])),(l()(),T._40(-1,null,["\n\n"])),(l()(),T._40(-1,null,["\n"])),(l()(),T._11(0,[["navArrows",2]],null,0,null,x)),(l()(),T._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,7,0);l(n,19,0,u.navigation&&u.navigation.length);l(n,28,0,u.loaded);l(n,31,0,T._19(1,"",T._41(n,31,0,T._29(n,32).transform("core.pulltorefresh")),""));l(n,36,0,u.loaded);l(n,40,0,u.attempt);l(n,44,0,u.attempt&&u.questions.length)},function(l,n){l(n,5,0,T._29(n,6)._hidden,T._29(n,6)._sbPadding);l(n,11,0,T._41(n,11,0,T._29(n,12).transform("addon.mod_quiz.review")));l(n,24,0,T._29(n,25).statusbarPadding,T._29(n,25)._hasRefresher);l(n,27,0,"inactive"!==T._29(n,28).state,T._29(n,28)._top);l(n,30,0,T._29(n,31).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var T=u(1),P=(u(0),u(9),u(4)),K=u(28),y=u(29),W=u(108),$=u(1380),M=u(5),O=u(10),D=u(47),A=u(128),C=u(151),E=u(278),R=function(){function l(l,n,u,t,a,e,o,i,_){this.translate=u,this.domUtils=t,this.timeUtils=a,this.quizProvider=e,this.quizHelper=o,this.questionHelper=i,this.textUtils=_,this.component=C.a.COMPONENT,this.quizId=l.get("quizId"),this.courseId=l.get("courseId"),this.attemptId=l.get("attemptId"),this.currentPage=l.get("page")||-1,this.showAll=-1==this.currentPage,this.navigationModal=n.create("AddonModQuizNavigationModalPage",{isReview:!0,page:this})}return l.prototype.ngOnInit=function(){var l=this;this.fetchData().then(function(){l.quizProvider.logViewAttemptReview(l.attemptId).catch(function(l){})}).finally(function(){l.loaded=!0})},l.prototype.changePage=function(l,n,u){var t=this;void 0===u||-1!=this.attempt.currentpage&&l!=this.currentPage?l!=this.currentPage&&(this.loaded=!1,this.domUtils.scrollToTop(this.content),this.loadPage(l).catch(function(l){t.domUtils.showErrorModalDefault(l,"addon.mod_quiz.errorgetquestions",!0)}).finally(function(){t.loaded=!0,void 0!==u&&setTimeout(function(){t.scrollToQuestion(u)},2e3)})):this.scrollToQuestion(u)},l.prototype.fetchData=function(){var l=this;return this.quizProvider.getQuizById(this.courseId,this.quizId).then(function(n){return l.quiz=n,l.componentId=l.quiz.coursemodule,l.quizProvider.getCombinedReviewOptions(l.quizId).then(function(n){return l.options=n,l.loadNavigation().then(function(){return l.loadPage(l.currentPage)})})}).catch(function(n){l.domUtils.showErrorModalDefault(n,"addon.mod_quiz.errorgetquiz",!0)})},l.prototype.loadPage=function(l){var n=this;return this.quizProvider.getAttemptReview(this.attemptId,l).then(function(u){n.attempt=u.attempt,n.attempt.currentpage=l,n.currentPage=l,n.setSummaryCalculatedData(u),n.questions=u.questions,n.nextPage=-1==l?void 0:l+1,n.previousPage=l-1,n.questions.forEach(function(l){l.readableMark=n.quizHelper.getQuestionMarkFromHtml(l.html),n.questionHelper.extractQuestionInfoBox(l,".info"),l.preferredBehaviour=n.quiz.preferredbehaviour})})},l.prototype.loadNavigation=function(){var l=this;return this.quizProvider.getAttemptReview(this.attemptId,-1).then(function(n){var u=n.questions[n.questions.length-1];n.questions.forEach(function(n){n.stateClass=l.questionHelper.getQuestionStateClass(n.state)}),l.navigation=n.questions,l.numPages=u?u.page+1:0})},l.prototype.refreshData=function(l){var n=this,u=[];u.push(this.quizProvider.invalidateQuizData(this.courseId)),u.push(this.quizProvider.invalidateCombinedReviewOptionsForUser(this.quizId)),u.push(this.quizProvider.invalidateAttemptReview(this.attemptId)),Promise.all(u).finally(function(){return n.fetchData()}).finally(function(){l.complete()})},l.prototype.scrollToQuestion=function(l){this.domUtils.scrollToElementBySelector(this.content,"#addon-mod_quiz-question-"+l)},l.prototype.setSummaryCalculatedData=function(l){var n=this;if(this.attempt.readableState=this.quizProvider.getAttemptReadableStateName(this.attempt.state),this.attempt.state==C.a.ATTEMPT_FINISHED){this.showCompleted=!0,this.additionalData=l.additionaldata;var u=this.attempt.timefinish-this.attempt.timestart;if(u&&(this.attempt.timeTaken=this.timeUtils.formatTime(u),this.quiz.timelimit&&u>this.quiz.timelimit+60&&(this.attempt.overTime=this.timeUtils.formatTime(u-this.quiz.timelimit))),this.options.someoptions.marks>=C.a.QUESTION_OPTIONS_MARK_AND_MAX&&this.quizProvider.quizHasGrades(this.quiz))if(null===l.grade||void 0===l.grade)this.attempt.readableGrade=this.quizProvider.formatGrade(l.grade,this.quiz.decimalpoints);else{this.quiz.grade!=this.quiz.sumgrades&&(this.attempt.readableMark=this.translate.instant("addon.mod_quiz.outofshort",{$a:{grade:this.quizProvider.formatGrade(this.attempt.sumgrades,this.quiz.decimalpoints),maxgrade:this.quizProvider.formatGrade(this.quiz.sumgrades,this.quiz.decimalpoints)}}));var t={grade:this.quizProvider.formatGrade(l.grade,this.quiz.decimalpoints),maxgrade:this.quizProvider.formatGrade(this.quiz.grade,this.quiz.decimalpoints)};100!=this.quiz.grade?(t.percent=this.textUtils.roundToDecimals(100*this.attempt.sumgrades/this.quiz.sumgrades,0),this.attempt.readableGrade=this.translate.instant("addon.mod_quiz.outofpercent",{$a:t})):this.attempt.readableGrade=this.translate.instant("addon.mod_quiz.outof",{$a:t})}this.additionalData.forEach(function(l){l.content=n.domUtils.removeElementFromHtml(l.content,".helptooltip")})}},l.prototype.switchMode=function(){this.showAll=!this.showAll,this.loadPage(this.showAll?-1:0)},l}(),U=function(){return function(){}}(),F=u(1344),H=u(1345),L=u(1346),N=u(1347),G=u(1348),Q=u(1349),S=u(1350),B=u(1351),j=u(1352),J=u(1355),V=u(1356),X=u(1357),Y=u(45),Z=u(42),ll=u(7),nl=u(25),ul=u(18),tl=u(46),al=u(30),el=u(21),ol=u(20),il=u(27),_l=u(32),rl=u(40),cl=u(2),sl=u(15),ml=u(3),dl=u(26),pl=u(6),fl=u(17),hl=u(11),gl=u(19),bl=u(22),vl=u(24),ql=u(34),Il=u(37),kl=u(13),zl=u(87),xl=u(280),wl=u(8),Tl=u(77),Pl=u(38),Kl=u(31),yl=u(226),Wl=u(110),$l=u(1963),Ml=u(1381),Ol=u(69),Dl=u(116),Al=u(117),Cl=u(101),El=u(100),Rl=u(224),Ul=u(434),Fl=u(36),Hl=u(1353),Ll=u(200),Nl=u(33),Gl=u(662),Ql=u(1354),Sl=u(335),Bl=u(247),jl=u(435),Jl=u(184),Vl=u(109),Xl=u(146),Yl=u(201),Zl=u(158),ln=u(49),nn=u(48),un=u(61),tn=u(204),an=T._14({encapsulation:2,styles:[],data:{}}),en=T._12("page-addon-mod-quiz-review",R,function(l){return T._42(0,[(l()(),T._16(0,0,null,null,1,"page-addon-mod-quiz-review",[],null,null,null,w,an)),T._15(1,114688,null,0,R,[un.a,tn.a,ul.a,M.a,D.a,C.a,E.a,A.a,O.a],null,null)],function(l,n){l(n,1,0)},null)},{},{},[]),on=u(23),_n=u(331),rn=u(332),cn=u(334),sn=u(333),mn=u(433),dn=u(661),pn=u(248);u.d(n,"AddonModQuizReviewPageModuleNgFactory",function(){return fn});var fn=T._13(U,[],function(l){return T._25([T._26(512,T.n,T._6,[[8,[F.a,H.a,L.a,N.a,G.a,Q.a,S.a,B.a,j.a,J.a,V.a,X.a,en]],[3,T.n],T.B]),T._26(4608,wl.m,wl.l,[T.x,[2,wl.v]]),T._26(4608,on.x,on.x,[]),T._26(4608,on.d,on.d,[]),T._26(4608,_n.b,_n.a,[]),T._26(4608,rn.a,rn.b,[]),T._26(4608,cn.b,cn.a,[]),T._26(4608,sn.b,sn.a,[]),T._26(4608,ul.a,ul.a,[mn.a,_n.b,rn.a,cn.b,sn.b,ul.b,ul.c]),T._26(512,wl.b,wl.b,[]),T._26(512,on.v,on.v,[]),T._26(512,on.i,on.i,[]),T._26(512,on.s,on.s,[]),T._26(512,dn.a,dn.a,[]),T._26(512,P.a,P.a,[]),T._26(512,y.a,y.a,[]),T._26(512,W.a,W.a,[]),T._26(512,K.a,K.a,[]),T._26(512,$.a,$.a,[]),T._26(512,dn.b,dn.b,[]),T._26(512,U,U,[]),T._26(256,ul.c,void 0,[]),T._26(256,ul.b,void 0,[]),T._26(256,pn.a,R,[])])})},1963:function(l,n,u){"use strict";function t(l){return s._42(0,[(l()(),s._16(0,0,null,null,8,"core-dynamic-component",[],[[8,"className",0]],null,null,m.b,m.a)),s._15(1,901120,null,0,d.a,[p.a,s.n,s.w,[2,f.a],s.i,s.p,h.a],{component:[0,"component"],data:[1,"data"]},null),(l()(),s._40(-1,0,["\n    "])),(l()(),s._40(-1,0,["\n    "])),(l()(),s._16(4,0,null,0,3,"p",[["padding",""]],null,null,null,null,null)),(l()(),s._40(5,null,["",""])),s._33(6,{$a:0}),s._32(131072,g.a,[b.a,s.i]),(l()(),s._40(-1,0,["\n"]))],function(l,n){var u=n.component;l(n,1,0,u.componentClass,u.data)},function(l,n){var u=n.component;l(n,0,0,s._19(1,"core-question-",u.question.slot,""));l(n,5,0,s._41(n,5,0,s._29(n,7).transform("core.question.errorquestionnotsupported",l(n,6,0,u.question.type))))})}function a(l){return s._42(0,[(l()(),s._16(0,0,null,null,0,"input",[["type","hidden"]],[[8,"name",0],[8,"value",0]],null,null,null,null))],null,function(l,n){var u=n.component;l(n,0,0,s._19(1,"",u.seqCheck.name,""),s._19(1,"",u.seqCheck.value,""))})}function e(l){return s._42(0,[(l()(),s._16(0,0,null,null,1,"core-dynamic-component",[],null,null,null,m.b,m.a)),s._15(1,901120,null,0,d.a,[p.a,s.n,s.w,[2,f.a],s.i,s.p,h.a],{component:[0,"component"],data:[1,"data"]},null)],function(l,n){l(n,1,0,n.context.$implicit,n.component.data)},null)}function o(l){return s._42(0,[(l()(),s._16(0,0,null,null,9,"ion-item",[["class","core-danger-item item item-block"],["text-wrap",""]],null,null,null,v.b,v.a)),s._15(1,1097728,null,3,q.a,[I.a,k.a,s.p,s.K,[2,z.a]],null,null),s._37(335544320,1,{contentLabel:0}),s._37(603979776,2,{_buttons:1}),s._37(603979776,3,{_icons:1}),s._15(5,16384,null,0,x.a,[],null,null),(l()(),s._40(-1,2,["\n    "])),(l()(),s._16(7,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),s._40(8,null,["",""])),(l()(),s._40(-1,2,["\n"]))],null,function(l,n){l(n,8,0,n.component.question.validationError)})}function i(l){return s._42(0,[(l()(),s._16(0,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,v.b,v.a)),s._15(1,1097728,null,3,q.a,[I.a,k.a,s.p,s.K,[2,z.a]],null,null),s._37(335544320,4,{contentLabel:0}),s._37(603979776,5,{_buttons:1}),s._37(603979776,6,{_icons:1}),s._15(5,16384,null,0,x.a,[],null,null),(l()(),s._40(-1,2,["\n    "])),(l()(),s._16(7,0,null,2,2,"button",[["block",""],["ion-button",""]],[[8,"disabled",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.buttonClicked.emit(l.context.$implicit)&&t}return t},w.b,w.a)),s._15(8,1097728,[[5,4]],0,T.a,[[8,""],k.a,s.p,s.K],{block:[0,"block"]},null),(l()(),s._40(9,0,["",""])),(l()(),s._40(-1,2,["\n"]))],function(l,n){l(n,8,0,"")},function(l,n){l(n,7,0,n.context.$implicit.disabled);l(n,9,0,n.context.$implicit.value)})}function _(l){return s._42(0,[(l()(),s._16(0,0,null,null,10,"ion-item",[["class","core-question-feedback-container item item-block"],["text-wrap",""]],null,null,null,v.b,v.a)),s._15(1,1097728,null,3,q.a,[I.a,k.a,s.p,s.K,[2,z.a]],null,null),s._37(335544320,7,{contentLabel:0}),s._37(603979776,8,{_buttons:1}),s._37(603979776,9,{_icons:1}),s._15(5,16384,null,0,x.a,[],null,null),(l()(),s._40(-1,2,["\n    "])),(l()(),s._16(7,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),s._16(8,0,null,null,1,"core-format-text",[],null,null,null,null,null)),s._15(9,540672,null,0,P.a,[s.p,K.a,h.a,y.a,b.a,W.a,$.a,M.a,p.a,O.a,D.a,A.a,[2,f.a],[2,C.a],[2,E.a],R.a,U.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null),(l()(),s._40(-1,2,["\n"]))],function(l,n){var u=n.component;l(n,9,0,u.question.feedbackHtml,u.component,u.componentId)},null)}function r(l){return s._42(0,[(l()(),s._16(0,0,null,null,10,"ion-item",[["class","core-question-comment item item-block"],["text-wrap",""]],null,null,null,v.b,v.a)),s._15(1,1097728,null,3,q.a,[I.a,k.a,s.p,s.K,[2,z.a]],null,null),s._37(335544320,10,{contentLabel:0}),s._37(603979776,11,{_buttons:1}),s._37(603979776,12,{_icons:1}),s._15(5,16384,null,0,x.a,[],null,null),(l()(),s._40(-1,2,["\n    "])),(l()(),s._16(7,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),s._16(8,0,null,null,1,"core-format-text",[],null,null,null,null,null)),s._15(9,540672,null,0,P.a,[s.p,K.a,h.a,y.a,b.a,W.a,$.a,M.a,p.a,O.a,D.a,A.a,[2,f.a],[2,C.a],[2,E.a],R.a,U.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null),(l()(),s._40(-1,2,["\n"]))],function(l,n){var u=n.component;l(n,9,0,u.question.commentHtml,u.component,u.componentId)},null)}function c(l){return s._42(0,[(l()(),s._40(-1,null,["\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._11(16777216,null,null,1,null,t)),s._15(3,16384,null,0,F.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._11(16777216,null,null,1,null,a)),s._15(7,16384,null,0,F.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._11(16777216,null,null,1,null,e)),s._15(11,802816,null,0,F.j,[s.W,s.T,s.v],{ngForOf:[0,"ngForOf"]},null),(l()(),s._40(-1,null,["\n\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._11(16777216,null,null,1,null,o)),s._15(15,16384,null,0,F.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._11(16777216,null,null,1,null,i)),s._15(19,802816,null,0,F.j,[s.W,s.T,s.v],{ngForOf:[0,"ngForOf"]},null),(l()(),s._40(-1,null,["\n\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._11(16777216,null,null,1,null,_)),s._15(23,16384,null,0,F.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._11(16777216,null,null,1,null,r)),s._15(27,16384,null,0,F.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,3,0,u.loaded);l(n,7,0,u.seqCheck);l(n,11,0,u.behaviourComponents);l(n,15,0,u.question.validationError);l(n,19,0,u.question.behaviourButtons);l(n,23,0,u.question.feedbackHtml);l(n,27,0,u.question.commentHtml)},null)}u.d(n,"a",function(){return H}),n.b=c;var s=u(1),m=u(1359),d=u(187),p=u(6),f=u(22),h=u(5),g=u(25),b=u(18),v=u(30),q=u(21),I=u(20),k=u(7),z=u(27),x=u(32),w=u(45),T=u(42),P=u(40),K=u(2),y=u(10),W=u(15),$=u(3),M=u(26),O=u(17),D=u(11),A=u(19),C=u(24),E=u(34),R=u(37),U=u(13),F=u(8),H=(u(69),u(116),u(128),u(117),s._14({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([18],{
+
+/***/ 1917:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
+var core = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
+var ionic_angular = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
+var _ngx_translate_core = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./src/providers/utils/dom.ts
+var dom = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./src/core/courses/providers/courses.ts
+var courses = __webpack_require__(50);
+
+// CONCATENATED MODULE: ./src/core/courses/pages/search/search.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that allows searching for courses.
+ */
+var search_CoreCoursesSearchPage = /** @class */ (function () {
+    function CoreCoursesSearchPage(domUtils, coursesProvider) {
+        this.domUtils = domUtils;
+        this.coursesProvider = coursesProvider;
+        this.total = 0;
+        this.loadMoreError = false;
+        this.page = 0;
+        this.currentSearch = '';
+    }
+    /**
+     * Search a new text.
+     *
+     * @param {string} text The text to search.
+     */
+    CoreCoursesSearchPage.prototype.search = function (text) {
+        this.currentSearch = text;
+        this.courses = undefined;
+        this.page = 0;
+        var modal = this.domUtils.showModalLoading('core.searching', true);
+        this.searchCourses().finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Load more results.
+     *
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     */
+    CoreCoursesSearchPage.prototype.loadMoreResults = function (infiniteComplete) {
+        this.searchCourses().finally(function () {
+            infiniteComplete && infiniteComplete();
+        });
+    };
+    /**
+     * Search courses or load the next page of current search.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreCoursesSearchPage.prototype.searchCourses = function () {
+        var _this = this;
+        this.loadMoreError = false;
+        return this.coursesProvider.search(this.currentSearch, this.page).then(function (response) {
+            if (_this.page === 0) {
+                _this.courses = response.courses;
+            }
+            else {
+                _this.courses = _this.courses.concat(response.courses);
+            }
+            _this.total = response.total;
+            _this.page++;
+            _this.canLoadMore = _this.courses.length < _this.total;
+        }).catch(function (error) {
+            _this.loadMoreError = true; // Set to prevent infinite calls with infinite-loading.
+            _this.domUtils.showErrorModalDefault(error, 'core.courses.errorsearching', true);
+        });
+    };
+    CoreCoursesSearchPage = __decorate([
+        Object(core["m" /* Component */])({
+            selector: 'page-core-courses-search',
+            templateUrl: 'search.html',
+        }),
+        __metadata("design:paramtypes", [dom["a" /* CoreDomUtilsProvider */], courses["a" /* CoreCoursesProvider */]])
+    ], CoreCoursesSearchPage);
+    return CoreCoursesSearchPage;
+}());
+
+//# sourceMappingURL=search.js.map
+// EXTERNAL MODULE: ./src/components/components.module.ts
+var components_module = __webpack_require__(28);
+
+// EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
+var directives_module = __webpack_require__(29);
+
+// EXTERNAL MODULE: ./src/core/courses/components/components.module.ts
+var components_components_module = __webpack_require__(249);
+
+// CONCATENATED MODULE: ./src/core/courses/pages/search/search.module.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var search_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var search_module_CoreCoursesSearchPageModule = /** @class */ (function () {
+    function CoreCoursesSearchPageModule() {
+    }
+    CoreCoursesSearchPageModule = search_module___decorate([
+        Object(core["I" /* NgModule */])({
+            declarations: [
+                search_CoreCoursesSearchPage,
+            ],
+            imports: [
+                components_module["a" /* CoreComponentsModule */],
+                directives_module["a" /* CoreDirectivesModule */],
+                components_components_module["a" /* CoreCoursesComponentsModule */],
+                ionic_angular["l" /* IonicPageModule */].forChild(search_CoreCoursesSearchPage),
+                _ngx_translate_core["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreCoursesSearchPageModule);
+    return CoreCoursesSearchPageModule;
+}());
+
+//# sourceMappingURL=search.module.js.map
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
+var action_sheet_component_ngfactory = __webpack_require__(1345);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
+var alert_component_ngfactory = __webpack_require__(1346);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
+var app_root_ngfactory = __webpack_require__(1347);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
+var loading_component_ngfactory = __webpack_require__(1348);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
+var modal_component_ngfactory = __webpack_require__(1349);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
+var picker_component_ngfactory = __webpack_require__(1350);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
+var popover_component_ngfactory = __webpack_require__(1351);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
+var select_popover_component_ngfactory = __webpack_require__(1352);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
+var toast_component_ngfactory = __webpack_require__(1353);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
+var context_menu_popover_ngfactory = __webpack_require__(1356);
+
+// EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
+var course_picker_menu_popover_ngfactory = __webpack_require__(1357);
+
+// EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
+var recaptchamodal_ngfactory = __webpack_require__(1358);
+
+// EXTERNAL MODULE: ./src/core/courses/components/course-options-menu/course-options-menu.ngfactory.js
+var course_options_menu_ngfactory = __webpack_require__(1369);
+
+// EXTERNAL MODULE: ./src/components/empty-box/empty-box.ngfactory.js
+var empty_box_ngfactory = __webpack_require__(119);
+
+// EXTERNAL MODULE: ./src/components/empty-box/empty-box.ts
+var empty_box = __webpack_require__(108);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
+var translate_pipe = __webpack_require__(25);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
+var translate_service = __webpack_require__(18);
+
+// EXTERNAL MODULE: ./src/core/courses/components/course-list-item/course-list-item.ngfactory.js
+var course_list_item_ngfactory = __webpack_require__(1963);
+
+// EXTERNAL MODULE: ./src/core/courses/components/course-list-item/course-list-item.ts
+var course_list_item = __webpack_require__(1363);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
+var nav_controller = __webpack_require__(21);
+
+// EXTERNAL MODULE: ./src/core/course/providers/format-delegate.ts
+var format_delegate = __webpack_require__(122);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.ngfactory.js + 1 modules
+var item_ngfactory = __webpack_require__(30);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.js
+var item = __webpack_require__(20);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/form.js
+var util_form = __webpack_require__(19);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
+var config = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
+var item_reorder = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-divider.js
+var item_divider = __webpack_require__(107);
+
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ngfactory.js
+var infinite_loading_ngfactory = __webpack_require__(439);
+
+// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ts
+var infinite_loading = __webpack_require__(275);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
+var toolbar_header = __webpack_require__(434);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(36);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
+var navbar_ngfactory = __webpack_require__(1354);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
+var navbar = __webpack_require__(200);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./src/directives/back-button.ts
+var back_button = __webpack_require__(661);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./src/providers/events.ts
+var events = __webpack_require__(12);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
+var toolbar_title_ngfactory = __webpack_require__(1355);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
+var toolbar_title = __webpack_require__(335);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
+var toolbar = __webpack_require__(247);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(185);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(23);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(106);
+
+// EXTERNAL MODULE: ./src/components/search-box/search-box.ngfactory.js
+var search_box_ngfactory = __webpack_require__(1373);
+
+// EXTERNAL MODULE: ./src/components/search-box/search-box.ts
+var search_box = __webpack_require__(448);
+
+// EXTERNAL MODULE: ./src/providers/utils/utils.ts
+var utils = __webpack_require__(2);
+
+// CONCATENATED MODULE: ./src/core/courses/pages/search/search.ngfactory.js
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_CoreCoursesSearchPage = [];
+var RenderType_CoreCoursesSearchPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_CoreCoursesSearchPage, data: {} });
+
+function View_CoreCoursesSearchPage_2(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "core-empty-box", [["icon", "search"]], null, null, null, empty_box_ngfactory["b" /* View_CoreEmptyBoxComponent_0 */], empty_box_ngfactory["a" /* RenderType_CoreEmptyBoxComponent */])), core["_30" /* ɵdid */](1, 49152, null, 0, empty_box["a" /* CoreEmptyBoxComponent */], [], { message: [0, "message"], icon: [1, "icon"] }, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, core["_44" /* ɵnov */](_v, 2).transform("core.courses.nosearchresults")); var currVal_1 = "search"; _ck(_v, 1, 0, currVal_0, currVal_1); }, null); }
+function View_CoreCoursesSearchPage_3(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-courses-course-list-item", [], null, null, null, course_list_item_ngfactory["b" /* View_CoreCoursesCourseListItemComponent_0 */], course_list_item_ngfactory["a" /* RenderType_CoreCoursesCourseListItemComponent */])), core["_30" /* ɵdid */](1, 114688, null, 0, course_list_item["a" /* CoreCoursesCourseListItemComponent */], [[2, nav_controller["a" /* NavController */]], translate_service["a" /* TranslateService */], courses["a" /* CoreCoursesProvider */], format_delegate["a" /* CoreCourseFormatDelegate */]], { course: [0, "course"] }, null)], function (_ck, _v) { var currVal_0 = _v.context.$implicit; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_CoreCoursesSearchPage_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 20, "div", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](2, 0, null, null, 8, "ion-item-divider", [["class", "item item-divider"], ["color", "light"]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](3, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], { color: [0, "color"] }, null), core["_52" /* ɵqud */](335544320, 1, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 2, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 3, { _icons: 1 }), core["_30" /* ɵdid */](7, 16384, null, 0, item_divider["a" /* ItemDivider */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](8, 2, ["", ""])), core["_48" /* ɵpod */](9, { $a: 0 }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreCoursesSearchPage_2)), core["_30" /* ɵdid */](13, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreCoursesSearchPage_3)), core["_30" /* ɵdid */](16, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](18, 0, null, null, 1, "core-infinite-loading", [], null, [[null, "action"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("action" === en)) {
+        var pd_0 = (_co.loadMoreResults($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, infinite_loading_ngfactory["b" /* View_CoreInfiniteLoadingComponent_0 */], infinite_loading_ngfactory["a" /* RenderType_CoreInfiniteLoadingComponent */])), core["_30" /* ɵdid */](19, 49152, null, 0, infinite_loading["a" /* CoreInfiniteLoadingComponent */], [], { enabled: [0, "enabled"], error: [1, "error"] }, { action: "action" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = "light"; _ck(_v, 3, 0, currVal_0); var currVal_1 = "light"; _ck(_v, 7, 0, currVal_1); var currVal_3 = (_co.total == 0); _ck(_v, 13, 0, currVal_3); var currVal_4 = _co.courses; _ck(_v, 16, 0, currVal_4); var currVal_5 = _co.canLoadMore; var currVal_6 = _co.loadMoreError; _ck(_v, 19, 0, currVal_5, currVal_6); }, function (_ck, _v) { var _co = _v.component; var currVal_2 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 10).transform("core.courses.totalcoursesearchresults", _ck(_v, 9, 0, _co.total))); _ck(_v, 8, 0, currVal_2); }); }
+function View_CoreCoursesSearchPage_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 12, "ion-header", [], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, toolbar_header["a" /* Header */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](3, 0, null, null, 8, "ion-navbar", [["class", "toolbar"], ["core-back-button", ""]], [[8, "hidden", 0], [2, "statusbar-padding", null]], null, null, navbar_ngfactory["b" /* View_Navbar_0 */], navbar_ngfactory["a" /* RenderType_Navbar */])), core["_30" /* ɵdid */](4, 49152, null, 0, navbar["a" /* Navbar */], [app["a" /* App */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_30" /* ɵdid */](5, 212992, null, 0, back_button["a" /* CoreBackButtonDirective */], [navbar["a" /* Navbar */], platform["a" /* Platform */], translate_service["a" /* TranslateService */], events["a" /* CoreEventsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 3, 3, "ion-title", [], null, null, null, toolbar_title_ngfactory["b" /* View_ToolbarTitle_0 */], toolbar_title_ngfactory["a" /* RenderType_ToolbarTitle */])), core["_30" /* ɵdid */](8, 49152, null, 0, toolbar_title["a" /* ToolbarTitle */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), (_l()(), core["_55" /* ɵted */](9, 0, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](14, 0, null, null, 10, "ion-content", [], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](15, 4374528, null, 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](17, 0, null, 1, 3, "core-search-box", [["autoFocus", "true"], ["showClear", "false"]], null, [[null, "onSubmit"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("onSubmit" === en)) {
+        var pd_0 = (_co.search($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, search_box_ngfactory["b" /* View_CoreSearchBoxComponent_0 */], search_box_ngfactory["a" /* RenderType_CoreSearchBoxComponent */])), core["_30" /* ɵdid */](18, 114688, null, 0, search_box["a" /* CoreSearchBoxComponent */], [translate_service["a" /* TranslateService */], utils["a" /* CoreUtilsProvider */]], { searchLabel: [0, "searchLabel"], placeholder: [1, "placeholder"], autoFocus: [2, "autoFocus"], showClear: [3, "showClear"] }, { onSubmit: "onSubmit" }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n\n    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 1, 1, null, View_CoreCoursesSearchPage_1)), core["_30" /* ɵdid */](23, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 5, 0); var currVal_5 = core["_56" /* ɵunv */](_v, 18, 0, core["_44" /* ɵnov */](_v, 19).transform("core.courses.search")); var currVal_6 = core["_56" /* ɵunv */](_v, 18, 1, core["_44" /* ɵnov */](_v, 20).transform("core.courses.search")); var currVal_7 = "true"; var currVal_8 = "false"; _ck(_v, 18, 0, currVal_5, currVal_6, currVal_7, currVal_8); var currVal_9 = _co.courses; _ck(_v, 23, 0, currVal_9); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 4)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 4)._sbPadding; _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = core["_56" /* ɵunv */](_v, 9, 0, core["_44" /* ɵnov */](_v, 10).transform("core.courses.searchcourses")); _ck(_v, 9, 0, currVal_2); var currVal_3 = core["_44" /* ɵnov */](_v, 15).statusbarPadding; var currVal_4 = core["_44" /* ɵnov */](_v, 15)._hasRefresher; _ck(_v, 14, 0, currVal_3, currVal_4); }); }
+function View_CoreCoursesSearchPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-core-courses-search", [], null, null, null, View_CoreCoursesSearchPage_0, RenderType_CoreCoursesSearchPage)), core["_30" /* ɵdid */](1, 49152, null, 0, search_CoreCoursesSearchPage, [dom["a" /* CoreDomUtilsProvider */], courses["a" /* CoreCoursesProvider */]], null, null)], null, null); }
+var CoreCoursesSearchPageNgFactory = core["_27" /* ɵccf */]("page-core-courses-search", search_CoreCoursesSearchPage, View_CoreCoursesSearchPage_Host_0, {}, {}, []);
+
+//# sourceMappingURL=search.ngfactory.js.map
+// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
+var esm5_forms = __webpack_require__(22);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
+var translate_loader = __webpack_require__(331);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
+var translate_compiler = __webpack_require__(332);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
+var translate_parser = __webpack_require__(334);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
+var missing_translation_handler = __webpack_require__(333);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
+var translate_store = __webpack_require__(433);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
+var ionic_angular_module = __webpack_require__(660);
+
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 1 modules
+var pipes_module = __webpack_require__(105);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
+var module_loader = __webpack_require__(248);
+
+// CONCATENATED MODULE: ./src/core/courses/pages/search/search.module.ngfactory.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesSearchPageModuleNgFactory", function() { return CoreCoursesSearchPageModuleNgFactory; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var CoreCoursesSearchPageModuleNgFactory = core["_28" /* ɵcmf */](search_module_CoreCoursesSearchPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], course_options_menu_ngfactory["a" /* CoreCoursesCourseOptionsMenuComponentNgFactory */], CoreCoursesSearchPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* CoreComponentsModule */], components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, components_components_module["a" /* CoreCoursesComponentsModule */], components_components_module["a" /* CoreCoursesComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, search_module_CoreCoursesSearchPageModule, search_module_CoreCoursesSearchPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], search_CoreCoursesSearchPage, [])]); });
+
+//# sourceMappingURL=search.module.ngfactory.js.map
+
+/***/ }),
+
+/***/ 1963:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_CoreCoursesCourseListItemComponent; });
+/* harmony export (immutable) */ __webpack_exports__["b"] = View_CoreCoursesCourseListItemComponent_0;
+/* unused harmony export View_CoreCoursesCourseListItemComponent_Host_0 */
+/* unused harmony export CoreCoursesCourseListItemComponentNgFactory */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_icon_icon_ngfactory__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_icon_icon__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__node_modules_ionic_angular_components_button_button_ngfactory__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_button_button__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular_config_config__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngx_translate_core_src_translate_pipe__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ngx_translate_core_src_translate_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_common__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__node_modules_ionic_angular_components_item_item_ngfactory__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_item_item__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ionic_angular_util_form__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_item_item_reorder__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ionic_angular_components_item_item_content__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__directives_format_text__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_sites__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_utils_dom__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_utils_text__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_ionic_angular_platform_platform__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_utils_utils__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_utils_url__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_logger__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_filepool__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__providers_app__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__contentlinks_providers_helper__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_ionic_angular_navigation_nav_controller__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_ionic_angular_components_content_content__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_split_view_split_view__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__providers_utils_iframe__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__course_list_item__ = __webpack_require__(1363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__providers_courses__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__course_providers_format_delegate__ = __webpack_require__(122);
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_CoreCoursesCourseListItemComponent = [];
+var RenderType_CoreCoursesCourseListItemComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_CoreCoursesCourseListItemComponent, data: {} });
+
+function View_CoreCoursesCourseListItemComponent_3(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__components_icon_icon_ngfactory__["b" /* View_CoreIconComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__components_icon_icon_ngfactory__["a" /* RenderType_CoreIconComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 245760, null, 0, __WEBPACK_IMPORTED_MODULE_2__components_icon_icon__["a" /* CoreIconComponent */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.icon; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_CoreCoursesCourseListItemComponent_4(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 0, "img", [["class", "core-course-enrollment-img"]], [[8, "src", 4]], null, null, null, null))], null, function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.img; _ck(_v, 0, 0, currVal_0); }); }
+function View_CoreCoursesCourseListItemComponent_2(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 9, "span", [["clear", ""], ["color", "gray"], ["icon-only", ""], ["ion-button", ""]], [[1, "aria-label", 0]], null, null, __WEBPACK_IMPORTED_MODULE_3__node_modules_ionic_angular_components_button_button_ngfactory__["b" /* View_Button_0 */], __WEBPACK_IMPORTED_MODULE_3__node_modules_ionic_angular_components_button_button_ngfactory__["a" /* RenderType_Button */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 1097728, [[2, 4]], 0, __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_button_button__["a" /* Button */], [[8, ""], __WEBPACK_IMPORTED_MODULE_5_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */]], { color: [0, "color"], clear: [1, "clear"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_47" /* ɵpid */](131072, __WEBPACK_IMPORTED_MODULE_6__ngx_translate_core_src_translate_pipe__["a" /* TranslatePipe */], [__WEBPACK_IMPORTED_MODULE_7__ngx_translate_core_src_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */]]), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 0, ["\n                "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵand */](16777216, null, 0, 1, null, View_CoreCoursesCourseListItemComponent_3)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](5, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["k" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 0, ["\n                "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵand */](16777216, null, 0, 1, null, View_CoreCoursesCourseListItemComponent_4)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](8, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["k" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 0, ["\n            "]))], function (_ck, _v) { var currVal_1 = "gray"; var currVal_2 = ""; _ck(_v, 1, 0, currVal_1, currVal_2); var currVal_3 = _v.context.$implicit.icon; _ck(_v, 5, 0, currVal_3); var currVal_4 = (_v.context.$implicit.img && !_v.context.$implicit.icon); _ck(_v, 8, 0, currVal_4); }, function (_ck, _v) { var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_56" /* ɵunv */](_v, 0, 0, __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 2).transform(_v.context.$implicit.name)); _ck(_v, 0, 0, currVal_0); }); }
+function View_CoreCoursesCourseListItemComponent_1(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 4, "span", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreCoursesCourseListItemComponent_2)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](3, 802816, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["j" /* NgForOf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* TemplateRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n        "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.course.enrollment; _ck(_v, 3, 0, currVal_0); }, null); }
+function View_CoreCoursesCourseListItemComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 19, "a", [["class", "item item-block"], ["ion-item", ""], ["text-wrap", ""]], [[2, "item-disabled", null], [8, "title", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.openCourse(_co.course) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, __WEBPACK_IMPORTED_MODULE_9__node_modules_ionic_angular_components_item_item_ngfactory__["b" /* View_Item_0 */], __WEBPACK_IMPORTED_MODULE_9__node_modules_ionic_angular_components_item_item_ngfactory__["a" /* RenderType_Item */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 1097728, null, 3, __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_item_item__["a" /* Item */], [__WEBPACK_IMPORTED_MODULE_11_ionic_angular_util_form__["a" /* Form */], __WEBPACK_IMPORTED_MODULE_5_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */], [2, __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_item_item_reorder__["a" /* ItemReorder */]]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_52" /* ɵqud */](335544320, 1, { contentLabel: 0 }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_52" /* ɵqud */](603979776, 2, { _buttons: 1 }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_52" /* ɵqud */](603979776, 3, { _icons: 1 }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](5, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_13_ionic_angular_components_item_item_content__["a" /* ItemContent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 2, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](7, 0, null, 0, 1, "core-icon", [["fixed-width", ""], ["item-start", ""], ["name", "fa-graduation-cap"]], null, null, null, __WEBPACK_IMPORTED_MODULE_1__components_icon_icon_ngfactory__["b" /* View_CoreIconComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__components_icon_icon_ngfactory__["a" /* RenderType_CoreIconComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](8, 245760, null, 0, __WEBPACK_IMPORTED_MODULE_2__components_icon_icon__["a" /* CoreIconComponent */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]], { name: [0, "name"], fixedWidth: [1, "fixedWidth"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 2, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](10, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](11, 0, null, null, 1, "core-format-text", [], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](12, 540672, null, 0, __WEBPACK_IMPORTED_MODULE_14__directives_format_text__["a" /* CoreFormatTextDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_15__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_16__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_17__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__ngx_translate_core_src_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_18_ionic_angular_platform_platform__["a" /* Platform */], __WEBPACK_IMPORTED_MODULE_19__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_20__providers_utils_url__["a" /* CoreUrlUtilsProvider */], __WEBPACK_IMPORTED_MODULE_21__providers_logger__["a" /* CoreLoggerProvider */], __WEBPACK_IMPORTED_MODULE_22__providers_filepool__["a" /* CoreFilepoolProvider */], __WEBPACK_IMPORTED_MODULE_23__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_24__contentlinks_providers_helper__["a" /* CoreContentLinksHelperProvider */], [2, __WEBPACK_IMPORTED_MODULE_25_ionic_angular_navigation_nav_controller__["a" /* NavController */]], [2, __WEBPACK_IMPORTED_MODULE_26_ionic_angular_components_content_content__["a" /* Content */]], [2, __WEBPACK_IMPORTED_MODULE_27__components_split_view_split_view__["a" /* CoreSplitViewComponent */]], __WEBPACK_IMPORTED_MODULE_28__providers_utils_iframe__["a" /* CoreIframeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_29__providers_events__["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 2, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](14, 0, null, 4, 4, "div", [["item-end", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreCoursesCourseListItemComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](17, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["k" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 2, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_2 = "fa-graduation-cap"; var currVal_3 = ""; _ck(_v, 8, 0, currVal_2, currVal_3); var currVal_4 = (_co.course.displayname || _co.course.fullname); _ck(_v, 12, 0, currVal_4); var currVal_5 = !_co.course.isEnrolled; _ck(_v, 17, 0, currVal_5); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (_co.course.visible == 0); var currVal_1 = (_co.course.displayname || _co.course.fullname); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_CoreCoursesCourseListItemComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 1, "core-courses-course-list-item", [], null, null, null, View_CoreCoursesCourseListItemComponent_0, RenderType_CoreCoursesCourseListItemComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_30__course_list_item__["a" /* CoreCoursesCourseListItemComponent */], [[2, __WEBPACK_IMPORTED_MODULE_25_ionic_angular_navigation_nav_controller__["a" /* NavController */]], __WEBPACK_IMPORTED_MODULE_7__ngx_translate_core_src_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_31__providers_courses__["a" /* CoreCoursesProvider */], __WEBPACK_IMPORTED_MODULE_32__course_providers_format_delegate__["a" /* CoreCourseFormatDelegate */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+var CoreCoursesCourseListItemComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵccf */]("core-courses-course-list-item", __WEBPACK_IMPORTED_MODULE_30__course_list_item__["a" /* CoreCoursesCourseListItemComponent */], View_CoreCoursesCourseListItemComponent_Host_0, { course: "course" }, {}, []);
+
+//# sourceMappingURL=course-list-item.ngfactory.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=18.js.map
