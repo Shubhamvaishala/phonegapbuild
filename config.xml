@@ -138,7 +138,7 @@
     <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="578987199728" />
     </gap:plugin>
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='MainActivity']">
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='RedHatSystemAdministration']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
     </edit-config>
     <preference name="permissions" value="none" />
