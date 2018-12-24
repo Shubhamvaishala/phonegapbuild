@@ -1,15 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35310" id="com.vidyamantra.cmoodleapp7" version="3.5.3" versionCode="35310" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Red Hat System Administration</name>
+<widget android-versionCode="35210" id="com.vidyamantra.cmoodleapp7" version="3.5.2" versionCode="35210" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Linux System Administration</name>
     <description>
-        Red Hat System Administration is designed for IT professionals without previous Linux administration experience.
+        This LMS will teach you the concepts and skills to administer, configure and upgrade Linux systems.
     </description>
     <author email="yogeshwar.shukla@vidyamantra.com" href="https://www.yogeshwarshukla.com">
         Yogeshwar Shukla
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.5.30</string>
+        <string>3.5.20</string>
     </edit-config>
+    <gap:config-file parent="CFBundleVersion" platform="ios">
+        <string>3.5.2</string>
+    </gap:config-file>
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <access origin="*" />
@@ -116,7 +119,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.3.0">
-        <param name="URL_SCHEME" value="rhsa" />
+        <param name="URL_SCHEME" value="lsa" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
@@ -138,7 +141,7 @@
     <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="578987199728" />
     </gap:plugin>
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='RedHatSystemAdministration']">
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='LinuxSystemAdministration']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
     </edit-config>
     <preference name="permissions" value="none" />
