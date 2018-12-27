@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35210" id="com.vidyamantra.cmoodleapp7" version="3.5.2" versionCode="35210" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="36000" id="com.vidyamantra.cmoodleapp7" version="3.6.0" versionCode="36000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Linux System Administration</name>
     <description>
         This LMS will teach you the concepts and skills to administer, configure and upgrade Linux systems.
@@ -8,10 +8,10 @@
         Yogeshwar Shukla
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.5.20</string>
+        <string>3.6.0</string>
     </edit-config>
-    <gap:config-file parent="CFBundleVersion" platform="ios">
-        <string>3.5.2</string>
+    <gap:config-file platform="ios" parent="CFBundleVersion">
+        <string>3.6.0</string>
     </gap:config-file>
     <gap:platform name="ios" />
     <gap:platform name="android" />
@@ -119,7 +119,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.3.0">
-        <param name="URL_SCHEME" value="lsa" />
+        <param name="URL_SCHEME" value="linuxadmin" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
@@ -136,7 +136,7 @@
     <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.4.2" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.3" />
     <gap:plugin name="cordova-plugin-zip" source="npm" spec="3.1.0" />
-    <gap:plugin name="cordova-sqlite-evcore-extbuild-free" source="npm" spec="0.9.9" />
+    <gap:plugin name="cordova-sqlite-storage" source="git" version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild" />
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="1.0.1" />
     <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="578987199728" />

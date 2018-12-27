@@ -1,1 +1,1105 @@
-webpackJsonp([108],{1846:function(n,l,e){"use strict";function t(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"ion-badge",[["item-end",""]],null,null,null,null,null)),A._15(1,16384,null,0,dn.a,[fn.a,A.p,A.K],null,null),(n()(),A._40(2,null,["",""]))],null,function(n,l){n(l,2,0,l.component.contactRequestsCount)})}function u(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"core-icon",[["item-start",""],["name","fa-caret-right"]],null,null,null,pn.b,pn.a)),A._15(1,245760,null,0,vn.a,[A.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"fa-caret-right")},null)}function a(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"core-icon",[["item-start",""],["name","fa-caret-down"]],null,null,null,pn.b,pn.a)),A._15(1,245760,null,0,vn.a,[A.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"fa-caret-down")},null)}function o(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"ion-badge",[["item-end",""]],null,null,null,null,null)),A._15(1,16384,null,0,dn.a,[fn.a,A.p,A.K],null,null),(n()(),A._40(2,null,["",""]))],null,function(n,l){n(l,2,0,l.component.favourites.unread)})}function i(n){return A._42(0,[(n()(),A._16(0,0,null,null,16,"ion-item-divider",[["class","core-expandable item item-divider"],["color","light"],["text-wrap",""]],null,[[null,"click"]],function(n,l,e){var t=!0,u=n.component;if("click"===l){t=!1!==u.toggle(u.favourites)&&t}return t},gn.b,gn.a)),A._15(1,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],{color:[0,"color"]},null),A._37(335544320,7,{contentLabel:0}),A._37(603979776,8,{_buttons:1}),A._37(603979776,9,{_icons:1}),A._15(5,16384,null,0,In.a,[fn.a,A.p,A.K],{color:[0,"color"]},null),(n()(),A._40(-1,2,["\n                    "])),(n()(),A._11(16777216,null,0,1,null,u)),A._15(8,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n                    "])),(n()(),A._11(16777216,null,0,1,null,a)),A._15(11,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(12,2,["\n                    "," (",")\n                    "])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._11(16777216,null,4,1,null,o)),A._15(15,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n                "]))],function(n,l){var e=l.component;n(l,1,0,"light");n(l,5,0,"light");n(l,8,0,!e.favourites.expanded);n(l,11,0,e.favourites.expanded);n(l,15,0,e.favourites.unread)},function(n,l){var e=l.component;n(l,12,0,A._41(l,12,0,A._29(l,13).transform("core.favourites")),e.favourites.count)})}function s(n){return A._42(0,[(n()(),A._16(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function r(n){return A._42(0,[(n()(),A._16(0,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,gn.b,gn.a)),A._15(1,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],null,null),A._37(335544320,10,{contentLabel:0}),A._37(603979776,11,{_buttons:1}),A._37(603979776,12,{_icons:1}),A._15(5,16384,null,0,Tn.a,[],null,null),(n()(),A._40(-1,2,["\n                        "])),(n()(),A._16(7,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),A._40(8,null,["",""])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,2,["\n                    "]))],null,function(n,l){n(l,8,0,A._41(l,8,0,A._29(l,9).transform("addon.messages.nofavourites")))})}function c(n){return A._42(0,[(n()(),A._16(0,0,null,null,12,"div",[],null,null,null,null,null)),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._11(16777216,null,null,2,null,s)),A._15(3,540672,null,0,Cn.r,[A.W],{ngTemplateOutletContext:[0,"ngTemplateOutletContext"],ngTemplateOutlet:[1,"ngTemplateOutlet"]},null),A._33(4,{conversations:0}),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._16(7,0,null,null,1,"core-infinite-loading",[],null,[[null,"action"]],function(n,l,e){var t=!0,u=n.component;if("action"===l){t=!1!==u.loadMoreConversations(u.favourites,e)&&t}return t},En.b,En.a)),A._15(8,49152,null,0,kn.a,[],{enabled:[0,"enabled"],error:[1,"error"]},{action:"action"}),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._11(16777216,null,null,1,null,r)),A._15(11,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n                "]))],function(n,l){var e=l.component;n(l,3,0,n(l,4,0,e.favourites.conversations),A._29(l.parent,106));n(l,8,0,e.favourites.canLoadMore,e.favourites.loadMoreError);n(l,11,0,0==e.favourites.conversations.length)},null)}function _(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"core-icon",[["item-start",""],["name","fa-caret-right"]],null,null,null,pn.b,pn.a)),A._15(1,245760,null,0,vn.a,[A.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"fa-caret-right")},null)}function d(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"core-icon",[["item-start",""],["name","fa-caret-down"]],null,null,null,pn.b,pn.a)),A._15(1,245760,null,0,vn.a,[A.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"fa-caret-down")},null)}function f(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"ion-badge",[["item-end",""]],null,null,null,null,null)),A._15(1,16384,null,0,dn.a,[fn.a,A.p,A.K],null,null),(n()(),A._40(2,null,["",""]))],null,function(n,l){n(l,2,0,l.component.group.unread)})}function p(n){return A._42(0,[(n()(),A._16(0,0,null,null,16,"ion-item-divider",[["class","core-expandable item item-divider"],["color","light"],["text-wrap",""]],null,[[null,"click"]],function(n,l,e){var t=!0,u=n.component;if("click"===l){t=!1!==u.toggle(u.group)&&t}return t},gn.b,gn.a)),A._15(1,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],{color:[0,"color"]},null),A._37(335544320,13,{contentLabel:0}),A._37(603979776,14,{_buttons:1}),A._37(603979776,15,{_icons:1}),A._15(5,16384,null,0,In.a,[fn.a,A.p,A.K],{color:[0,"color"]},null),(n()(),A._40(-1,2,["\n                    "])),(n()(),A._11(16777216,null,0,1,null,_)),A._15(8,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n                    "])),(n()(),A._11(16777216,null,0,1,null,d)),A._15(11,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(12,2,["\n                    "," (",")\n                    "])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._11(16777216,null,4,1,null,f)),A._15(15,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n                "]))],function(n,l){var e=l.component;n(l,1,0,"light");n(l,5,0,"light");n(l,8,0,!e.group.expanded);n(l,11,0,e.group.expanded);n(l,15,0,e.group.unread)},function(n,l){var e=l.component;n(l,12,0,A._41(l,12,0,A._29(l,13).transform("addon.messages.groupconversations")),e.group.count)})}function v(n){return A._42(0,[(n()(),A._16(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function g(n){return A._42(0,[(n()(),A._16(0,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,gn.b,gn.a)),A._15(1,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],null,null),A._37(335544320,16,{contentLabel:0}),A._37(603979776,17,{_buttons:1}),A._37(603979776,18,{_icons:1}),A._15(5,16384,null,0,Tn.a,[],null,null),(n()(),A._40(-1,2,["\n                        "])),(n()(),A._16(7,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),A._40(8,null,["",""])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,2,["\n                    "]))],null,function(n,l){n(l,8,0,A._41(l,8,0,A._29(l,9).transform("addon.messages.nogroupconversations")))})}function m(n){return A._42(0,[(n()(),A._16(0,0,null,null,12,"div",[],null,null,null,null,null)),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._11(16777216,null,null,2,null,v)),A._15(3,540672,null,0,Cn.r,[A.W],{ngTemplateOutletContext:[0,"ngTemplateOutletContext"],ngTemplateOutlet:[1,"ngTemplateOutlet"]},null),A._33(4,{conversations:0}),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._16(7,0,null,null,1,"core-infinite-loading",[],null,[[null,"action"]],function(n,l,e){var t=!0,u=n.component;if("action"===l){t=!1!==u.loadMoreConversations(u.group,e)&&t}return t},En.b,En.a)),A._15(8,49152,null,0,kn.a,[],{enabled:[0,"enabled"],error:[1,"error"]},{action:"action"}),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._11(16777216,null,null,1,null,g)),A._15(11,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n                "]))],function(n,l){var e=l.component;n(l,3,0,n(l,4,0,e.group.conversations),A._29(l.parent,106));n(l,8,0,e.group.canLoadMore,e.group.loadMoreError);n(l,11,0,0==e.group.conversations.length)},null)}function h(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"core-icon",[["item-start",""],["name","fa-caret-right"]],null,null,null,pn.b,pn.a)),A._15(1,245760,null,0,vn.a,[A.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"fa-caret-right")},null)}function b(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"core-icon",[["item-start",""],["name","fa-caret-down"]],null,null,null,pn.b,pn.a)),A._15(1,245760,null,0,vn.a,[A.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"fa-caret-down")},null)}function I(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"ion-badge",[["item-end",""]],null,null,null,null,null)),A._15(1,16384,null,0,dn.a,[fn.a,A.p,A.K],null,null),(n()(),A._40(2,null,["",""]))],null,function(n,l){n(l,2,0,l.component.individual.unread)})}function C(n){return A._42(0,[(n()(),A._16(0,0,null,null,16,"ion-item-divider",[["class","core-expandable item item-divider"],["color","light"],["text-wrap",""]],null,[[null,"click"]],function(n,l,e){var t=!0,u=n.component;if("click"===l){t=!1!==u.toggle(u.individual)&&t}return t},gn.b,gn.a)),A._15(1,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],{color:[0,"color"]},null),A._37(335544320,19,{contentLabel:0}),A._37(603979776,20,{_buttons:1}),A._37(603979776,21,{_icons:1}),A._15(5,16384,null,0,In.a,[fn.a,A.p,A.K],{color:[0,"color"]},null),(n()(),A._40(-1,2,["\n                    "])),(n()(),A._11(16777216,null,0,1,null,h)),A._15(8,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n                    "])),(n()(),A._11(16777216,null,0,1,null,b)),A._15(11,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(12,2,["\n                    "," (",")\n                    "])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._11(16777216,null,4,1,null,I)),A._15(15,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n                "]))],function(n,l){var e=l.component;n(l,1,0,"light");n(l,5,0,"light");n(l,8,0,!e.individual.expanded);n(l,11,0,e.individual.expanded);n(l,15,0,e.individual.unread)},function(n,l){var e=l.component;n(l,12,0,A._41(l,12,0,A._29(l,13).transform("addon.messages.individualconversations")),e.individual.count)})}function x(n){return A._42(0,[(n()(),A._16(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function O(n){return A._42(0,[(n()(),A._16(0,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,gn.b,gn.a)),A._15(1,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],null,null),A._37(335544320,22,{contentLabel:0}),A._37(603979776,23,{_buttons:1}),A._37(603979776,24,{_icons:1}),A._15(5,16384,null,0,Tn.a,[],null,null),(n()(),A._40(-1,2,["\n                        "])),(n()(),A._16(7,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),A._40(8,null,["",""])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,2,["\n                    "]))],null,function(n,l){n(l,8,0,A._41(l,8,0,A._29(l,9).transform("addon.messages.noindividualconversations")))})}function T(n){return A._42(0,[(n()(),A._16(0,0,null,null,12,"div",[],null,null,null,null,null)),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._11(16777216,null,null,2,null,x)),A._15(3,540672,null,0,Cn.r,[A.W],{ngTemplateOutletContext:[0,"ngTemplateOutletContext"],ngTemplateOutlet:[1,"ngTemplateOutlet"]},null),A._33(4,{conversations:0}),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._16(7,0,null,null,1,"core-infinite-loading",[],null,[[null,"action"]],function(n,l,e){var t=!0,u=n.component;if("action"===l){t=!1!==u.loadMoreConversations(u.individual,e)&&t}return t},En.b,En.a)),A._15(8,49152,null,0,kn.a,[],{enabled:[0,"enabled"],error:[1,"error"]},{action:"action"}),(n()(),A._40(-1,null,["\n                    "])),(n()(),A._11(16777216,null,null,1,null,O)),A._15(11,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n                "]))],function(n,l){var e=l.component;n(l,3,0,n(l,4,0,e.individual.conversations),A._29(l.parent,106));n(l,8,0,e.individual.canLoadMore,e.individual.loadMoreError);n(l,11,0,0==e.individual.conversations.length)},null)}function E(n){return A._42(0,[(n()(),A._16(0,0,null,null,5,"ion-avatar",[["item-start",""]],null,null,null,null,null)),A._15(1,16384,null,0,yn.a,[],null,null),(n()(),A._40(-1,null,["\n            "])),(n()(),A._16(3,0,null,null,1,"img",[["core-external-content",""],["onError","this.src='assets/img/group-avatar.png'"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),A._15(4,4210688,null,0,Mn.a,[A.p,Pn.a,Sn.a,Nn.a,U.a,F.a,Wn.a,Dn.a,q.a],null,null),(n()(),A._40(-1,null,["\n        "]))],null,function(n,l){n(l,3,0,l.parent.context.$implicit.imageurl,l.parent.context.$implicit.name)})}function k(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,Rn.b,Rn.a)),A._15(1,638976,null,0,$n.a,[wn.a,U.a,q.a,Dn.a],{user:[0,"user"],linkProfile:[1,"linkProfile"],checkOnline:[2,"checkOnline"]},null),A._15(2,16384,null,0,yn.a,[],null,null)],function(n,l){n(l,1,0,l.parent.context.$implicit.otherUser,!1,l.parent.context.$implicit.showonlinestatus)},null)}function y(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"core-icon",[["name","fa-ban"]],[[1,"aria-label",0]],null,null,pn.b,pn.a)),A._15(1,245760,null,0,vn.a,[A.p],{name:[0,"name"]},null),A._32(131072,xn.a,[On.a,A.i])],function(n,l){n(l,1,0,"fa-ban")},function(n,l){n(l,0,0,A._41(l,0,0,A._29(l,2).transform("addon.messages.contactblocked")))})}function M(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"ion-badge",[],null,null,null,null,null)),A._15(1,16384,null,0,dn.a,[fn.a,A.p,A.K],null,null),(n()(),A._40(2,null,["",""]))],null,function(n,l){n(l,2,0,l.parent.parent.context.$implicit.unreadcount)})}function P(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),A._40(1,null,["",""])),A._34(2,1)],null,function(n,l){n(l,1,0,A._41(l,1,0,n(l,2,0,A._29(l.parent.parent.parent.parent,0),l.parent.parent.context.$implicit.lastmessagedate)))})}function S(n){return A._42(0,[(n()(),A._16(0,0,null,null,8,"ion-note",[],null,null,null,null,null)),A._15(1,16384,null,0,An.a,[fn.a,A.p,A.K],null,null),(n()(),A._40(-1,null,["\n            "])),(n()(),A._11(16777216,null,null,1,null,M)),A._15(4,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n            "])),(n()(),A._11(16777216,null,null,1,null,P)),A._15(7,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n        "]))],function(n,l){n(l,4,0,l.parent.context.$implicit.unreadcount>0);n(l,7,0,l.parent.context.$implicit.lastmessagedate>0)},null)}function N(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"p",[],null,null,null,null,null)),(n()(),A._16(1,0,null,null,1,"core-format-text",[],null,null,null,null,null)),A._15(2,540672,null,0,Kn.a,[A.p,U.a,F.a,Ln.a,On.a,Nn.a,q.a,Wn.a,Pn.a,Sn.a,Dn.a,Un.a,[2,wn.a],[2,Vn.a],[2,Y.a],Gn.a,L.a],{text:[0,"text"]},null)],function(n,l){n(l,2,0,l.parent.context.$implicit.subname)},null)}function W(n){return A._42(0,[(n()(),A._16(0,0,null,null,2,"span",[["class","addon-message-last-message-user"]],null,null,null,null,null)),(n()(),A._40(1,null,["",""])),A._32(131072,xn.a,[On.a,A.i])],null,function(n,l){n(l,1,0,A._41(l,1,0,A._29(l,2).transform("addon.messages.you")))})}function D(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"core-format-text",[["class","addon-message-last-message-user"]],null,null,null,null,null)),A._15(1,540672,null,0,Kn.a,[A.p,U.a,F.a,Ln.a,On.a,Nn.a,q.a,Wn.a,Pn.a,Sn.a,Dn.a,Un.a,[2,wn.a],[2,Vn.a],[2,Y.a],Gn.a,L.a],{text:[0,"text"]},null)],function(n,l){n(l,1,0,l.parent.context.$implicit.members[0].fullname+":")},null)}function R(n){return A._42(0,[(n()(),A._16(0,0,null,null,41,"a",[["class","addon-message-discussion item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[2,"core-split-item-selected",null],[8,"id",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.gotoConversation(n.context.$implicit.id,n.context.$implicit.userid)&&t}return t},gn.b,gn.a)),A._15(1,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],null,null),A._37(335544320,25,{contentLabel:0}),A._37(603979776,26,{_buttons:1}),A._37(603979776,27,{_icons:1}),A._15(5,16384,null,0,Tn.a,[],null,null),(n()(),A._40(-1,2,["\n        "])),(n()(),A._40(-1,2,["\n        "])),(n()(),A._11(16777216,null,0,1,null,E)),A._15(9,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n\n        "])),(n()(),A._40(-1,2,["\n        "])),(n()(),A._11(16777216,null,0,1,null,k)),A._15(13,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n\n        "])),(n()(),A._16(15,0,null,2,7,"h2",[],null,null,null,null,null)),(n()(),A._40(-1,null,["\n            "])),(n()(),A._16(17,0,null,null,1,"core-format-text",[],null,null,null,null,null)),A._15(18,540672,null,0,Kn.a,[A.p,U.a,F.a,Ln.a,On.a,Nn.a,q.a,Wn.a,Pn.a,Sn.a,Dn.a,Un.a,[2,wn.a],[2,Vn.a],[2,Y.a],Gn.a,L.a],{text:[0,"text"]},null),(n()(),A._40(-1,null,["\n            "])),(n()(),A._11(16777216,null,null,1,null,y)),A._15(21,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n        "])),(n()(),A._40(-1,2,["\n        "])),(n()(),A._11(16777216,null,2,1,null,S)),A._15(25,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n        "])),(n()(),A._11(16777216,null,2,1,null,N)),A._15(28,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n        "])),(n()(),A._16(30,0,null,2,10,"p",[["class","addon-message-last-message"]],null,null,null,null,null)),(n()(),A._40(-1,null,["\n            "])),(n()(),A._11(16777216,null,null,1,null,W)),A._15(33,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n            "])),(n()(),A._11(16777216,null,null,1,null,D)),A._15(36,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n            "])),(n()(),A._16(38,0,null,null,1,"core-format-text",[["class","addon-message-last-message-text"],["clean","true"],["singleLine","true"]],null,null,null,null,null)),A._15(39,540672,null,0,Kn.a,[A.p,U.a,F.a,Ln.a,On.a,Nn.a,q.a,Wn.a,Pn.a,Sn.a,Dn.a,Un.a,[2,wn.a],[2,Vn.a],[2,Y.a],Gn.a,L.a],{text:[0,"text"],clean:[1,"clean"],singleLine:[2,"singleLine"]},null),(n()(),A._40(-1,null,["\n        "])),(n()(),A._40(-1,2,["\n    "]))],function(n,l){var e=l.component;n(l,9,0,l.context.$implicit.type!=e.typeIndividual);n(l,13,0,l.context.$implicit.type==e.typeIndividual);n(l,18,0,l.context.$implicit.name);n(l,21,0,l.context.$implicit.isblocked);n(l,25,0,l.context.$implicit.lastmessagedate>0||l.context.$implicit.unreadcount);n(l,28,0,l.context.$implicit.subname);n(l,33,0,l.context.$implicit.sentfromcurrentuser);n(l,36,0,l.context.$implicit.type!=e.typeIndividual&&l.context.$implicit.members[0]);n(l,39,0,l.context.$implicit.lastmessage,"true","true")},function(n,l){var e=l.component;n(l,0,0,l.context.$implicit.name,l.context.$implicit.id&&l.context.$implicit.id==e.selectedConversationId||l.context.$implicit.userid&&l.context.$implicit.userid==e.selectedUserId,A._19(1,"addon-message-conversation-",l.context.$implicit.id?l.context.$implicit.id:"user-"+l.context.$implicit.userid,""))})}function $(n){return A._42(0,[(n()(),A._40(-1,null,["\n    "])),(n()(),A._11(16777216,null,null,1,null,R)),A._15(2,802816,null,0,Cn.j,[A.W,A.T,A.v],{ngForOf:[0,"ngForOf"]},null),(n()(),A._40(-1,null,["\n"]))],function(n,l){n(l,2,0,l.context.conversations)},null)}function w(n){return A._42(0,[A._32(0,Fn.a,[Pn.a,On.a,qn.a]),A._37(402653184,1,{splitviewCtrl:0}),A._37(402653184,2,{content:0}),(n()(),A._16(3,0,null,null,37,"ion-header",[],null,null,null,null,null)),A._15(4,16384,null,0,Bn.a,[fn.a,A.p,A.K,[2,Yn.a]],null,null),(n()(),A._40(-1,null,["\n    "])),(n()(),A._16(6,0,null,null,33,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,jn.b,jn.a)),A._15(7,49152,null,0,Hn.a,[Jn.a,[2,Yn.a],[2,wn.a],fn.a,A.p,A.K],null,null),A._15(8,212992,null,0,Qn.a,[Hn.a,Nn.a,On.a,L.a],null,null),(n()(),A._40(-1,3,["\n        "])),(n()(),A._16(10,0,null,3,3,"ion-title",[],null,null,null,Zn.b,Zn.a)),A._15(11,49152,null,0,zn.a,[fn.a,A.p,A.K,[2,Xn.a],[2,Hn.a]],null,null),(n()(),A._40(12,0,["",""])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,3,["\n        "])),(n()(),A._16(15,0,null,2,23,"ion-buttons",[["end",""]],null,null,null,null,null)),A._15(16,16384,null,1,nl.a,[fn.a,A.p,A.K,[2,Xn.a],[2,Hn.a]],null,null),A._37(603979776,3,{_buttons:1}),(n()(),A._40(-1,null,["\n            "])),(n()(),A._16(19,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.gotoSearch()&&t}return t},ll.b,ll.a)),A._15(20,1097728,[[3,4]],0,el.a,[[8,""],fn.a,A.p,A.K],null,null),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,0,["\n                "])),(n()(),A._16(23,0,null,0,1,"ion-icon",[["name","search"],["role","img"]],[[2,"hide",null]],null,null,null,null)),A._15(24,147456,null,0,tl.a,[fn.a,A.p,A.K],{name:[0,"name"]},null),(n()(),A._40(-1,0,["\n            "])),(n()(),A._40(-1,null,["\n            "])),(n()(),A._16(27,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.gotoSettings(e)&&t}return t},ll.b,ll.a)),A._15(28,1097728,[[3,4]],0,el.a,[[8,""],fn.a,A.p,A.K],null,null),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,0,["\n                "])),(n()(),A._16(31,0,null,0,1,"ion-icon",[["name","cog"],["role","img"]],[[2,"hide",null]],null,null,null,null)),A._15(32,147456,null,0,tl.a,[fn.a,A.p,A.K],{name:[0,"name"]},null),(n()(),A._40(-1,0,["\n            "])),(n()(),A._40(-1,null,["\n            "])),(n()(),A._40(-1,null,["\n            "])),(n()(),A._16(36,0,null,null,1,"core-context-menu",[],null,null,null,ul.b,ul.a)),A._15(37,245760,null,0,al.a,[On.a,ol.a,A.p,F.a,[2,il.a]],null,null),(n()(),A._40(-1,null,["\n        "])),(n()(),A._40(-1,3,["\n    "])),(n()(),A._40(-1,null,["\n"])),(n()(),A._40(-1,null,["\n"])),(n()(),A._16(42,0,null,null,61,"core-split-view",[],null,null,null,sl.b,sl.a)),A._15(43,245760,[[1,4]],0,Y.a,[[2,wn.a],A.p,rl.a,Nn.a,On.a],null,null),(n()(),A._40(-1,0,["\n    "])),(n()(),A._16(45,0,null,0,57,"ion-content",[["class","core-expand-max"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,cl.b,cl.a)),A._15(46,4374528,[[2,4]],0,Vn.a,[fn.a,Nn.a,_l.a,A.p,A.K,Jn.a,dl.a,A.D,[2,Yn.a],[2,wn.a]],null,null),(n()(),A._40(-1,1,["\n        "])),(n()(),A._16(48,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,e){var t=!0;if("ionRefresh"===l){t=!1!==n.component.refreshData(e)&&t}return t},null,null)),A._15(49,212992,null,0,fl.a,[Nn.a,Vn.a,A.D,pl.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),A._40(-1,null,["\n            "])),(n()(),A._16(51,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,vl.b,vl.a)),A._15(52,114688,null,0,gl.a,[fl.a,fn.a],{pullingText:[0,"pullingText"]},null),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,null,["\n        "])),(n()(),A._40(-1,1,["\n\n        "])),(n()(),A._16(56,0,null,1,45,"core-loading",[],null,null,null,ml.b,ml.a)),A._15(57,638976,null,0,hl.a,[On.a,A.p,L.a,q.a],{hideUntil:[0,"hideUntil"],message:[1,"message"]},null),(n()(),A._40(-1,0,["\n            "])),(n()(),A._16(59,0,null,0,17,"a",[["class","addon-message-discussion item item-block"],["ion-item",""],["text-wrap",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.gotoContacts(e)&&t}return t},gn.b,gn.a)),A._15(60,1097728,null,3,mn.a,[hn.a,fn.a,A.p,A.K,[2,bn.a]],null,null),A._37(335544320,4,{contentLabel:0}),A._37(603979776,5,{_buttons:1}),A._37(603979776,6,{_icons:1}),A._15(64,16384,null,0,Tn.a,[],null,null),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,2,["\n                "])),(n()(),A._16(67,0,null,0,1,"ion-icon",[["item-start",""],["name","person"],["role","img"]],[[2,"hide",null]],null,null,null,null)),A._15(68,147456,[[6,4]],0,tl.a,[fn.a,A.p,A.K],{name:[0,"name"]},null),(n()(),A._40(-1,2,["\n                "])),(n()(),A._16(70,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),A._40(71,null,["",""])),A._32(131072,xn.a,[On.a,A.i]),(n()(),A._40(-1,2,["\n                "])),(n()(),A._11(16777216,null,4,1,null,t)),A._15(75,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,2,["\n            "])),(n()(),A._40(-1,0,["\n            "])),(n()(),A._16(78,0,null,0,22,"ion-list",[],null,null,null,null,null)),A._15(79,16384,null,0,bl.a,[fn.a,A.p,A.K,Nn.a,pl.l,_l.a],null,null),(n()(),A._40(-1,null,["\n                "])),(n()(),A._40(-1,null,["\n                "])),(n()(),A._11(16777216,null,null,1,null,i)),A._15(83,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n                "])),(n()(),A._11(16777216,null,null,1,null,c)),A._15(86,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n\n                "])),(n()(),A._40(-1,null,["\n                "])),(n()(),A._11(16777216,null,null,1,null,p)),A._15(90,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n                "])),(n()(),A._11(16777216,null,null,1,null,m)),A._15(93,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n\n                "])),(n()(),A._11(16777216,null,null,1,null,C)),A._15(96,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n                "])),(n()(),A._11(16777216,null,null,1,null,T)),A._15(99,16384,null,0,Cn.k,[A.W,A.T],{ngIf:[0,"ngIf"]},null),(n()(),A._40(-1,null,["\n            "])),(n()(),A._40(-1,0,["\n        "])),(n()(),A._40(-1,1,["\n    "])),(n()(),A._40(-1,0,["\n"])),(n()(),A._40(-1,null,["\n\n"])),(n()(),A._40(-1,null,["\n"])),(n()(),A._11(0,[["conversationsTemplate",2]],null,0,null,$)),(n()(),A._40(-1,null,["\n"]))],function(n,l){var e=l.component;n(l,8,0);n(l,24,0,"search");n(l,32,0,"cog"),n(l,37,0),n(l,43,0);n(l,49,0,e.loaded);n(l,52,0,A._19(1,"",A._41(l,52,0,A._29(l,53).transform("core.pulltorefresh")),""));n(l,57,0,e.loaded,e.loadingMessage);n(l,68,0,"person");n(l,75,0,e.contactRequestsCount>0);n(l,83,0,e.favourites.conversations);n(l,86,0,e.favourites.conversations&&e.favourites.expanded);n(l,90,0,e.group.conversations);n(l,93,0,e.group.conversations&&e.group.expanded);n(l,96,0,e.individual.conversations);n(l,99,0,e.individual.conversations&&e.individual.expanded)},function(n,l){n(l,6,0,A._29(l,7)._hidden,A._29(l,7)._sbPadding);n(l,12,0,A._41(l,12,0,A._29(l,13).transform("addon.messages.messages")));n(l,19,0,A._41(l,19,0,A._29(l,21).transform("addon.messages.search")));n(l,23,0,A._29(l,24)._hidden);n(l,27,0,A._41(l,27,0,A._29(l,29).transform("addon.messages.messagepreferences")));n(l,31,0,A._29(l,32)._hidden);n(l,45,0,A._29(l,46).statusbarPadding,A._29(l,46)._hasRefresher);n(l,48,0,"inactive"!==A._29(l,49).state,A._29(l,49)._top);n(l,51,0,A._29(l,52).r.state);n(l,59,0,A._41(l,59,0,A._29(l,65).transform("addon.messages.contacts")));n(l,67,0,A._29(l,68)._hidden);n(l,71,0,A._41(l,71,0,A._29(l,72).transform("addon.messages.contacts")))})}Object.defineProperty(l,"__esModule",{value:!0});var A=e(1),K=(e(0),e(9),e(4)),L=e(13),U=e(2),V=e(159),G=e(345),F=e(5),q=e(3),B=e(227),Y=e(35),j=e(45),H=function(){function n(n,l,e,t,u,a,o,i,s,r,c,_){var d=this;this.messagesProvider=t,this.domUtils=u,this.navCtrl=o,this.utils=s,this.messagesOffline=c,this.userProvider=_,this.loaded=!1,this.contactRequestsCount=0,this.favourites={type:null,favourites:!0,count:0,unread:0},this.group={type:V.a.MESSAGE_CONVERSATION_TYPE_GROUP,favourites:!1,count:0,unread:0},this.individual={type:V.a.MESSAGE_CONVERSATION_TYPE_INDIVIDUAL,favourites:!1,count:0,unread:0},this.typeIndividual=V.a.MESSAGE_CONVERSATION_TYPE_INDIVIDUAL,this.loadingString=e.instant("core.loading"),this.siteId=l.getCurrentSiteId(),this.currentUserId=l.getCurrentSiteUserId(),this.conversationId=a.get("conversationId")||!1,this.newMessagesObserver=n.on(V.a.NEW_MESSAGE_EVENT,function(n){var l=d.findConversation(n.conversationId,n.userId);if(void 0===l)d.loaded=!1,d.refreshData().finally(function(){d.loaded=!0});else if(l.lastmessage!=n.message||l.lastmessagedate!=n.timecreated/1e3){var e=n.timecreated/1e3>l.lastmessagedate;l.lastmessage=n.message,l.lastmessagedate=n.timecreated/1e3;var t=d.getConversationOption(l);t.conversations=d.messagesProvider.sortConversations(t.conversations),e&&d.domUtils.scrollToTop(d.content)}},this.siteId),this.readChangedObserver=n.on(V.a.READ_CHANGED_EVENT,function(n){if(n.conversationId){var l=d.findConversation(n.conversationId);void 0!==l&&(l.unreadcount=0,d.messagesProvider.invalidateConversations(),d.messagesProvider.refreshUnreadConversationCounts())}},this.siteId),this.openConversationObserver=n.on(V.a.OPEN_CONVERSATION_EVENT,function(n){(n.conversationId||n.userId)&&d.gotoConversation(n.conversationId,n.userId,void 0,!0)},this.siteId),this.appResumeSubscription=i.resume.subscribe(function(){d.loaded&&(d.loaded=!1,d.refreshData().finally(function(){d.loaded=!0}))}),this.updateConversationListObserver=n.on(V.a.UPDATE_CONVERSATION_LIST_EVENT,function(){d.refreshData()},this.siteId),this.pushObserver=r.on("receive").subscribe(function(n){s.isFalseOrZero(n.notif)&&n.site==d.siteId&&d.refreshData(null,!1)}),this.cronObserver=n.on(V.a.UNREAD_CONVERSATION_COUNTS_EVENT,function(n){d.favourites.unread=n.favourites,d.individual.unread=n.individual,d.group.unread=n.group},this.siteId),this.contactRequestsCountObserver=n.on(V.a.CONTACT_REQUESTS_COUNT_EVENT,function(n){d.contactRequestsCount=n.count},this.siteId),this.memberInfoObserver=n.on(V.a.MEMBER_INFO_CHANGED_EVENT,function(n){if(n.userBlocked||n.userUnblocked){var l=function(l){if(l&&!(l.length<=0)){var e=l.find(function(l){return l.userid==n.userId});e&&(e.isblocked=n.userBlocked)}};l(d.individual.conversations),l(d.favourites.conversations)}},this.siteId)}return n.prototype.ngOnInit=function(){var n=this;this.conversationId&&this.gotoConversation(this.conversationId),this.fetchData().then(function(){if(!n.conversationId&&n.splitviewCtrl.isOn()){var l=void 0;n.favourites.expanded?l=n.favourites.conversations[0]:n.group.expanded?l=n.group.conversations[0]:n.individual.expanded&&(l=n.individual.conversations[0]),l&&n.gotoConversation(l.id)}})},n.prototype.fetchData=function(){var n=this;this.loadingMessage=this.loadingString;var l,e=[];return e.push(this.fetchDataForOption(this.favourites,!1)),e.push(this.fetchDataForOption(this.group,!1)),e.push(this.fetchDataForOption(this.individual,!1)),e.push(this.fetchConversationCounts()),e.push(this.messagesProvider.getUnreadConversationCounts()),e.push(this.messagesProvider.getContactRequestsCount()),e.push(this.messagesOffline.getAllMessages().then(function(n){l=n})),Promise.all(e).then(function(){return n.loadOfflineMessages(l)}).then(function(){if(l&&l.length&&(n.favourites.conversations=n.messagesProvider.sortConversations(n.favourites.conversations),n.group.conversations=n.messagesProvider.sortConversations(n.group.conversations),n.individual.conversations=n.messagesProvider.sortConversations(n.individual.conversations)),void 0===n.favourites.expanded){if(n.conversationId){var e=n.findConversation(n.conversationId);if(e){var t=n.getConversationOption(e);return void n.expandOption(t)}}n.favourites.expanded=0!=n.favourites.count,n.group.expanded=0==n.favourites.count&&0!=n.group.count,n.individual.expanded=0==n.favourites.count&&0==n.group.count}}).catch(function(l){n.domUtils.showErrorModalDefault(l,"addon.messages.errorwhileretrievingdiscussions",!0)}).finally(function(){n.loaded=!0})},n.prototype.fetchDataForOption=function(n,l){n.loadMoreError=!1;return this.messagesProvider.getConversations(n.type,n.favourites,l?n.conversations.length:0).then(function(e){n.conversations=l?n.conversations.concat(e.conversations):e.conversations,n.unread=0,n.canLoadMore=e.canLoadMore})},n.prototype.fetchConversationCounts=function(){var n=this;return this.messagesProvider.getConversationCounts().then(function(l){n.favourites.count=l.favourites,n.individual.count=l.individual,n.group.count=l.group})},n.prototype.findConversation=function(n,l){if(n){return(this.favourites.conversations||[]).concat(this.group.conversations||[]).concat(this.individual.conversations||[]).find(function(l){return l.id==n})}return(this.favourites.conversations||[]).concat(this.individual.conversations||[]).find(function(n){return n.userid==l})},n.prototype.gotoContacts=function(){this.splitviewCtrl.getMasterNav().push("AddonMessagesContactsPage")},n.prototype.gotoConversation=function(n,l,e,t){var u=this;this.selectedConversationId=n,this.selectedUserId=l;var a={conversationId:n,userId:l};if(e&&(a.message=e),this.splitviewCtrl.push("AddonMessagesDiscussionPage",a),t){var o=this.findConversation(n,l);if(o){var i=this.getConversationOption(o);this.expandOption(i),setTimeout(function(){u.domUtils.scrollToElementBySelector(u.content,"#addon-message-conversation-"+(o.id?o.id:"user-"+o.userid))})}}},n.prototype.gotoSettings=function(){this.splitviewCtrl.push("AddonMessagesSettingsPage")},n.prototype.loadMoreConversations=function(n,l){var e=this;return this.fetchDataForOption(n,!0).catch(function(l){e.domUtils.showErrorModalDefault(l,"addon.messages.errorwhileretrievingdiscussions",!0),n.loadMoreError=!0}).finally(function(){l&&l()})},n.prototype.loadOfflineMessages=function(n){var l=this,e=[];return n.forEach(function(n){if(n.conversationid){(t=l.findConversation(n.conversationid))?(void 0===t.lastmessage||null===t.lastmessage||!t.lastmessagepending||t.lastmessagedate<=n.timecreated/1e3)&&l.addLastOfflineMessage(t,n):((t=n.conversation||{}).id=n.conversationid,l.addLastOfflineMessage(t,n),l.addOfflineConversation(t))}else{var t=l.findConversation(void 0,n.touserid);n.text=n.smallmessage,t?t.lastmessagedate<=n.timecreated/1e3&&l.addLastOfflineMessage(t,n):e.push(l.userProvider.getProfile(n.touserid,void 0,!0).catch(function(){}).then(function(e){var t={userid:n.touserid,name:e?e.fullname:String(n.touserid),imageurl:e?e.profileimageurl:"",type:V.a.MESSAGE_CONVERSATION_TYPE_INDIVIDUAL};l.addLastOfflineMessage(t,n),l.addOfflineConversation(t)}))}}),Promise.all(e)},n.prototype.addOfflineConversation=function(n){this.getConversationOption(n).conversations.unshift(n)},n.prototype.addLastOfflineMessage=function(n,l){n.lastmessage=l.text,n.lastmessagedate=l.timecreated/1e3,n.lastmessagepending=!0,n.sentfromcurrentuser=!0},n.prototype.getConversationOption=function(n){return n.isfavourite?this.favourites:n.type==V.a.MESSAGE_CONVERSATION_TYPE_GROUP?this.group:this.individual},n.prototype.refreshData=function(n,l){var e=this;void 0===l&&(l=!0);var t=[this.messagesProvider.invalidateConversations(),this.messagesProvider.invalidateConversationCounts(),this.messagesProvider.invalidateContactRequestsCountCache()];return l&&t.push(this.messagesProvider.invalidateUnreadConversationCounts()),this.utils.allPromises(t).finally(function(){return e.fetchData().finally(function(){n&&n.complete()})})},n.prototype.toggle=function(n){n.expanded?n.expanded=!1:this.expandOption(n)},n.prototype.expandOption=function(n){this.favourites.expanded=!1,this.group.expanded=!1,this.individual.expanded=!1,n.expanded=!0},n.prototype.gotoSearch=function(){this.navCtrl.push("AddonMessagesSearchPage")},n.prototype.ngOnDestroy=function(){this.newMessagesObserver&&this.newMessagesObserver.off(),this.appResumeSubscription&&this.appResumeSubscription.unsubscribe(),this.pushObserver&&this.pushObserver.unsubscribe(),this.readChangedObserver&&this.readChangedObserver.off(),this.cronObserver&&this.cronObserver.off(),this.openConversationObserver&&this.openConversationObserver.off(),this.updateConversationListObserver&&this.updateConversationListObserver.off(),this.contactRequestsCountObserver&&this.contactRequestsCountObserver.off(),this.memberInfoObserver&&this.memberInfoObserver.off()},n}(),J=e(29),Q=e(30),Z=e(106),z=function(){return function(){}}(),X=e(1345),nn=e(1346),ln=e(1347),en=e(1348),tn=e(1349),un=e(1350),an=e(1351),on=e(1352),sn=e(1353),rn=e(1356),cn=e(1357),_n=e(1358),dn=e(147),fn=e(7),pn=e(132),vn=e(121),gn=e(31),mn=e(21),hn=e(20),bn=e(27),In=e(108),Cn=e(8),xn=e(25),On=e(19),Tn=e(33),En=e(439),kn=e(275),yn=e(186),Mn=e(226),Pn=e(6),Sn=e(17),Nn=e(15),Wn=e(26),Dn=e(10),Rn=e(222),$n=e(187),wn=e(22),An=e(224),Kn=e(41),Ln=e(11),Un=e(18),Vn=e(24),Gn=e(38),Fn=e(340),qn=e(28),Bn=e(434),Yn=e(37),jn=e(1354),Hn=e(200),Jn=e(34),Qn=e(662),Zn=e(1355),zn=e(336),Xn=e(246),nl=e(435),ll=e(46),el=e(43),tl=e(47),ul=e(80),al=e(70),ol=e(63),il=e(69),sl=e(436),rl=e(67),cl=e(185),_l=e(32),dl=e(107),fl=e(146),pl=e(39),vl=e(201),gl=e(158),ml=e(49),hl=e(48),bl=e(78),Il=e(61),Cl=A._14({encapsulation:2,styles:[],data:{}}),xl=A._12("page-addon-messages-group-conversations",H,function(n){return A._42(0,[(n()(),A._16(0,0,null,null,1,"page-addon-messages-group-conversations",[],null,null,null,w,Cl)),A._15(1,245760,null,0,H,[L.a,U.a,On.a,V.a,F.a,Il.a,wn.a,Nn.a,q.a,B.a,G.a,j.a],null,null)],function(n,l){n(l,1,0)},null)},{},{},[]),Ol=e(23),Tl=e(332),El=e(333),kl=e(335),yl=e(334),Ml=e(433),Pl=e(661),Sl=e(247);e.d(l,"AddonMessagesGroupConversationsPageModuleNgFactory",function(){return Nl});var Nl=A._13(z,[],function(n){return A._25([A._26(512,A.n,A._6,[[8,[X.a,nn.a,ln.a,en.a,tn.a,un.a,an.a,on.a,sn.a,rn.a,cn.a,_n.a,xl]],[3,A.n],A.B]),A._26(4608,Cn.m,Cn.l,[A.x,[2,Cn.v]]),A._26(4608,Ol.x,Ol.x,[]),A._26(4608,Ol.d,Ol.d,[]),A._26(4608,Tl.b,Tl.a,[]),A._26(4608,El.a,El.b,[]),A._26(4608,kl.b,kl.a,[]),A._26(4608,yl.b,yl.a,[]),A._26(4608,On.a,On.a,[Ml.a,Tl.b,El.a,kl.b,yl.b,On.b,On.c]),A._26(512,Cn.b,Cn.b,[]),A._26(512,Ol.v,Ol.v,[]),A._26(512,Ol.i,Ol.i,[]),A._26(512,Ol.s,Ol.s,[]),A._26(512,Pl.a,Pl.a,[]),A._26(512,K.a,K.a,[]),A._26(512,Q.a,Q.a,[]),A._26(512,Z.a,Z.a,[]),A._26(512,J.a,J.a,[]),A._26(512,Pl.b,Pl.b,[]),A._26(512,z,z,[]),A._26(256,On.c,void 0,[]),A._26(256,On.b,void 0,[]),A._26(256,Sl.a,H,[])])})}});
+webpackJsonp([108],{
+
+/***/ 1845:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
+var core = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
+var ionic_angular = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
+var _ngx_translate_core = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./src/providers/events.ts
+var events = __webpack_require__(12);
+
+// EXTERNAL MODULE: ./src/providers/sites.ts
+var sites = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./src/addon/messages/providers/messages.ts
+var providers_messages = __webpack_require__(158);
+
+// EXTERNAL MODULE: ./src/addon/messages/providers/messages-offline.ts
+var messages_offline = __webpack_require__(345);
+
+// EXTERNAL MODULE: ./src/providers/utils/dom.ts
+var dom = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./src/providers/utils/utils.ts
+var utils_utils = __webpack_require__(2);
+
+// EXTERNAL MODULE: ./src/addon/pushnotifications/providers/delegate.ts
+var delegate = __webpack_require__(227);
+
+// EXTERNAL MODULE: ./src/components/split-view/split-view.ts
+var split_view = __webpack_require__(34);
+
+// EXTERNAL MODULE: ./src/core/user/providers/user.ts
+var providers_user = __webpack_require__(44);
+
+// CONCATENATED MODULE: ./src/addon/messages/pages/group-conversations/group-conversations.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the list of conversations, including group conversations.
+ */
+var group_conversations_AddonMessagesGroupConversationsPage = /** @class */ (function () {
+    function AddonMessagesGroupConversationsPage(eventsProvider, sitesProvider, translate, messagesProvider, domUtils, navParams, navCtrl, platform, utils, pushNotificationsDelegate, messagesOffline, userProvider) {
+        var _this = this;
+        this.messagesProvider = messagesProvider;
+        this.domUtils = domUtils;
+        this.navCtrl = navCtrl;
+        this.utils = utils;
+        this.messagesOffline = messagesOffline;
+        this.userProvider = userProvider;
+        this.loaded = false;
+        this.contactRequestsCount = 0;
+        this.favourites = {
+            type: null,
+            favourites: true,
+            count: 0,
+            unread: 0
+        };
+        this.group = {
+            type: providers_messages["a" /* AddonMessagesProvider */].MESSAGE_CONVERSATION_TYPE_GROUP,
+            favourites: false,
+            count: 0,
+            unread: 0
+        };
+        this.individual = {
+            type: providers_messages["a" /* AddonMessagesProvider */].MESSAGE_CONVERSATION_TYPE_INDIVIDUAL,
+            favourites: false,
+            count: 0,
+            unread: 0
+        };
+        this.typeIndividual = providers_messages["a" /* AddonMessagesProvider */].MESSAGE_CONVERSATION_TYPE_INDIVIDUAL;
+        this.loadingString = translate.instant('core.loading');
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.conversationId = navParams.get('conversationId') || false;
+        // Update conversations when new message is received.
+        this.newMessagesObserver = eventsProvider.on(providers_messages["a" /* AddonMessagesProvider */].NEW_MESSAGE_EVENT, function (data) {
+            // Search the conversation to update.
+            var conversation = _this.findConversation(data.conversationId, data.userId);
+            if (typeof conversation == 'undefined') {
+                // Probably a new conversation, refresh the list.
+                _this.loaded = false;
+                _this.refreshData().finally(function () {
+                    _this.loaded = true;
+                });
+            }
+            else if (conversation.lastmessage != data.message || conversation.lastmessagedate != data.timecreated / 1000) {
+                var isNewer = data.timecreated / 1000 > conversation.lastmessagedate;
+                // An existing conversation has a new message, update the last message.
+                conversation.lastmessage = data.message;
+                conversation.lastmessagedate = data.timecreated / 1000;
+                // Sort the affected list.
+                var option = _this.getConversationOption(conversation);
+                option.conversations = _this.messagesProvider.sortConversations(option.conversations);
+                if (isNewer) {
+                    // The last message is newer than the previous one, scroll to top to keep viewing the conversation.
+                    _this.domUtils.scrollToTop(_this.content);
+                }
+            }
+        }, this.siteId);
+        // Update conversations when a message is read.
+        this.readChangedObserver = eventsProvider.on(providers_messages["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, function (data) {
+            if (data.conversationId) {
+                var conversation = _this.findConversation(data.conversationId);
+                if (typeof conversation != 'undefined') {
+                    // A conversation has been read reset counter.
+                    conversation.unreadcount = 0;
+                    // Conversations changed, invalidate them and refresh unread counts.
+                    _this.messagesProvider.invalidateConversations();
+                    _this.messagesProvider.refreshUnreadConversationCounts();
+                }
+            }
+        }, this.siteId);
+        // Load a discussion if we receive an event to do so.
+        this.openConversationObserver = eventsProvider.on(providers_messages["a" /* AddonMessagesProvider */].OPEN_CONVERSATION_EVENT, function (data) {
+            if (data.conversationId || data.userId) {
+                _this.gotoConversation(data.conversationId, data.userId, undefined, true);
+            }
+        }, this.siteId);
+        // Refresh the view when the app is resumed.
+        this.appResumeSubscription = platform.resume.subscribe(function () {
+            if (!_this.loaded) {
+                return;
+            }
+            _this.loaded = false;
+            _this.refreshData().finally(function () {
+                _this.loaded = true;
+            });
+        });
+        // Update conversations if we receive an event to do so.
+        this.updateConversationListObserver = eventsProvider.on(providers_messages["a" /* AddonMessagesProvider */].UPDATE_CONVERSATION_LIST_EVENT, function () {
+            _this.refreshData();
+        }, this.siteId);
+        // If a message push notification is received, refresh the view.
+        this.pushObserver = pushNotificationsDelegate.on('receive').subscribe(function (notification) {
+            // New message received. If it's from current site, refresh the data.
+            if (utils.isFalseOrZero(notification.notif) && notification.site == _this.siteId) {
+                // Don't refresh unread counts, it's refreshed from the main menu handler in this case.
+                _this.refreshData(null, false);
+            }
+        });
+        // Update unread conversation counts.
+        this.cronObserver = eventsProvider.on(providers_messages["a" /* AddonMessagesProvider */].UNREAD_CONVERSATION_COUNTS_EVENT, function (data) {
+            _this.favourites.unread = data.favourites;
+            _this.individual.unread = data.individual;
+            _this.group.unread = data.group;
+        }, this.siteId);
+        // Update the contact requests badge.
+        this.contactRequestsCountObserver = eventsProvider.on(providers_messages["a" /* AddonMessagesProvider */].CONTACT_REQUESTS_COUNT_EVENT, function (data) {
+            _this.contactRequestsCount = data.count;
+        }, this.siteId);
+        // Update block status of a user.
+        this.memberInfoObserver = eventsProvider.on(providers_messages["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
+            if (!data.userBlocked && !data.userUnblocked) {
+                // The block status has not changed, ignore.
+                return;
+            }
+            var updateConversations = function (conversations) {
+                if (!conversations || conversations.length <= 0) {
+                    return;
+                }
+                var conversation = conversations.find(function (conv) { return conv.userid == data.userId; });
+                if (conversation) {
+                    conversation.isblocked = data.userBlocked;
+                }
+            };
+            updateConversations(_this.individual.conversations);
+            updateConversations(_this.favourites.conversations);
+        }, this.siteId);
+    }
+    /**
+     * Component loaded.
+     */
+    AddonMessagesGroupConversationsPage.prototype.ngOnInit = function () {
+        var _this = this;
+        if (this.conversationId) {
+            // There is a discussion to load, open the discussion in a new state.
+            this.gotoConversation(this.conversationId);
+        }
+        this.fetchData().then(function () {
+            if (!_this.conversationId && _this.splitviewCtrl.isOn()) {
+                // Load the first conversation.
+                var conversation = void 0;
+                if (_this.favourites.expanded) {
+                    conversation = _this.favourites.conversations[0];
+                }
+                else if (_this.group.expanded) {
+                    conversation = _this.group.conversations[0];
+                }
+                else if (_this.individual.expanded) {
+                    conversation = _this.individual.conversations[0];
+                }
+                if (conversation) {
+                    _this.gotoConversation(conversation.id);
+                }
+            }
+        });
+    };
+    /**
+     * Fetch conversations.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesGroupConversationsPage.prototype.fetchData = function () {
+        var _this = this;
+        this.loadingMessage = this.loadingString;
+        // Load the first conversations of each type.
+        var promises = [];
+        var offlineMessages;
+        promises.push(this.fetchDataForOption(this.favourites, false));
+        promises.push(this.fetchDataForOption(this.group, false));
+        promises.push(this.fetchDataForOption(this.individual, false));
+        promises.push(this.fetchConversationCounts());
+        promises.push(this.messagesProvider.getUnreadConversationCounts()); // View updated by the event observer.
+        promises.push(this.messagesProvider.getContactRequestsCount()); // View updated by the event observer.
+        promises.push(this.messagesOffline.getAllMessages().then(function (messages) {
+            offlineMessages = messages;
+        }));
+        return Promise.all(promises).then(function () {
+            return _this.loadOfflineMessages(offlineMessages);
+        }).then(function () {
+            if (offlineMessages && offlineMessages.length) {
+                // Sort the conversations, the offline messages could affect the order.
+                _this.favourites.conversations = _this.messagesProvider.sortConversations(_this.favourites.conversations);
+                _this.group.conversations = _this.messagesProvider.sortConversations(_this.group.conversations);
+                _this.individual.conversations = _this.messagesProvider.sortConversations(_this.individual.conversations);
+            }
+            if (typeof _this.favourites.expanded == 'undefined') {
+                // The expanded status hasn't been initialized. Do it now.
+                if (_this.conversationId) {
+                    // A certain conversation should be opened, expand its option.
+                    var conversation = _this.findConversation(_this.conversationId);
+                    if (conversation) {
+                        var option = _this.getConversationOption(conversation);
+                        _this.expandOption(option);
+                        return;
+                    }
+                }
+                // No conversation specified or not found, determine which one should be expanded.
+                _this.favourites.expanded = _this.favourites.count != 0;
+                _this.group.expanded = _this.favourites.count == 0 && _this.group.count != 0;
+                _this.individual.expanded = _this.favourites.count == 0 && _this.group.count == 0;
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingdiscussions', true);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Fetch data for a certain option.
+     *
+     * @param {any} option The option to fetch data for.
+     * @param {boolean} [loadingMore} Whether we are loading more data or just the first ones.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesGroupConversationsPage.prototype.fetchDataForOption = function (option, loadingMore) {
+        option.loadMoreError = false;
+        var limitFrom = loadingMore ? option.conversations.length : 0;
+        return this.messagesProvider.getConversations(option.type, option.favourites, limitFrom).then(function (data) {
+            if (loadingMore) {
+                option.conversations = option.conversations.concat(data.conversations);
+            }
+            else {
+                option.conversations = data.conversations;
+            }
+            option.unread = 0; // @todo.
+            option.canLoadMore = data.canLoadMore;
+        });
+    };
+    /**
+     * Fetch conversation counts.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesGroupConversationsPage.prototype.fetchConversationCounts = function () {
+        var _this = this;
+        return this.messagesProvider.getConversationCounts().then(function (counts) {
+            _this.favourites.count = counts.favourites;
+            _this.individual.count = counts.individual;
+            _this.group.count = counts.group;
+        });
+    };
+    /**
+     * Find a conversation in the list of loaded conversations.
+     *
+     * @param {number} conversationId The conversation ID to search.
+     * @param {number} userId User ID to search (if no conversationId).
+     * @return {any} Conversation.
+     */
+    AddonMessagesGroupConversationsPage.prototype.findConversation = function (conversationId, userId) {
+        if (conversationId) {
+            var conversations_1 = (this.favourites.conversations || []).concat(this.group.conversations || [])
+                .concat(this.individual.conversations || []);
+            return conversations_1.find(function (conv) {
+                return conv.id == conversationId;
+            });
+        }
+        var conversations = (this.favourites.conversations || []).concat(this.individual.conversations || []);
+        return conversations.find(function (conv) {
+            return conv.userid == userId;
+        });
+    };
+    /**
+     * Navigate to contacts view.
+     */
+    AddonMessagesGroupConversationsPage.prototype.gotoContacts = function () {
+        this.splitviewCtrl.getMasterNav().push('AddonMessagesContactsPage');
+    };
+    /**
+     * Navigate to a particular conversation.
+     *
+     * @param {number} conversationId Conversation Id to load.
+     * @param {number} userId User of the conversation. Only if there is no conversationId.
+     * @param {number} [messageId] Message to scroll after loading the discussion. Used when searching.
+     * @param {boolean} [scrollToConversation] Whether to scroll to the conversation.
+     */
+    AddonMessagesGroupConversationsPage.prototype.gotoConversation = function (conversationId, userId, messageId, scrollToConversation) {
+        var _this = this;
+        this.selectedConversationId = conversationId;
+        this.selectedUserId = userId;
+        var params = {
+            conversationId: conversationId,
+            userId: userId
+        };
+        if (messageId) {
+            params['message'] = messageId;
+        }
+        this.splitviewCtrl.push('AddonMessagesDiscussionPage', params);
+        if (scrollToConversation) {
+            // Search the conversation.
+            var conversation_1 = this.findConversation(conversationId, userId);
+            if (conversation_1) {
+                // First expand the option if it isn't expanded.
+                var option = this.getConversationOption(conversation_1);
+                this.expandOption(option);
+                // Wait for the view to expand the option.
+                setTimeout(function () {
+                    // Now scroll to the conversation.
+                    _this.domUtils.scrollToElementBySelector(_this.content, '#addon-message-conversation-' +
+                        (conversation_1.id ? conversation_1.id : 'user-' + conversation_1.userid));
+                });
+            }
+        }
+    };
+    /**
+     * Navigate to message settings.
+     */
+    AddonMessagesGroupConversationsPage.prototype.gotoSettings = function () {
+        this.splitviewCtrl.push('AddonMessagesSettingsPage');
+    };
+    /**
+     * Function to load more conversations.
+     *
+     * @param {any} option The option to fetch data for.
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesGroupConversationsPage.prototype.loadMoreConversations = function (option, infiniteComplete) {
+        var _this = this;
+        return this.fetchDataForOption(option, true).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingdiscussions', true);
+            option.loadMoreError = true;
+        }).finally(function () {
+            infiniteComplete && infiniteComplete();
+        });
+    };
+    /**
+     * Load offline messages into the conversations.
+     *
+     * @param {any[]} messages Offline messages.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesGroupConversationsPage.prototype.loadOfflineMessages = function (messages) {
+        var _this = this;
+        var promises = [];
+        messages.forEach(function (message) {
+            if (message.conversationid) {
+                // It's an existing conversation. Search it.
+                var conversation = _this.findConversation(message.conversationid);
+                if (conversation) {
+                    // Check if it's the last message. Offline messages are considered more recent than sent messages.
+                    if (typeof conversation.lastmessage === 'undefined' || conversation.lastmessage === null ||
+                        !conversation.lastmessagepending || conversation.lastmessagedate <= message.timecreated / 1000) {
+                        _this.addLastOfflineMessage(conversation, message);
+                    }
+                }
+                else {
+                    // Conversation not found, it's probably an old one. Add it.
+                    conversation = message.conversation || {};
+                    conversation.id = message.conversationid;
+                    _this.addLastOfflineMessage(conversation, message);
+                    _this.addOfflineConversation(conversation);
+                }
+            }
+            else {
+                // Its a new conversation. Check if we already created it (there is more than one message for the same user).
+                var conversation = _this.findConversation(undefined, message.touserid);
+                message.text = message.smallmessage;
+                if (conversation) {
+                    // Check if it's the last message. Offline messages are considered more recent than sent messages.
+                    if (conversation.lastmessagedate <= message.timecreated / 1000) {
+                        _this.addLastOfflineMessage(conversation, message);
+                    }
+                }
+                else {
+                    // Get the user data and create a new conversation.
+                    promises.push(_this.userProvider.getProfile(message.touserid, undefined, true).catch(function () {
+                        // User not found.
+                    }).then(function (user) {
+                        var conversation = {
+                            userid: message.touserid,
+                            name: user ? user.fullname : String(message.touserid),
+                            imageurl: user ? user.profileimageurl : '',
+                            type: providers_messages["a" /* AddonMessagesProvider */].MESSAGE_CONVERSATION_TYPE_INDIVIDUAL
+                        };
+                        _this.addLastOfflineMessage(conversation, message);
+                        _this.addOfflineConversation(conversation);
+                    }));
+                }
+            }
+        });
+        return Promise.all(promises);
+    };
+    /**
+     * Add an offline conversation into the right list of conversations.
+     *
+     * @param {any} conversation Offline conversation to add.
+     */
+    AddonMessagesGroupConversationsPage.prototype.addOfflineConversation = function (conversation) {
+        var option = this.getConversationOption(conversation);
+        option.conversations.unshift(conversation);
+    };
+    /**
+     * Add a last offline message into a conversation.
+     *
+     * @param {any} conversation Conversation where to put the last message.
+     * @param {any} message Offline message to add.
+     */
+    AddonMessagesGroupConversationsPage.prototype.addLastOfflineMessage = function (conversation, message) {
+        conversation.lastmessage = message.text;
+        conversation.lastmessagedate = message.timecreated / 1000;
+        conversation.lastmessagepending = true;
+        conversation.sentfromcurrentuser = true;
+    };
+    /**
+     * Given a conversation, return its option (favourites, group, individual).
+     *
+     * @param {any} conversation Conversation to check.
+     * @return {any} Option object.
+     */
+    AddonMessagesGroupConversationsPage.prototype.getConversationOption = function (conversation) {
+        if (conversation.isfavourite) {
+            return this.favourites;
+        }
+        else if (conversation.type == providers_messages["a" /* AddonMessagesProvider */].MESSAGE_CONVERSATION_TYPE_GROUP) {
+            return this.group;
+        }
+        else {
+            return this.individual;
+        }
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @param {booleam} [refreshUnreadCounts=true] Whether to refresh unread counts.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesGroupConversationsPage.prototype.refreshData = function (refresher, refreshUnreadCounts) {
+        var _this = this;
+        if (refreshUnreadCounts === void 0) { refreshUnreadCounts = true; }
+        var promises = [
+            this.messagesProvider.invalidateConversations(),
+            this.messagesProvider.invalidateConversationCounts(),
+            this.messagesProvider.invalidateContactRequestsCountCache()
+        ];
+        if (refreshUnreadCounts) {
+            promises.push(this.messagesProvider.invalidateUnreadConversationCounts());
+        }
+        return this.utils.allPromises(promises).finally(function () {
+            return _this.fetchData().finally(function () {
+                if (refresher) {
+                    refresher.complete();
+                }
+            });
+        });
+    };
+    /**
+     * Toogle the visibility of an option (expand/collapse).
+     *
+     * @param {any} option The option to expand/collapse.
+     */
+    AddonMessagesGroupConversationsPage.prototype.toggle = function (option) {
+        if (option.expanded) {
+            // Already expanded, close it.
+            option.expanded = false;
+        }
+        else {
+            this.expandOption(option);
+        }
+    };
+    /**
+     * Expand a certain option.
+     *
+     * @param {any} option The option to expand.
+     */
+    AddonMessagesGroupConversationsPage.prototype.expandOption = function (option) {
+        // Collapse all and expand the right one.
+        this.favourites.expanded = false;
+        this.group.expanded = false;
+        this.individual.expanded = false;
+        option.expanded = true;
+    };
+    /**
+     * Navigate to the search page.
+     */
+    AddonMessagesGroupConversationsPage.prototype.gotoSearch = function () {
+        this.navCtrl.push('AddonMessagesSearchPage');
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonMessagesGroupConversationsPage.prototype.ngOnDestroy = function () {
+        this.newMessagesObserver && this.newMessagesObserver.off();
+        this.appResumeSubscription && this.appResumeSubscription.unsubscribe();
+        this.pushObserver && this.pushObserver.unsubscribe();
+        this.readChangedObserver && this.readChangedObserver.off();
+        this.cronObserver && this.cronObserver.off();
+        this.openConversationObserver && this.openConversationObserver.off();
+        this.updateConversationListObserver && this.updateConversationListObserver.off();
+        this.contactRequestsCountObserver && this.contactRequestsCountObserver.off();
+        this.memberInfoObserver && this.memberInfoObserver.off();
+    };
+    __decorate([
+        Object(core["_9" /* ViewChild */])(split_view["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", split_view["a" /* CoreSplitViewComponent */])
+    ], AddonMessagesGroupConversationsPage.prototype, "splitviewCtrl", void 0);
+    __decorate([
+        Object(core["_9" /* ViewChild */])(ionic_angular["f" /* Content */]),
+        __metadata("design:type", ionic_angular["f" /* Content */])
+    ], AddonMessagesGroupConversationsPage.prototype, "content", void 0);
+    AddonMessagesGroupConversationsPage = __decorate([
+        Object(core["m" /* Component */])({
+            selector: 'page-addon-messages-group-conversations',
+            templateUrl: 'group-conversations.html',
+        }),
+        __metadata("design:paramtypes", [events["a" /* CoreEventsProvider */], sites["a" /* CoreSitesProvider */], _ngx_translate_core["c" /* TranslateService */],
+            providers_messages["a" /* AddonMessagesProvider */], dom["a" /* CoreDomUtilsProvider */], ionic_angular["t" /* NavParams */],
+            ionic_angular["s" /* NavController */], ionic_angular["v" /* Platform */], utils_utils["a" /* CoreUtilsProvider */],
+            delegate["a" /* AddonPushNotificationsDelegate */], messages_offline["a" /* AddonMessagesOfflineProvider */],
+            providers_user["a" /* CoreUserProvider */]])
+    ], AddonMessagesGroupConversationsPage);
+    return AddonMessagesGroupConversationsPage;
+}());
+
+//# sourceMappingURL=group-conversations.js.map
+// EXTERNAL MODULE: ./src/components/components.module.ts
+var components_module = __webpack_require__(28);
+
+// EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
+var directives_module = __webpack_require__(29);
+
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 1 modules
+var pipes_module = __webpack_require__(105);
+
+// CONCATENATED MODULE: ./src/addon/messages/pages/group-conversations/group-conversations.module.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var group_conversations_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var group_conversations_module_AddonMessagesGroupConversationsPageModule = /** @class */ (function () {
+    function AddonMessagesGroupConversationsPageModule() {
+    }
+    AddonMessagesGroupConversationsPageModule = group_conversations_module___decorate([
+        Object(core["I" /* NgModule */])({
+            declarations: [
+                group_conversations_AddonMessagesGroupConversationsPage,
+            ],
+            imports: [
+                components_module["a" /* CoreComponentsModule */],
+                directives_module["a" /* CoreDirectivesModule */],
+                pipes_module["a" /* CorePipesModule */],
+                ionic_angular["l" /* IonicPageModule */].forChild(group_conversations_AddonMessagesGroupConversationsPage),
+                _ngx_translate_core["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonMessagesGroupConversationsPageModule);
+    return AddonMessagesGroupConversationsPageModule;
+}());
+
+//# sourceMappingURL=group-conversations.module.js.map
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
+var action_sheet_component_ngfactory = __webpack_require__(1345);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
+var alert_component_ngfactory = __webpack_require__(1346);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
+var app_root_ngfactory = __webpack_require__(1347);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
+var loading_component_ngfactory = __webpack_require__(1348);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
+var modal_component_ngfactory = __webpack_require__(1349);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
+var picker_component_ngfactory = __webpack_require__(1350);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
+var popover_component_ngfactory = __webpack_require__(1351);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
+var select_popover_component_ngfactory = __webpack_require__(1352);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
+var toast_component_ngfactory = __webpack_require__(1353);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
+var context_menu_popover_ngfactory = __webpack_require__(1356);
+
+// EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
+var course_picker_menu_popover_ngfactory = __webpack_require__(1357);
+
+// EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
+var recaptchamodal_ngfactory = __webpack_require__(1358);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/badge/badge.js
+var badge = __webpack_require__(146);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
+var config = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./src/components/icon/icon.ngfactory.js
+var icon_ngfactory = __webpack_require__(131);
+
+// EXTERNAL MODULE: ./src/components/icon/icon.ts
+var icon = __webpack_require__(120);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.ngfactory.js + 1 modules
+var item_ngfactory = __webpack_require__(30);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.js
+var item = __webpack_require__(20);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/form.js
+var util_form = __webpack_require__(19);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
+var item_reorder = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-divider.js
+var item_divider = __webpack_require__(107);
+
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
+var translate_pipe = __webpack_require__(24);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
+var translate_service = __webpack_require__(18);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-content.js
+var item_content = __webpack_require__(32);
+
+// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ngfactory.js
+var infinite_loading_ngfactory = __webpack_require__(439);
+
+// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ts
+var infinite_loading = __webpack_require__(275);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/avatar/avatar.js
+var avatar = __webpack_require__(186);
+
+// EXTERNAL MODULE: ./src/directives/external-content.ts
+var external_content = __webpack_require__(226);
+
+// EXTERNAL MODULE: ./src/providers/logger.ts
+var logger = __webpack_require__(5);
+
+// EXTERNAL MODULE: ./src/providers/filepool.ts
+var filepool = __webpack_require__(16);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform_platform = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./src/providers/utils/url.ts
+var url = __webpack_require__(25);
+
+// EXTERNAL MODULE: ./src/providers/app.ts
+var app = __webpack_require__(9);
+
+// EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ngfactory.js
+var user_avatar_ngfactory = __webpack_require__(222);
+
+// EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ts
+var user_avatar = __webpack_require__(187);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
+var nav_controller = __webpack_require__(21);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/note/note.js
+var note = __webpack_require__(224);
+
+// EXTERNAL MODULE: ./src/directives/format-text.ts
+var format_text = __webpack_require__(40);
+
+// EXTERNAL MODULE: ./src/providers/utils/text.ts
+var utils_text = __webpack_require__(10);
+
+// EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
+var helper = __webpack_require__(17);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(23);
+
+// EXTERNAL MODULE: ./src/providers/utils/iframe.ts
+var iframe = __webpack_require__(37);
+
+// EXTERNAL MODULE: ./src/pipes/date-day-or-time.ts
+var date_day_or_time = __webpack_require__(340);
+
+// EXTERNAL MODULE: ./src/providers/utils/time.ts
+var time = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
+var toolbar_header = __webpack_require__(434);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(36);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
+var navbar_ngfactory = __webpack_require__(1354);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
+var navbar = __webpack_require__(200);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app_app = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./src/directives/back-button.ts
+var back_button = __webpack_require__(662);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
+var toolbar_title_ngfactory = __webpack_require__(1355);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
+var toolbar_title = __webpack_require__(336);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
+var toolbar = __webpack_require__(246);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
+var toolbar_item = __webpack_require__(435);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.ngfactory.js
+var button_ngfactory = __webpack_require__(45);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.js
+var button_button = __webpack_require__(42);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/icon/icon.js
+var icon_icon = __webpack_require__(46);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu.ngfactory.js
+var context_menu_ngfactory = __webpack_require__(79);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu.ts
+var context_menu = __webpack_require__(69);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-controller.js
+var popover_controller = __webpack_require__(62);
+
+// EXTERNAL MODULE: ./src/components/tabs/tab.ts
+var tab = __webpack_require__(68);
+
+// EXTERNAL MODULE: ./src/components/split-view/split-view.ngfactory.js
+var split_view_ngfactory = __webpack_require__(436);
+
+// EXTERNAL MODULE: ./src/core/fileuploader/providers/fileuploader.ts
+var fileuploader = __webpack_require__(66);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(185);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(106);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher.js
+var refresher = __webpack_require__(145);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/gestures/gesture-controller.js
+var gesture_controller = __webpack_require__(38);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.ngfactory.js
+var refresher_content_ngfactory = __webpack_require__(201);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.js
+var refresher_content = __webpack_require__(157);
+
+// EXTERNAL MODULE: ./src/components/loading/loading.ngfactory.js
+var loading_ngfactory = __webpack_require__(48);
+
+// EXTERNAL MODULE: ./src/components/loading/loading.ts
+var loading = __webpack_require__(47);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/list/list.js + 1 modules
+var list = __webpack_require__(77);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
+var nav_params = __webpack_require__(60);
+
+// CONCATENATED MODULE: ./src/addon/messages/pages/group-conversations/group-conversations.ngfactory.js
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_AddonMessagesGroupConversationsPage = [];
+var RenderType_AddonMessagesGroupConversationsPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_AddonMessagesGroupConversationsPage, data: {} });
+
+function View_AddonMessagesGroupConversationsPage_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "ion-badge", [["item-end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](2, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.contactRequestsCount; _ck(_v, 2, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_3(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [["item-start", ""], ["name", "fa-caret-right"]], null, null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 245760, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = "fa-caret-right"; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_4(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [["item-start", ""], ["name", "fa-caret-down"]], null, null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 245760, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = "fa-caret-down"; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_5(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "ion-badge", [["item-end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](2, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.favourites.unread; _ck(_v, 2, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_2(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 16, "ion-item-divider", [["class", "core-expandable item item-divider"], ["color", "light"], ["text-wrap", ""]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.toggle(_co.favourites) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], { color: [0, "color"] }, null), core["_52" /* ɵqud */](335544320, 7, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 8, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 9, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_divider["a" /* ItemDivider */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_3)), core["_30" /* ɵdid */](8, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_4)), core["_30" /* ɵdid */](11, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](12, 2, ["\n                    ", " (", ")\n                    "])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_26" /* ɵand */](16777216, null, 4, 1, null, View_AddonMessagesGroupConversationsPage_5)), core["_30" /* ɵdid */](15, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = "light"; _ck(_v, 1, 0, currVal_0); var currVal_1 = "light"; _ck(_v, 5, 0, currVal_1); var currVal_2 = !_co.favourites.expanded; _ck(_v, 8, 0, currVal_2); var currVal_3 = _co.favourites.expanded; _ck(_v, 11, 0, currVal_3); var currVal_6 = _co.favourites.unread; _ck(_v, 15, 0, currVal_6); }, function (_ck, _v) { var _co = _v.component; var currVal_4 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform("core.favourites")); var currVal_5 = _co.favourites.count; _ck(_v, 12, 0, currVal_4, currVal_5); }); }
+function View_AddonMessagesGroupConversationsPage_7(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 0, null, null, null, null, null, null, null))], null, null); }
+function View_AddonMessagesGroupConversationsPage_8(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 10, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 10, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 11, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 12, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "]))], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("addon.messages.nofavourites")); _ck(_v, 8, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_6(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 12, "div", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 2, null, View_AddonMessagesGroupConversationsPage_7)), core["_30" /* ɵdid */](3, 540672, null, 0, common["r" /* NgTemplateOutlet */], [core["_11" /* ViewContainerRef */]], { ngTemplateOutletContext: [0, "ngTemplateOutletContext"], ngTemplateOutlet: [1, "ngTemplateOutlet"] }, null), core["_48" /* ɵpod */](4, { conversations: 0 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, null, 1, "core-infinite-loading", [], null, [[null, "action"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("action" === en)) {
+        var pd_0 = (_co.loadMoreConversations(_co.favourites, $event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, infinite_loading_ngfactory["b" /* View_CoreInfiniteLoadingComponent_0 */], infinite_loading_ngfactory["a" /* RenderType_CoreInfiniteLoadingComponent */])), core["_30" /* ɵdid */](8, 49152, null, 0, infinite_loading["a" /* CoreInfiniteLoadingComponent */], [], { enabled: [0, "enabled"], error: [1, "error"] }, { action: "action" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_8)), core["_30" /* ɵdid */](11, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _ck(_v, 4, 0, _co.favourites.conversations); var currVal_1 = core["_44" /* ɵnov */](_v.parent, 106); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _co.favourites.canLoadMore; var currVal_3 = _co.favourites.loadMoreError; _ck(_v, 8, 0, currVal_2, currVal_3); var currVal_4 = (_co.favourites.conversations.length == 0); _ck(_v, 11, 0, currVal_4); }, null); }
+function View_AddonMessagesGroupConversationsPage_10(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [["item-start", ""], ["name", "fa-caret-right"]], null, null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 245760, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = "fa-caret-right"; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_11(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [["item-start", ""], ["name", "fa-caret-down"]], null, null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 245760, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = "fa-caret-down"; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_12(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "ion-badge", [["item-end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](2, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.group.unread; _ck(_v, 2, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_9(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 16, "ion-item-divider", [["class", "core-expandable item item-divider"], ["color", "light"], ["text-wrap", ""]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.toggle(_co.group) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], { color: [0, "color"] }, null), core["_52" /* ɵqud */](335544320, 13, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 14, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 15, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_divider["a" /* ItemDivider */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_10)), core["_30" /* ɵdid */](8, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_11)), core["_30" /* ɵdid */](11, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](12, 2, ["\n                    ", " (", ")\n                    "])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_26" /* ɵand */](16777216, null, 4, 1, null, View_AddonMessagesGroupConversationsPage_12)), core["_30" /* ɵdid */](15, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = "light"; _ck(_v, 1, 0, currVal_0); var currVal_1 = "light"; _ck(_v, 5, 0, currVal_1); var currVal_2 = !_co.group.expanded; _ck(_v, 8, 0, currVal_2); var currVal_3 = _co.group.expanded; _ck(_v, 11, 0, currVal_3); var currVal_6 = _co.group.unread; _ck(_v, 15, 0, currVal_6); }, function (_ck, _v) { var _co = _v.component; var currVal_4 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform("addon.messages.groupconversations")); var currVal_5 = _co.group.count; _ck(_v, 12, 0, currVal_4, currVal_5); }); }
+function View_AddonMessagesGroupConversationsPage_14(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 0, null, null, null, null, null, null, null))], null, null); }
+function View_AddonMessagesGroupConversationsPage_15(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 10, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 16, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 17, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 18, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "]))], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("addon.messages.nogroupconversations")); _ck(_v, 8, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_13(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 12, "div", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 2, null, View_AddonMessagesGroupConversationsPage_14)), core["_30" /* ɵdid */](3, 540672, null, 0, common["r" /* NgTemplateOutlet */], [core["_11" /* ViewContainerRef */]], { ngTemplateOutletContext: [0, "ngTemplateOutletContext"], ngTemplateOutlet: [1, "ngTemplateOutlet"] }, null), core["_48" /* ɵpod */](4, { conversations: 0 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, null, 1, "core-infinite-loading", [], null, [[null, "action"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("action" === en)) {
+        var pd_0 = (_co.loadMoreConversations(_co.group, $event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, infinite_loading_ngfactory["b" /* View_CoreInfiniteLoadingComponent_0 */], infinite_loading_ngfactory["a" /* RenderType_CoreInfiniteLoadingComponent */])), core["_30" /* ɵdid */](8, 49152, null, 0, infinite_loading["a" /* CoreInfiniteLoadingComponent */], [], { enabled: [0, "enabled"], error: [1, "error"] }, { action: "action" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_15)), core["_30" /* ɵdid */](11, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _ck(_v, 4, 0, _co.group.conversations); var currVal_1 = core["_44" /* ɵnov */](_v.parent, 106); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _co.group.canLoadMore; var currVal_3 = _co.group.loadMoreError; _ck(_v, 8, 0, currVal_2, currVal_3); var currVal_4 = (_co.group.conversations.length == 0); _ck(_v, 11, 0, currVal_4); }, null); }
+function View_AddonMessagesGroupConversationsPage_17(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [["item-start", ""], ["name", "fa-caret-right"]], null, null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 245760, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = "fa-caret-right"; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_18(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [["item-start", ""], ["name", "fa-caret-down"]], null, null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 245760, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = "fa-caret-down"; _ck(_v, 1, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_19(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "ion-badge", [["item-end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](2, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.individual.unread; _ck(_v, 2, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_16(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 16, "ion-item-divider", [["class", "core-expandable item item-divider"], ["color", "light"], ["text-wrap", ""]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.toggle(_co.individual) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], { color: [0, "color"] }, null), core["_52" /* ɵqud */](335544320, 19, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 20, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 21, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_divider["a" /* ItemDivider */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { color: [0, "color"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_17)), core["_30" /* ɵdid */](8, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_18)), core["_30" /* ɵdid */](11, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](12, 2, ["\n                    ", " (", ")\n                    "])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_26" /* ɵand */](16777216, null, 4, 1, null, View_AddonMessagesGroupConversationsPage_19)), core["_30" /* ɵdid */](15, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = "light"; _ck(_v, 1, 0, currVal_0); var currVal_1 = "light"; _ck(_v, 5, 0, currVal_1); var currVal_2 = !_co.individual.expanded; _ck(_v, 8, 0, currVal_2); var currVal_3 = _co.individual.expanded; _ck(_v, 11, 0, currVal_3); var currVal_6 = _co.individual.unread; _ck(_v, 15, 0, currVal_6); }, function (_ck, _v) { var _co = _v.component; var currVal_4 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform("addon.messages.individualconversations")); var currVal_5 = _co.individual.count; _ck(_v, 12, 0, currVal_4, currVal_5); }); }
+function View_AddonMessagesGroupConversationsPage_21(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 0, null, null, null, null, null, null, null))], null, null); }
+function View_AddonMessagesGroupConversationsPage_22(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 10, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 22, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 23, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 24, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                        "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                    "]))], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("addon.messages.noindividualconversations")); _ck(_v, 8, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_20(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 12, "div", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 2, null, View_AddonMessagesGroupConversationsPage_21)), core["_30" /* ɵdid */](3, 540672, null, 0, common["r" /* NgTemplateOutlet */], [core["_11" /* ViewContainerRef */]], { ngTemplateOutletContext: [0, "ngTemplateOutletContext"], ngTemplateOutlet: [1, "ngTemplateOutlet"] }, null), core["_48" /* ɵpod */](4, { conversations: 0 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, null, 1, "core-infinite-loading", [], null, [[null, "action"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("action" === en)) {
+        var pd_0 = (_co.loadMoreConversations(_co.individual, $event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, infinite_loading_ngfactory["b" /* View_CoreInfiniteLoadingComponent_0 */], infinite_loading_ngfactory["a" /* RenderType_CoreInfiniteLoadingComponent */])), core["_30" /* ɵdid */](8, 49152, null, 0, infinite_loading["a" /* CoreInfiniteLoadingComponent */], [], { enabled: [0, "enabled"], error: [1, "error"] }, { action: "action" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_22)), core["_30" /* ɵdid */](11, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _ck(_v, 4, 0, _co.individual.conversations); var currVal_1 = core["_44" /* ɵnov */](_v.parent, 106); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _co.individual.canLoadMore; var currVal_3 = _co.individual.loadMoreError; _ck(_v, 8, 0, currVal_2, currVal_3); var currVal_4 = (_co.individual.conversations.length == 0); _ck(_v, 11, 0, currVal_4); }, null); }
+function View_AddonMessagesGroupConversationsPage_25(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 5, "ion-avatar", [["item-start", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, avatar["a" /* Avatar */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](3, 0, null, null, 1, "img", [["core-external-content", ""], ["onError", "this.src='assets/img/group-avatar.png'"]], [[8, "src", 4], [8, "alt", 0]], null, null, null, null)), core["_30" /* ɵdid */](4, 4210688, null, 0, external_content["a" /* CoreExternalContentDirective */], [core["t" /* ElementRef */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], platform_platform["a" /* Platform */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], app["a" /* CoreAppProvider */], utils_utils["a" /* CoreUtilsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "]))], null, function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.imageurl; var currVal_1 = _v.parent.context.$implicit.name; _ck(_v, 3, 0, currVal_0, currVal_1); }); }
+function View_AddonMessagesGroupConversationsPage_26(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "ion-avatar", [["core-user-avatar", ""], ["item-start", ""]], null, null, null, user_avatar_ngfactory["b" /* View_CoreUserAvatarComponent_0 */], user_avatar_ngfactory["a" /* RenderType_CoreUserAvatarComponent */])), core["_30" /* ɵdid */](1, 638976, null, 0, user_avatar["a" /* CoreUserAvatarComponent */], [nav_controller["a" /* NavController */], sites["a" /* CoreSitesProvider */], utils_utils["a" /* CoreUtilsProvider */], app["a" /* CoreAppProvider */]], { user: [0, "user"], linkProfile: [1, "linkProfile"], checkOnline: [2, "checkOnline"] }, null), core["_30" /* ɵdid */](2, 16384, null, 0, avatar["a" /* Avatar */], [], null, null)], function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.otherUser; var currVal_1 = false; var currVal_2 = _v.parent.context.$implicit.showonlinestatus; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
+function View_AddonMessagesGroupConversationsPage_27(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "core-icon", [["name", "fa-ban"]], [[1, "aria-label", 0]], null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 245760, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */]], { name: [0, "name"] }, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var currVal_1 = "fa-ban"; _ck(_v, 1, 0, currVal_1); }, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 0, 0, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.contactblocked")); _ck(_v, 0, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_29(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "ion-badge", [], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, badge["a" /* Badge */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](2, null, ["", ""]))], null, function (_ck, _v) { var currVal_0 = _v.parent.parent.context.$implicit.unreadcount; _ck(_v, 2, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_30(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "span", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](1, null, ["", ""])), core["_49" /* ɵppd */](2, 1)], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, _ck(_v, 2, 0, core["_44" /* ɵnov */](_v.parent.parent.parent.parent, 0), _v.parent.parent.context.$implicit.lastmessagedate)); _ck(_v, 1, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_28(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 8, "ion-note", [], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, note["a" /* Note */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_29)), core["_30" /* ɵdid */](4, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_30)), core["_30" /* ɵdid */](7, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "]))], function (_ck, _v) { var currVal_0 = (_v.parent.context.$implicit.unreadcount > 0); _ck(_v, 4, 0, currVal_0); var currVal_1 = (_v.parent.context.$implicit.lastmessagedate > 0); _ck(_v, 7, 0, currVal_1); }, null); }
+function View_AddonMessagesGroupConversationsPage_31(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "p", [], null, null, null, null, null)), (_l()(), core["_31" /* ɵeld */](1, 0, null, null, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](2, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform_platform["a" /* Platform */], utils_utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null)], function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.subname; _ck(_v, 2, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_32(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "span", [["class", "addon-message-last-message-user"]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](1, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.you")); _ck(_v, 1, 0, currVal_0); }); }
+function View_AddonMessagesGroupConversationsPage_33(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-format-text", [["class", "addon-message-last-message-user"]], null, null, null, null, null)), core["_30" /* ɵdid */](1, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform_platform["a" /* Platform */], utils_utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null)], function (_ck, _v) { var currVal_0 = (_v.parent.context.$implicit.members[0].fullname + ":"); _ck(_v, 1, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_24(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 41, "a", [["class", "addon-message-discussion item item-block"], ["ion-item", ""], ["text-wrap", ""]], [[8, "title", 0], [2, "core-split-item-selected", null], [8, "id", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.gotoConversation(_v.context.$implicit.id, _v.context.$implicit.userid) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 25, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 26, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 27, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_25)), core["_30" /* ɵdid */](9, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n\n        "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesGroupConversationsPage_26)), core["_30" /* ɵdid */](13, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n\n        "])), (_l()(), core["_31" /* ɵeld */](15, 0, null, 2, 7, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](17, 0, null, null, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](18, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform_platform["a" /* Platform */], utils_utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_27)), core["_30" /* ɵdid */](21, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 2, 1, null, View_AddonMessagesGroupConversationsPage_28)), core["_30" /* ɵdid */](25, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 2, 1, null, View_AddonMessagesGroupConversationsPage_31)), core["_30" /* ɵdid */](28, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_31" /* ɵeld */](30, 0, null, 2, 10, "p", [["class", "addon-message-last-message"]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_32)), core["_30" /* ɵdid */](33, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_33)), core["_30" /* ɵdid */](36, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](38, 0, null, null, 1, "core-format-text", [["class", "addon-message-last-message-text"], ["clean", "true"], ["singleLine", "true"]], null, null, null, null, null)), core["_30" /* ɵdid */](39, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform_platform["a" /* Platform */], utils_utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"], clean: [1, "clean"], singleLine: [2, "singleLine"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n    "]))], function (_ck, _v) { var _co = _v.component; var currVal_3 = (_v.context.$implicit.type != _co.typeIndividual); _ck(_v, 9, 0, currVal_3); var currVal_4 = (_v.context.$implicit.type == _co.typeIndividual); _ck(_v, 13, 0, currVal_4); var currVal_5 = _v.context.$implicit.name; _ck(_v, 18, 0, currVal_5); var currVal_6 = _v.context.$implicit.isblocked; _ck(_v, 21, 0, currVal_6); var currVal_7 = ((_v.context.$implicit.lastmessagedate > 0) || _v.context.$implicit.unreadcount); _ck(_v, 25, 0, currVal_7); var currVal_8 = _v.context.$implicit.subname; _ck(_v, 28, 0, currVal_8); var currVal_9 = _v.context.$implicit.sentfromcurrentuser; _ck(_v, 33, 0, currVal_9); var currVal_10 = ((_v.context.$implicit.type != _co.typeIndividual) && _v.context.$implicit.members[0]); _ck(_v, 36, 0, currVal_10); var currVal_11 = _v.context.$implicit.lastmessage; var currVal_12 = "true"; var currVal_13 = "true"; _ck(_v, 39, 0, currVal_11, currVal_12, currVal_13); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.name; var currVal_1 = ((_v.context.$implicit.id && (_v.context.$implicit.id == _co.selectedConversationId)) || (_v.context.$implicit.userid && (_v.context.$implicit.userid == _co.selectedUserId))); var currVal_2 = core["_34" /* ɵinlineInterpolate */](1, "addon-message-conversation-", (_v.context.$implicit.id ? _v.context.$implicit.id : ("user-" + _v.context.$implicit.userid)), ""); _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2); }); }
+function View_AddonMessagesGroupConversationsPage_23(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_24)), core["_30" /* ɵdid */](2, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var currVal_0 = _v.context.conversations; _ck(_v, 2, 0, currVal_0); }, null); }
+function View_AddonMessagesGroupConversationsPage_0(_l) { return core["_57" /* ɵvid */](0, [core["_47" /* ɵpid */](0, date_day_or_time["a" /* CoreDateDayOrTimePipe */], [logger["a" /* CoreLoggerProvider */], translate_service["a" /* TranslateService */], time["a" /* CoreTimeUtilsProvider */]]), core["_52" /* ɵqud */](402653184, 1, { splitviewCtrl: 0 }), core["_52" /* ɵqud */](402653184, 2, { content: 0 }), (_l()(), core["_31" /* ɵeld */](3, 0, null, null, 37, "ion-header", [], null, null, null, null, null)), core["_30" /* ɵdid */](4, 16384, null, 0, toolbar_header["a" /* Header */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](6, 0, null, null, 33, "ion-navbar", [["class", "toolbar"], ["core-back-button", ""]], [[8, "hidden", 0], [2, "statusbar-padding", null]], null, null, navbar_ngfactory["b" /* View_Navbar_0 */], navbar_ngfactory["a" /* RenderType_Navbar */])), core["_30" /* ɵdid */](7, 49152, null, 0, navbar["a" /* Navbar */], [app_app["a" /* App */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_30" /* ɵdid */](8, 212992, null, 0, back_button["a" /* CoreBackButtonDirective */], [navbar["a" /* Navbar */], platform_platform["a" /* Platform */], translate_service["a" /* TranslateService */], events["a" /* CoreEventsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](10, 0, null, 3, 3, "ion-title", [], null, null, null, toolbar_title_ngfactory["b" /* View_ToolbarTitle_0 */], toolbar_title_ngfactory["a" /* RenderType_ToolbarTitle */])), core["_30" /* ɵdid */](11, 49152, null, 0, toolbar_title["a" /* ToolbarTitle */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), (_l()(), core["_55" /* ɵted */](12, 0, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](15, 0, null, 2, 23, "ion-buttons", [["end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](16, 16384, null, 1, toolbar_item["a" /* ToolbarItem */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), core["_52" /* ɵqud */](603979776, 3, { _buttons: 1 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](19, 0, null, null, 6, "button", [["icon-only", ""], ["ion-button", ""]], [[1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.gotoSearch() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, button_ngfactory["b" /* View_Button_0 */], button_ngfactory["a" /* RenderType_Button */])), core["_30" /* ɵdid */](20, 1097728, [[3, 4]], 0, button_button["a" /* Button */], [[8, ""], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n                "])), (_l()(), core["_31" /* ɵeld */](23, 0, null, 0, 1, "ion-icon", [["name", "search"], ["role", "img"]], [[2, "hide", null]], null, null, null, null)), core["_30" /* ɵdid */](24, 147456, null, 0, icon_icon["a" /* Icon */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { name: [0, "name"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](27, 0, null, null, 6, "button", [["icon-only", ""], ["ion-button", ""]], [[1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.gotoSettings($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, button_ngfactory["b" /* View_Button_0 */], button_ngfactory["a" /* RenderType_Button */])), core["_30" /* ɵdid */](28, 1097728, [[3, 4]], 0, button_button["a" /* Button */], [[8, ""], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n                "])), (_l()(), core["_31" /* ɵeld */](31, 0, null, 0, 1, "ion-icon", [["name", "cog"], ["role", "img"]], [[2, "hide", null]], null, null, null, null)), core["_30" /* ɵdid */](32, 147456, null, 0, icon_icon["a" /* Icon */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { name: [0, "name"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](36, 0, null, null, 1, "core-context-menu", [], null, null, null, context_menu_ngfactory["b" /* View_CoreContextMenuComponent_0 */], context_menu_ngfactory["a" /* RenderType_CoreContextMenuComponent */])), core["_30" /* ɵdid */](37, 245760, null, 0, context_menu["a" /* CoreContextMenuComponent */], [translate_service["a" /* TranslateService */], popover_controller["a" /* PopoverController */], core["t" /* ElementRef */], dom["a" /* CoreDomUtilsProvider */], [2, tab["a" /* CoreTabComponent */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](42, 0, null, null, 61, "core-split-view", [], null, null, null, split_view_ngfactory["b" /* View_CoreSplitViewComponent_0 */], split_view_ngfactory["a" /* RenderType_CoreSplitViewComponent */])), core["_30" /* ɵdid */](43, 245760, [[1, 4]], 0, split_view["a" /* CoreSplitViewComponent */], [[2, nav_controller["a" /* NavController */]], core["t" /* ElementRef */], fileuploader["a" /* CoreFileUploaderProvider */], platform_platform["a" /* Platform */], translate_service["a" /* TranslateService */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n    "])), (_l()(), core["_31" /* ɵeld */](45, 0, null, 0, 57, "ion-content", [["class", "core-expand-max"]], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](46, 4374528, [[2, 4]], 0, content["a" /* Content */], [config["a" /* Config */], platform_platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app_app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n        "])), (_l()(), core["_31" /* ɵeld */](48, 0, null, 2, 6, "ion-refresher", [], [[2, "refresher-active", null], [4, "top", null]], [[null, "ionRefresh"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("ionRefresh" === en)) {
+        var pd_0 = (_co.refreshData($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), core["_30" /* ɵdid */](49, 212992, null, 0, refresher["a" /* Refresher */], [platform_platform["a" /* Platform */], content["a" /* Content */], core["M" /* NgZone */], gesture_controller["l" /* GestureController */]], { enabled: [0, "enabled"] }, { ionRefresh: "ionRefresh" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](51, 0, null, null, 2, "ion-refresher-content", [], [[1, "state", 0]], null, null, refresher_content_ngfactory["b" /* View_RefresherContent_0 */], refresher_content_ngfactory["a" /* RenderType_RefresherContent */])), core["_30" /* ɵdid */](52, 114688, null, 0, refresher_content["a" /* RefresherContent */], [refresher["a" /* Refresher */], config["a" /* Config */]], { pullingText: [0, "pullingText"] }, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n\n        "])), (_l()(), core["_31" /* ɵeld */](56, 0, null, 1, 45, "core-loading", [], null, null, null, loading_ngfactory["b" /* View_CoreLoadingComponent_0 */], loading_ngfactory["a" /* RenderType_CoreLoadingComponent */])), core["_30" /* ɵdid */](57, 638976, null, 0, loading["a" /* CoreLoadingComponent */], [translate_service["a" /* TranslateService */], core["t" /* ElementRef */], events["a" /* CoreEventsProvider */], utils_utils["a" /* CoreUtilsProvider */]], { hideUntil: [0, "hideUntil"], message: [1, "message"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n            "])), (_l()(), core["_31" /* ɵeld */](59, 0, null, 0, 17, "a", [["class", "addon-message-discussion item item-block"], ["ion-item", ""], ["text-wrap", ""]], [[1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.gotoContacts($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](60, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 4, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 5, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 6, { _icons: 1 }), core["_30" /* ɵdid */](64, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](67, 0, null, 0, 1, "ion-icon", [["item-start", ""], ["name", "person"], ["role", "img"]], [[2, "hide", null]], null, null, null, null)), core["_30" /* ɵdid */](68, 147456, [[6, 4]], 0, icon_icon["a" /* Icon */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], { name: [0, "name"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](70, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](71, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, 4, 1, null, View_AddonMessagesGroupConversationsPage_1)), core["_30" /* ɵdid */](75, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n            "])), (_l()(), core["_31" /* ɵeld */](78, 0, null, 0, 22, "ion-list", [], null, null, null, null, null)), core["_30" /* ɵdid */](79, 16384, null, 0, list["a" /* List */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], platform_platform["a" /* Platform */], gesture_controller["l" /* GestureController */], dom_controller["a" /* DomController */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_2)), core["_30" /* ɵdid */](83, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_6)), core["_30" /* ɵdid */](86, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n                "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_9)), core["_30" /* ɵdid */](90, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_13)), core["_30" /* ɵdid */](93, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_16)), core["_30" /* ɵdid */](96, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesGroupConversationsPage_20)), core["_30" /* ɵdid */](99, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_26" /* ɵand */](0, [["conversationsTemplate", 2]], null, 0, null, View_AddonMessagesGroupConversationsPage_23)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 8, 0); var currVal_5 = "search"; _ck(_v, 24, 0, currVal_5); var currVal_8 = "cog"; _ck(_v, 32, 0, currVal_8); _ck(_v, 37, 0); _ck(_v, 43, 0); var currVal_13 = _co.loaded; _ck(_v, 49, 0, currVal_13); var currVal_15 = core["_34" /* ɵinlineInterpolate */](1, "", core["_56" /* ɵunv */](_v, 52, 0, core["_44" /* ɵnov */](_v, 53).transform("core.pulltorefresh")), ""); _ck(_v, 52, 0, currVal_15); var currVal_16 = _co.loaded; var currVal_17 = _co.loadingMessage; _ck(_v, 57, 0, currVal_16, currVal_17); var currVal_20 = "person"; _ck(_v, 68, 0, currVal_20); var currVal_22 = (_co.contactRequestsCount > 0); _ck(_v, 75, 0, currVal_22); var currVal_23 = _co.favourites.conversations; _ck(_v, 83, 0, currVal_23); var currVal_24 = (_co.favourites.conversations && _co.favourites.expanded); _ck(_v, 86, 0, currVal_24); var currVal_25 = _co.group.conversations; _ck(_v, 90, 0, currVal_25); var currVal_26 = (_co.group.conversations && _co.group.expanded); _ck(_v, 93, 0, currVal_26); var currVal_27 = _co.individual.conversations; _ck(_v, 96, 0, currVal_27); var currVal_28 = (_co.individual.conversations && _co.individual.expanded); _ck(_v, 99, 0, currVal_28); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 7)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 7)._sbPadding; _ck(_v, 6, 0, currVal_0, currVal_1); var currVal_2 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform("addon.messages.messages")); _ck(_v, 12, 0, currVal_2); var currVal_3 = core["_56" /* ɵunv */](_v, 19, 0, core["_44" /* ɵnov */](_v, 21).transform("addon.messages.search")); _ck(_v, 19, 0, currVal_3); var currVal_4 = core["_44" /* ɵnov */](_v, 24)._hidden; _ck(_v, 23, 0, currVal_4); var currVal_6 = core["_56" /* ɵunv */](_v, 27, 0, core["_44" /* ɵnov */](_v, 29).transform("addon.messages.messagepreferences")); _ck(_v, 27, 0, currVal_6); var currVal_7 = core["_44" /* ɵnov */](_v, 32)._hidden; _ck(_v, 31, 0, currVal_7); var currVal_9 = core["_44" /* ɵnov */](_v, 46).statusbarPadding; var currVal_10 = core["_44" /* ɵnov */](_v, 46)._hasRefresher; _ck(_v, 45, 0, currVal_9, currVal_10); var currVal_11 = (core["_44" /* ɵnov */](_v, 49).state !== "inactive"); var currVal_12 = core["_44" /* ɵnov */](_v, 49)._top; _ck(_v, 48, 0, currVal_11, currVal_12); var currVal_14 = core["_44" /* ɵnov */](_v, 52).r.state; _ck(_v, 51, 0, currVal_14); var currVal_18 = core["_56" /* ɵunv */](_v, 59, 0, core["_44" /* ɵnov */](_v, 65).transform("addon.messages.contacts")); _ck(_v, 59, 0, currVal_18); var currVal_19 = core["_44" /* ɵnov */](_v, 68)._hidden; _ck(_v, 67, 0, currVal_19); var currVal_21 = core["_56" /* ɵunv */](_v, 71, 0, core["_44" /* ɵnov */](_v, 72).transform("addon.messages.contacts")); _ck(_v, 71, 0, currVal_21); }); }
+function View_AddonMessagesGroupConversationsPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-addon-messages-group-conversations", [], null, null, null, View_AddonMessagesGroupConversationsPage_0, RenderType_AddonMessagesGroupConversationsPage)), core["_30" /* ɵdid */](1, 245760, null, 0, group_conversations_AddonMessagesGroupConversationsPage, [events["a" /* CoreEventsProvider */], sites["a" /* CoreSitesProvider */], translate_service["a" /* TranslateService */], providers_messages["a" /* AddonMessagesProvider */], dom["a" /* CoreDomUtilsProvider */], nav_params["a" /* NavParams */], nav_controller["a" /* NavController */], platform_platform["a" /* Platform */], utils_utils["a" /* CoreUtilsProvider */], delegate["a" /* AddonPushNotificationsDelegate */], messages_offline["a" /* AddonMessagesOfflineProvider */], providers_user["a" /* CoreUserProvider */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+var AddonMessagesGroupConversationsPageNgFactory = core["_27" /* ɵccf */]("page-addon-messages-group-conversations", group_conversations_AddonMessagesGroupConversationsPage, View_AddonMessagesGroupConversationsPage_Host_0, {}, {}, []);
+
+//# sourceMappingURL=group-conversations.ngfactory.js.map
+// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
+var esm5_forms = __webpack_require__(22);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
+var translate_loader = __webpack_require__(332);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
+var translate_compiler = __webpack_require__(333);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
+var translate_parser = __webpack_require__(335);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
+var missing_translation_handler = __webpack_require__(334);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
+var translate_store = __webpack_require__(433);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
+var ionic_angular_module = __webpack_require__(661);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
+var module_loader = __webpack_require__(247);
+
+// CONCATENATED MODULE: ./src/addon/messages/pages/group-conversations/group-conversations.module.ngfactory.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesGroupConversationsPageModuleNgFactory", function() { return AddonMessagesGroupConversationsPageModuleNgFactory; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AddonMessagesGroupConversationsPageModuleNgFactory = core["_28" /* ɵcmf */](group_conversations_module_AddonMessagesGroupConversationsPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], AddonMessagesGroupConversationsPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* CoreComponentsModule */], components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, group_conversations_module_AddonMessagesGroupConversationsPageModule, group_conversations_module_AddonMessagesGroupConversationsPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], group_conversations_AddonMessagesGroupConversationsPage, [])]); });
+
+//# sourceMappingURL=group-conversations.module.ngfactory.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=108.js.map
