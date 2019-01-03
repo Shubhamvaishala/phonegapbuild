@@ -142,7 +142,7 @@
         <param name="SENDER_ID" value="578987199728" />
     </gap:plugin>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='LinuxSystemAdministration']">
-        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" />
     </edit-config>
     <preference name="permissions" value="none" />
     <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
