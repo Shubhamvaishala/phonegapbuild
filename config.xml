@@ -535,6 +535,6 @@
     </config-file>
     <content src="index.html" />
     <preference name="SplashScreen" value="screen" />
-    <engine name="android" spec="7.1.2" />
+    <engine name="android" spec="7.1.4" />
     <engine name="ios" spec="4.5.5" />
 </widget>
