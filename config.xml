@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35200" id="com.vidyamantra.cmoodleapp184" version="3.5.2" versionCode="35200" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="35200" id="org.ecampus.moodleapp184" version="3.5.2" versionCode="35200" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Jibu</name>
     <description>
         The mobile solution for health worker training in Africa.
     </description>
-    <author email="sales@vidyamantra.com" href="http://moodleapp.keytoschool.com">
-        Vidya Mantra EduSystems Pvt. Ltd.
+    <author email="raphael.muia@amref.org" href="https://ecampus.amref.org/">
+        Amref Health Africa
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
         <string>3.5.2</string>
@@ -119,7 +119,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.3.0">
-        <param name="URL_SCHEME" value="cmoodlemobile" />
+        <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
