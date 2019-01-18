@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35200" id="org.amref.cmoodleapp184" version="3.5.2" versionCode="35200" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="35300" id="org.amref.cmoodleapp184" version="3.5.3" versionCode="35300" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Jibu</name>
     <description>
         The mobile solution for health worker training in Africa.
@@ -8,10 +8,10 @@
         Amref Health Africa
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.5.2</string>
+        <string>3.5.3</string>
     </edit-config>
     <gap:config-file parent="CFBundleVersion" platform="ios">
-        <string>3.5.2</string>
+        <string>3.5.3</string>
     </gap:config-file>
     <gap:platform name="ios" />
     <gap:platform name="android" />
@@ -535,6 +535,6 @@
     </config-file>
     <content src="index.html" />
     <preference name="SplashScreen" value="screen" />
-    <engine name="android" spec="7.1.4" />
+    <engine name="android" spec="7.1.2" />
     <engine name="ios" spec="4.5.5" />
 </widget>
