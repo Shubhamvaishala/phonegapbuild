@@ -1,3 +1,5 @@
-.core-sitename{
+ion-app.app-root page-core-login-credentials {
+  .core-sitename{
 font-weight: bold;
+}
 }
