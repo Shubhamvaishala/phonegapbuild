@@ -1,6 +1,6 @@
 webpackJsonp([106],{
 
-/***/ 1855:
+/***/ 1859:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19,10 +19,10 @@ var _ngx_translate_core = __webpack_require__(3);
 var directives_module = __webpack_require__(29);
 
 // EXTERNAL MODULE: ./src/addon/mod/book/components/components.module.ts
-var components_module = __webpack_require__(689);
+var components_module = __webpack_require__(691);
 
 // EXTERNAL MODULE: ./src/addon/mod/book/components/index/index.ts
-var index = __webpack_require__(455);
+var index = __webpack_require__(457);
 
 // CONCATENATED MODULE: ./src/addon/mod/book/pages/index/index.ts
 // (C) Copyright 2015 Martin Dougiamas
@@ -168,7 +168,7 @@ var recaptchamodal_ngfactory = __webpack_require__(1358);
 var unsupported_module_ngfactory = __webpack_require__(1359);
 
 // EXTERNAL MODULE: ./src/addon/mod/book/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1396);
+var index_ngfactory = __webpack_require__(1398);
 
 // EXTERNAL MODULE: ./src/addon/mod/book/components/toc-popover/toc-popover.ngfactory.js
 var toc_popover_ngfactory = __webpack_require__(1427);
