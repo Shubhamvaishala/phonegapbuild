@@ -1,6 +1,6 @@
 webpackJsonp([25],{
 
-/***/ 1905:
+/***/ 1906:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16,7 +16,7 @@ var ionic_angular = __webpack_require__(8);
 var _ngx_translate_core = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./src/addon/notifications/providers/notifications.ts
-var notifications = __webpack_require__(286);
+var notifications = __webpack_require__(285);
 
 // EXTERNAL MODULE: ./src/core/user/providers/user.ts
 var user = __webpack_require__(43);
@@ -513,7 +513,7 @@ var note = __webpack_require__(226);
 var row = __webpack_require__(115);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/list/list-header.js
-var list_header = __webpack_require__(284);
+var list_header = __webpack_require__(286);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/card/card.js
 var card = __webpack_require__(86);

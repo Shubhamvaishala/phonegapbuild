@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 1849:
+/***/ 1850:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -437,7 +437,7 @@ var note = __webpack_require__(226);
 var row = __webpack_require__(115);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/list/list-header.js
-var list_header = __webpack_require__(284);
+var list_header = __webpack_require__(286);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/card/card.js
 var card = __webpack_require__(86);
