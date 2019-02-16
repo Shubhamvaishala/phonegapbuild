@@ -25,13 +25,13 @@ var sites = __webpack_require__(1);
 var messages = __webpack_require__(147);
 
 // EXTERNAL MODULE: ./src/addon/messages/providers/messages-offline.ts
-var messages_offline = __webpack_require__(346);
+var messages_offline = __webpack_require__(348);
 
 // EXTERNAL MODULE: ./src/addon/messages/providers/sync.ts
 var sync = __webpack_require__(453);
 
 // EXTERNAL MODULE: ./src/core/user/providers/user.ts
-var user = __webpack_require__(44);
+var user = __webpack_require__(43);
 
 // EXTERNAL MODULE: ./src/providers/utils/dom.ts
 var dom = __webpack_require__(4);
@@ -52,7 +52,7 @@ var animations = __webpack_require__(1427);
 var split_view = __webpack_require__(34);
 
 // EXTERNAL MODULE: ./node_modules/ts-md5/dist/md5.js
-var md5 = __webpack_require__(180);
+var md5 = __webpack_require__(181);
 var md5_default = /*#__PURE__*/__webpack_require__.n(md5);
 
 // EXTERNAL MODULE: ./node_modules/moment/moment.js
@@ -178,8 +178,10 @@ var discussion_AddonMessagesDiscussionPage = /** @class */ (function () {
      */
     AddonMessagesDiscussionPage.prototype.addMessage = function (message, keep) {
         if (keep === void 0) { keep = true; }
-        // Use text instead of message ID because ID changes when a message is read.
-        message.hash = md5["Md5"].hashAsciiStr(message.text || '') + '#' + message.timecreated + '#' + message.useridfrom;
+        /* Create a hash to identify the message. The text of online messages isn't reliable because it can have random data
+           like VideoJS ID. Try to use id and fallback to text for offline messages. */
+        message.hash = md5["Md5"].hashAsciiStr(String(message.id || message.text || '')) + '#' + message.timecreated + '#' +
+            message.useridfrom;
         if (typeof this.keepMessageMap[message.hash] === 'undefined') {
             // Message not added to the list. Add it now.
             this.messages.push(message);
@@ -382,8 +384,9 @@ var discussion_AddonMessagesDiscussionPage = /** @class */ (function () {
             return;
         }
         // Check if we are at the bottom to scroll it after render.
-        this.scrollBottom = this.domUtils.getScrollHeight(this.content) - this.domUtils.getScrollTop(this.content) ===
-            this.domUtils.getContentHeight(this.content);
+        // Use a 5px error margin because in iOS there is 1px difference for some reason.
+        this.scrollBottom = Math.abs(this.domUtils.getScrollHeight(this.content) - this.domUtils.getScrollTop(this.content) -
+            this.domUtils.getContentHeight(this.content)) < 5;
         if (this.messagesBeingSent > 0) {
             // Ignore polling due to a race condition.
             return;
@@ -1270,13 +1273,13 @@ var discussion_AddonMessagesDiscussionPage = /** @class */ (function () {
 
 //# sourceMappingURL=discussion.js.map
 // EXTERNAL MODULE: ./src/components/components.module.ts
-var components_module = __webpack_require__(28);
+var components_module = __webpack_require__(23);
 
 // EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
 var directives_module = __webpack_require__(29);
 
-// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 1 modules
-var pipes_module = __webpack_require__(105);
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 2 modules
+var pipes_module = __webpack_require__(106);
 
 // CONCATENATED MODULE: ./src/addon/messages/pages/discussion/discussion.module.ts
 // (C) Copyright 2015 Martin Dougiamas
@@ -1327,43 +1330,43 @@ var discussion_module_AddonMessagesDiscussionPageModule = /** @class */ (functio
 
 //# sourceMappingURL=discussion.module.js.map
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
-var action_sheet_component_ngfactory = __webpack_require__(1346);
+var action_sheet_component_ngfactory = __webpack_require__(1345);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
-var alert_component_ngfactory = __webpack_require__(1347);
+var alert_component_ngfactory = __webpack_require__(1346);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
-var app_root_ngfactory = __webpack_require__(1348);
+var app_root_ngfactory = __webpack_require__(1347);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
-var loading_component_ngfactory = __webpack_require__(1349);
+var loading_component_ngfactory = __webpack_require__(1348);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
-var modal_component_ngfactory = __webpack_require__(1350);
+var modal_component_ngfactory = __webpack_require__(1349);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
-var picker_component_ngfactory = __webpack_require__(1351);
+var picker_component_ngfactory = __webpack_require__(1350);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
-var popover_component_ngfactory = __webpack_require__(1352);
+var popover_component_ngfactory = __webpack_require__(1351);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
-var select_popover_component_ngfactory = __webpack_require__(1353);
+var select_popover_component_ngfactory = __webpack_require__(1352);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
-var toast_component_ngfactory = __webpack_require__(1354);
+var toast_component_ngfactory = __webpack_require__(1353);
 
 // EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
-var context_menu_popover_ngfactory = __webpack_require__(1357);
+var context_menu_popover_ngfactory = __webpack_require__(1356);
 
 // EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
-var course_picker_menu_popover_ngfactory = __webpack_require__(1358);
+var course_picker_menu_popover_ngfactory = __webpack_require__(1357);
 
 // EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
-var recaptchamodal_ngfactory = __webpack_require__(1359);
+var recaptchamodal_ngfactory = __webpack_require__(1358);
 
 // EXTERNAL MODULE: ./src/directives/external-content.ts
-var external_content = __webpack_require__(226);
+var external_content = __webpack_require__(227);
 
 // EXTERNAL MODULE: ./src/providers/filepool.ts
 var filepool = __webpack_require__(16);
@@ -1372,25 +1375,25 @@ var filepool = __webpack_require__(16);
 var platform = __webpack_require__(14);
 
 // EXTERNAL MODULE: ./src/providers/utils/url.ts
-var url = __webpack_require__(25);
+var url = __webpack_require__(26);
 
 // EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ngfactory.js
-var user_avatar_ngfactory = __webpack_require__(222);
+var user_avatar_ngfactory = __webpack_require__(223);
 
 // EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ts
-var user_avatar = __webpack_require__(187);
+var user_avatar = __webpack_require__(188);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
 var nav_controller = __webpack_require__(21);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/avatar/avatar.js
-var avatar = __webpack_require__(186);
+var avatar = __webpack_require__(187);
 
 // EXTERNAL MODULE: ./src/components/icon/icon.ngfactory.js
-var icon_ngfactory = __webpack_require__(131);
+var icon_ngfactory = __webpack_require__(110);
 
 // EXTERNAL MODULE: ./src/components/icon/icon.ts
-var icon = __webpack_require__(120);
+var icon = __webpack_require__(93);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/chip/chip.js
 var chip = __webpack_require__(707);
@@ -1402,7 +1405,7 @@ var config = __webpack_require__(6);
 var label = __webpack_require__(61);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
-var translate_pipe = __webpack_require__(24);
+var translate_pipe = __webpack_require__(27);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
 var translate_service = __webpack_require__(18);
@@ -1411,7 +1414,7 @@ var translate_service = __webpack_require__(18);
 var icon_icon = __webpack_require__(46);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/note/note.js
-var note = __webpack_require__(224);
+var note = __webpack_require__(226);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.ngfactory.js
 var button_ngfactory = __webpack_require__(45);
@@ -1435,13 +1438,13 @@ var item = __webpack_require__(20);
 var util_form = __webpack_require__(19);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
-var item_reorder = __webpack_require__(26);
+var item_reorder = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-content.js
 var item_content = __webpack_require__(32);
 
 // EXTERNAL MODULE: ./src/directives/format-text.ts
-var format_text = __webpack_require__(40);
+var format_text = __webpack_require__(41);
 
 // EXTERNAL MODULE: ./src/providers/utils/text.ts
 var utils_text = __webpack_require__(10);
@@ -1450,49 +1453,49 @@ var utils_text = __webpack_require__(10);
 var helper = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
-var content = __webpack_require__(23);
+var content = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./src/providers/utils/iframe.ts
 var iframe = __webpack_require__(37);
 
 // EXTERNAL MODULE: ./src/components/empty-box/empty-box.ngfactory.js
-var empty_box_ngfactory = __webpack_require__(119);
+var empty_box_ngfactory = __webpack_require__(121);
 
 // EXTERNAL MODULE: ./src/components/empty-box/empty-box.ts
-var empty_box = __webpack_require__(108);
+var empty_box = __webpack_require__(109);
 
 // EXTERNAL MODULE: ./src/components/send-message-form/send-message-form.ngfactory.js
-var send_message_form_ngfactory = __webpack_require__(1966);
+var send_message_form_ngfactory = __webpack_require__(1967);
 
 // EXTERNAL MODULE: ./src/components/send-message-form/send-message-form.ts
-var send_message_form = __webpack_require__(1371);
+var send_message_form = __webpack_require__(1370);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-footer.js
-var toolbar_footer = __webpack_require__(682);
+var toolbar_footer = __webpack_require__(681);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
 var view_controller = __webpack_require__(36);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.ngfactory.js
-var toolbar_ngfactory = __webpack_require__(1963);
+var toolbar_ngfactory = __webpack_require__(1964);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
-var toolbar = __webpack_require__(246);
+var toolbar = __webpack_require__(247);
 
 // EXTERNAL MODULE: ./src/pipes/format-date.ts
-var format_date = __webpack_require__(248);
+var format_date = __webpack_require__(224);
 
 // EXTERNAL MODULE: ./src/providers/utils/time.ts
-var time = __webpack_require__(27);
+var time = __webpack_require__(25);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
 var toolbar_header = __webpack_require__(435);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
-var navbar_ngfactory = __webpack_require__(1355);
+var navbar_ngfactory = __webpack_require__(1354);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
-var navbar = __webpack_require__(200);
+var navbar = __webpack_require__(201);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
 var app_app = __webpack_require__(33);
@@ -1501,10 +1504,10 @@ var app_app = __webpack_require__(33);
 var back_button = __webpack_require__(663);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
-var toolbar_title_ngfactory = __webpack_require__(1356);
+var toolbar_title_ngfactory = __webpack_require__(1355);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
-var toolbar_title = __webpack_require__(337);
+var toolbar_title = __webpack_require__(339);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
 var toolbar_item = __webpack_require__(436);
@@ -1534,13 +1537,13 @@ var context_menu_item_ngfactory = __webpack_require__(80);
 var context_menu_item = __webpack_require__(73);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
-var content_ngfactory = __webpack_require__(185);
+var content_ngfactory = __webpack_require__(186);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
 var dom_controller = __webpack_require__(31);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
-var keyboard = __webpack_require__(106);
+var keyboard = __webpack_require__(107);
 
 // EXTERNAL MODULE: ./src/components/loading/loading.ngfactory.js
 var loading_ngfactory = __webpack_require__(48);
@@ -1552,7 +1555,7 @@ var loading = __webpack_require__(47);
 var infinite_loading_ngfactory = __webpack_require__(440);
 
 // EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ts
-var infinite_loading = __webpack_require__(276);
+var infinite_loading = __webpack_require__(277);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/list/list.js + 1 modules
 var list = __webpack_require__(77);
@@ -1564,7 +1567,7 @@ var gesture_controller = __webpack_require__(38);
 var nav_params = __webpack_require__(60);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-controller.js
-var modal_controller = __webpack_require__(204);
+var modal_controller = __webpack_require__(191);
 
 // CONCATENATED MODULE: ./src/addon/messages/pages/discussion/discussion.ngfactory.js
 /**
@@ -1739,7 +1742,7 @@ function View_AddonMessagesDiscussionPage_0(_l) { return core["_57" /* ɵvid */]
     } return ad; }, context_menu_item_ngfactory["b" /* View_CoreContextMenuItemComponent_0 */], context_menu_item_ngfactory["a" /* RenderType_CoreContextMenuItemComponent */])), core["_30" /* ɵdid */](70, 770048, null, 0, context_menu_item["a" /* CoreContextMenuItemComponent */], [context_menu["a" /* CoreContextMenuComponent */]], { content: [0, "content"], iconAction: [1, "iconAction"], priority: [2, "priority"], hidden: [3, "hidden"] }, { action: "action" }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](76, 0, null, null, 20, "ion-content", [["class", "has-footer"]], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](77, 4374528, [[1, 4]], 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app_app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](79, 0, null, 1, 16, "core-loading", [], null, null, null, loading_ngfactory["b" /* View_CoreLoadingComponent_0 */], loading_ngfactory["a" /* RenderType_CoreLoadingComponent */])), core["_30" /* ɵdid */](80, 638976, null, 0, loading["a" /* CoreLoadingComponent */], [translate_service["a" /* TranslateService */], core["t" /* ElementRef */], events["a" /* CoreEventsProvider */], utils_utils["a" /* CoreUtilsProvider */]], { hideUntil: [0, "hideUntil"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_31" /* ɵeld */](83, 0, null, 0, 1, "core-infinite-loading", [["position", "top"]], null, [[null, "action"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("action" === en)) {
         var pd_0 = (_co.loadPrevious($event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, infinite_loading_ngfactory["b" /* View_CoreInfiniteLoadingComponent_0 */], infinite_loading_ngfactory["a" /* RenderType_CoreInfiniteLoadingComponent */])), core["_30" /* ɵdid */](84, 49152, null, 0, infinite_loading["a" /* CoreInfiniteLoadingComponent */], [], { enabled: [0, "enabled"], error: [1, "error"], position: [2, "position"] }, { action: "action" }), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_31" /* ɵeld */](86, 0, null, 0, 5, "ion-list", [["class", "addon-messages-discussion-container safe-area-page"]], [[2, "addon-messages-discussion-group", null], [1, "aria-live", 0]], null, null, null, null)), core["_30" /* ɵdid */](87, 16384, null, 0, list["a" /* List */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], platform["a" /* Platform */], gesture_controller["l" /* GestureController */], dom_controller["a" /* DomController */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesDiscussionPage_4)), core["_30" /* ɵdid */](90, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesDiscussionPage_12)), core["_30" /* ɵdid */](94, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesDiscussionPage_13)), core["_30" /* ɵdid */](99, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 7, 0); var currVal_2 = ((_co.loaded && !_co.otherMember) && _co.conversationImage); _ck(_v, 13, 0, currVal_2); var currVal_3 = (_co.loaded && _co.otherMember); _ck(_v, 16, 0, currVal_3); var currVal_4 = _co.title; _ck(_v, 19, 0, currVal_4); var currVal_5 = (_co.conversation && _co.conversation.isfavourite); _ck(_v, 22, 0, currVal_5); _ck(_v, 31, 0); _ck(_v, 35, 0); var currVal_6 = core["_56" /* ɵunv */](_v, 38, 0, core["_44" /* ɵnov */](_v, 39).transform("addon.messages.info")); var currVal_7 = "information-circle"; var currVal_8 = 1000; var currVal_9 = (!_co.showInfo || _co.isGroup); _ck(_v, 38, 0, currVal_6, currVal_7, currVal_8, currVal_9); var currVal_10 = core["_56" /* ɵunv */](_v, 42, 0, core["_44" /* ɵnov */](_v, 43).transform("addon.messages.groupinfo")); var currVal_11 = "information-circle"; var currVal_12 = 1000; var currVal_13 = (!_co.showInfo || !_co.isGroup); _ck(_v, 42, 0, currVal_10, currVal_11, currVal_12, currVal_13); var currVal_14 = core["_56" /* ɵunv */](_v, 46, 0, core["_44" /* ɵnov */](_v, 47).transform(((_co.conversation && _co.conversation.isfavourite) ? "addon.messages.removefromfavourites" : "addon.messages.addtofavourites"))); var currVal_15 = _co.favouriteIcon; var currVal_16 = false; var currVal_17 = 800; var currVal_18 = (!_co.groupMessagingEnabled || !_co.conversation); _ck(_v, 46, 0, currVal_14, currVal_15, currVal_16, currVal_17, currVal_18); var currVal_19 = core["_56" /* ɵunv */](_v, 50, 0, core["_44" /* ɵnov */](_v, 51).transform("addon.messages.blockuser")); var currVal_20 = _co.blockIcon; var currVal_21 = 700; var currVal_22 = (!_co.otherMember || _co.otherMember.isblocked); _ck(_v, 50, 0, currVal_19, currVal_20, currVal_21, currVal_22); var currVal_23 = core["_56" /* ɵunv */](_v, 54, 0, core["_44" /* ɵnov */](_v, 55).transform("addon.messages.unblockuser")); var currVal_24 = _co.blockIcon; var currVal_25 = 700; var currVal_26 = (!_co.otherMember || !_co.otherMember.isblocked); _ck(_v, 54, 0, currVal_23, currVal_24, currVal_25, currVal_26); var currVal_27 = core["_56" /* ɵunv */](_v, 58, 0, core["_44" /* ɵnov */](_v, 59).transform("addon.messages.showdeletemessages")); var currVal_28 = (_co.showDelete ? "checkbox-outline" : "square-outline"); var currVal_29 = 400; var currVal_30 = !_co.canDelete; _ck(_v, 58, 0, currVal_27, currVal_28, currVal_29, currVal_30); var currVal_31 = core["_56" /* ɵunv */](_v, 62, 0, core["_44" /* ɵnov */](_v, 63).transform("addon.messages.deleteconversation")); var currVal_32 = _co.deleteIcon; var currVal_33 = false; var currVal_34 = 200; var currVal_35 = ((!_co.groupMessagingEnabled || !_co.conversationId) || _co.isGroup); _ck(_v, 62, 0, currVal_31, currVal_32, currVal_33, currVal_34, currVal_35); var currVal_36 = core["_56" /* ɵunv */](_v, 66, 0, core["_44" /* ɵnov */](_v, 67).transform("addon.messages.addtoyourcontacts")); var currVal_37 = _co.addRemoveIcon; var currVal_38 = 100; var currVal_39 = (((!_co.otherMember || _co.otherMember.iscontact) || _co.requestContactSent) || _co.requestContactReceived); _ck(_v, 66, 0, currVal_36, currVal_37, currVal_38, currVal_39); var currVal_40 = core["_56" /* ɵunv */](_v, 70, 0, core["_44" /* ɵnov */](_v, 71).transform("addon.messages.removefromyourcontacts")); var currVal_41 = _co.addRemoveIcon; var currVal_42 = 100; var currVal_43 = (!_co.otherMember || !_co.otherMember.iscontact); _ck(_v, 70, 0, currVal_40, currVal_41, currVal_42, currVal_43); var currVal_46 = _co.loaded; _ck(_v, 80, 0, currVal_46); var currVal_47 = _co.canLoadMore; var currVal_48 = _co.loadMoreError; var currVal_49 = "top"; _ck(_v, 84, 0, currVal_47, currVal_48, currVal_49); var currVal_52 = _co.messages; _ck(_v, 90, 0, currVal_52); var currVal_53 = (!_co.messages || (_co.messages.length <= 0)); _ck(_v, 94, 0, currVal_53); var currVal_54 = (_co.loaded && (!_co.conversationId || _co.conversation)); _ck(_v, 99, 0, currVal_54); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_44" /* ɵnov */](_v, 6)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 6)._sbPadding; _ck(_v, 5, 0, currVal_0, currVal_1); var currVal_44 = core["_44" /* ɵnov */](_v, 77).statusbarPadding; var currVal_45 = core["_44" /* ɵnov */](_v, 77)._hasRefresher; _ck(_v, 76, 0, currVal_44, currVal_45); var currVal_50 = _co.isGroup; var currVal_51 = "polite"; _ck(_v, 86, 0, currVal_50, currVal_51); }); }
+    } return ad; }, infinite_loading_ngfactory["b" /* View_CoreInfiniteLoadingComponent_0 */], infinite_loading_ngfactory["a" /* RenderType_CoreInfiniteLoadingComponent */])), core["_30" /* ɵdid */](84, 573440, null, 0, infinite_loading["a" /* CoreInfiniteLoadingComponent */], [[2, content["a" /* Content */]]], { enabled: [0, "enabled"], error: [1, "error"], position: [2, "position"] }, { action: "action" }), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_31" /* ɵeld */](86, 0, null, 0, 5, "ion-list", [["class", "addon-messages-discussion-container safe-area-page"]], [[2, "addon-messages-discussion-group", null], [1, "aria-live", 0]], null, null, null, null)), core["_30" /* ɵdid */](87, 16384, null, 0, list["a" /* List */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], platform["a" /* Platform */], gesture_controller["l" /* GestureController */], dom_controller["a" /* DomController */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesDiscussionPage_4)), core["_30" /* ɵdid */](90, 802816, null, 0, common["j" /* NgForOf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */], core["E" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, 0, 1, null, View_AddonMessagesDiscussionPage_12)), core["_30" /* ɵdid */](94, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 0, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesDiscussionPage_13)), core["_30" /* ɵdid */](99, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 7, 0); var currVal_2 = ((_co.loaded && !_co.otherMember) && _co.conversationImage); _ck(_v, 13, 0, currVal_2); var currVal_3 = (_co.loaded && _co.otherMember); _ck(_v, 16, 0, currVal_3); var currVal_4 = _co.title; _ck(_v, 19, 0, currVal_4); var currVal_5 = (_co.conversation && _co.conversation.isfavourite); _ck(_v, 22, 0, currVal_5); _ck(_v, 31, 0); _ck(_v, 35, 0); var currVal_6 = core["_56" /* ɵunv */](_v, 38, 0, core["_44" /* ɵnov */](_v, 39).transform("addon.messages.info")); var currVal_7 = "information-circle"; var currVal_8 = 1000; var currVal_9 = (!_co.showInfo || _co.isGroup); _ck(_v, 38, 0, currVal_6, currVal_7, currVal_8, currVal_9); var currVal_10 = core["_56" /* ɵunv */](_v, 42, 0, core["_44" /* ɵnov */](_v, 43).transform("addon.messages.groupinfo")); var currVal_11 = "information-circle"; var currVal_12 = 1000; var currVal_13 = (!_co.showInfo || !_co.isGroup); _ck(_v, 42, 0, currVal_10, currVal_11, currVal_12, currVal_13); var currVal_14 = core["_56" /* ɵunv */](_v, 46, 0, core["_44" /* ɵnov */](_v, 47).transform(((_co.conversation && _co.conversation.isfavourite) ? "addon.messages.removefromfavourites" : "addon.messages.addtofavourites"))); var currVal_15 = _co.favouriteIcon; var currVal_16 = false; var currVal_17 = 800; var currVal_18 = (!_co.groupMessagingEnabled || !_co.conversation); _ck(_v, 46, 0, currVal_14, currVal_15, currVal_16, currVal_17, currVal_18); var currVal_19 = core["_56" /* ɵunv */](_v, 50, 0, core["_44" /* ɵnov */](_v, 51).transform("addon.messages.blockuser")); var currVal_20 = _co.blockIcon; var currVal_21 = 700; var currVal_22 = (!_co.otherMember || _co.otherMember.isblocked); _ck(_v, 50, 0, currVal_19, currVal_20, currVal_21, currVal_22); var currVal_23 = core["_56" /* ɵunv */](_v, 54, 0, core["_44" /* ɵnov */](_v, 55).transform("addon.messages.unblockuser")); var currVal_24 = _co.blockIcon; var currVal_25 = 700; var currVal_26 = (!_co.otherMember || !_co.otherMember.isblocked); _ck(_v, 54, 0, currVal_23, currVal_24, currVal_25, currVal_26); var currVal_27 = core["_56" /* ɵunv */](_v, 58, 0, core["_44" /* ɵnov */](_v, 59).transform("addon.messages.showdeletemessages")); var currVal_28 = (_co.showDelete ? "checkbox-outline" : "square-outline"); var currVal_29 = 400; var currVal_30 = !_co.canDelete; _ck(_v, 58, 0, currVal_27, currVal_28, currVal_29, currVal_30); var currVal_31 = core["_56" /* ɵunv */](_v, 62, 0, core["_44" /* ɵnov */](_v, 63).transform("addon.messages.deleteconversation")); var currVal_32 = _co.deleteIcon; var currVal_33 = false; var currVal_34 = 200; var currVal_35 = ((!_co.groupMessagingEnabled || !_co.conversationId) || _co.isGroup); _ck(_v, 62, 0, currVal_31, currVal_32, currVal_33, currVal_34, currVal_35); var currVal_36 = core["_56" /* ɵunv */](_v, 66, 0, core["_44" /* ɵnov */](_v, 67).transform("addon.messages.addtoyourcontacts")); var currVal_37 = _co.addRemoveIcon; var currVal_38 = 100; var currVal_39 = (((!_co.otherMember || _co.otherMember.iscontact) || _co.requestContactSent) || _co.requestContactReceived); _ck(_v, 66, 0, currVal_36, currVal_37, currVal_38, currVal_39); var currVal_40 = core["_56" /* ɵunv */](_v, 70, 0, core["_44" /* ɵnov */](_v, 71).transform("addon.messages.removefromyourcontacts")); var currVal_41 = _co.addRemoveIcon; var currVal_42 = 100; var currVal_43 = (!_co.otherMember || !_co.otherMember.iscontact); _ck(_v, 70, 0, currVal_40, currVal_41, currVal_42, currVal_43); var currVal_46 = _co.loaded; _ck(_v, 80, 0, currVal_46); var currVal_47 = _co.canLoadMore; var currVal_48 = _co.loadMoreError; var currVal_49 = "top"; _ck(_v, 84, 0, currVal_47, currVal_48, currVal_49); var currVal_52 = _co.messages; _ck(_v, 90, 0, currVal_52); var currVal_53 = (!_co.messages || (_co.messages.length <= 0)); _ck(_v, 94, 0, currVal_53); var currVal_54 = (_co.loaded && (!_co.conversationId || _co.conversation)); _ck(_v, 99, 0, currVal_54); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_44" /* ɵnov */](_v, 6)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 6)._sbPadding; _ck(_v, 5, 0, currVal_0, currVal_1); var currVal_44 = core["_44" /* ɵnov */](_v, 77).statusbarPadding; var currVal_45 = core["_44" /* ɵnov */](_v, 77)._hasRefresher; _ck(_v, 76, 0, currVal_44, currVal_45); var currVal_50 = _co.isGroup; var currVal_51 = "polite"; _ck(_v, 86, 0, currVal_50, currVal_51); }); }
 function View_AddonMessagesDiscussionPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-addon-messages-discussion", [], null, null, null, View_AddonMessagesDiscussionPage_0, RenderType_AddonMessagesDiscussionPage)), core["_30" /* ɵdid */](1, 180224, null, 0, discussion_AddonMessagesDiscussionPage, [events["a" /* CoreEventsProvider */], sites["a" /* CoreSitesProvider */], nav_params["a" /* NavParams */], user["a" /* CoreUserProvider */], nav_controller["a" /* NavController */], sync["a" /* AddonMessagesSyncProvider */], dom["a" /* CoreDomUtilsProvider */], messages["a" /* AddonMessagesProvider */], providers_logger["a" /* CoreLoggerProvider */], utils_utils["a" /* CoreUtilsProvider */], app["a" /* CoreAppProvider */], translate_service["a" /* TranslateService */], [2, split_view["a" /* CoreSplitViewComponent */]], messages_offline["a" /* AddonMessagesOfflineProvider */], modal_controller["a" /* ModalController */]], null, null)], null, null); }
 var AddonMessagesDiscussionPageNgFactory = core["_27" /* ɵccf */]("page-addon-messages-discussion", discussion_AddonMessagesDiscussionPage, View_AddonMessagesDiscussionPage_Host_0, {}, {}, []);
 
@@ -1748,16 +1751,16 @@ var AddonMessagesDiscussionPageNgFactory = core["_27" /* ɵccf */]("page-addon-m
 var esm5_forms = __webpack_require__(22);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
-var translate_loader = __webpack_require__(333);
+var translate_loader = __webpack_require__(335);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
-var translate_compiler = __webpack_require__(334);
+var translate_compiler = __webpack_require__(336);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
-var translate_parser = __webpack_require__(336);
+var translate_parser = __webpack_require__(338);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
-var missing_translation_handler = __webpack_require__(335);
+var missing_translation_handler = __webpack_require__(337);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
 var translate_store = __webpack_require__(434);
@@ -1766,7 +1769,7 @@ var translate_store = __webpack_require__(434);
 var ionic_angular_module = __webpack_require__(662);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
-var module_loader = __webpack_require__(247);
+var module_loader = __webpack_require__(248);
 
 // CONCATENATED MODULE: ./src/addon/messages/pages/discussion/discussion.module.ngfactory.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesDiscussionPageModuleNgFactory", function() { return AddonMessagesDiscussionPageModuleNgFactory; });
@@ -1812,7 +1815,7 @@ var AddonMessagesDiscussionPageModuleNgFactory = core["_28" /* ɵcmf */](discuss
 
 /***/ }),
 
-/***/ 1963:
+/***/ 1964:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1822,7 +1825,7 @@ var AddonMessagesDiscussionPageModuleNgFactory = core["_28" /* ɵcmf */](discuss
 /* unused harmony export ToolbarNgFactory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(6);
 /**
  * @fileoverview This file was generated by the Angular template compiler. Do not edit.
@@ -1845,7 +1848,7 @@ var ToolbarNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵcc
 
 /***/ }),
 
-/***/ 1966:
+/***/ 1967:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1855,22 +1858,22 @@ var ToolbarNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵcc
 /* unused harmony export CoreSendMessageFormComponentNgFactory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_auto_focus__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_auto_focus__ = __webpack_require__(342);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular_navigation_nav_controller__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_auto_rows__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_auto_rows__ = __webpack_require__(351);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_toolbar_toolbar_item__ = __webpack_require__(436);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_angular_components_toolbar_toolbar__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_toolbar_navbar__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_angular_components_toolbar_toolbar__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_toolbar_navbar__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node_modules_ionic_angular_components_button_button_ngfactory__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_button_button__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__directives_supress_events__ = __webpack_require__(352);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_pipe__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__directives_supress_events__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_pipe__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_service__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_ionic_angular_components_icon_icon__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__send_message_form__ = __webpack_require__(1371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__send_message_form__ = __webpack_require__(1370);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_utils_text__ = __webpack_require__(10);
 /**
  * @fileoverview This file was generated by the Angular template compiler. Do not edit.
