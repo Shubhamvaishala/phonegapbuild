@@ -55,8 +55,11 @@
     "demo_sites": {},
     "gcmpn": "578987199728",
     "customurlscheme": "linuxadmin",
-    "siteurl": "https://www.yogeshwarshukla.com",
-    "multisitesdisplay": "['https://www.yogeshwarshukla.com','https://test.yogeshwarshukla.com']",
+    "siteurl": [
+      {"name": "Linux Admin", "url": "https://www.yogeshwarshukla.com"},
+      {"name": "Test Moodle", "url": "https://test.yogeshwarshukla.com"}
+    ],
+    "multisitesdisplay": "buttons",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://www.keytoschool.com/privacy-policy/"
