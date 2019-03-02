@@ -57,9 +57,9 @@
     "customurlscheme": "linuxadmin",
     "siteurl": [
       {"name": "Linux Admin", "url": "https://www.yogeshwarshukla.com"},
-      {"name": "Test Moodle", "url": "https://test.yogeshwarshukla.com"}
+      {"name": "VidyaMantra", "url": "https://lms.vidyamantra.com"}
     ],
-    "multisitesdisplay": "select",
+    "multisitesdisplay": "buttons",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://www.keytoschool.com/privacy-policy/"
