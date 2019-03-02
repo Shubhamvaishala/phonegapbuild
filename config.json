@@ -59,7 +59,7 @@
       {"name": "Linux Admin", "url": "https://www.yogeshwarshukla.com"},
       {"name": "Test Moodle", "url": "https://test.yogeshwarshukla.com"}
     ],
-    "multisitesdisplay": "buttons",
+    "multisitesdisplay": "select",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://www.keytoschool.com/privacy-policy/"
