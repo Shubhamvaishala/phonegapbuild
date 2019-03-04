@@ -3,6 +3,7 @@
     <core-context-menu>
         <core-context-menu-item *ngIf="externalUrl" [priority]="900" [content]="'core.openinbrowser' | translate" [href]="externalUrl" [iconAction]="'open'"></core-context-menu-item>
         <core-context-menu-item *ngIf="description" [priority]="800" [content]="'core.moduleintro' | translate" (action)="expandDescription()" [iconAction]="'arrow-forward'"></core-context-menu-item>
+        <core-context-menu-item *ngIf="blog" [priority]="750" content="{{'addon.blog.blog' | translate}}" [iconAction]="'fa-newspaper-o'" (action)="gotoBlog($event)"></core-context-menu-item>
         <core-context-menu-item *ngIf="loaded && !hasOffline && isOnline" [priority]="700" [content]="'core.refresh' | translate" (action)="doRefresh(null, $event)" [iconAction]="refreshIcon" [closeOnClick]="false"></core-context-menu-item>
         <core-context-menu-item *ngIf="loaded && hasOffline && isOnline"  [priority]="600" [content]="'core.settings.synchronizenow' | translate" (action)="doRefresh(null, $event, true)" [iconAction]="syncIcon" [closeOnClick]="false"></core-context-menu-item>
         <core-context-menu-item *ngIf="prefetchStatusIcon" [priority]="500" [content]="prefetchText" (action)="prefetch()" [iconAction]="prefetchStatusIcon" [closeOnClick]="false"></core-context-menu-item>
@@ -22,18 +23,18 @@
                 <p>{{ rule }}</p>
             </ion-item>
             <ion-item text-wrap *ngIf="quiz && quiz.gradeMethodReadable">
-                <p class="item-heading">{{ 'addon.mod_quiz.grademethod' | translate }}</p>
+                <h2>{{ 'addon.mod_quiz.grademethod' | translate }}</h2>
                 <p>{{ quiz.gradeMethodReadable }}</p>
             </ion-item>
             <ion-item text-wrap *ngIf="syncTime">
-                <p class="item-heading">{{ 'core.lastsync' | translate }}</p>
+                <h2>{{ 'core.lastsync' | translate }}</h2>
                 <p>{{ syncTime }}</p>
             </ion-item>
         </ion-list>
     </ion-card>
 
     <!-- List of user attempts. -->
-    <ion-card class="addon-mod_quiz-table" *ngIf="attempts && attempts.length">
+    <ion-card class="addon-mod_quiz-table" *ngIf="quiz && attempts && attempts.length">
         <ion-card-header text-wrap>
             <h2>{{ 'addon.mod_quiz.summaryofattempts' | translate }}</h2>
         </ion-card-header>
@@ -64,7 +65,7 @@
     </ion-card>
 
     <!-- Result info. -->
-    <ion-card *ngIf="showResults && (gradeResult || gradeOverridden || gradebookFeedback || (quiz.showFeedbackColumn && overallFeedback))">
+    <ion-card *ngIf="quiz && showResults && (gradeResult || gradeOverridden || gradebookFeedback || (quiz.showFeedbackColumn && overallFeedback))">
         <ion-list>
             <ion-item text-wrap *ngIf="gradeResult">{{ gradeResult }}</ion-item>
             <ion-item text-wrap *ngIf="gradeOverridden">{{ 'core.course.overriddennotice' | translate }}</ion-item>
