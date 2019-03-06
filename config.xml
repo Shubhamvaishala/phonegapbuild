@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="36100" id="com.vidyamantra.cmoodleapp7" version="3.6.1" versionCode="36100" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="36200" id="com.vidyamantra.cmoodleapp7" version="3.6.2" versionCode="36200" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Linux Admin</name>
     <description>
         This tutorial has been prepared for beginners to help them understand the fundamentals of Linux Admin.
@@ -8,8 +8,11 @@
         Yogeshwar Shukla
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.6.1</string>
+        <string>3.6.2</string>
     </edit-config>
+    <gap:config-file parent="CFBundleVersion" platform="ios">
+        <string>3.6.2</string>
+    </gap:config-file>
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <access origin="*" />

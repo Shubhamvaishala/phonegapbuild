@@ -2,8 +2,8 @@
     "app_id": "com.vidyamantra.cmoodleapp7",
     "appname": "Linux Admin",
     "desktopappname": "Linux Admin Desktop",
-    "versioncode": 3610,
-    "versionname": "3.6.1-dev",
+    "versioncode": 3620,
+    "versionname": "3.6.2-dev",
     "cache_expiration_time": 300000,
     "default_lang": "en",
     "languages": {
@@ -55,11 +55,8 @@
     "demo_sites": {},
     "gcmpn": "578987199728",
     "customurlscheme": "linuxadmin",
-    "siteurl": [
-      {"name": "Linux Admin", "url": "https://www.yogeshwarshukla.com"},
-      {"name": "VidyaMantra", "url": "https://lms.vidyamantra.com"}
-    ],
-    "multisitesdisplay": "buttons",
+    "siteurl": "https://www.yogeshwarshukla.com",
+    "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://www.keytoschool.com/privacy-policy/"
