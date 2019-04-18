@@ -1,6 +1,6 @@
 webpackJsonp([13],{
 
-/***/ 1857:
+/***/ 1873:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16,13 +16,13 @@ var ionic_angular = __webpack_require__(8);
 var _ngx_translate_core = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./src/components/components.module.ts
-var components_module = __webpack_require__(28);
+var components_module = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
 var directives_module = __webpack_require__(29);
 
-// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 1 modules
-var pipes_module = __webpack_require__(105);
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 2 modules
+var pipes_module = __webpack_require__(102);
 
 // EXTERNAL MODULE: ./src/providers/app.ts
 var app = __webpack_require__(9);
@@ -43,10 +43,10 @@ var dom = __webpack_require__(4);
 var utils_text = __webpack_require__(10);
 
 // EXTERNAL MODULE: ./src/addon/mod/chat/providers/chat.ts
-var chat = __webpack_require__(344);
+var chat = __webpack_require__(255);
 
 // EXTERNAL MODULE: ./node_modules/@ionic-native/network/index.js
-var network = __webpack_require__(190);
+var network = __webpack_require__(196);
 
 // EXTERNAL MODULE: ./node_modules/moment/moment.js
 var moment = __webpack_require__(13);
@@ -422,40 +422,40 @@ var chat_module_AddonModChatChatPageModule = /** @class */ (function () {
 
 //# sourceMappingURL=chat.module.js.map
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
-var action_sheet_component_ngfactory = __webpack_require__(1346);
+var action_sheet_component_ngfactory = __webpack_require__(1358);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
-var alert_component_ngfactory = __webpack_require__(1347);
+var alert_component_ngfactory = __webpack_require__(1359);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
-var app_root_ngfactory = __webpack_require__(1348);
+var app_root_ngfactory = __webpack_require__(1360);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
-var loading_component_ngfactory = __webpack_require__(1349);
+var loading_component_ngfactory = __webpack_require__(1361);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
-var modal_component_ngfactory = __webpack_require__(1350);
+var modal_component_ngfactory = __webpack_require__(1362);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
-var picker_component_ngfactory = __webpack_require__(1351);
+var picker_component_ngfactory = __webpack_require__(1363);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
-var popover_component_ngfactory = __webpack_require__(1352);
+var popover_component_ngfactory = __webpack_require__(1364);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
-var select_popover_component_ngfactory = __webpack_require__(1353);
+var select_popover_component_ngfactory = __webpack_require__(1365);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
-var toast_component_ngfactory = __webpack_require__(1354);
+var toast_component_ngfactory = __webpack_require__(1366);
 
 // EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
-var context_menu_popover_ngfactory = __webpack_require__(1357);
+var context_menu_popover_ngfactory = __webpack_require__(1369);
 
 // EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
-var course_picker_menu_popover_ngfactory = __webpack_require__(1358);
+var course_picker_menu_popover_ngfactory = __webpack_require__(1370);
 
 // EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
-var recaptchamodal_ngfactory = __webpack_require__(1359);
+var recaptchamodal_ngfactory = __webpack_require__(1371);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.ngfactory.js
 var button_ngfactory = __webpack_require__(45);
@@ -470,10 +470,10 @@ var config = __webpack_require__(6);
 var icon = __webpack_require__(46);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/badge/badge.js
-var badge = __webpack_require__(146);
+var badge = __webpack_require__(148);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
-var translate_pipe = __webpack_require__(24);
+var translate_pipe = __webpack_require__(27);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
 var translate_service = __webpack_require__(18);
@@ -488,16 +488,16 @@ var item = __webpack_require__(20);
 var util_form = __webpack_require__(19);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
-var item_reorder = __webpack_require__(26);
+var item_reorder = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-content.js
 var item_content = __webpack_require__(32);
 
 // EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ngfactory.js
-var user_avatar_ngfactory = __webpack_require__(222);
+var user_avatar_ngfactory = __webpack_require__(207);
 
 // EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ts
-var user_avatar = __webpack_require__(187);
+var user_avatar = __webpack_require__(178);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
 var nav_controller = __webpack_require__(21);
@@ -506,16 +506,16 @@ var nav_controller = __webpack_require__(21);
 var utils = __webpack_require__(2);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/avatar/avatar.js
-var avatar = __webpack_require__(186);
+var avatar = __webpack_require__(177);
 
 // EXTERNAL MODULE: ./src/directives/format-text.ts
-var format_text = __webpack_require__(40);
+var format_text = __webpack_require__(41);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
 var platform = __webpack_require__(14);
 
 // EXTERNAL MODULE: ./src/providers/utils/url.ts
-var url = __webpack_require__(25);
+var url = __webpack_require__(26);
 
 // EXTERNAL MODULE: ./src/providers/filepool.ts
 var filepool = __webpack_require__(16);
@@ -524,7 +524,7 @@ var filepool = __webpack_require__(16);
 var helper = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
-var content = __webpack_require__(23);
+var content = __webpack_require__(25);
 
 // EXTERNAL MODULE: ./src/components/split-view/split-view.ts
 var split_view = __webpack_require__(34);
@@ -536,55 +536,58 @@ var iframe = __webpack_require__(37);
 var common = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./src/components/send-message-form/send-message-form.ngfactory.js
-var send_message_form_ngfactory = __webpack_require__(1966);
+var send_message_form_ngfactory = __webpack_require__(1984);
 
 // EXTERNAL MODULE: ./src/components/send-message-form/send-message-form.ts
-var send_message_form = __webpack_require__(1371);
+var send_message_form = __webpack_require__(1384);
+
+// EXTERNAL MODULE: ./src/providers/config.ts
+var providers_config = __webpack_require__(164);
 
 // EXTERNAL MODULE: ./src/pipes/format-date.ts
-var format_date = __webpack_require__(248);
+var format_date = __webpack_require__(227);
 
 // EXTERNAL MODULE: ./src/providers/utils/time.ts
-var time = __webpack_require__(27);
+var time = __webpack_require__(23);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
-var toolbar_header = __webpack_require__(435);
+var toolbar_header = __webpack_require__(442);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
 var view_controller = __webpack_require__(36);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
-var navbar_ngfactory = __webpack_require__(1355);
+var navbar_ngfactory = __webpack_require__(1367);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
-var navbar = __webpack_require__(200);
+var navbar = __webpack_require__(206);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
 var app_app = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./src/directives/back-button.ts
-var back_button = __webpack_require__(663);
+var back_button = __webpack_require__(669);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
-var toolbar_title_ngfactory = __webpack_require__(1356);
+var toolbar_title_ngfactory = __webpack_require__(1368);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
-var toolbar_title = __webpack_require__(337);
+var toolbar_title = __webpack_require__(344);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
-var toolbar = __webpack_require__(246);
+var toolbar = __webpack_require__(250);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
-var toolbar_item = __webpack_require__(436);
+var toolbar_item = __webpack_require__(443);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
-var content_ngfactory = __webpack_require__(185);
+var content_ngfactory = __webpack_require__(176);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
 var dom_controller = __webpack_require__(31);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
-var keyboard = __webpack_require__(106);
+var keyboard = __webpack_require__(103);
 
 // EXTERNAL MODULE: ./src/components/loading/loading.ngfactory.js
 var loading_ngfactory = __webpack_require__(48);
@@ -593,16 +596,16 @@ var loading_ngfactory = __webpack_require__(48);
 var loading = __webpack_require__(47);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-footer.js
-var toolbar_footer = __webpack_require__(682);
+var toolbar_footer = __webpack_require__(686);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.ngfactory.js
-var toolbar_ngfactory = __webpack_require__(1963);
+var toolbar_ngfactory = __webpack_require__(1981);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
 var nav_params = __webpack_require__(60);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-controller.js
-var modal_controller = __webpack_require__(204);
+var modal_controller = __webpack_require__(195);
 
 // CONCATENATED MODULE: ./src/addon/mod/chat/pages/chat/chat.ngfactory.js
 /**
@@ -611,6 +614,7 @@ var modal_controller = __webpack_require__(204);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
+
 
 
 
@@ -694,7 +698,7 @@ function View_AddonModChatChatPage_10(_l) { return core["_57" /* ɵvid */](0, [(
     } if (("onResize" === en)) {
         var pd_1 = (_co.resizeContent() !== false);
         ad = (pd_1 && ad);
-    } return ad; }, send_message_form_ngfactory["b" /* View_CoreSendMessageFormComponent_0 */], send_message_form_ngfactory["a" /* RenderType_CoreSendMessageFormComponent */])), core["_30" /* ɵdid */](1, 114688, null, 0, send_message_form["a" /* CoreSendMessageFormComponent */], [utils["a" /* CoreUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */]], { message: [0, "message"], placeholder: [1, "placeholder"], showKeyboard: [2, "showKeyboard"] }, { onSubmit: "onSubmit", onResize: "onResize" }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.newMessage; var currVal_1 = core["_56" /* ɵunv */](_v, 1, 1, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.newmessage")); var currVal_2 = _co.showKeyboard; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
+    } return ad; }, send_message_form_ngfactory["b" /* View_CoreSendMessageFormComponent_0 */], send_message_form_ngfactory["a" /* RenderType_CoreSendMessageFormComponent */])), core["_30" /* ɵdid */](1, 114688, null, 0, send_message_form["a" /* CoreSendMessageFormComponent */], [utils["a" /* CoreUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], providers_config["a" /* CoreConfigProvider */], events["a" /* CoreEventsProvider */], sites["a" /* CoreSitesProvider */], app["a" /* CoreAppProvider */]], { message: [0, "message"], placeholder: [1, "placeholder"], showKeyboard: [2, "showKeyboard"] }, { onSubmit: "onSubmit", onResize: "onResize" }), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.newMessage; var currVal_1 = core["_56" /* ɵunv */](_v, 1, 1, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.newmessage")); var currVal_2 = _co.showKeyboard; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
 function View_AddonModChatChatPage_11(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 3, "button", [["block", ""], ["color", "light"], ["ion-button", ""]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.reconnect() !== false);
         ad = (pd_0 && ad);
@@ -708,25 +712,25 @@ var AddonModChatChatPageNgFactory = core["_27" /* ɵccf */]("page-addon-mod-chat
 var esm5_forms = __webpack_require__(22);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
-var translate_loader = __webpack_require__(333);
+var translate_loader = __webpack_require__(340);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
-var translate_compiler = __webpack_require__(334);
+var translate_compiler = __webpack_require__(341);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
-var translate_parser = __webpack_require__(336);
+var translate_parser = __webpack_require__(343);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
-var missing_translation_handler = __webpack_require__(335);
+var missing_translation_handler = __webpack_require__(342);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
-var translate_store = __webpack_require__(434);
+var translate_store = __webpack_require__(441);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
-var ionic_angular_module = __webpack_require__(662);
+var ionic_angular_module = __webpack_require__(668);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
-var module_loader = __webpack_require__(247);
+var module_loader = __webpack_require__(251);
 
 // CONCATENATED MODULE: ./src/addon/mod/chat/pages/chat/chat.module.ngfactory.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChatChatPageModuleNgFactory", function() { return AddonModChatChatPageModuleNgFactory; });
@@ -772,7 +776,7 @@ var AddonModChatChatPageModuleNgFactory = core["_28" /* ɵcmf */](chat_module_Ad
 
 /***/ }),
 
-/***/ 1963:
+/***/ 1981:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -782,7 +786,7 @@ var AddonModChatChatPageModuleNgFactory = core["_28" /* ɵcmf */](chat_module_Ad
 /* unused harmony export ToolbarNgFactory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(6);
 /**
  * @fileoverview This file was generated by the Angular template compiler. Do not edit.
@@ -805,7 +809,7 @@ var ToolbarNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵcc
 
 /***/ }),
 
-/***/ 1966:
+/***/ 1984:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -815,29 +819,37 @@ var ToolbarNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵcc
 /* unused harmony export CoreSendMessageFormComponentNgFactory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_auto_focus__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_auto_focus__ = __webpack_require__(350);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular_navigation_nav_controller__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_auto_rows__ = __webpack_require__(349);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_toolbar_toolbar_item__ = __webpack_require__(436);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_auto_rows__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_toolbar_toolbar_item__ = __webpack_require__(443);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_angular_components_toolbar_toolbar__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_toolbar_navbar__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_angular_components_toolbar_toolbar__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_toolbar_navbar__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node_modules_ionic_angular_components_button_button_ngfactory__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_button_button__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__directives_supress_events__ = __webpack_require__(352);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_pipe__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__directives_supress_events__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_pipe__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_service__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_ionic_angular_components_icon_icon__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__send_message_form__ = __webpack_require__(1371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__send_message_form__ = __webpack_require__(1384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_utils_text__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_config__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_sites__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_app__ = __webpack_require__(9);
 /**
  * @fileoverview This file was generated by the Angular template compiler. Do not edit.
  *
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
+
+
+
+
 
 
 
@@ -866,7 +878,7 @@ function View_CoreSendMessageFormComponent_0(_l) { return __WEBPACK_IMPORTED_MOD
     } if (("reset" === en)) {
         var pd_1 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 2).onReset() !== false);
         ad = (pd_1 && ad);
-    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["w" /* ɵbf */], [], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](2, 4210688, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["p" /* NgForm */], [[8, null], [8, null]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_50" /* ɵprd */](2048, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */], null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["p" /* NgForm */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](4, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["o" /* NgControlStatusGroup */], [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](6, 0, null, null, 7, "textarea", [["class", "core-send-message-input"], ["core-auto-rows", ""], ["name", "message"], ["rows", "1"]], [[8, "placeholder", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "onResize"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "change"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["w" /* ɵbf */], [], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](2, 4210688, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["p" /* NgForm */], [[8, null], [8, null]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_50" /* ɵprd */](2048, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */], null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["p" /* NgForm */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](4, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["o" /* NgControlStatusGroup */], [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](6, 0, null, null, 7, "textarea", [["class", "core-send-message-input"], ["core-auto-rows", ""], ["name", "message"], ["rows", "1"]], [[8, "placeholder", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "onResize"], [null, "keydown.enter"], [null, "keydown.control.enter"], [null, "keydown.meta.enter"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "change"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
         var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 7)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
     } if (("blur" === en)) {
@@ -890,11 +902,20 @@ function View_CoreSendMessageFormComponent_0(_l) { return __WEBPACK_IMPORTED_MOD
     } if (("onResize" === en)) {
         var pd_7 = (_co.textareaResized() !== false);
         ad = (pd_7 && ad);
+    } if (("keydown.enter" === en)) {
+        var pd_8 = (_co.enterClicked($event) !== false);
+        ad = (pd_8 && ad);
+    } if (("keydown.control.enter" === en)) {
+        var pd_9 = (_co.enterClicked($event, "control") !== false);
+        ad = (pd_9 && ad);
+    } if (("keydown.meta.enter" === en)) {
+        var pd_10 = (_co.enterClicked($event, "meta") !== false);
+        ad = (pd_10 && ad);
     } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](7, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["c" /* DefaultValueAccessor */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer2 */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], [2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* COMPOSITION_BUFFER_MODE */]]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_50" /* ɵprd */](1024, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["l" /* NG_VALUE_ACCESSOR */], function (p0_0) { return [p0_0]; }, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["c" /* DefaultValueAccessor */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](9, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["q" /* NgModel */], [[2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* ControlContainer */]], [8, null], [8, null], [2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["l" /* NG_VALUE_ACCESSOR */]]], { name: [0, "name"], model: [1, "model"] }, { update: "ngModelChange" }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_50" /* ɵprd */](2048, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["m" /* NgControl */], null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["q" /* NgModel */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](11, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["n" /* NgControlStatus */], [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["m" /* NgControl */]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](12, 81920, null, 0, __WEBPACK_IMPORTED_MODULE_2__directives_auto_focus__["a" /* CoreAutoFocusDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], [2, __WEBPACK_IMPORTED_MODULE_5_ionic_angular_navigation_nav_controller__["a" /* NavController */]]], { coreAutoFocus: [0, "coreAutoFocus"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](13, 4210688, null, 0, __WEBPACK_IMPORTED_MODULE_6__directives_auto_rows__["a" /* CoreAutoRowsDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]], null, { onResize: "onResize" }), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](15, 0, null, null, 12, "ion-buttons", [["end", ""]], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](16, 16384, null, 1, __WEBPACK_IMPORTED_MODULE_7_ionic_angular_components_toolbar_toolbar_item__["a" /* ToolbarItem */], [__WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */], [2, __WEBPACK_IMPORTED_MODULE_9_ionic_angular_components_toolbar_toolbar__["a" /* Toolbar */]], [2, __WEBPACK_IMPORTED_MODULE_10_ionic_angular_components_toolbar_navbar__["a" /* Navbar */]]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_52" /* ɵqud */](603979776, 1, { _buttons: 1 }), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](19, 0, null, null, 7, "button", [["clear", "true"], ["icon-only", ""], ["ion-button", ""], ["type", "submit"]], [[8, "disabled", 0], [1, "aria-label", 0]], [[null, "onClick"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("onClick" === en)) {
         var pd_0 = (_co.submitForm($event) !== false);
         ad = (pd_0 && ad);
     } return ad; }, __WEBPACK_IMPORTED_MODULE_11__node_modules_ionic_angular_components_button_button_ngfactory__["b" /* View_Button_0 */], __WEBPACK_IMPORTED_MODULE_11__node_modules_ionic_angular_components_button_button_ngfactory__["a" /* RenderType_Button */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](20, 1097728, [[1, 4]], 0, __WEBPACK_IMPORTED_MODULE_12_ionic_angular_components_button_button__["a" /* Button */], [[8, ""], __WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */]], { clear: [0, "clear"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](21, 81920, null, 0, __WEBPACK_IMPORTED_MODULE_13__directives_supress_events__["a" /* CoreSupressEventsDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]], null, { onClick: "onClick" }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_47" /* ɵpid */](131072, __WEBPACK_IMPORTED_MODULE_14__ngx_translate_core_src_translate_pipe__["a" /* TranslatePipe */], [__WEBPACK_IMPORTED_MODULE_15__ngx_translate_core_src_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */]]), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 0, ["\n            "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](24, 0, null, 0, 1, "ion-icon", [["color", "dark"], ["name", "send"], ["role", "img"]], [[2, "hide", null]], null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](25, 147456, null, 0, __WEBPACK_IMPORTED_MODULE_16_ionic_angular_components_icon_icon__["a" /* Icon */], [__WEBPACK_IMPORTED_MODULE_8_ionic_angular_config_config__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* Renderer */]], { color: [0, "color"], name: [1, "name"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, 0, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_15 = "message"; var currVal_16 = _co.message; _ck(_v, 9, 0, currVal_15, currVal_16); var currVal_17 = _co.showKeyboard; _ck(_v, 12, 0, currVal_17); var currVal_20 = "true"; _ck(_v, 20, 0, currVal_20); _ck(_v, 21, 0); var currVal_22 = "dark"; var currVal_23 = "send"; _ck(_v, 25, 0, currVal_22, currVal_23); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassUntouched; var currVal_1 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassTouched; var currVal_2 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassPristine; var currVal_3 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassDirty; var currVal_4 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassValid; var currVal_5 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassInvalid; var currVal_6 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 4).ngClassPending; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_7 = _co.placeholder; var currVal_8 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassUntouched; var currVal_9 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassTouched; var currVal_10 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassPristine; var currVal_11 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassDirty; var currVal_12 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassValid; var currVal_13 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassInvalid; var currVal_14 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 11).ngClassPending; _ck(_v, 6, 0, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14); var currVal_18 = !_co.message; var currVal_19 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_56" /* ɵunv */](_v, 19, 1, __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 22).transform("core.send")); _ck(_v, 19, 0, currVal_18, currVal_19); var currVal_21 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_44" /* ɵnov */](_v, 25)._hidden; _ck(_v, 24, 0, currVal_21); }); }
-function View_CoreSendMessageFormComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 1, "core-send-message-form", [], null, null, null, View_CoreSendMessageFormComponent_0, RenderType_CoreSendMessageFormComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_17__send_message_form__["a" /* CoreSendMessageFormComponent */], [__WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_18__providers_utils_text__["a" /* CoreTextUtilsProvider */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_CoreSendMessageFormComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_57" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵeld */](0, 0, null, null, 1, "core-send-message-form", [], null, null, null, View_CoreSendMessageFormComponent_0, RenderType_CoreSendMessageFormComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_30" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_17__send_message_form__["a" /* CoreSendMessageFormComponent */], [__WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_18__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_19__providers_config__["a" /* CoreConfigProvider */], __WEBPACK_IMPORTED_MODULE_20__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_21__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_22__providers_app__["a" /* CoreAppProvider */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var CoreSendMessageFormComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵccf */]("core-send-message-form", __WEBPACK_IMPORTED_MODULE_17__send_message_form__["a" /* CoreSendMessageFormComponent */], View_CoreSendMessageFormComponent_Host_0, { message: "message", placeholder: "placeholder", showKeyboard: "showKeyboard" }, { onSubmit: "onSubmit", onResize: "onResize" }, []);
 
 //# sourceMappingURL=send-message-form.ngfactory.js.map
