@@ -4,7 +4,7 @@
     <description>
         Herramienta de gestión del aprendizaje  para colaboradores de Industrias San Miguel
     </description>
-    <author email="sales@vidyamantra.com" href="https://www.keytoschool.com/">
+    <author email="sales@vidyamantra.com" href="http://moodleapp.keytoschool.com">
         Vidya Mantra EduSystems Pvt. Ltd.
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
