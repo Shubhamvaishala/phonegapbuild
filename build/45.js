@@ -1,1 +1,336 @@
-webpackJsonp([45],{1931:function(l,n,t){"use strict";function a(l){return i._42(0,[(l()(),i._16(0,0,null,null,5,"ion-card",[],null,null,null,null,null)),i._15(1,16384,null,0,U.a,[x.a,i.p,i.K],null,null),(l()(),i._40(-1,null,["\n                "])),(l()(),i._16(3,0,null,null,1,"core-iframe",[],null,null,null,C.b,C.a)),i._15(4,638976,null,0,M.a,[E.a,D.a,o.a,H.c],{src:[0,"src"]},null),(l()(),i._40(-1,null,["\n            "]))],function(l,n){l(n,4,0,n.component.sitePolicy)},null)}function u(l){return i._42(0,[(l()(),i._16(0,0,null,null,12,"ion-header",[],null,null,null,null,null)),i._15(1,16384,null,0,T.a,[x.a,i.p,i.K,[2,F.a]],null,null),(l()(),i._40(-1,null,["\n    "])),(l()(),i._16(3,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,R.b,R.a)),i._15(4,49152,null,0,W.a,[j.a,[2,F.a],[2,A.a],x.a,i.p,i.K],null,null),i._15(5,212992,null,0,B.a,[W.a,J.a,N.a,O.a],null,null),(l()(),i._40(-1,3,["\n        "])),(l()(),i._16(7,0,null,3,3,"ion-title",[],null,null,null,V.b,V.a)),i._15(8,49152,null,0,q.a,[x.a,i.p,i.K,[2,z.a],[2,W.a]],null,null),(l()(),i._40(9,0,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,3,["\n    "])),(l()(),i._40(-1,null,["\n"])),(l()(),i._40(-1,null,["\n"])),(l()(),i._16(14,0,null,null,54,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Q.b,Q.a)),i._15(15,4374528,null,0,X.a,[x.a,J.a,Y.a,i.p,i.K,j.a,Z.a,i.D,[2,F.a],[2,A.a]],null,null),(l()(),i._40(-1,1,["\n    "])),(l()(),i._16(17,0,null,1,50,"core-loading",[],null,null,null,$.b,$.a)),i._15(18,638976,null,0,ll.a,[N.a,i.p,O.a,r.a],{hideUntil:[0,"hideUntil"]},null),(l()(),i._40(-1,0,["\n        "])),(l()(),i._16(20,0,null,0,46,"ion-list",[],null,null,null,null,null)),i._15(21,16384,null,0,nl.a,[x.a,i.p,i.K,J.a,tl.l,Y.a],null,null),(l()(),i._40(-1,null,["\n            "])),(l()(),i._16(23,0,null,null,7,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),i._15(24,1097728,null,3,ul.a,[il.a,x.a,i.p,i.K,[2,el.a]],null,null),i._37(335544320,1,{contentLabel:0}),i._37(603979776,2,{_buttons:1}),i._37(603979776,3,{_icons:1}),i._15(28,16384,null,0,ol.a,[],null,null),(l()(),i._40(29,2,["\n                ","\n            "])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,null,["\n            "])),(l()(),i._16(32,0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),i._15(33,1097728,null,3,ul.a,[il.a,x.a,i.p,i.K,[2,el.a]],null,null),i._37(335544320,4,{contentLabel:0}),i._37(603979776,5,{_buttons:1}),i._37(603979776,6,{_icons:1}),i._15(37,16384,null,0,ol.a,[],null,null),(l()(),i._40(-1,2,["\n                "])),(l()(),i._16(39,0,null,2,4,"p",[],null,null,null,null,null)),(l()(),i._16(40,0,null,null,3,"a",[["core-link",""]],[[8,"href",4]],null,null,null,null)),i._15(41,81920,null,0,cl.a,[i.p,o.a,r.a,e.a,rl.a,_l.a,[2,A.a],[2,X.a],[2,sl.a]],{capture:[0,"capture"]},null),(l()(),i._40(42,null,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,2,["\n            "])),(l()(),i._40(-1,null,["\n            "])),(l()(),i._11(16777216,null,null,1,null,a)),i._15(47,16384,null,0,pl.k,[i.W,i.T],{ngIf:[0,"ngIf"]},null),(l()(),i._40(-1,null,["\n            "])),(l()(),i._16(49,0,null,null,16,"ion-item",[["class","item item-block"],["padding",""],["text-wrap",""]],null,null,null,al.b,al.a)),i._15(50,1097728,null,3,ul.a,[il.a,x.a,i.p,i.K,[2,el.a]],null,null),i._37(335544320,7,{contentLabel:0}),i._37(603979776,8,{_buttons:1}),i._37(603979776,9,{_icons:1}),i._15(54,16384,null,0,ol.a,[],null,null),(l()(),i._40(-1,2,["\n                "])),(l()(),i._16(56,0,null,2,3,"button",[["block",""],["color","primary"],["ion-button",""]],null,[[null,"click"]],function(l,n,t){var a=!0;if("click"===n){a=!1!==l.component.accept()&&a}return a},hl.b,hl.a)),i._15(57,1097728,[[8,4]],0,dl.a,[[8,""],x.a,i.p,i.K],{color:[0,"color"],block:[1,"block"]},null),(l()(),i._40(58,0,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,2,["\n                "])),(l()(),i._16(61,0,null,2,3,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,t){var a=!0;if("click"===n){a=!1!==l.component.cancel()&&a}return a},hl.b,hl.a)),i._15(62,1097728,[[8,4]],0,dl.a,[[8,""],x.a,i.p,i.K],{block:[0,"block"]},null),(l()(),i._40(63,0,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,2,["\n            "])),(l()(),i._40(-1,null,["\n        "])),(l()(),i._40(-1,0,["\n    "])),(l()(),i._40(-1,1,["\n"])),(l()(),i._40(-1,null,["\n"]))],function(l,n){var t=n.component;l(n,5,0);l(n,18,0,t.policyLoaded);l(n,41,0,!1);l(n,47,0,t.showInline);l(n,57,0,"primary","");l(n,62,0,"")},function(l,n){var t=n.component;l(n,3,0,i._29(n,4)._hidden,i._29(n,4)._sbPadding);l(n,9,0,i._41(n,9,0,i._29(n,10).transform("core.login.policyagreement")));l(n,14,0,i._29(n,15).statusbarPadding,i._29(n,15)._hasRefresher);l(n,29,0,i._41(n,29,0,i._29(n,30).transform("core.login.policyagree")));l(n,40,0,t.sitePolicy);l(n,42,0,i._41(n,42,0,i._29(n,43).transform("core.login.policyagreementclick")));l(n,58,0,i._41(n,58,0,i._29(n,59).transform("core.login.policyaccept")));l(n,63,0,i._41(n,63,0,i._29(n,64).transform("core.login.cancel")))})}Object.defineProperty(n,"__esModule",{value:!0});var i=t(1),e=(t(0),t(9),t(2)),o=t(5),c=t(65),r=t(3),_=t(135),s=function(){function l(l,n,t,a,u,i,e){this.navCtrl=l,this.loginHelper=t,this.domUtils=a,this.sitesProvider=u,this.utils=i,this.mimeUtils=e,this.siteId=n.get("siteId")}return l.prototype.ionViewDidLoad=function(){if(this.currentSite=this.sitesProvider.getCurrentSite(),this.currentSite){var l=this.currentSite.id;this.siteId=this.siteId||l,this.siteId==l&&this.currentSite.wsAvailable("core_user_agree_site_policy")?this.fetchSitePolicy():this.cancel()}else this.cancel()},l.prototype.fetchSitePolicy=function(){var l=this;return this.loginHelper.getSitePolicy(this.siteId).then(function(n){return l.sitePolicy=n,l.utils.getMimeTypeFromUrl(n).then(function(t){var a=l.mimeUtils.getExtension(t,n);l.showInline="html"==a||"htm"==a}).catch(function(){l.showInline=!1}).finally(function(){l.policyLoaded=!0})}).catch(function(n){l.domUtils.showErrorModalDefault(n,"Error getting site policy."),l.cancel()})},l.prototype.cancel=function(){var l=this;this.sitesProvider.logout().catch(function(){}).then(function(){l.navCtrl.setRoot("CoreLoginSitesPage")})},l.prototype.accept=function(){var l=this,n=this.domUtils.showModalLoading("core.sending",!0);this.loginHelper.acceptSitePolicy(this.siteId).then(function(){return l.currentSite.invalidateWsCache().catch(function(){}).then(function(){return l.loginHelper.goToSiteInitialPage()})}).catch(function(n){l.domUtils.showErrorModalDefault(n,"Error accepting site policy.")}).finally(function(){n.dismiss()})},l}(),p=t(4),h=t(29),d=t(30),b=function(){return function(){}}(),f=t(1345),g=t(1346),m=t(1347),y=t(1348),v=t(1349),k=t(1350),P=t(1351),I=t(1352),S=t(1353),w=t(1356),K=t(1357),L=t(1358),U=t(87),x=t(7),C=t(349),M=t(255),E=t(6),D=t(38),H=t(75),T=t(434),F=t(37),R=t(1354),W=t(200),j=t(34),A=t(22),B=t(662),J=t(15),N=t(19),O=t(13),V=t(1355),q=t(336),z=t(246),G=t(25),Q=t(185),X=t(24),Y=t(32),Z=t(107),$=t(49),ll=t(48),nl=t(78),tl=t(39),al=t(31),ul=t(21),il=t(20),el=t(27),ol=t(33),cl=t(189),rl=t(26),_l=t(18),sl=t(35),pl=t(8),hl=t(46),dl=t(43),bl=t(61),fl=i._14({encapsulation:2,styles:[],data:{}}),gl=i._12("page-core-login-site-policy",s,function(l){return i._42(0,[(l()(),i._16(0,0,null,null,1,"page-core-login-site-policy",[],null,null,null,u,fl)),i._15(1,49152,null,0,s,[A.a,bl.a,_.a,o.a,e.a,r.a,c.a],null,null)],null,null)},{},{},[]),ml=t(23),yl=t(332),vl=t(333),kl=t(335),Pl=t(334),Il=t(433),Sl=t(661),wl=t(106),Kl=t(247);t.d(n,"CoreLoginSitePolicyPageModuleNgFactory",function(){return Ll});var Ll=i._13(b,[],function(l){return i._25([i._26(512,i.n,i._6,[[8,[f.a,g.a,m.a,y.a,v.a,k.a,P.a,I.a,S.a,w.a,K.a,L.a,gl]],[3,i.n],i.B]),i._26(4608,pl.m,pl.l,[i.x,[2,pl.v]]),i._26(4608,ml.x,ml.x,[]),i._26(4608,ml.d,ml.d,[]),i._26(4608,yl.b,yl.a,[]),i._26(4608,vl.a,vl.b,[]),i._26(4608,kl.b,kl.a,[]),i._26(4608,Pl.b,Pl.a,[]),i._26(4608,N.a,N.a,[Il.a,yl.b,vl.a,kl.b,Pl.b,N.b,N.c]),i._26(512,pl.b,pl.b,[]),i._26(512,ml.v,ml.v,[]),i._26(512,ml.i,ml.i,[]),i._26(512,ml.s,ml.s,[]),i._26(512,Sl.a,Sl.a,[]),i._26(512,p.a,p.a,[]),i._26(512,d.a,d.a,[]),i._26(512,wl.a,wl.a,[]),i._26(512,h.a,h.a,[]),i._26(512,Sl.b,Sl.b,[]),i._26(512,b,b,[]),i._26(256,N.c,void 0,[]),i._26(256,N.b,void 0,[]),i._26(256,Kl.a,s,[])])})}});
+webpackJsonp([45],{
+
+/***/ 1947:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
+var core = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
+var ionic_angular = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./node_modules/@ionic-native/splash-screen/index.js
+var splash_screen = __webpack_require__(697);
+
+// EXTERNAL MODULE: ./src/providers/app.ts
+var app = __webpack_require__(9);
+
+// EXTERNAL MODULE: ./src/providers/init.ts
+var init = __webpack_require__(156);
+
+// EXTERNAL MODULE: ./src/providers/sites.ts
+var sites = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./src/core/constants.ts
+var constants = __webpack_require__(39);
+
+// EXTERNAL MODULE: ./src/core/login/providers/helper.ts
+var helper = __webpack_require__(129);
+
+// CONCATENATED MODULE: ./src/core/login/pages/init/init.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a "splash screen" while the app is being initialized.
+ */
+var init_CoreLoginInitPage = /** @class */ (function () {
+    function CoreLoginInitPage(navCtrl, appProvider, initDelegate, sitesProvider, loginHelper, splashScreen) {
+        this.navCtrl = navCtrl;
+        this.appProvider = appProvider;
+        this.initDelegate = initDelegate;
+        this.sitesProvider = sitesProvider;
+        this.loginHelper = loginHelper;
+        this.splashScreen = splashScreen;
+    }
+    /**
+     * View loaded.
+     */
+    CoreLoginInitPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // Wait for the app to be ready.
+        this.initDelegate.ready().then(function () {
+            // Check if there was a pending redirect.
+            var redirectData = _this.appProvider.getRedirect();
+            if (redirectData.siteId && redirectData.page) {
+                // Unset redirect data.
+                _this.appProvider.storeRedirect('', '', '');
+                // Only accept the redirect if it was stored less than 20 seconds ago.
+                if (Date.now() - redirectData.timemodified < 20000) {
+                    if (redirectData.siteId != constants["a" /* CoreConstants */].NO_SITE_ID) {
+                        // The redirect is pointing to a site, load it.
+                        return _this.sitesProvider.loadSite(redirectData.siteId, redirectData.page, redirectData.params)
+                            .then(function (loggedIn) {
+                            if (loggedIn) {
+                                return _this.navCtrl.setRoot(redirectData.page, redirectData.params, { animate: false });
+                            }
+                        }).catch(function () {
+                            // Site doesn't exist.
+                            return _this.loadPage();
+                        });
+                    }
+                    else {
+                        // No site to load, just open the state.
+                        return _this.navCtrl.setRoot(redirectData.page, redirectData.params, { animate: false });
+                    }
+                }
+            }
+            return _this.loadPage();
+        }).then(function () {
+            // If we hide the splash screen now, the init view is still seen for an instant. Wait a bit to make sure it isn't seen.
+            setTimeout(function () {
+                _this.splashScreen.hide();
+            }, 100);
+        });
+    };
+    /**
+     * Load the right page.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreLoginInitPage.prototype.loadPage = function () {
+        var _this = this;
+        if (this.sitesProvider.isLoggedIn()) {
+            if (!this.loginHelper.isSiteLoggedOut()) {
+                // User is logged in, go to site initial page.
+                return this.loginHelper.goToSiteInitialPage();
+            }
+            else {
+                // The site is marked as logged out. Logout and try again.
+                return this.sitesProvider.logout().then(function () {
+                    return _this.loadPage();
+                });
+            }
+        }
+        else {
+            return this.sitesProvider.hasSites().then(function (hasSites) {
+                if (hasSites) {
+                    return _this.navCtrl.setRoot('CoreLoginSitesPage');
+                }
+                else {
+                    return _this.loginHelper.goToAddSite(true);
+                }
+            });
+        }
+    };
+    CoreLoginInitPage = __decorate([
+        Object(core["m" /* Component */])({
+            selector: 'page-core-login-init',
+            templateUrl: 'init.html',
+        }),
+        __metadata("design:paramtypes", [ionic_angular["s" /* NavController */], app["a" /* CoreAppProvider */], init["a" /* CoreInitDelegate */],
+            sites["a" /* CoreSitesProvider */], helper["a" /* CoreLoginHelperProvider */],
+            splash_screen["a" /* SplashScreen */]])
+    ], CoreLoginInitPage);
+    return CoreLoginInitPage;
+}());
+
+//# sourceMappingURL=init.js.map
+// CONCATENATED MODULE: ./src/core/login/pages/init/init.module.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var init_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var init_module_CoreLoginInitPageModule = /** @class */ (function () {
+    function CoreLoginInitPageModule() {
+    }
+    CoreLoginInitPageModule = init_module___decorate([
+        Object(core["I" /* NgModule */])({
+            declarations: [
+                init_CoreLoginInitPage,
+            ],
+            imports: [
+                ionic_angular["l" /* IonicPageModule */].forChild(init_CoreLoginInitPage),
+            ],
+        })
+    ], CoreLoginInitPageModule);
+    return CoreLoginInitPageModule;
+}());
+
+//# sourceMappingURL=init.module.js.map
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
+var action_sheet_component_ngfactory = __webpack_require__(1358);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
+var alert_component_ngfactory = __webpack_require__(1359);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
+var app_root_ngfactory = __webpack_require__(1360);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
+var loading_component_ngfactory = __webpack_require__(1361);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
+var modal_component_ngfactory = __webpack_require__(1362);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
+var picker_component_ngfactory = __webpack_require__(1363);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
+var popover_component_ngfactory = __webpack_require__(1364);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
+var select_popover_component_ngfactory = __webpack_require__(1365);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
+var toast_component_ngfactory = __webpack_require__(1366);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(176);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(25);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
+var config = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app_app = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(103);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(36);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
+var nav_controller = __webpack_require__(21);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/spinner/spinner.ngfactory.js
+var spinner_ngfactory = __webpack_require__(117);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/spinner/spinner.js
+var spinner = __webpack_require__(97);
+
+// CONCATENATED MODULE: ./src/core/login/pages/init/init.ngfactory.js
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_CoreLoginInitPage = [];
+var RenderType_CoreLoginInitPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_CoreLoginInitPage, data: {} });
+
+function View_CoreLoginInitPage_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-content", [], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](1, 4374528, null, 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app_app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](3, 0, null, 1, 9, "div", [["class", "core-bglogo"]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](5, 0, null, null, 6, "div", [["class", "core-logo"]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, null, 0, "img", [["src", "assets/img/splash_logo.png"]], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_31" /* ɵeld */](9, 0, null, null, 1, "ion-spinner", [], [[2, "spinner-paused", null]], null, null, spinner_ngfactory["b" /* View_Spinner_0 */], spinner_ngfactory["a" /* RenderType_Spinner */])), core["_30" /* ɵdid */](10, 114688, null, 0, spinner["a" /* Spinner */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { _ck(_v, 10, 0); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 1).statusbarPadding; var currVal_1 = core["_44" /* ɵnov */](_v, 1)._hasRefresher; _ck(_v, 0, 0, currVal_0, currVal_1); var currVal_2 = core["_44" /* ɵnov */](_v, 10)._paused; _ck(_v, 9, 0, currVal_2); }); }
+function View_CoreLoginInitPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-core-login-init", [], null, null, null, View_CoreLoginInitPage_0, RenderType_CoreLoginInitPage)), core["_30" /* ɵdid */](1, 49152, null, 0, init_CoreLoginInitPage, [nav_controller["a" /* NavController */], app["a" /* CoreAppProvider */], init["a" /* CoreInitDelegate */], sites["a" /* CoreSitesProvider */], helper["a" /* CoreLoginHelperProvider */], splash_screen["a" /* SplashScreen */]], null, null)], null, null); }
+var CoreLoginInitPageNgFactory = core["_27" /* ɵccf */]("page-core-login-init", init_CoreLoginInitPage, View_CoreLoginInitPage_Host_0, {}, {}, []);
+
+//# sourceMappingURL=init.ngfactory.js.map
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
+var esm5_forms = __webpack_require__(22);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
+var ionic_angular_module = __webpack_require__(668);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
+var module_loader = __webpack_require__(251);
+
+// CONCATENATED MODULE: ./src/core/login/pages/init/init.module.ngfactory.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginInitPageModuleNgFactory", function() { return CoreLoginInitPageModuleNgFactory; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var CoreLoginInitPageModuleNgFactory = core["_28" /* ɵcmf */](init_module_CoreLoginInitPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], CoreLoginInitPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, init_module_CoreLoginInitPageModule, init_module_CoreLoginInitPageModule, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], init_CoreLoginInitPage, [])]); });
+
+//# sourceMappingURL=init.module.ngfactory.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=45.js.map

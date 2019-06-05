@@ -1,1 +1,439 @@
-webpackJsonp([107],{1853:function(n,l,t){"use strict";function i(n){return p._42(0,[(n()(),p._16(0,0,null,null,3,"core-empty-box",[["icon","paper"]],null,null,null,N.b,N.a)),p._15(1,49152,null,0,B.a,[],{message:[0,"message"],icon:[1,"icon"]},null),p._32(131072,F.a,[j.a,p.i]),(n()(),p._40(-1,0,["\n            "]))],function(n,l){n(l,1,0,p._41(l,1,0,p._29(l,2).transform("addon.mod_assign.submissionstatus_")),"paper")},null)}function u(n){return p._42(0,[(n()(),p._16(0,0,null,null,1,"h2",[],null,null,null,null,null)),(n()(),p._40(1,null,["",""]))],null,function(n,l){n(l,1,0,l.parent.context.$implicit.userfullname)})}function a(n){return p._42(0,[(n()(),p._16(0,0,null,null,2,"h2",[],null,null,null,null,null)),(n()(),p._40(1,null,["","",""])),p._32(131072,F.a,[j.a,p.i])],null,function(n,l){n(l,1,0,p._41(l,1,0,p._29(l,2).transform("addon.mod_assign.hiddenuser")),l.parent.context.$implicit.blindid)})}function s(n){return p._42(0,[(n()(),p._16(0,0,null,null,1,"span",[],null,null,null,null,null)),(n()(),p._40(1,null,["",""]))],null,function(n,l){n(l,1,0,l.parent.parent.context.$implicit.groupname)})}function e(n){return p._42(0,[(n()(),p._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),p._40(1,null,["",""])),p._32(131072,F.a,[j.a,p.i])],null,function(n,l){n(l,1,0,p._41(l,1,0,p._29(l,2).transform("addon.mod_assign.noteam")))})}function o(n){return p._42(0,[(n()(),p._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),p._40(1,null,["",""])),p._32(131072,F.a,[j.a,p.i])],null,function(n,l){n(l,1,0,p._41(l,1,0,p._29(l,2).transform("addon.mod_assign.multipleteams")))})}function r(n){return p._42(0,[(n()(),p._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),p._40(1,null,["",""])),p._32(131072,F.a,[j.a,p.i])],null,function(n,l){n(l,1,0,p._41(l,1,0,p._29(l,2).transform("addon.mod_assign.defaultteam")))})}function d(n){return p._42(0,[(n()(),p._16(0,0,null,null,13,"p",[],null,null,null,null,null)),(n()(),p._40(-1,null,["\n                            "])),(n()(),p._11(16777216,null,null,1,null,s)),p._15(3,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,null,["\n                            "])),(n()(),p._11(16777216,null,null,1,null,e)),p._15(6,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,null,["\n                            "])),(n()(),p._11(16777216,null,null,1,null,o)),p._15(9,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,null,["\n                            "])),(n()(),p._11(16777216,null,null,1,null,r)),p._15(12,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,null,["\n                        "]))],function(n,l){var t=l.component;n(l,3,0,l.parent.context.$implicit.groupname);n(l,6,0,t.assign.preventsubmissionnotingroup&&!l.parent.context.$implicit.groupname&&!l.parent.context.$implicit.manyGroups&&!l.parent.context.$implicit.blindid);n(l,9,0,t.assign.preventsubmissionnotingroup&&!l.parent.context.$implicit.groupname&&l.parent.context.$implicit.manyGroups&&!l.parent.context.$implicit.blindid);n(l,12,0,!t.assign.preventsubmissionnotingroup&&!l.parent.context.$implicit.groupname)},null)}function _(n){return p._42(0,[(n()(),p._16(0,0,null,null,2,"ion-badge",[["text-center",""],["text-wrap",""]],null,null,null,null,null)),p._15(1,16384,null,0,J.a,[V.a,p.p,p.K],{color:[0,"color"]},null),(n()(),p._40(2,null,["\n                            ","\n                        "]))],function(n,l){n(l,1,0,l.parent.context.$implicit.statusColor)},function(n,l){n(l,2,0,l.parent.context.$implicit.statusTranslated)})}function c(n){return p._42(0,[(n()(),p._16(0,0,null,null,3,"ion-badge",[["text-center",""],["text-wrap",""]],null,null,null,null,null)),p._15(1,16384,null,0,J.a,[V.a,p.p,p.K],{color:[0,"color"]},null),(n()(),p._40(2,null,["\n                            ","\n                        "])),p._32(131072,F.a,[j.a,p.i])],function(n,l){n(l,1,0,l.parent.context.$implicit.gradingColor)},function(n,l){n(l,2,0,p._41(l,2,0,p._29(l,3).transform(l.parent.context.$implicit.gradingStatusTranslationId)))})}function g(n){return p._42(0,[(n()(),p._16(0,0,null,null,28,null,null,null,null,null,null,null)),(n()(),p._40(-1,null,["\n                    "])),(n()(),p._16(2,0,null,null,25,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[2,"core-split-item-selected",null]],[[null,"click"]],function(n,l,t){var i=!0;if("click"===l){i=!1!==n.component.loadSubmission(n.context.$implicit)&&i}return i},q.b,q.a)),p._15(3,1097728,null,3,z.a,[Q.a,V.a,p.p,p.K,[2,X.a]],null,null),p._37(335544320,3,{contentLabel:0}),p._37(603979776,4,{_buttons:1}),p._37(603979776,5,{_icons:1}),p._15(7,16384,null,0,Y.a,[],null,null),(n()(),p._40(-1,2,["\n                        "])),(n()(),p._16(9,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,Z.b,Z.a)),p._15(10,638976,null,0,nn.a,[ln.a,S.a,tn.a,un.a],{user:[0,"user"]},null),p._15(11,16384,null,0,an.a,[],null,null),(n()(),p._40(-1,2,["\n                        "])),(n()(),p._11(16777216,null,2,1,null,u)),p._15(14,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,2,["\n                        "])),(n()(),p._11(16777216,null,2,1,null,a)),p._15(17,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,2,["\n                        "])),(n()(),p._11(16777216,null,2,1,null,d)),p._15(20,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,2,["\n                        "])),(n()(),p._11(16777216,null,2,1,null,_)),p._15(23,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,2,["\n                        "])),(n()(),p._11(16777216,null,2,1,null,c)),p._15(26,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,2,["\n                    "])),(n()(),p._40(-1,null,["\n                "]))],function(n,l){var t=l.component;n(l,10,0,l.context.$implicit);n(l,14,0,l.context.$implicit.userfullname);n(l,17,0,!l.context.$implicit.userfullname);n(l,20,0,t.assign.teamsubmission);n(l,23,0,l.context.$implicit.statusTranslated);n(l,26,0,l.context.$implicit.gradingStatusTranslationId)},function(n,l){n(l,2,0,l.context.$implicit.id==l.component.selectedSubmissionId)})}function m(n){return p._42(0,[(n()(),p._16(0,0,null,null,10,"ion-item",[["class","core-warning-card item item-block"],["icon-start",""],["text-wrap",""]],null,null,null,q.b,q.a)),p._15(1,1097728,null,3,z.a,[Q.a,V.a,p.p,p.K,[2,X.a]],null,null),p._37(335544320,6,{contentLabel:0}),p._37(603979776,7,{_buttons:1}),p._37(603979776,8,{_icons:1}),p._15(5,16384,null,0,Y.a,[],null,null),(n()(),p._40(-1,2,["\n                    "])),(n()(),p._16(7,0,null,2,1,"ion-icon",[["name","warning"],["role","img"]],[[2,"hide",null]],null,null,null,null)),p._15(8,147456,[[8,4]],0,sn.a,[V.a,p.p,p.K],{name:[0,"name"]},null),(n()(),p._40(9,2,["\n                    ","\n                "])),p._32(131072,F.a,[j.a,p.i])],function(n,l){n(l,8,0,"warning")},function(n,l){n(l,7,0,p._29(l,8)._hidden);n(l,9,0,p._41(l,9,0,p._29(l,10).transform("addon.mod_assign.notallparticipantsareshown")))})}function f(n){return p._42(0,[p._37(402653184,1,{splitviewCtrl:0}),(n()(),p._16(1,0,null,null,16,"ion-header",[],null,null,null,null,null)),p._15(2,16384,null,0,en.a,[V.a,p.p,p.K,[2,on.a]],null,null),(n()(),p._40(-1,null,["\n    "])),(n()(),p._16(4,0,null,null,12,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,rn.b,rn.a)),p._15(5,49152,null,0,dn.a,[_n.a,[2,on.a],[2,ln.a],V.a,p.p,p.K],null,null),p._15(6,212992,null,0,cn.a,[dn.a,gn.a,j.a,I.a],null,null),(n()(),p._40(-1,3,["\n        "])),(n()(),p._16(8,0,null,3,3,"ion-title",[],null,null,null,mn.b,mn.a)),p._15(9,49152,null,0,fn.a,[V.a,p.p,p.K,[2,pn.a],[2,dn.a]],null,null),(n()(),p._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),p._15(11,540672,null,0,hn.a,[p.p,S.a,x.a,bn.a,j.a,gn.a,tn.a,vn.a,In.a,Sn.a,un.a,xn.a,[2,ln.a],[2,Pn.a],[2,k.a],Tn.a,I.a],{text:[0,"text"]},null),(n()(),p._40(-1,3,["\n\n        "])),(n()(),p._16(13,0,null,2,2,"ion-buttons",[["end",""]],null,null,null,null,null)),p._15(14,16384,null,1,An.a,[V.a,p.p,p.K,[2,pn.a],[2,dn.a]],null,null),p._37(603979776,2,{_buttons:1}),(n()(),p._40(-1,3,["\n    "])),(n()(),p._40(-1,null,["\n"])),(n()(),p._40(-1,null,["\n"])),(n()(),p._16(19,0,null,null,32,"core-split-view",[],null,null,null,kn.b,kn.a)),p._15(20,245760,[[1,4]],0,k.a,[[2,ln.a],p.p,Dn.a,gn.a,j.a],null,null),(n()(),p._40(-1,0,["\n    "])),(n()(),p._16(22,0,null,0,28,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,$n.b,$n.a)),p._15(23,4374528,null,0,Pn.a,[V.a,gn.a,wn.a,p.p,p.K,_n.a,yn.a,p.D,[2,on.a],[2,ln.a]],null,null),(n()(),p._40(-1,1,["\n        "])),(n()(),p._16(25,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,t){var i=!0;if("ionRefresh"===l){i=!1!==n.component.refreshList(t)&&i}return i},null,null)),p._15(26,212992,null,0,Cn.a,[gn.a,Pn.a,p.D,On.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),p._40(-1,null,["\n            "])),(n()(),p._16(28,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Gn.b,Gn.a)),p._15(29,114688,null,0,Wn.a,[Cn.a,V.a],{pullingText:[0,"pullingText"]},null),p._32(131072,F.a,[j.a,p.i]),(n()(),p._40(-1,null,["\n        "])),(n()(),p._40(-1,1,["\n        "])),(n()(),p._16(33,0,null,1,16,"core-loading",[],null,null,null,En.b,En.a)),p._15(34,638976,null,0,Un.a,[j.a,p.p,I.a,tn.a],{hideUntil:[0,"hideUntil"]},null),(n()(),p._40(-1,0,["\n            "])),(n()(),p._11(16777216,null,0,1,null,i)),p._15(37,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,0,["\n\n            "])),(n()(),p._16(39,0,null,0,9,"ion-list",[],null,null,null,null,null)),p._15(40,16384,null,0,Kn.a,[V.a,p.p,p.K,gn.a,On.l,wn.a],null,null),(n()(),p._40(-1,null,["\n                "])),(n()(),p._40(-1,null,["\n                "])),(n()(),p._11(16777216,null,null,1,null,g)),p._15(44,802816,null,0,H.j,[p.W,p.T,p.v],{ngForOf:[0,"ngForOf"]},null),(n()(),p._40(-1,null,["\n\n                "])),(n()(),p._11(16777216,null,null,1,null,m)),p._15(47,16384,null,0,H.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(n()(),p._40(-1,null,["\n            "])),(n()(),p._40(-1,0,["\n        "])),(n()(),p._40(-1,1,["\n    "])),(n()(),p._40(-1,0,["\n"])),(n()(),p._40(-1,null,["\n"]))],function(n,l){var t=l.component;n(l,6,0);n(l,11,0,t.title),n(l,20,0);n(l,26,0,t.loaded);n(l,29,0,p._19(1,"",p._41(l,29,0,p._29(l,30).transform("core.pulltorefresh")),""));n(l,34,0,t.loaded);n(l,37,0,!t.submissions||0==t.submissions.length);n(l,44,0,t.submissions);n(l,47,0,!t.haveAllParticipants)},function(n,l){n(l,4,0,p._29(l,5)._hidden,p._29(l,5)._sbPadding);n(l,22,0,p._29(l,23).statusbarPadding,p._29(l,23)._hasRefresher);n(l,25,0,"inactive"!==p._29(l,26).state,p._29(l,26)._top);n(l,28,0,p._29(l,29).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var p=t(1),h=(t(0),t(9),t(4)),b=t(29),v=t(30),I=t(13),S=t(2),x=t(5),P=t(72),T=t(122),A=t(160),k=t(35),D=function(){function n(n,l,t,i,u,a,s,e){var o=this;this.domUtils=i,this.translate=u,this.assignProvider=a,this.assignOfflineProvider=s,this.assignHelper=e,this.moduleId=n.get("moduleId"),this.courseId=n.get("courseId"),this.selectedStatus=n.get("status"),this.title=this.translate.instant(this.selectedStatus?this.selectedStatus==P.a.NEED_GRADING?"addon.mod_assign.numberofsubmissionsneedgrading":"addon.mod_assign.submissionstatus_"+this.selectedStatus:"addon.mod_assign.numberofparticipants"),this.gradedObserver=t.on(P.a.GRADED_EVENT,function(n){o.assign&&n.assignmentId==o.assign.id&&n.userId==l.getCurrentSiteUserId()&&(o.loaded=!1,o.refreshAllData().finally(function(){o.loaded=!0}))},l.getCurrentSiteId())}return n.prototype.ngOnInit=function(){var n=this;this.fetchAssignment().finally(function(){!n.selectedSubmissionId&&n.splitviewCtrl.isOn()&&n.submissions.length>0&&n.loadSubmission(n.submissions[0]),n.loaded=!0})},n.prototype.fetchAssignment=function(){var n,l,t,i=this;return this.assignProvider.getAssignment(this.courseId,this.moduleId).then(function(n){return i.title=n.name||i.title,i.assign=n,i.haveAllParticipants=!0,i.assignProvider.getSubmissions(n.id)}).then(function(t){return t.canviewsubmissions?(l=t,i.assignHelper.getParticipants(i.assign).then(function(l){i.haveAllParticipants=!0,n=l}).catch(function(){i.haveAllParticipants=!1})):Promise.reject(null)}).then(function(){if(!i.assign.markingworkflow)return i.assignProvider.getAssignmentGrades(i.assign.id).then(function(n){t=n})}).then(function(){return i.assignProvider.getSubmissionsUserData(l.submissions,i.courseId,i.assign.id,i.assign.blindmarking&&!i.assign.revealidentities,n)}).then(function(n){var l=i.selectedStatus==P.a.NEED_GRADING,u=l?P.a.SUBMISSION_STATUS_SUBMITTED:i.selectedStatus,a=[];return i.submissions=[],n.forEach(function(n){u&&u!=n.status||a.push(i.assignOfflineProvider.getSubmissionGrade(i.assign.id,n.userid).catch(function(){}).then(function(u){var a=!1;return u&&n.timemodified<u.timemodified&&(a=!0),(l?i.assignProvider.needsSubmissionToBeGraded(n,i.assign.id):Promise.resolve(!0)).then(function(l){if(l){if("graded"==n.gradingstatus&&!i.assign.markingworkflow){var u=t.filter(function(l){return l.userid==n.userid}).reduce(function(n,l){return n.timemodified>l.timemodified?n:l});u&&u.timemodified<n.timemodified&&(n.gradingstatus=P.a.GRADED_FOLLOWUP_SUBMIT)}n.statusColor=i.assignProvider.getSubmissionStatusColor(n.status),n.gradingColor=i.assignProvider.getSubmissionGradingStatusColor(n.gradingstatus),n.statusTranslated=("success"!=n.statusColor||!n.gradingstatus)&&i.translate.instant("addon.mod_assign.submissionstatus_"+n.status),a?(n.gradingStatusTranslationId="addon.mod_assign.gradenotsynced",n.gradingColor=""):n.gradingStatusTranslationId=("danger"!=n.statusColor||"danger"!=n.gradingColor)&&i.assignProvider.getSubmissionGradingStatusTranslationId(n.gradingstatus),i.submissions.push(n)}})}))}),Promise.all(a)}).catch(function(n){i.domUtils.showErrorModalDefault(n,"Error getting assigment data.")})},n.prototype.loadSubmission=function(n){this.selectedSubmissionId===n.id&&this.splitviewCtrl.isOn()||(this.selectedSubmissionId=n.id,this.splitviewCtrl.push("AddonModAssignSubmissionReviewPage",{courseId:this.courseId,moduleId:this.moduleId,submitId:n.submitid,blindId:n.blindid}))},n.prototype.refreshAllData=function(){var n=this,l=[];return l.push(this.assignProvider.invalidateAssignmentData(this.courseId)),this.assign&&(l.push(this.assignProvider.invalidateAllSubmissionData(this.assign.id)),l.push(this.assignProvider.invalidateAssignmentUserMappingsData(this.assign.id)),l.push(this.assignProvider.invalidateAssignmentGradesData(this.assign.id)),l.push(this.assignProvider.invalidateListParticipantsData(this.assign.id))),Promise.all(l).finally(function(){return n.fetchAssignment()})},n.prototype.refreshList=function(n){this.refreshAllData().finally(function(){n.complete()})},n.prototype.ngOnDestroy=function(){this.gradedObserver&&this.gradedObserver.off()},n}(),$=function(){return function(){}}(),w=t(1345),y=t(1346),C=t(1347),O=t(1348),G=t(1349),W=t(1350),E=t(1351),U=t(1352),K=t(1353),R=t(1356),M=t(1357),L=t(1358),N=t(120),B=t(109),F=t(25),j=t(19),H=t(8),J=t(147),V=t(7),q=t(31),z=t(21),Q=t(20),X=t(27),Y=t(33),Z=t(222),nn=t(187),ln=t(22),tn=t(3),un=t(10),an=t(186),sn=t(47),en=t(434),on=t(37),rn=t(1354),dn=t(200),_n=t(34),cn=t(662),gn=t(15),mn=t(1355),fn=t(336),pn=t(246),hn=t(41),bn=t(11),vn=t(26),In=t(6),Sn=t(17),xn=t(18),Pn=t(24),Tn=t(38),An=t(435),kn=t(436),Dn=t(67),$n=t(185),wn=t(32),yn=t(107),Cn=t(146),On=t(39),Gn=t(201),Wn=t(158),En=t(49),Un=t(48),Kn=t(78),Rn=t(61),Mn=p._14({encapsulation:2,styles:[],data:{}}),Ln=p._12("page-addon-mod-assign-submission-list",D,function(n){return p._42(0,[(n()(),p._16(0,0,null,null,1,"page-addon-mod-assign-submission-list",[],null,null,null,f,Mn)),p._15(1,245760,null,0,D,[Rn.a,S.a,I.a,x.a,j.a,P.a,T.a,A.a],null,null)],function(n,l){n(l,1,0)},null)},{},{},[]),Nn=t(23),Bn=t(332),Fn=t(333),jn=t(335),Hn=t(334),Jn=t(433),Vn=t(661),qn=t(106),zn=t(247);t.d(l,"AddonModAssignSubmissionListPageModuleNgFactory",function(){return Qn});var Qn=p._13($,[],function(n){return p._25([p._26(512,p.n,p._6,[[8,[w.a,y.a,C.a,O.a,G.a,W.a,E.a,U.a,K.a,R.a,M.a,L.a,Ln]],[3,p.n],p.B]),p._26(4608,H.m,H.l,[p.x,[2,H.v]]),p._26(4608,Nn.x,Nn.x,[]),p._26(4608,Nn.d,Nn.d,[]),p._26(4608,Bn.b,Bn.a,[]),p._26(4608,Fn.a,Fn.b,[]),p._26(4608,jn.b,jn.a,[]),p._26(4608,Hn.b,Hn.a,[]),p._26(4608,j.a,j.a,[Jn.a,Bn.b,Fn.a,jn.b,Hn.b,j.b,j.c]),p._26(512,H.b,H.b,[]),p._26(512,Nn.v,Nn.v,[]),p._26(512,Nn.i,Nn.i,[]),p._26(512,Nn.s,Nn.s,[]),p._26(512,Vn.a,Vn.a,[]),p._26(512,h.a,h.a,[]),p._26(512,v.a,v.a,[]),p._26(512,qn.a,qn.a,[]),p._26(512,b.a,b.a,[]),p._26(512,Vn.b,Vn.b,[]),p._26(512,$,$,[]),p._26(256,j.c,void 0,[]),p._26(256,j.b,void 0,[]),p._26(256,zn.a,D,[])])})}});
+webpackJsonp([107],{
+
+/***/ 1874:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
+var core = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
+var ionic_angular = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
+var _ngx_translate_core = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
+var directives_module = __webpack_require__(29);
+
+// EXTERNAL MODULE: ./src/addon/mod/chat/components/components.module.ts
+var components_module = __webpack_require__(675);
+
+// EXTERNAL MODULE: ./src/addon/mod/chat/components/index/index.ts
+var index = __webpack_require__(461);
+
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/index/index.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a chat.
+ */
+var index_AddonModChatIndexPage = /** @class */ (function () {
+    function AddonModChatIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the chat instance.
+     *
+     * @param {any} chat Chat instance.
+     */
+    AddonModChatIndexPage.prototype.updateData = function (chat) {
+        this.title = chat.name || this.title;
+    };
+    __decorate([
+        Object(core["_9" /* ViewChild */])(index["a" /* AddonModChatIndexComponent */]),
+        __metadata("design:type", index["a" /* AddonModChatIndexComponent */])
+    ], AddonModChatIndexPage.prototype, "chatComponent", void 0);
+    AddonModChatIndexPage = __decorate([
+        Object(core["m" /* Component */])({
+            selector: 'page-addon-mod-chat-index',
+            templateUrl: 'index.html',
+        }),
+        __metadata("design:paramtypes", [ionic_angular["t" /* NavParams */]])
+    ], AddonModChatIndexPage);
+    return AddonModChatIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/index/index.module.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var index_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var index_module_AddonModChatIndexPageModule = /** @class */ (function () {
+    function AddonModChatIndexPageModule() {
+    }
+    AddonModChatIndexPageModule = index_module___decorate([
+        Object(core["I" /* NgModule */])({
+            declarations: [
+                index_AddonModChatIndexPage,
+            ],
+            imports: [
+                directives_module["a" /* CoreDirectivesModule */],
+                components_module["a" /* AddonModChatComponentsModule */],
+                ionic_angular["l" /* IonicPageModule */].forChild(index_AddonModChatIndexPage),
+                _ngx_translate_core["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModChatIndexPageModule);
+    return AddonModChatIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
+var action_sheet_component_ngfactory = __webpack_require__(1358);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
+var alert_component_ngfactory = __webpack_require__(1359);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
+var app_root_ngfactory = __webpack_require__(1360);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
+var loading_component_ngfactory = __webpack_require__(1361);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
+var modal_component_ngfactory = __webpack_require__(1362);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
+var picker_component_ngfactory = __webpack_require__(1363);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
+var popover_component_ngfactory = __webpack_require__(1364);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
+var select_popover_component_ngfactory = __webpack_require__(1365);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
+var toast_component_ngfactory = __webpack_require__(1366);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
+var context_menu_popover_ngfactory = __webpack_require__(1369);
+
+// EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
+var course_picker_menu_popover_ngfactory = __webpack_require__(1370);
+
+// EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
+var recaptchamodal_ngfactory = __webpack_require__(1371);
+
+// EXTERNAL MODULE: ./src/core/course/components/unsupported-module/unsupported-module.ngfactory.js
+var unsupported_module_ngfactory = __webpack_require__(1372);
+
+// EXTERNAL MODULE: ./src/addon/mod/chat/components/index/index.ngfactory.js
+var index_ngfactory = __webpack_require__(1388);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
+var toolbar_header = __webpack_require__(442);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
+var config = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(36);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
+var navbar_ngfactory = __webpack_require__(1367);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
+var navbar = __webpack_require__(206);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
+var nav_controller = __webpack_require__(21);
+
+// EXTERNAL MODULE: ./src/directives/back-button.ts
+var back_button = __webpack_require__(669);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
+var translate_service = __webpack_require__(18);
+
+// EXTERNAL MODULE: ./src/providers/events.ts
+var events = __webpack_require__(12);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
+var toolbar_title_ngfactory = __webpack_require__(1368);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
+var toolbar_title = __webpack_require__(344);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
+var toolbar = __webpack_require__(250);
+
+// EXTERNAL MODULE: ./src/directives/format-text.ts
+var format_text = __webpack_require__(41);
+
+// EXTERNAL MODULE: ./src/providers/sites.ts
+var sites = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./src/providers/utils/dom.ts
+var dom = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./src/providers/utils/text.ts
+var utils_text = __webpack_require__(10);
+
+// EXTERNAL MODULE: ./src/providers/utils/utils.ts
+var utils = __webpack_require__(2);
+
+// EXTERNAL MODULE: ./src/providers/utils/url.ts
+var url = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./src/providers/logger.ts
+var logger = __webpack_require__(5);
+
+// EXTERNAL MODULE: ./src/providers/filepool.ts
+var filepool = __webpack_require__(16);
+
+// EXTERNAL MODULE: ./src/providers/app.ts
+var providers_app = __webpack_require__(9);
+
+// EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
+var helper = __webpack_require__(17);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(25);
+
+// EXTERNAL MODULE: ./src/components/split-view/split-view.ts
+var split_view = __webpack_require__(34);
+
+// EXTERNAL MODULE: ./src/providers/utils/iframe.ts
+var iframe = __webpack_require__(37);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
+var toolbar_item = __webpack_require__(443);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(176);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(103);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher.js
+var refresher = __webpack_require__(141);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/gestures/gesture-controller.js
+var gesture_controller = __webpack_require__(38);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.ngfactory.js
+var refresher_content_ngfactory = __webpack_require__(192);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.js
+var refresher_content = __webpack_require__(147);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
+var translate_pipe = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./src/addon/mod/chat/providers/chat.ts
+var chat = __webpack_require__(255);
+
+// EXTERNAL MODULE: ./src/providers/utils/time.ts
+var time = __webpack_require__(23);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
+var nav_params = __webpack_require__(60);
+
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/index/index.ngfactory.js
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_AddonModChatIndexPage = [];
+var RenderType_AddonModChatIndexPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_AddonModChatIndexPage, data: {} });
+
+function View_AddonModChatIndexPage_0(_l) { return core["_57" /* ɵvid */](0, [core["_52" /* ɵqud */](402653184, 1, { chatComponent: 0 }), (_l()(), core["_31" /* ɵeld */](1, 0, null, null, 18, "ion-header", [], null, null, null, null, null)), core["_30" /* ɵdid */](2, 16384, null, 0, toolbar_header["a" /* Header */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](4, 0, null, null, 14, "ion-navbar", [["class", "toolbar"], ["core-back-button", ""]], [[8, "hidden", 0], [2, "statusbar-padding", null]], null, null, navbar_ngfactory["b" /* View_Navbar_0 */], navbar_ngfactory["a" /* RenderType_Navbar */])), core["_30" /* ɵdid */](5, 49152, null, 0, navbar["a" /* Navbar */], [app["a" /* App */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_30" /* ɵdid */](6, 212992, null, 0, back_button["a" /* CoreBackButtonDirective */], [navbar["a" /* Navbar */], platform["a" /* Platform */], translate_service["a" /* TranslateService */], events["a" /* CoreEventsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](8, 0, null, 3, 3, "ion-title", [], null, null, null, toolbar_title_ngfactory["b" /* View_ToolbarTitle_0 */], toolbar_title_ngfactory["a" /* RenderType_ToolbarTitle */])), core["_30" /* ɵdid */](9, 49152, null, 0, toolbar_title["a" /* ToolbarTitle */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), (_l()(), core["_31" /* ɵeld */](10, 0, null, 0, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](11, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], providers_app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n\n        "])), (_l()(), core["_31" /* ɵeld */](13, 0, null, 2, 4, "ion-buttons", [["end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](14, 16384, null, 1, toolbar_item["a" /* ToolbarItem */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), core["_52" /* ɵqud */](603979776, 2, { _buttons: 1 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](21, 0, null, null, 13, "ion-content", [], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](22, 4374528, null, 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](24, 0, null, 2, 6, "ion-refresher", [], [[2, "refresher-active", null], [4, "top", null]], [[null, "ionRefresh"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("ionRefresh" === en)) {
+        var pd_0 = (_co.chatComponent.doRefresh($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), core["_30" /* ɵdid */](25, 212992, null, 0, refresher["a" /* Refresher */], [platform["a" /* Platform */], content["a" /* Content */], core["M" /* NgZone */], gesture_controller["l" /* GestureController */]], { enabled: [0, "enabled"] }, { ionRefresh: "ionRefresh" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](27, 0, null, null, 2, "ion-refresher-content", [], [[1, "state", 0]], null, null, refresher_content_ngfactory["b" /* View_RefresherContent_0 */], refresher_content_ngfactory["a" /* RenderType_RefresherContent */])), core["_30" /* ɵdid */](28, 114688, null, 0, refresher_content["a" /* RefresherContent */], [refresher["a" /* Refresher */], config["a" /* Config */]], { pullingText: [0, "pullingText"] }, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n\n    "])), (_l()(), core["_31" /* ɵeld */](32, 0, null, 1, 1, "addon-mod-chat-index", [], null, [[null, "dataRetrieved"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("dataRetrieved" === en)) {
+        var pd_0 = (_co.updateData($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, index_ngfactory["c" /* View_AddonModChatIndexComponent_0 */], index_ngfactory["b" /* RenderType_AddonModChatIndexComponent */])), core["_30" /* ɵdid */](33, 245760, [[1, 4]], 0, index["a" /* AddonModChatIndexComponent */], [core["C" /* Injector */], chat["a" /* AddonModChatProvider */], time["a" /* CoreTimeUtilsProvider */], nav_controller["a" /* NavController */]], { module: [0, "module"], courseId: [1, "courseId"] }, { dataRetrieved: "dataRetrieved" }), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 6, 0); var currVal_2 = _co.title; _ck(_v, 11, 0, currVal_2); var currVal_7 = _co.chatComponent.loaded; _ck(_v, 25, 0, currVal_7); var currVal_9 = core["_34" /* ɵinlineInterpolate */](1, "", core["_56" /* ɵunv */](_v, 28, 0, core["_44" /* ɵnov */](_v, 29).transform("core.pulltorefresh")), ""); _ck(_v, 28, 0, currVal_9); var currVal_10 = _co.module; var currVal_11 = _co.courseId; _ck(_v, 33, 0, currVal_10, currVal_11); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 5)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 5)._sbPadding; _ck(_v, 4, 0, currVal_0, currVal_1); var currVal_3 = core["_44" /* ɵnov */](_v, 22).statusbarPadding; var currVal_4 = core["_44" /* ɵnov */](_v, 22)._hasRefresher; _ck(_v, 21, 0, currVal_3, currVal_4); var currVal_5 = (core["_44" /* ɵnov */](_v, 25).state !== "inactive"); var currVal_6 = core["_44" /* ɵnov */](_v, 25)._top; _ck(_v, 24, 0, currVal_5, currVal_6); var currVal_8 = core["_44" /* ɵnov */](_v, 28).r.state; _ck(_v, 27, 0, currVal_8); }); }
+function View_AddonModChatIndexPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-addon-mod-chat-index", [], null, null, null, View_AddonModChatIndexPage_0, RenderType_AddonModChatIndexPage)), core["_30" /* ɵdid */](1, 49152, null, 0, index_AddonModChatIndexPage, [nav_params["a" /* NavParams */]], null, null)], null, null); }
+var AddonModChatIndexPageNgFactory = core["_27" /* ɵccf */]("page-addon-mod-chat-index", index_AddonModChatIndexPage, View_AddonModChatIndexPage_Host_0, {}, {}, []);
+
+//# sourceMappingURL=index.ngfactory.js.map
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
+var esm5_forms = __webpack_require__(22);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
+var translate_loader = __webpack_require__(340);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
+var translate_compiler = __webpack_require__(341);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
+var translate_parser = __webpack_require__(343);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
+var missing_translation_handler = __webpack_require__(342);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
+var translate_store = __webpack_require__(441);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
+var ionic_angular_module = __webpack_require__(668);
+
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 2 modules
+var pipes_module = __webpack_require__(102);
+
+// EXTERNAL MODULE: ./src/components/components.module.ts
+var components_components_module = __webpack_require__(24);
+
+// EXTERNAL MODULE: ./src/core/course/components/components.module.ts
+var course_components_components_module = __webpack_require__(67);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
+var module_loader = __webpack_require__(251);
+
+// CONCATENATED MODULE: ./src/addon/mod/chat/pages/index/index.module.ngfactory.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChatIndexPageModuleNgFactory", function() { return AddonModChatIndexPageModuleNgFactory; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AddonModChatIndexPageModuleNgFactory = core["_28" /* ɵcmf */](index_module_AddonModChatIndexPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], unsupported_module_ngfactory["a" /* CoreCourseUnsupportedModuleComponentNgFactory */], index_ngfactory["a" /* AddonModChatIndexComponentNgFactory */], AddonModChatIndexPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_components_module["a" /* CoreComponentsModule */], components_components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, course_components_components_module["a" /* CoreCourseComponentsModule */], course_components_components_module["a" /* CoreCourseComponentsModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* AddonModChatComponentsModule */], components_module["a" /* AddonModChatComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, index_module_AddonModChatIndexPageModule, index_module_AddonModChatIndexPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], index_AddonModChatIndexPage, [])]); });
+
+//# sourceMappingURL=index.module.ngfactory.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=107.js.map

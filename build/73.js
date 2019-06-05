@@ -1,1 +1,447 @@
-webpackJsonp([73],{1896:function(n,i,t){"use strict";function e(n){return o._42(0,[(n()(),o._16(0,0,null,null,13,"ion-item",[["class","item-title item item-block"],["text-wrap",""]],null,null,null,M.b,M.a)),o._15(1,1097728,null,3,V.a,[K.a,W.a,o.p,o.K,[2,A.a]],null,null),o._37(335544320,2,{contentLabel:0}),o._37(603979776,3,{_buttons:1}),o._37(603979776,4,{_icons:1}),o._15(5,16384,null,0,N.a,[],null,null),(n()(),o._40(-1,2,["\n                "])),(n()(),o._16(7,0,null,3,5,"ion-input",[["name","title"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,B.b,B.a)),o._15(8,671744,null,0,d.f,[[3,d.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),o._35(2048,null,d.m,null,[d.f]),o._15(10,16384,null,0,d.n,[d.m],null,null),o._15(11,5423104,null,0,R.a,[W.a,H.a,K.a,j.a,o.p,o.K,[2,$.a],[2,V.a],[2,d.m],G.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),o._32(131072,J.a,[q.a,o.i]),(n()(),o._40(-1,2,["\n            "]))],function(n,i){n(i,8,0,"title");n(i,11,0,"text",o._41(i,11,1,o._29(i,12).transform("addon.mod_wiki.newpagetitle")))},function(n,i){n(i,7,0,o._29(i,10).ngClassUntouched,o._29(i,10).ngClassTouched,o._29(i,10).ngClassPristine,o._29(i,10).ngClassDirty,o._29(i,10).ngClassValid,o._29(i,10).ngClassInvalid,o._29(i,10).ngClassPending)})}function l(n){return o._42(0,[(n()(),o._16(0,0,null,null,11,"ion-item",[["class","addon-mod_wiki-wrongversionlock item item-block"],["text-center",""]],null,null,null,M.b,M.a)),o._15(1,1097728,null,3,V.a,[K.a,W.a,o.p,o.K,[2,A.a]],null,null),o._37(335544320,8,{contentLabel:0}),o._37(603979776,9,{_buttons:1}),o._37(603979776,10,{_icons:1}),o._15(5,16384,null,0,N.a,[],null,null),(n()(),o._40(-1,2,["\n                "])),(n()(),o._16(7,0,null,2,3,"ion-badge",[["color","danger"],["padding",""]],null,null,null,null,null)),o._15(8,16384,null,0,z.a,[W.a,o.p,o.K],{color:[0,"color"]},null),(n()(),o._40(9,null,["",""])),o._32(131072,J.a,[q.a,o.i]),(n()(),o._40(-1,2,["\n            "]))],function(n,i){n(i,8,0,"danger")},function(n,i){n(i,9,0,o._41(i,9,0,o._29(i,10).transform("addon.mod_wiki.wrongversionlock")))})}function a(n){return o._42(0,[(n()(),o._16(0,0,null,null,23,"ion-header",[],null,null,null,null,null)),o._15(1,16384,null,0,Q.a,[W.a,o.p,o.K,[2,X.a]],null,null),(n()(),o._40(-1,null,["\n    "])),(n()(),o._16(3,0,null,null,19,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Y.b,Y.a)),o._15(4,49152,null,0,Z.a,[j.a,[2,X.a],[2,nn.a],W.a,o.p,o.K],null,null),o._15(5,212992,null,0,tn.a,[Z.a,H.a,q.a,c.a],null,null),(n()(),o._40(-1,3,["\n        "])),(n()(),o._16(7,0,null,3,3,"ion-title",[],null,null,null,en.b,en.a)),o._15(8,49152,null,0,ln.a,[W.a,o.p,o.K,[2,an.a],[2,Z.a]],null,null),(n()(),o._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),o._15(10,540672,null,0,on.a,[o.p,g.a,_.a,p.a,q.a,H.a,un.a,rn.a,sn.a,dn.a,cn.a,gn.a,[2,nn.a],[2,$.a],[2,hn.a],_n.a,c.a],{text:[0,"text"]},null),(n()(),o._40(-1,3,["\n\n        "])),(n()(),o._16(12,0,null,2,9,"ion-buttons",[["end",""]],null,null,null,null,null)),o._15(13,16384,null,1,pn.a,[W.a,o.p,o.K,[2,an.a],[2,Z.a]],null,null),o._37(603979776,1,{_buttons:1}),(n()(),o._40(-1,null,["\n            "])),(n()(),o._16(16,0,null,null,4,"button",[["clear",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,i,t){var e=!0;if("click"===i){e=!1!==n.component.save()&&e}return e},fn.b,fn.a)),o._15(17,1097728,[[1,4]],0,In.a,[[8,""],W.a,o.p,o.K],{clear:[0,"clear"]},null),o._32(131072,J.a,[q.a,o.i]),(n()(),o._40(19,0,["\n                ","\n            "])),o._32(131072,J.a,[q.a,o.i]),(n()(),o._40(-1,null,["\n        "])),(n()(),o._40(-1,3,["\n    "])),(n()(),o._40(-1,null,["\n"])),(n()(),o._40(-1,null,["\n"])),(n()(),o._16(25,0,null,null,31,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,kn.b,kn.a)),o._15(26,4374528,null,0,$.a,[W.a,H.a,G.a,o.p,o.K,j.a,wn.a,o.D,[2,X.a],[2,nn.a]],null,null),(n()(),o._40(-1,1,["\n    "])),(n()(),o._16(28,0,null,1,27,"core-loading",[],null,null,null,mn.b,mn.a)),o._15(29,638976,null,0,vn.a,[q.a,o.p,c.a,un.a],{hideUntil:[0,"hideUntil"]},null),(n()(),o._40(-1,0,["\n        "])),(n()(),o._16(31,0,null,0,23,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(n,i,t){var e=!0;if("submit"===i){e=!1!==o._29(n,33).onSubmit(t)&&e}if("reset"===i){e=!1!==o._29(n,33).onReset()&&e}return e},null,null)),o._15(32,16384,null,0,d.w,[],null,null),o._15(33,540672,null,0,d.h,[[8,null],[8,null]],{form:[0,"form"]},null),o._35(2048,null,d.b,null,[d.h]),o._15(35,16384,null,0,d.o,[d.b],null,null),(n()(),o._40(-1,null,["\n            "])),(n()(),o._11(16777216,null,null,1,null,e)),o._15(38,16384,null,0,bn.k,[o.W,o.T],{ngIf:[0,"ngIf"]},null),(n()(),o._40(-1,null,["\n\n            "])),(n()(),o._16(40,0,null,null,10,"ion-item",[["class","item item-block"]],null,null,null,M.b,M.a)),o._15(41,1097728,null,3,V.a,[K.a,W.a,o.p,o.K,[2,A.a]],null,null),o._37(335544320,5,{contentLabel:0}),o._37(603979776,6,{_buttons:1}),o._37(603979776,7,{_icons:1}),o._15(45,16384,null,0,N.a,[],null,null),(n()(),o._40(-1,2,["\n                "])),(n()(),o._16(47,0,null,3,2,"core-rich-text-editor",[["item-content",""],["name","wiki_page_content"]],null,null,null,Pn.b,Pn.a)),o._15(48,1228800,null,0,yn.a,[_.a,rn.a,g.a,dn.a,[2,$.a],o.p,c.a,un.a,H.a],{placeholder:[0,"placeholder"],control:[1,"control"],name:[2,"name"],component:[3,"component"],componentId:[4,"componentId"]},null),o._32(131072,J.a,[q.a,o.i]),(n()(),o._40(-1,2,["\n            "])),(n()(),o._40(-1,null,["\n\n            "])),(n()(),o._11(16777216,null,null,1,null,l)),o._15(53,16384,null,0,bn.k,[o.W,o.T],{ngIf:[0,"ngIf"]},null),(n()(),o._40(-1,null,["\n        "])),(n()(),o._40(-1,0,["\n    "])),(n()(),o._40(-1,1,["\n"])),(n()(),o._40(-1,null,["\n"]))],function(n,i){var t=i.component;n(i,5,0);n(i,10,0,t.title);n(i,17,0,"");n(i,29,0,t.loaded);n(i,33,0,t.pageForm);n(i,38,0,t.canEditTitle);n(i,48,0,o._41(i,48,0,o._29(i,49).transform("core.content")),t.contentControl,"wiki_page_content",t.component,t.componentId);n(i,53,0,t.wrongVersionLock)},function(n,i){n(i,3,0,o._29(i,4)._hidden,o._29(i,4)._sbPadding);n(i,16,0,o._41(i,16,0,o._29(i,18).transform("core.save")));n(i,19,0,o._41(i,19,0,o._29(i,20).transform("core.save")));n(i,25,0,o._29(i,26).statusbarPadding,o._29(i,26)._hasRefresher);n(i,31,0,o._29(i,35).ngClassUntouched,o._29(i,35).ngClassTouched,o._29(i,35).ngClassPristine,o._29(i,35).ngClassDirty,o._29(i,35).ngClassValid,o._29(i,35).ngClassInvalid,o._29(i,35).ngClassPending)})}Object.defineProperty(i,"__esModule",{value:!0});var o=t(1),u=(t(0),t(9),t(4)),r=t(29),s=t(30),d=t(23),c=t(13),g=t(2),h=t(86),_=t(5),p=t(11),f=t(16),I=t(42),k=t(209),w=t(257),m=t(289),v=function(){function n(n,i,t,e,l,a,o,u,r,s,d,c,g,h){this.navCtrl=t,this.sitesProvider=e,this.syncProvider=l,this.domUtils=a,this.translate=o,this.courseProvider=u,this.eventsProvider=r,this.wikiProvider=s,this.wikiOffline=d,this.wikiSync=c,this.textUtils=g,this.courseHelper=h,this.component=k.a.COMPONENT,this.forceLeave=!1,this.isDestroyed=!1,this.module=n.get("module")||{},this.courseId=n.get("courseId"),this.subwikiId=n.get("subwikiId"),this.wikiId=n.get("wikiId"),this.pageId=n.get("pageId"),this.section=n.get("section"),this.groupId=n.get("groupId"),this.userId=n.get("userId");var _=n.get("pageTitle");_=_?_.replace(/\+/g," "):"",this.initialSubwikiId=this.subwikiId,this.componentId=this.module.id,this.canEditTitle=!_,this.title=_?this.translate.instant("addon.mod_wiki.editingpage",{$a:_}):this.translate.instant("addon.mod_wiki.newpagehdr"),this.blockId=this.wikiSync.getSubwikiBlockId(this.subwikiId,this.wikiId,this.userId,this.groupId),this.contentControl=i.control(""),this.pageForm=i.group({title:_}),this.pageForm.addControl("text",this.contentControl),this.syncProvider.blockOperation(this.component,this.blockId)}return n.prototype.ngOnInit=function(){var n=this;this.fetchWikiPageData().then(function(i){if(i&&n.blockId&&!n.isDestroyed){var t=n.wikiSync.getSubwikiBlockId(n.subwikiId,n.wikiId,n.userId,n.groupId);t!=n.blockId&&(n.syncProvider.unblockOperation(n.component,n.blockId),n.blockId=t,n.syncProvider.blockOperation(n.component,n.blockId))}}).finally(function(){n.loaded=!0})},n.prototype.fetchWikiPageData=function(){var n,i=this,t=!1;if(this.pageId)this.canEditTitle=!1,this.editing=!0,this.editOffline=!1,n=this.wikiProvider.getPageContents(this.pageId).then(function(n){return i.pageForm.controls.title.setValue(n.title),i.wikiId=n.wikiid,i.subwikiId=n.subwikiid,i.title=i.translate.instant("addon.mod_wiki.editingpage",{$a:n.title}),i.groupId=n.groupid,i.userId=n.userid,t=n.caneditpage,i.wikiSync.waitForSync(i.blockId)}).then(function(){return i.wikiProvider.getSubwikiFiles(i.wikiId,i.groupId,i.userId)}).then(function(n){return i.subwikiFiles=n,i.wikiProvider.getPageForEditing(i.pageId,i.section)}).then(function(n){var e=i.textUtils.replacePluginfileUrls(n.content,i.subwikiFiles);i.contentControl.setValue(e),i.originalContent=e,i.version=n.version,t&&(i.renewLockInterval=setInterval(function(){i.renewLock()},k.a.RENEW_LOCK_TIME))});else{var e=this.pageForm.controls.title.value;n=this.wikiSync.waitForSync(this.blockId),e?n=n.then(function(n){if(n){var t=n.created.find(function(n){return n.title==e});if(t&&t.pageId>0)return i.pageId=t.pageId,i.fetchWikiPageData()}return i.wikiOffline.getNewPage(e,i.subwikiId,i.wikiId,i.userId,i.groupId)}).then(function(n){i.contentControl.setValue(n.cachedcontent),i.originalContent=n.cachedcontent,i.editOffline=!0}).catch(function(){i.editOffline=!1}):this.editOffline=!1,n.then(function(){i.editing=!1,t=!!i.blockId})}return n.then(function(){return!0}).catch(function(n){return i.domUtils.showErrorModalDefault(n,"Error getting wiki data."),i.forceLeavePage(),!1}).finally(function(){t||(i.domUtils.showAlert(i.translate.instant("core.notice"),i.translate.instant("addon.mod_wiki.cannoteditpage")),i.forceLeavePage())})},n.prototype.forceLeavePage=function(){this.forceLeave=!0,this.navCtrl.pop()},n.prototype.goToNewOfflinePage=function(n){this.courseId&&(this.module.id||this.wikiId)?this.editOffline&&!this.previousViewPageIsDifferentOffline(n)||(this.pageParamsToLoad={module:this.module,courseId:this.courseId,pageId:null,pageTitle:n,wikiId:this.wikiId,subwikiId:this.subwikiId,userId:this.userId,groupId:this.groupId}):this.domUtils.showAlert(this.translate.instant("core.success"),this.translate.instant("core.datastoredoffline")),this.forceLeavePage()},n.prototype.gotoPage=function(n){var i=this;return this.retrieveModuleInfo(this.wikiId).then(function(){var t=!1;i.initialSubwikiId&&(!i.editing&&i.editOffline&&i.previousViewPageIsDifferentOffline(n)?t=!0:!i.editOffline&&i.previousViewIsDifferentPageOnline()&&(t=!0)),t&&(i.pageParamsToLoad={module:i.module,courseId:i.courseId,pageId:i.pageId,pageTitle:n,wikiId:i.wikiId,subwikiId:i.subwikiId,userId:i.userId,groupId:i.groupId}),i.forceLeavePage()}).catch(function(){i.forceLeavePage()})},n.prototype.hasDataChanged=function(){var n=this.pageForm.value;return!(this.originalContent==n.text||!this.editing&&!n.text&&!n.title)},n.prototype.ionViewCanLeave=function(){return!!this.forceLeave||(!this.hasDataChanged()||this.domUtils.showConfirm(this.translate.instant("core.confirmcanceledit")))},n.prototype.ionViewDidLeave=function(){this.pageParamsToLoad&&this.navCtrl.push("AddonModWikiIndexPage",this.pageParamsToLoad)},n.prototype.previousViewIsDifferentPageOnline=function(){var n=this.navCtrl.getPrevious();return!this.editing||"AddonModWikiIndexPage"!=n.component.name||n.data.module.id!=this.module.id||n.data.pageId!=this.pageId},n.prototype.previousViewPageIsDifferentOffline=function(n){var i=this.navCtrl.getPrevious();if("AddonModWikiIndexPage"!=i.component.name||i.data.module.id!=this.module.id||i.data.wikiId!=this.wikiId||i.data.pageTitle!=n)return!0;var t=parseInt(i.data.subwikiId,10)||0;if(t>0&&this.subwikiId>0)return t!=this.subwikiId;var e=parseInt(i.data.userId,10)||0,l=parseInt(i.data.groupId,10)||0;return this.userId!=e||this.groupId!=l},n.prototype.save=function(){var n,i=this,t=this.pageForm.value,e=t.title,l=this.domUtils.showModalLoading("core.sending",!0),a=t.text;if(a=this.textUtils.restorePluginfileUrls(a,this.subwikiFiles),a=this.textUtils.formatHtmlLines(a),this.editing)n=this.wikiProvider.editPage(this.pageId,a,this.section).then(function(){return i.wikiProvider.invalidatePage(i.pageId).then(function(){return i.gotoPage(e)})});else{if(!e)return this.domUtils.showAlert(this.translate.instant("core.notice"),this.translate.instant("addon.mod_wiki.titleshouldnotbeempty")),void l.dismiss();n=(n=this.editOffline?Promise.resolve():this.wikiOffline.getNewPage(e,this.subwikiId,this.wikiId,this.userId,this.groupId).then(function(){return Promise.reject(i.translate.instant("addon.mod_wiki.pageexists"))},function(){})).then(function(){var n=i.wikiId||i.module&&i.module.instance;return i.wikiProvider.newPage(e,a,i.subwikiId,n,i.userId,i.groupId).then(function(t){if(t>0)return i.pageId=t,i.wikiProvider.getPageContents(i.pageId).then(function(t){var l=[];return n=parseInt(t.wikiid,10),i.subwikiId||l.push(i.wikiProvider.invalidateSubwikis(n)),i.subwikiId=parseInt(t.subwikiid,10),i.userId=parseInt(t.userid,10),i.groupId=parseInt(t.groupid,10),l.push(i.wikiProvider.invalidateSubwikiPages(n)),Promise.all(l).then(function(){return i.gotoPage(e)})}).finally(function(){i.eventsProvider.trigger(k.a.PAGE_CREATED_EVENT,{pageId:i.pageId,subwikiId:i.subwikiId,pageTitle:e},i.sitesProvider.getCurrentSiteId())});i.goToNewOfflinePage(e)})})}return n.catch(function(n){i.domUtils.showErrorModalDefault(n,"Error saving wiki data.")}).finally(function(){l.dismiss()})},n.prototype.renewLock=function(){var n=this;this.wikiProvider.getPageForEditing(this.pageId,this.section,!0).then(function(i){i.version&&n.version!=i.version&&(n.wrongVersionLock=!0)})},n.prototype.retrieveModuleInfo=function(n){var i=this;if(this.module.id&&this.courseId)return Promise.resolve();return(this.module.id?Promise.resolve(this.module):this.courseProvider.getModuleBasicInfoByInstance(n,"wiki")).then(function(t){if(i.module=t,i.componentId=i.module.id,!i.courseId&&i.module.course)i.courseId=i.module.course;else if(!i.courseId)return i.courseHelper.getModuleCourseIdByInstance(n,"wiki").then(function(n){i.courseId=n})})},n.prototype.ngOnDestroy=function(){this.isDestroyed=!0,clearInterval(this.renewLockInterval),this.blockId&&this.syncProvider.unblockOperation(this.component,this.blockId)},n}(),b=function(){return function(){}}(),P=t(1345),y=t(1346),C=t(1347),O=t(1348),L=t(1349),x=t(1350),T=t(1351),D=t(1352),E=t(1353),U=t(1356),F=t(1357),S=t(1358),M=t(31),V=t(21),K=t(20),W=t(7),A=t(27),N=t(33),B=t(94),R=t(79),H=t(15),j=t(34),$=t(24),G=t(32),J=t(25),q=t(19),z=t(147),Q=t(434),X=t(37),Y=t(1354),Z=t(200),nn=t(22),tn=t(662),en=t(1355),ln=t(336),an=t(246),on=t(41),un=t(3),rn=t(26),sn=t(6),dn=t(17),cn=t(10),gn=t(18),hn=t(35),_n=t(38),pn=t(435),fn=t(46),In=t(43),kn=t(185),wn=t(107),mn=t(49),vn=t(48),bn=t(8),Pn=t(277),yn=t(225),Cn=t(61),On=o._14({encapsulation:2,styles:[],data:{}}),Ln=o._12("page-addon-mod-wiki-edit",v,function(n){return o._42(0,[(n()(),o._16(0,0,null,null,1,"page-addon-mod-wiki-edit",[],null,null,null,a,On)),o._15(1,245760,null,0,v,[Cn.a,d.d,nn.a,g.a,h.a,_.a,q.a,f.a,c.a,k.a,w.a,m.a,p.a,I.a],null,null)],function(n,i){n(i,1,0)},null)},{},{},[]),xn=t(332),Tn=t(333),Dn=t(335),En=t(334),Un=t(433),Fn=t(661),Sn=t(106),Mn=t(247);t.d(i,"AddonModWikiEditPageModuleNgFactory",function(){return Vn});var Vn=o._13(b,[],function(n){return o._25([o._26(512,o.n,o._6,[[8,[P.a,y.a,C.a,O.a,L.a,x.a,T.a,D.a,E.a,U.a,F.a,S.a,Ln]],[3,o.n],o.B]),o._26(4608,bn.m,bn.l,[o.x,[2,bn.v]]),o._26(4608,d.x,d.x,[]),o._26(4608,d.d,d.d,[]),o._26(4608,xn.b,xn.a,[]),o._26(4608,Tn.a,Tn.b,[]),o._26(4608,Dn.b,Dn.a,[]),o._26(4608,En.b,En.a,[]),o._26(4608,q.a,q.a,[Un.a,xn.b,Tn.a,Dn.b,En.b,q.b,q.c]),o._26(512,bn.b,bn.b,[]),o._26(512,d.v,d.v,[]),o._26(512,d.i,d.i,[]),o._26(512,d.s,d.s,[]),o._26(512,Fn.a,Fn.a,[]),o._26(512,u.a,u.a,[]),o._26(512,s.a,s.a,[]),o._26(512,Sn.a,Sn.a,[]),o._26(512,r.a,r.a,[]),o._26(512,Fn.b,Fn.b,[]),o._26(512,b,b,[]),o._26(256,q.c,void 0,[]),o._26(256,q.b,void 0,[]),o._26(256,Mn.a,v,[])])})}});
+webpackJsonp([73],{
+
+/***/ 1912:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
+var core = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
+var ionic_angular = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
+var _ngx_translate_core = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
+var directives_module = __webpack_require__(29);
+
+// EXTERNAL MODULE: ./src/addon/mod/survey/components/components.module.ts
+var components_module = __webpack_require__(707);
+
+// EXTERNAL MODULE: ./src/addon/mod/survey/components/index/index.ts
+var index = __webpack_require__(479);
+
+// CONCATENATED MODULE: ./src/addon/mod/survey/pages/index/index.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a survey.
+ */
+var index_AddonModSurveyIndexPage = /** @class */ (function () {
+    function AddonModSurveyIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the survey instance.
+     *
+     * @param {any} survey Survey instance.
+     */
+    AddonModSurveyIndexPage.prototype.updateData = function (survey) {
+        this.title = survey.name || this.title;
+    };
+    __decorate([
+        Object(core["_9" /* ViewChild */])(index["a" /* AddonModSurveyIndexComponent */]),
+        __metadata("design:type", index["a" /* AddonModSurveyIndexComponent */])
+    ], AddonModSurveyIndexPage.prototype, "surveyComponent", void 0);
+    AddonModSurveyIndexPage = __decorate([
+        Object(core["m" /* Component */])({
+            selector: 'page-addon-mod-survey-index',
+            templateUrl: 'index.html',
+        }),
+        __metadata("design:paramtypes", [ionic_angular["t" /* NavParams */]])
+    ], AddonModSurveyIndexPage);
+    return AddonModSurveyIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+// CONCATENATED MODULE: ./src/addon/mod/survey/pages/index/index.module.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var index_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var index_module_AddonModSurveyIndexPageModule = /** @class */ (function () {
+    function AddonModSurveyIndexPageModule() {
+    }
+    AddonModSurveyIndexPageModule = index_module___decorate([
+        Object(core["I" /* NgModule */])({
+            declarations: [
+                index_AddonModSurveyIndexPage,
+            ],
+            imports: [
+                directives_module["a" /* CoreDirectivesModule */],
+                components_module["a" /* AddonModSurveyComponentsModule */],
+                ionic_angular["l" /* IonicPageModule */].forChild(index_AddonModSurveyIndexPage),
+                _ngx_translate_core["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModSurveyIndexPageModule);
+    return AddonModSurveyIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
+var action_sheet_component_ngfactory = __webpack_require__(1358);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
+var alert_component_ngfactory = __webpack_require__(1359);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
+var app_root_ngfactory = __webpack_require__(1360);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
+var loading_component_ngfactory = __webpack_require__(1361);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
+var modal_component_ngfactory = __webpack_require__(1362);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
+var picker_component_ngfactory = __webpack_require__(1363);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
+var popover_component_ngfactory = __webpack_require__(1364);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
+var select_popover_component_ngfactory = __webpack_require__(1365);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
+var toast_component_ngfactory = __webpack_require__(1366);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
+var context_menu_popover_ngfactory = __webpack_require__(1369);
+
+// EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
+var course_picker_menu_popover_ngfactory = __webpack_require__(1370);
+
+// EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
+var recaptchamodal_ngfactory = __webpack_require__(1371);
+
+// EXTERNAL MODULE: ./src/core/course/components/unsupported-module/unsupported-module.ngfactory.js
+var unsupported_module_ngfactory = __webpack_require__(1372);
+
+// EXTERNAL MODULE: ./src/addon/mod/survey/components/index/index.ngfactory.js
+var index_ngfactory = __webpack_require__(1425);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
+var toolbar_header = __webpack_require__(442);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
+var config = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(36);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
+var navbar_ngfactory = __webpack_require__(1367);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
+var navbar = __webpack_require__(206);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
+var nav_controller = __webpack_require__(21);
+
+// EXTERNAL MODULE: ./src/directives/back-button.ts
+var back_button = __webpack_require__(669);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
+var translate_service = __webpack_require__(18);
+
+// EXTERNAL MODULE: ./src/providers/events.ts
+var events = __webpack_require__(12);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
+var toolbar_title_ngfactory = __webpack_require__(1368);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
+var toolbar_title = __webpack_require__(344);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
+var toolbar = __webpack_require__(250);
+
+// EXTERNAL MODULE: ./src/directives/format-text.ts
+var format_text = __webpack_require__(41);
+
+// EXTERNAL MODULE: ./src/providers/sites.ts
+var sites = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./src/providers/utils/dom.ts
+var dom = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./src/providers/utils/text.ts
+var utils_text = __webpack_require__(10);
+
+// EXTERNAL MODULE: ./src/providers/utils/utils.ts
+var utils = __webpack_require__(2);
+
+// EXTERNAL MODULE: ./src/providers/utils/url.ts
+var url = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./src/providers/logger.ts
+var logger = __webpack_require__(5);
+
+// EXTERNAL MODULE: ./src/providers/filepool.ts
+var filepool = __webpack_require__(16);
+
+// EXTERNAL MODULE: ./src/providers/app.ts
+var providers_app = __webpack_require__(9);
+
+// EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
+var helper = __webpack_require__(17);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(25);
+
+// EXTERNAL MODULE: ./src/components/split-view/split-view.ts
+var split_view = __webpack_require__(34);
+
+// EXTERNAL MODULE: ./src/providers/utils/iframe.ts
+var iframe = __webpack_require__(37);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
+var toolbar_item = __webpack_require__(443);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(176);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(103);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher.js
+var refresher = __webpack_require__(141);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/gestures/gesture-controller.js
+var gesture_controller = __webpack_require__(38);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.ngfactory.js
+var refresher_content_ngfactory = __webpack_require__(192);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.js
+var refresher_content = __webpack_require__(147);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
+var translate_pipe = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./src/addon/mod/survey/providers/survey.ts
+var survey = __webpack_require__(270);
+
+// EXTERNAL MODULE: ./src/addon/mod/survey/providers/helper.ts
+var providers_helper = __webpack_require__(309);
+
+// EXTERNAL MODULE: ./src/addon/mod/survey/providers/offline.ts
+var offline = __webpack_require__(271);
+
+// EXTERNAL MODULE: ./src/addon/mod/survey/providers/sync.ts
+var sync = __webpack_require__(310);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
+var nav_params = __webpack_require__(60);
+
+// CONCATENATED MODULE: ./src/addon/mod/survey/pages/index/index.ngfactory.js
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_AddonModSurveyIndexPage = [];
+var RenderType_AddonModSurveyIndexPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_AddonModSurveyIndexPage, data: {} });
+
+function View_AddonModSurveyIndexPage_0(_l) { return core["_57" /* ɵvid */](0, [core["_52" /* ɵqud */](402653184, 1, { surveyComponent: 0 }), (_l()(), core["_31" /* ɵeld */](1, 0, null, null, 18, "ion-header", [], null, null, null, null, null)), core["_30" /* ɵdid */](2, 16384, null, 0, toolbar_header["a" /* Header */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](4, 0, null, null, 14, "ion-navbar", [["class", "toolbar"], ["core-back-button", ""]], [[8, "hidden", 0], [2, "statusbar-padding", null]], null, null, navbar_ngfactory["b" /* View_Navbar_0 */], navbar_ngfactory["a" /* RenderType_Navbar */])), core["_30" /* ɵdid */](5, 49152, null, 0, navbar["a" /* Navbar */], [app["a" /* App */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_30" /* ɵdid */](6, 212992, null, 0, back_button["a" /* CoreBackButtonDirective */], [navbar["a" /* Navbar */], platform["a" /* Platform */], translate_service["a" /* TranslateService */], events["a" /* CoreEventsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](8, 0, null, 3, 3, "ion-title", [], null, null, null, toolbar_title_ngfactory["b" /* View_ToolbarTitle_0 */], toolbar_title_ngfactory["a" /* RenderType_ToolbarTitle */])), core["_30" /* ɵdid */](9, 49152, null, 0, toolbar_title["a" /* ToolbarTitle */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), (_l()(), core["_31" /* ɵeld */](10, 0, null, 0, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](11, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], providers_app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n\n        "])), (_l()(), core["_31" /* ɵeld */](13, 0, null, 2, 4, "ion-buttons", [["end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](14, 16384, null, 1, toolbar_item["a" /* ToolbarItem */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), core["_52" /* ɵqud */](603979776, 2, { _buttons: 1 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](21, 0, null, null, 13, "ion-content", [], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](22, 4374528, null, 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](24, 0, null, 2, 6, "ion-refresher", [], [[2, "refresher-active", null], [4, "top", null]], [[null, "ionRefresh"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("ionRefresh" === en)) {
+        var pd_0 = (_co.surveyComponent.doRefresh($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), core["_30" /* ɵdid */](25, 212992, null, 0, refresher["a" /* Refresher */], [platform["a" /* Platform */], content["a" /* Content */], core["M" /* NgZone */], gesture_controller["l" /* GestureController */]], { enabled: [0, "enabled"] }, { ionRefresh: "ionRefresh" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](27, 0, null, null, 2, "ion-refresher-content", [], [[1, "state", 0]], null, null, refresher_content_ngfactory["b" /* View_RefresherContent_0 */], refresher_content_ngfactory["a" /* RenderType_RefresherContent */])), core["_30" /* ɵdid */](28, 114688, null, 0, refresher_content["a" /* RefresherContent */], [refresher["a" /* Refresher */], config["a" /* Config */]], { pullingText: [0, "pullingText"] }, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n\n    "])), (_l()(), core["_31" /* ɵeld */](32, 0, null, 1, 1, "addon-mod-survey-index", [], null, [[null, "dataRetrieved"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("dataRetrieved" === en)) {
+        var pd_0 = (_co.updateData($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, index_ngfactory["c" /* View_AddonModSurveyIndexComponent_0 */], index_ngfactory["b" /* RenderType_AddonModSurveyIndexComponent */])), core["_30" /* ɵdid */](33, 245760, [[1, 4]], 0, index["a" /* AddonModSurveyIndexComponent */], [core["C" /* Injector */], survey["a" /* AddonModSurveyProvider */], [2, content["a" /* Content */]], providers_helper["a" /* AddonModSurveyHelperProvider */], offline["a" /* AddonModSurveyOfflineProvider */], sync["a" /* AddonModSurveySyncProvider */]], { module: [0, "module"], courseId: [1, "courseId"] }, { dataRetrieved: "dataRetrieved" }), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 6, 0); var currVal_2 = _co.title; _ck(_v, 11, 0, currVal_2); var currVal_7 = _co.surveyComponent.loaded; _ck(_v, 25, 0, currVal_7); var currVal_9 = core["_34" /* ɵinlineInterpolate */](1, "", core["_56" /* ɵunv */](_v, 28, 0, core["_44" /* ɵnov */](_v, 29).transform("core.pulltorefresh")), ""); _ck(_v, 28, 0, currVal_9); var currVal_10 = _co.module; var currVal_11 = _co.courseId; _ck(_v, 33, 0, currVal_10, currVal_11); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 5)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 5)._sbPadding; _ck(_v, 4, 0, currVal_0, currVal_1); var currVal_3 = core["_44" /* ɵnov */](_v, 22).statusbarPadding; var currVal_4 = core["_44" /* ɵnov */](_v, 22)._hasRefresher; _ck(_v, 21, 0, currVal_3, currVal_4); var currVal_5 = (core["_44" /* ɵnov */](_v, 25).state !== "inactive"); var currVal_6 = core["_44" /* ɵnov */](_v, 25)._top; _ck(_v, 24, 0, currVal_5, currVal_6); var currVal_8 = core["_44" /* ɵnov */](_v, 28).r.state; _ck(_v, 27, 0, currVal_8); }); }
+function View_AddonModSurveyIndexPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-addon-mod-survey-index", [], null, null, null, View_AddonModSurveyIndexPage_0, RenderType_AddonModSurveyIndexPage)), core["_30" /* ɵdid */](1, 49152, null, 0, index_AddonModSurveyIndexPage, [nav_params["a" /* NavParams */]], null, null)], null, null); }
+var AddonModSurveyIndexPageNgFactory = core["_27" /* ɵccf */]("page-addon-mod-survey-index", index_AddonModSurveyIndexPage, View_AddonModSurveyIndexPage_Host_0, {}, {}, []);
+
+//# sourceMappingURL=index.ngfactory.js.map
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
+var esm5_forms = __webpack_require__(22);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
+var translate_loader = __webpack_require__(340);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
+var translate_compiler = __webpack_require__(341);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
+var translate_parser = __webpack_require__(343);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
+var missing_translation_handler = __webpack_require__(342);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
+var translate_store = __webpack_require__(441);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
+var ionic_angular_module = __webpack_require__(668);
+
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 2 modules
+var pipes_module = __webpack_require__(102);
+
+// EXTERNAL MODULE: ./src/components/components.module.ts
+var components_components_module = __webpack_require__(24);
+
+// EXTERNAL MODULE: ./src/core/course/components/components.module.ts
+var course_components_components_module = __webpack_require__(67);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
+var module_loader = __webpack_require__(251);
+
+// CONCATENATED MODULE: ./src/addon/mod/survey/pages/index/index.module.ngfactory.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModSurveyIndexPageModuleNgFactory", function() { return AddonModSurveyIndexPageModuleNgFactory; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AddonModSurveyIndexPageModuleNgFactory = core["_28" /* ɵcmf */](index_module_AddonModSurveyIndexPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], unsupported_module_ngfactory["a" /* CoreCourseUnsupportedModuleComponentNgFactory */], index_ngfactory["a" /* AddonModSurveyIndexComponentNgFactory */], AddonModSurveyIndexPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_components_module["a" /* CoreComponentsModule */], components_components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, course_components_components_module["a" /* CoreCourseComponentsModule */], course_components_components_module["a" /* CoreCourseComponentsModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* AddonModSurveyComponentsModule */], components_module["a" /* AddonModSurveyComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, index_module_AddonModSurveyIndexPageModule, index_module_AddonModSurveyIndexPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], index_AddonModSurveyIndexPage, [])]); });
+
+//# sourceMappingURL=index.module.ngfactory.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=73.js.map
