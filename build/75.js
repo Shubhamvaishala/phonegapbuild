@@ -1,6 +1,6 @@
 webpackJsonp([75],{
 
-/***/ 1910:
+/***/ 1911:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22,7 +22,7 @@ var directives_module = __webpack_require__(29);
 var components_module = __webpack_require__(706);
 
 // EXTERNAL MODULE: ./src/addon/mod/scorm/components/index/index.ts
-var index = __webpack_require__(478);
+var index = __webpack_require__(479);
 
 // CONCATENATED MODULE: ./src/addon/mod/scorm/pages/index/index.ts
 // (C) Copyright 2015 Martin Dougiamas

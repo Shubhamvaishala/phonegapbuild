@@ -1,6 +1,6 @@
 webpackJsonp([29],{
 
-/***/ 1964:
+/***/ 1968:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -372,7 +372,7 @@ var pipes_module = __webpack_require__(102);
 var components_components_module = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./src/core/compile/components/compile-html/compile-html.module.ts
-var compile_html_module = __webpack_require__(445);
+var compile_html_module = __webpack_require__(446);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
 var module_loader = __webpack_require__(251);
