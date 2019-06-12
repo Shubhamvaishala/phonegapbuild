@@ -25,10 +25,10 @@ var components_module = __webpack_require__(24);
 var components_components_module = __webpack_require__(347);
 
 // EXTERNAL MODULE: ./src/core/compile/components/compile-html/compile-html.module.ts
-var compile_html_module = __webpack_require__(446);
+var compile_html_module = __webpack_require__(445);
 
 // EXTERNAL MODULE: ./src/addon/mod/data/components/components.module.ts + 2 modules
-var data_components_components_module = __webpack_require__(445);
+var data_components_components_module = __webpack_require__(446);
 
 // EXTERNAL MODULE: ./src/providers/utils/utils.ts
 var utils_utils = __webpack_require__(2);
@@ -58,7 +58,7 @@ var helper = __webpack_require__(256);
 var offline = __webpack_require__(212);
 
 // EXTERNAL MODULE: ./src/addon/mod/data/providers/sync.ts
-var sync = __webpack_require__(298);
+var sync = __webpack_require__(299);
 
 // EXTERNAL MODULE: ./src/addon/mod/data/providers/fields-delegate.ts
 var fields_delegate = __webpack_require__(118);

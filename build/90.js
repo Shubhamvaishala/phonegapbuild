@@ -1,6 +1,6 @@
 webpackJsonp([90],{
 
-/***/ 1892:
+/***/ 1893:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46,7 +46,7 @@ var glossary = __webpack_require__(198);
 var offline = __webpack_require__(233);
 
 // EXTERNAL MODULE: ./src/addon/mod/glossary/providers/helper.ts
-var helper = __webpack_require__(471);
+var helper = __webpack_require__(470);
 
 // CONCATENATED MODULE: ./src/addon/mod/glossary/pages/edit/edit.ts
 // (C) Copyright 2015 Martin Dougiamas

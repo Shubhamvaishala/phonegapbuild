@@ -1,6 +1,6 @@
 webpackJsonp([72],{
 
-/***/ 1912:
+/***/ 1913:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22,7 +22,7 @@ var directives_module = __webpack_require__(29);
 var components_module = __webpack_require__(708);
 
 // EXTERNAL MODULE: ./src/addon/mod/url/components/index/index.ts
-var index = __webpack_require__(481);
+var index = __webpack_require__(480);
 
 // CONCATENATED MODULE: ./src/addon/mod/url/pages/index/index.ts
 // (C) Copyright 2015 Martin Dougiamas
@@ -168,7 +168,7 @@ var recaptchamodal_ngfactory = __webpack_require__(1371);
 var unsupported_module_ngfactory = __webpack_require__(1372);
 
 // EXTERNAL MODULE: ./src/addon/mod/url/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1425);
+var index_ngfactory = __webpack_require__(1426);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
 var toolbar_header = __webpack_require__(442);

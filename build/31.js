@@ -1,6 +1,6 @@
 webpackJsonp([31],{
 
-/***/ 1961:
+/***/ 1960:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22,7 +22,7 @@ var sites = __webpack_require__(1);
 var dom = __webpack_require__(4);
 
 // EXTERNAL MODULE: ./src/core/sharedfiles/providers/helper.ts
-var helper = __webpack_require__(467);
+var helper = __webpack_require__(466);
 
 // CONCATENATED MODULE: ./src/core/sharedfiles/pages/choose-site/choose-site.ts
 // (C) Copyright 2015 Martin Dougiamas
