@@ -194,10 +194,10 @@ var recaptchamodal_ngfactory = __webpack_require__(1371);
 var unsupported_module_ngfactory = __webpack_require__(1372);
 
 // EXTERNAL MODULE: ./src/addon/mod/wiki/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1427);
+var index_ngfactory = __webpack_require__(1426);
 
 // EXTERNAL MODULE: ./src/addon/mod/wiki/components/subwiki-picker/subwiki-picker.ngfactory.js
-var subwiki_picker_ngfactory = __webpack_require__(1448);
+var subwiki_picker_ngfactory = __webpack_require__(1447);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
 var toolbar_header = __webpack_require__(442);
