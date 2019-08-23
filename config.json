@@ -58,7 +58,7 @@
     "wsextservice": "local_mobile",
     "demo_sites": {},
     "customurlscheme": "cmoodlemobile",
-    "siteurl": "",
+    "siteurl": "https://lms.vidyamantra.com",
     "sitename": "VidyaMantra LMS",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,

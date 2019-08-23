@@ -353,7 +353,7 @@ var rich_text_editor_ngfactory = __webpack_require__(297);
 var rich_text_editor = __webpack_require__(238);
 
 // EXTERNAL MODULE: ./src/addon/mod/workshop/components/assessment-strategy/assessment-strategy.ngfactory.js
-var assessment_strategy_ngfactory = __webpack_require__(2033);
+var assessment_strategy_ngfactory = __webpack_require__(2034);
 
 // EXTERNAL MODULE: ./src/addon/mod/workshop/components/assessment-strategy/assessment-strategy.ts
 var assessment_strategy = __webpack_require__(1419);
@@ -652,7 +652,7 @@ var AddonModWorkshopSubmissionPageModuleNgFactory = core["_28" /* ɵcmf */](subm
 
 /***/ }),
 
-/***/ 2033:
+/***/ 2034:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
