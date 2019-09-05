@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "578987199728",
+    "firebase_url": "https://vidyamantra-1ce46.firebaseio.com",
+    "project_id": "vidyamantra-1ce46",
+    "storage_bucket": "vidyamantra-1ce46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578987199728:android:4365a0c4bf2458c1",
+        "android_client_info": {
+          "package_name": "com.vidyamantra.cmoodleapp55"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578987199728-uhijf3ojo4epsomkvsackaeuujqk6g3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidyamantra.cmoodleapp55",
+            "certificate_hash": "f8b1e8381632f579a042797b42153a7b25c3a2e3"
+          }
+        },
+        {
+          "client_id": "578987199728-06lfbbakqie43b42t0b0ldot518uphag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQfqJGtmxXDg-2cqSme08ZB9RCk9w9sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578987199728-06lfbbakqie43b42t0b0ldot518uphag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "578987199728-0gm11jdlobtp09qn4930crh636hga039.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vidyamantra.cmoodleapp7",
+                "app_store_id": "1448849127"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578987199728:android:fb1ea23f476a4f6f",
+        "android_client_info": {
+          "package_name": "com.vidyamantra.cmoodleapp7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578987199728-sqlmd6lu3poqivek9d8fsg78skk3r12e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidyamantra.cmoodleapp7",
+            "certificate_hash": "f8b1e8381632f579a042797b42153a7b25c3a2e3"
+          }
+        },
+        {
+          "client_id": "578987199728-06lfbbakqie43b42t0b0ldot518uphag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQfqJGtmxXDg-2cqSme08ZB9RCk9w9sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578987199728-06lfbbakqie43b42t0b0ldot518uphag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "578987199728-0gm11jdlobtp09qn4930crh636hga039.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vidyamantra.cmoodleapp7",
+                "app_store_id": "1448849127"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
