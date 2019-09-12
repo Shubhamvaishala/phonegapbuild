@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="37000" id="com.vidyamantra.cmoodleapp7" version="3.7.0" versionCode="37000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>RedHat Admin</name>
+<widget android-versionCode="37000" id="com.vidyamantra.cmoodleapp192" version="3.7.0" versionCode="37000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Shunya Academy</name>
     <description>
-        Red Hat System Administration is designed for IT professionals without previous Linux system administration experience. The course provides students with Linux administration survival skills by focusing on core administration tasks.
+        Shunya Academy App is your one point solution for enhancing your capability to succeed in competitive examinations, acquiring skill sets to outstand in career building, Soft skill, language learning, Music, Programming, Designing and much more... Just provide a user name and password to begin engaged and collective learning powered by Artificial intelligence for individual performance monitoring.
     </description>
-    <author email="yogeshwar.shukla@vidyamantra.com" href="https://www.yogeshwarshukla.com">
-        Yogeshwar Shukla
+    <author email="sales@vidyamantra.com" href="https://www.keytoschool.com/moodle-mobile-app/">
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
         <string>3.7.0</string>
@@ -135,7 +134,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.1.0" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.4.0">
-        <param name="URL_SCHEME" value="redhatadmin" />
+        <param name="URL_SCHEME" value="shunyaacademy" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.3" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.2" />
