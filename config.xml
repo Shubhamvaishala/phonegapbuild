@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="37000" id="com.vidyamantra.cmoodleapp192" version="3.7.0" versionCode="37000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="37100" id="com.vidyamantra.cmoodleapp192" version="3.7.1" versionCode="37100" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Shunya Academy</name>
     <description>
         Shunya Academy App is your one point solution for enhancing your capability to succeed in competitive examinations, acquiring skill sets to outstand in career building, Soft skill, language learning, Music, Programming, Designing and much more... Just provide a user name and password to begin engaged and collective learning powered by Artificial intelligence for individual performance monitoring.
@@ -7,7 +7,7 @@
     <author email="sales@vidyamantra.com" href="https://www.keytoschool.com/moodle-mobile-app/">
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.7.0</string>
+        <string>3.7.1</string>
     </edit-config>
     <gap:platform name="ios" />
     <gap:platform name="android" />
