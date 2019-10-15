@@ -1,1 +1,513 @@
-webpackJsonp([43],{1928:function(l,n,t){"use strict";function a(l){return i._42(0,[(l()(),i._16(0,0,null,null,5,"ion-card",[],null,null,null,null,null)),i._15(1,16384,null,0,U.a,[x.a,i.p,i.K],null,null),(l()(),i._40(-1,null,["\n                "])),(l()(),i._16(3,0,null,null,1,"core-iframe",[],null,null,null,C.b,C.a)),i._15(4,638976,null,0,M.a,[E.a,D.a,o.a,H.c],{src:[0,"src"]},null),(l()(),i._40(-1,null,["\n            "]))],function(l,n){l(n,4,0,n.component.sitePolicy)},null)}function u(l){return i._42(0,[(l()(),i._16(0,0,null,null,12,"ion-header",[],null,null,null,null,null)),i._15(1,16384,null,0,T.a,[x.a,i.p,i.K,[2,F.a]],null,null),(l()(),i._40(-1,null,["\n    "])),(l()(),i._16(3,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,R.b,R.a)),i._15(4,49152,null,0,W.a,[j.a,[2,F.a],[2,A.a],x.a,i.p,i.K],null,null),i._15(5,212992,null,0,B.a,[W.a,J.a,N.a,O.a],null,null),(l()(),i._40(-1,3,["\n        "])),(l()(),i._16(7,0,null,3,3,"ion-title",[],null,null,null,V.b,V.a)),i._15(8,49152,null,0,q.a,[x.a,i.p,i.K,[2,z.a],[2,W.a]],null,null),(l()(),i._40(9,0,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,3,["\n    "])),(l()(),i._40(-1,null,["\n"])),(l()(),i._40(-1,null,["\n"])),(l()(),i._16(14,0,null,null,54,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Q.b,Q.a)),i._15(15,4374528,null,0,X.a,[x.a,J.a,Y.a,i.p,i.K,j.a,Z.a,i.D,[2,F.a],[2,A.a]],null,null),(l()(),i._40(-1,1,["\n    "])),(l()(),i._16(17,0,null,1,50,"core-loading",[],null,null,null,$.b,$.a)),i._15(18,638976,null,0,ll.a,[N.a,i.p,O.a,r.a],{hideUntil:[0,"hideUntil"]},null),(l()(),i._40(-1,0,["\n        "])),(l()(),i._16(20,0,null,0,46,"ion-list",[],null,null,null,null,null)),i._15(21,16384,null,0,nl.a,[x.a,i.p,i.K,J.a,tl.l,Y.a],null,null),(l()(),i._40(-1,null,["\n            "])),(l()(),i._16(23,0,null,null,7,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),i._15(24,1097728,null,3,ul.a,[il.a,x.a,i.p,i.K,[2,el.a]],null,null),i._37(335544320,1,{contentLabel:0}),i._37(603979776,2,{_buttons:1}),i._37(603979776,3,{_icons:1}),i._15(28,16384,null,0,ol.a,[],null,null),(l()(),i._40(29,2,["\n                ","\n            "])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,null,["\n            "])),(l()(),i._16(32,0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,al.b,al.a)),i._15(33,1097728,null,3,ul.a,[il.a,x.a,i.p,i.K,[2,el.a]],null,null),i._37(335544320,4,{contentLabel:0}),i._37(603979776,5,{_buttons:1}),i._37(603979776,6,{_icons:1}),i._15(37,16384,null,0,ol.a,[],null,null),(l()(),i._40(-1,2,["\n                "])),(l()(),i._16(39,0,null,2,4,"p",[],null,null,null,null,null)),(l()(),i._16(40,0,null,null,3,"a",[["core-link",""]],[[8,"href",4]],null,null,null,null)),i._15(41,81920,null,0,cl.a,[i.p,o.a,r.a,e.a,rl.a,_l.a,[2,A.a],[2,X.a],[2,sl.a]],{capture:[0,"capture"]},null),(l()(),i._40(42,null,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,2,["\n            "])),(l()(),i._40(-1,null,["\n            "])),(l()(),i._11(16777216,null,null,1,null,a)),i._15(47,16384,null,0,pl.k,[i.W,i.T],{ngIf:[0,"ngIf"]},null),(l()(),i._40(-1,null,["\n            "])),(l()(),i._16(49,0,null,null,16,"ion-item",[["class","item item-block"],["padding",""],["text-wrap",""]],null,null,null,al.b,al.a)),i._15(50,1097728,null,3,ul.a,[il.a,x.a,i.p,i.K,[2,el.a]],null,null),i._37(335544320,7,{contentLabel:0}),i._37(603979776,8,{_buttons:1}),i._37(603979776,9,{_icons:1}),i._15(54,16384,null,0,ol.a,[],null,null),(l()(),i._40(-1,2,["\n                "])),(l()(),i._16(56,0,null,2,3,"button",[["block",""],["color","primary"],["ion-button",""]],null,[[null,"click"]],function(l,n,t){var a=!0;if("click"===n){a=!1!==l.component.accept()&&a}return a},hl.b,hl.a)),i._15(57,1097728,[[8,4]],0,dl.a,[[8,""],x.a,i.p,i.K],{color:[0,"color"],block:[1,"block"]},null),(l()(),i._40(58,0,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,2,["\n                "])),(l()(),i._16(61,0,null,2,3,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,t){var a=!0;if("click"===n){a=!1!==l.component.cancel()&&a}return a},hl.b,hl.a)),i._15(62,1097728,[[8,4]],0,dl.a,[[8,""],x.a,i.p,i.K],{block:[0,"block"]},null),(l()(),i._40(63,0,["",""])),i._32(131072,G.a,[N.a,i.i]),(l()(),i._40(-1,2,["\n            "])),(l()(),i._40(-1,null,["\n        "])),(l()(),i._40(-1,0,["\n    "])),(l()(),i._40(-1,1,["\n"])),(l()(),i._40(-1,null,["\n"]))],function(l,n){var t=n.component;l(n,5,0);l(n,18,0,t.policyLoaded);l(n,41,0,!1);l(n,47,0,t.showInline);l(n,57,0,"primary","");l(n,62,0,"")},function(l,n){var t=n.component;l(n,3,0,i._29(n,4)._hidden,i._29(n,4)._sbPadding);l(n,9,0,i._41(n,9,0,i._29(n,10).transform("core.login.policyagreement")));l(n,14,0,i._29(n,15).statusbarPadding,i._29(n,15)._hasRefresher);l(n,29,0,i._41(n,29,0,i._29(n,30).transform("core.login.policyagree")));l(n,40,0,t.sitePolicy);l(n,42,0,i._41(n,42,0,i._29(n,43).transform("core.login.policyagreementclick")));l(n,58,0,i._41(n,58,0,i._29(n,59).transform("core.login.policyaccept")));l(n,63,0,i._41(n,63,0,i._29(n,64).transform("core.login.cancel")))})}Object.defineProperty(n,"__esModule",{value:!0});var i=t(1),e=(t(0),t(9),t(2)),o=t(5),c=t(65),r=t(3),_=t(136),s=function(){function l(l,n,t,a,u,i,e){this.navCtrl=l,this.loginHelper=t,this.domUtils=a,this.sitesProvider=u,this.utils=i,this.mimeUtils=e,this.siteId=n.get("siteId")}return l.prototype.ionViewDidLoad=function(){if(this.currentSite=this.sitesProvider.getCurrentSite(),this.currentSite){var l=this.currentSite.id;this.siteId=this.siteId||l,this.siteId==l&&this.currentSite.wsAvailable("core_user_agree_site_policy")?this.fetchSitePolicy():this.cancel()}else this.cancel()},l.prototype.fetchSitePolicy=function(){var l=this;return this.loginHelper.getSitePolicy(this.siteId).then(function(n){return l.sitePolicy=n,l.utils.getMimeTypeFromUrl(n).then(function(t){var a=l.mimeUtils.getExtension(t,n);l.showInline="html"==a||"htm"==a}).catch(function(){l.showInline=!1}).finally(function(){l.policyLoaded=!0})}).catch(function(n){l.domUtils.showErrorModalDefault(n,"Error getting site policy."),l.cancel()})},l.prototype.cancel=function(){var l=this;this.sitesProvider.logout().catch(function(){}).then(function(){l.navCtrl.setRoot("CoreLoginSitesPage")})},l.prototype.accept=function(){var l=this,n=this.domUtils.showModalLoading("core.sending",!0);this.loginHelper.acceptSitePolicy(this.siteId).then(function(){return l.currentSite.invalidateWsCache().catch(function(){}).then(function(){return l.loginHelper.goToSiteInitialPage()})}).catch(function(n){l.domUtils.showErrorModalDefault(n,"Error accepting site policy.")}).finally(function(){n.dismiss()})},l}(),p=t(4),h=t(28),d=t(29),b=function(){return function(){}}(),f=t(1344),g=t(1345),m=t(1346),y=t(1347),v=t(1348),k=t(1349),P=t(1350),I=t(1351),S=t(1352),w=t(1355),K=t(1356),L=t(1357),U=t(87),x=t(7),C=t(348),M=t(255),E=t(6),D=t(37),H=t(74),T=t(434),F=t(36),R=t(1353),W=t(200),j=t(33),A=t(22),B=t(662),J=t(15),N=t(18),O=t(13),V=t(1354),q=t(335),z=t(247),G=t(25),Q=t(184),X=t(24),Y=t(31),Z=t(109),$=t(49),ll=t(48),nl=t(77),tl=t(38),al=t(30),ul=t(21),il=t(20),el=t(27),ol=t(32),cl=t(188),rl=t(26),_l=t(19),sl=t(34),pl=t(8),hl=t(45),dl=t(42),bl=t(61),fl=i._14({encapsulation:2,styles:[],data:{}}),gl=i._12("page-core-login-site-policy",s,function(l){return i._42(0,[(l()(),i._16(0,0,null,null,1,"page-core-login-site-policy",[],null,null,null,u,fl)),i._15(1,49152,null,0,s,[A.a,bl.a,_.a,o.a,e.a,r.a,c.a],null,null)],null,null)},{},{},[]),ml=t(23),yl=t(331),vl=t(332),kl=t(334),Pl=t(333),Il=t(433),Sl=t(661),wl=t(108),Kl=t(248);t.d(n,"CoreLoginSitePolicyPageModuleNgFactory",function(){return Ll});var Ll=i._13(b,[],function(l){return i._25([i._26(512,i.n,i._6,[[8,[f.a,g.a,m.a,y.a,v.a,k.a,P.a,I.a,S.a,w.a,K.a,L.a,gl]],[3,i.n],i.B]),i._26(4608,pl.m,pl.l,[i.x,[2,pl.v]]),i._26(4608,ml.x,ml.x,[]),i._26(4608,ml.d,ml.d,[]),i._26(4608,yl.b,yl.a,[]),i._26(4608,vl.a,vl.b,[]),i._26(4608,kl.b,kl.a,[]),i._26(4608,Pl.b,Pl.a,[]),i._26(4608,N.a,N.a,[Il.a,yl.b,vl.a,kl.b,Pl.b,N.b,N.c]),i._26(512,pl.b,pl.b,[]),i._26(512,ml.v,ml.v,[]),i._26(512,ml.i,ml.i,[]),i._26(512,ml.s,ml.s,[]),i._26(512,Sl.a,Sl.a,[]),i._26(512,p.a,p.a,[]),i._26(512,d.a,d.a,[]),i._26(512,wl.a,wl.a,[]),i._26(512,h.a,h.a,[]),i._26(512,Sl.b,Sl.b,[]),i._26(512,b,b,[]),i._26(256,N.c,void 0,[]),i._26(256,N.b,void 0,[]),i._26(256,Kl.a,s,[])])})}});
+webpackJsonp([43],{
+
+/***/ 2046:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
+var core = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
+var ionic_angular = __webpack_require__(6);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
+var _ngx_translate_core = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./node_modules/@ionic-native/device/index.js
+var _ionic_native_device = __webpack_require__(489);
+
+// EXTERNAL MODULE: ./src/providers/app.ts
+var app = __webpack_require__(9);
+
+// EXTERNAL MODULE: ./src/providers/file.ts
+var file = __webpack_require__(53);
+
+// EXTERNAL MODULE: ./src/providers/init.ts
+var init = __webpack_require__(145);
+
+// EXTERNAL MODULE: ./src/providers/lang.ts
+var lang = __webpack_require__(170);
+
+// EXTERNAL MODULE: ./src/providers/local-notifications.ts
+var local_notifications = __webpack_require__(154);
+
+// EXTERNAL MODULE: ./src/providers/sites.ts
+var sites = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./src/configconstants.ts
+var configconstants = __webpack_require__(119);
+
+// EXTERNAL MODULE: ./src/core/pushnotifications/providers/pushnotifications.ts
+var pushnotifications = __webpack_require__(130);
+
+// CONCATENATED MODULE: ./src/core/settings/pages/about/about.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the about settings.
+ */
+var about_CoreSettingsAboutPage = /** @class */ (function () {
+    function CoreSettingsAboutPage(platform, device, appProvider, fileProvider, initDelegate, langProvider, sitesProvider, localNotificationsProvider, pushNotificationsProvider) {
+        var _this = this;
+        var currentSite = sitesProvider.getCurrentSite();
+        this.appName = appProvider.isDesktop() ? configconstants["a" /* CoreConfigConstants */].desktopappname : configconstants["a" /* CoreConfigConstants */].appname;
+        this.versionName = configconstants["a" /* CoreConfigConstants */].versionname;
+        this.versionCode = configconstants["a" /* CoreConfigConstants */].versioncode;
+        this.compilationTime = configconstants["a" /* CoreConfigConstants */].compilationtime;
+        this.lastCommit = configconstants["a" /* CoreConfigConstants */].lastcommit;
+        // Calculate the privacy policy to use.
+        this.privacyPolicy = (currentSite && (currentSite.getStoredConfig('tool_mobile_apppolicy') ||
+            currentSite.getStoredConfig('sitepolicy'))) || configconstants["a" /* CoreConfigConstants */].privacypolicy;
+        this.navigator = window.navigator;
+        if (window.location && window.location.href) {
+            var url = window.location.href;
+            this.locationHref = url.substr(0, url.indexOf('#'));
+        }
+        this.appReady = initDelegate.isReady() ? 'core.yes' : 'core.no';
+        this.deviceType = platform.is('tablet') ? 'core.tablet' : 'core.phone';
+        if (platform.is('android')) {
+            this.deviceOs = 'core.android';
+        }
+        else if (platform.is('ios')) {
+            this.deviceOs = 'core.ios';
+        }
+        else if (platform.is('windows')) {
+            this.deviceOs = 'core.windowsphone';
+        }
+        else {
+            var matches = navigator.userAgent.match(/\(([^\)]*)\)/);
+            if (matches && matches.length > 1) {
+                this.deviceOs = matches[1];
+            }
+            else {
+                this.deviceOs = 'core.unknown';
+            }
+        }
+        langProvider.getCurrentLanguage().then(function (lang) {
+            _this.currentLanguage = lang;
+        });
+        this.networkStatus = appProvider.isOnline() ? 'core.online' : 'core.offline';
+        this.wifiConnection = appProvider.isWifi() ? 'core.yes' : 'core.no';
+        this.deviceWebWorkers = !!window['Worker'] && !!window['URL'] ? 'core.yes' : 'core.no';
+        this.device = device;
+        if (fileProvider.isAvailable()) {
+            fileProvider.getBasePath().then(function (basepath) {
+                _this.fileSystemRoot = basepath;
+                _this.fsClickable = fileProvider.usesHTMLAPI();
+            });
+        }
+        this.localNotifAvailable = localNotificationsProvider.isAvailable() ? 'core.yes' : 'core.no';
+        this.pushId = pushNotificationsProvider.getPushId();
+    }
+    CoreSettingsAboutPage = __decorate([
+        Object(core["m" /* Component */])({
+            selector: 'page-core-settings-about',
+            templateUrl: 'about.html',
+        }),
+        __metadata("design:paramtypes", [ionic_angular["v" /* Platform */], _ionic_native_device["a" /* Device */], app["a" /* CoreAppProvider */], file["a" /* CoreFileProvider */],
+            init["a" /* CoreInitDelegate */], lang["a" /* CoreLangProvider */], sites["a" /* CoreSitesProvider */],
+            local_notifications["a" /* CoreLocalNotificationsProvider */], pushnotifications["a" /* CorePushNotificationsProvider */]])
+    ], CoreSettingsAboutPage);
+    return CoreSettingsAboutPage;
+}());
+
+//# sourceMappingURL=about.js.map
+// EXTERNAL MODULE: ./src/components/components.module.ts
+var components_module = __webpack_require__(29);
+
+// EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
+var directives_module = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 2 modules
+var pipes_module = __webpack_require__(109);
+
+// CONCATENATED MODULE: ./src/core/settings/pages/about/about.module.ts
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var about_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var about_module_CoreSettingsAboutPageModule = /** @class */ (function () {
+    function CoreSettingsAboutPageModule() {
+    }
+    CoreSettingsAboutPageModule = about_module___decorate([
+        Object(core["I" /* NgModule */])({
+            declarations: [
+                about_CoreSettingsAboutPage
+            ],
+            imports: [
+                components_module["a" /* CoreComponentsModule */],
+                directives_module["a" /* CoreDirectivesModule */],
+                pipes_module["a" /* CorePipesModule */],
+                ionic_angular["l" /* IonicPageModule */].forChild(about_CoreSettingsAboutPage),
+                _ngx_translate_core["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreSettingsAboutPageModule);
+    return CoreSettingsAboutPageModule;
+}());
+
+//# sourceMappingURL=about.module.js.map
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
+var action_sheet_component_ngfactory = __webpack_require__(1471);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
+var alert_component_ngfactory = __webpack_require__(1472);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
+var app_root_ngfactory = __webpack_require__(1473);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
+var loading_component_ngfactory = __webpack_require__(1474);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
+var modal_component_ngfactory = __webpack_require__(1475);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
+var picker_component_ngfactory = __webpack_require__(1476);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
+var popover_component_ngfactory = __webpack_require__(1477);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
+var select_popover_component_ngfactory = __webpack_require__(1478);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
+var toast_component_ngfactory = __webpack_require__(1479);
+
+// EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
+var context_menu_popover_ngfactory = __webpack_require__(1480);
+
+// EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
+var course_picker_menu_popover_ngfactory = __webpack_require__(1481);
+
+// EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
+var recaptchamodal_ngfactory = __webpack_require__(1482);
+
+// EXTERNAL MODULE: ./src/components/bs-tooltip/bs-tooltip.ngfactory.js
+var bs_tooltip_ngfactory = __webpack_require__(1483);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-group.js
+var item_group = __webpack_require__(377);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.ngfactory.js + 1 modules
+var item_ngfactory = __webpack_require__(30);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.js
+var item = __webpack_require__(21);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/form.js
+var util_form = __webpack_require__(20);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
+var config = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
+var item_reorder = __webpack_require__(28);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-divider.js
+var item_divider = __webpack_require__(93);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
+var translate_pipe = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
+var translate_service = __webpack_require__(18);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-content.js
+var item_content = __webpack_require__(32);
+
+// EXTERNAL MODULE: ./src/directives/link.ts
+var directives_link = __webpack_require__(182);
+
+// EXTERNAL MODULE: ./src/providers/utils/dom.ts
+var dom = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./src/providers/utils/utils.ts
+var utils = __webpack_require__(2);
+
+// EXTERNAL MODULE: ./src/providers/utils/url.ts
+var utils_url = __webpack_require__(23);
+
+// EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
+var helper = __webpack_require__(13);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
+var nav_controller = __webpack_require__(19);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./src/components/split-view/split-view.ts
+var split_view = __webpack_require__(25);
+
+// EXTERNAL MODULE: ./src/providers/utils/text.ts
+var utils_text = __webpack_require__(10);
+
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./src/pipes/format-date.ts
+var format_date = __webpack_require__(246);
+
+// EXTERNAL MODULE: ./src/providers/logger.ts
+var logger = __webpack_require__(5);
+
+// EXTERNAL MODULE: ./src/providers/utils/time.ts
+var time = __webpack_require__(24);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
+var toolbar_header = __webpack_require__(365);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(38);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
+var navbar_ngfactory = __webpack_require__(713);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
+var navbar = __webpack_require__(209);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app_app = __webpack_require__(34);
+
+// EXTERNAL MODULE: ./src/directives/back-button.ts
+var back_button = __webpack_require__(471);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform_platform = __webpack_require__(16);
+
+// EXTERNAL MODULE: ./src/providers/events.ts
+var events = __webpack_require__(11);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
+var toolbar_title_ngfactory = __webpack_require__(714);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
+var toolbar_title = __webpack_require__(309);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
+var toolbar = __webpack_require__(245);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(178);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(101);
+
+// CONCATENATED MODULE: ./src/core/settings/pages/about/about.ngfactory.js
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles_CoreSettingsAboutPage = [];
+var RenderType_CoreSettingsAboutPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_CoreSettingsAboutPage, data: {} });
+
+function View_CoreSettingsAboutPage_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 24, "ion-item-group", [], null, null, null, null, null)), core["_30" /* ɵdid */](1, 16384, null, 0, item_group["a" /* ItemGroup */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](3, 0, null, null, 7, "ion-item-divider", [["class", "item item-divider"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](4, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 10, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 11, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 12, { _icons: 1 }), core["_30" /* ɵdid */](8, 16384, null, 0, item_divider["a" /* ItemDivider */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](9, 2, ["\n            ", "\n        "])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](12, 0, null, null, 11, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](13, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 13, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 14, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 15, { _icons: 1 }), core["_30" /* ɵdid */](17, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](19, 0, null, 2, 3, "p", [], null, null, null, null, null)), (_l()(), core["_31" /* ɵeld */](20, 0, null, null, 2, "a", [["auto-login", "no"], ["core-link", ""]], [[8, "href", 4]], null, null, null, null)), core["_30" /* ɵdid */](21, 81920, null, 0, directives_link["a" /* CoreLinkDirective */], [core["t" /* ElementRef */], dom["a" /* CoreDomUtilsProvider */], utils["a" /* CoreUtilsProvider */], sites["a" /* CoreSitesProvider */], utils_url["a" /* CoreUrlUtilsProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], utils_text["a" /* CoreTextUtilsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](22, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "]))], function (_ck, _v) { _ck(_v, 21, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 9, 0, core["_44" /* ɵnov */](_v, 10).transform("core.settings.privacypolicy")); _ck(_v, 9, 0, currVal_0); var currVal_1 = _co.privacyPolicy; _ck(_v, 20, 0, currVal_1); var currVal_2 = _co.privacyPolicy; _ck(_v, 22, 0, currVal_2); }); }
+function View_CoreSettingsAboutPage_2(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 19, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 20, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 21, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.versionname")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.versionName; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_3(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 22, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 23, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 24, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.versioncode")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.versionCode; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_5(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](1, null, ["", ""])), core["_49" /* ɵppd */](2, 3)], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, _ck(_v, 2, 0, core["_44" /* ɵnov */](_v.parent.parent, 0), _co.compilationTime, "LLL Z", false)); _ck(_v, 1, 0, currVal_0); }); }
+function View_CoreSettingsAboutPage_6(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](1, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.lastCommit; _ck(_v, 1, 0, currVal_0); }); }
+function View_CoreSettingsAboutPage_4(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 16, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 25, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 26, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 27, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, 2, 1, null, View_CoreSettingsAboutPage_5)), core["_30" /* ɵdid */](12, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, 2, 1, null, View_CoreSettingsAboutPage_6)), core["_30" /* ɵdid */](15, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], function (_ck, _v) { var _co = _v.component; var currVal_1 = _co.compilationTime; _ck(_v, 12, 0, currVal_1); var currVal_2 = _co.lastCommit; _ck(_v, 15, 0, currVal_2); }, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.compilationinfo")); _ck(_v, 8, 0, currVal_0); }); }
+function View_CoreSettingsAboutPage_8(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "a", [["auto-login", "no"], ["core-link", ""]], [[8, "href", 4]], null, null, null, null)), core["_30" /* ɵdid */](1, 81920, null, 0, directives_link["a" /* CoreLinkDirective */], [core["t" /* ElementRef */], dom["a" /* CoreDomUtilsProvider */], utils["a" /* CoreUtilsProvider */], sites["a" /* CoreSitesProvider */], utils_url["a" /* CoreUrlUtilsProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], utils_text["a" /* CoreTextUtilsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](2, null, ["", ""]))], function (_ck, _v) { _ck(_v, 1, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.fileSystemRoot; _ck(_v, 0, 0, currVal_0); var currVal_1 = _co.fileSystemRoot; _ck(_v, 2, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_9(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](1, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.fileSystemRoot; _ck(_v, 1, 0, currVal_0); }); }
+function View_CoreSettingsAboutPage_7(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 17, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 28, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 29, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 30, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_8)), core["_30" /* ɵdid */](13, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_26" /* ɵand */](16777216, null, 2, 1, null, View_CoreSettingsAboutPage_9)), core["_30" /* ɵdid */](16, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], function (_ck, _v) { var _co = _v.component; var currVal_1 = _co.fsClickable; _ck(_v, 13, 0, currVal_1); var currVal_2 = !_co.fsClickable; _ck(_v, 16, 0, currVal_2); }, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.filesystemroot")); _ck(_v, 8, 0, currVal_0); }); }
+function View_CoreSettingsAboutPage_10(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 31, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 32, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 33, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.navigatoruseragent")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.navigator.userAgent; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_11(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 34, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 35, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 36, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.navigatorlanguage")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.navigator.language; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_12(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 37, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 38, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 39, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.locationhref")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.locationHref; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_13(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 40, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 41, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 42, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.appready")); _ck(_v, 8, 0, currVal_0); var currVal_1 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform(_co.appReady)); _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_14(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 43, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 44, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 45, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.displayformat")); _ck(_v, 8, 0, currVal_0); var currVal_1 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform(_co.deviceType)); _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_15(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 46, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 47, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 48, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.deviceos")); _ck(_v, 8, 0, currVal_0); var currVal_1 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform(_co.deviceOs)); _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_16(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 49, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 50, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 51, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.currentlanguage")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.currentLanguage; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_17(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 52, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 53, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 54, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.networkstatus")); _ck(_v, 8, 0, currVal_0); var currVal_1 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform(_co.networkStatus)); _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_18(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 55, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 56, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 57, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.wificonnection")); _ck(_v, 8, 0, currVal_0); var currVal_1 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform(_co.wifiConnection)); _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_19(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 58, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 59, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 60, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.devicewebworkers")); _ck(_v, 8, 0, currVal_0); var currVal_1 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform(_co.deviceWebWorkers)); _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_20(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 61, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 62, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 63, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.cordovaversion")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.device.cordova; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_21(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 64, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 65, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 66, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.cordovadeviceplatform")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.device.platform; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_22(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 67, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 68, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 69, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.cordovadeviceosversion")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.device.version; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_23(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 70, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 71, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 72, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.cordovadevicemodel")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.device.model; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_24(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 73, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 74, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 75, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.cordovadeviceuuid")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.device.uuid; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_25(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 13, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 76, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 77, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 78, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.pushid")); _ck(_v, 8, 0, currVal_0); var currVal_1 = _co.pushId; _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_26(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 79, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 80, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 81, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](8, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_56" /* ɵunv */](_v, 8, 0, core["_44" /* ɵnov */](_v, 9).transform("core.settings.localnotifavailable")); _ck(_v, 8, 0, currVal_0); var currVal_1 = core["_56" /* ɵunv */](_v, 12, 0, core["_44" /* ɵnov */](_v, 13).transform(_co.localNotifAvailable)); _ck(_v, 12, 0, currVal_1); }); }
+function View_CoreSettingsAboutPage_0(_l) { return core["_57" /* ɵvid */](0, [core["_47" /* ɵpid */](0, format_date["a" /* CoreFormatDatePipe */], [logger["a" /* CoreLoggerProvider */], time["a" /* CoreTimeUtilsProvider */]]), (_l()(), core["_31" /* ɵeld */](1, 0, null, null, 12, "ion-header", [], null, null, null, null, null)), core["_30" /* ɵdid */](2, 16384, null, 0, toolbar_header["a" /* Header */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](4, 0, null, null, 8, "ion-navbar", [["class", "toolbar"], ["core-back-button", ""]], [[8, "hidden", 0], [2, "statusbar-padding", null]], null, null, navbar_ngfactory["b" /* View_Navbar_0 */], navbar_ngfactory["a" /* RenderType_Navbar */])), core["_30" /* ɵdid */](5, 49152, null, 0, navbar["a" /* Navbar */], [app_app["a" /* App */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_30" /* ɵdid */](6, 212992, null, 0, back_button["a" /* CoreBackButtonDirective */], [navbar["a" /* Navbar */], platform_platform["a" /* Platform */], translate_service["a" /* TranslateService */], events["a" /* CoreEventsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](8, 0, null, 3, 3, "ion-title", [], null, null, null, toolbar_title_ngfactory["b" /* View_ToolbarTitle_0 */], toolbar_title_ngfactory["a" /* RenderType_ToolbarTitle */])), core["_30" /* ɵdid */](9, 49152, null, 0, toolbar_title["a" /* ToolbarTitle */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), (_l()(), core["_55" /* ɵted */](10, 0, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_31" /* ɵeld */](15, 0, null, null, 121, "ion-content", [], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](16, 4374528, null, 0, content["a" /* Content */], [config["a" /* Config */], platform_platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app_app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](18, 0, null, 1, 9, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](19, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 1, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 2, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 3, { _icons: 1 }), core["_30" /* ɵdid */](23, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_31" /* ɵeld */](25, 0, null, 2, 1, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](26, null, ["", " ", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](29, 0, null, 1, 27, "ion-item-group", [], null, null, null, null, null)), core["_30" /* ɵdid */](30, 16384, null, 0, item_group["a" /* ItemGroup */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](32, 0, null, null, 7, "ion-item-divider", [["class", "item item-divider"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](33, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 4, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 5, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 6, { _icons: 1 }), core["_30" /* ɵdid */](37, 16384, null, 0, item_divider["a" /* ItemDivider */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](38, 2, ["\n            ", "\n        "])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](41, 0, null, null, 14, "ion-item", [["class", "item item-block"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](42, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 7, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 8, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 9, { _icons: 1 }), core["_30" /* ɵdid */](46, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](48, 0, null, 2, 1, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["Apache 2.0"])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "])), (_l()(), core["_31" /* ɵeld */](51, 0, null, 2, 3, "p", [], null, null, null, null, null)), (_l()(), core["_31" /* ɵeld */](52, 0, null, null, 2, "a", [["auto-login", "no"], ["core-link", ""], ["href", "http://www.apache.org/licenses/LICENSE-2.0"]], null, null, null, null, null)), core["_30" /* ɵdid */](53, 81920, null, 0, directives_link["a" /* CoreLinkDirective */], [core["t" /* ElementRef */], dom["a" /* CoreDomUtilsProvider */], utils["a" /* CoreUtilsProvider */], sites["a" /* CoreSitesProvider */], utils_url["a" /* CoreUrlUtilsProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], utils_text["a" /* CoreTextUtilsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["http://www.apache.org/licenses/LICENSE-2.0"])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_26" /* ɵand */](16777216, null, 1, 1, null, View_CoreSettingsAboutPage_1)), core["_30" /* ɵdid */](59, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](61, 0, null, 1, 74, "ion-item-group", [], null, null, null, null, null)), core["_30" /* ɵdid */](62, 16384, null, 0, item_group["a" /* ItemGroup */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_31" /* ɵeld */](64, 0, null, null, 7, "ion-item-divider", [["class", "item item-divider"], ["text-wrap", ""]], null, null, null, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](65, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 16, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 17, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 18, { _icons: 1 }), core["_30" /* ɵdid */](69, 16384, null, 0, item_divider["a" /* ItemDivider */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), (_l()(), core["_55" /* ɵted */](70, 2, ["\n            ", "\n        "])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]]), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_2)), core["_30" /* ɵdid */](74, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_3)), core["_30" /* ɵdid */](77, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_4)), core["_30" /* ɵdid */](80, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_7)), core["_30" /* ɵdid */](83, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_10)), core["_30" /* ɵdid */](86, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_11)), core["_30" /* ɵdid */](89, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_12)), core["_30" /* ɵdid */](92, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_13)), core["_30" /* ɵdid */](95, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_14)), core["_30" /* ɵdid */](98, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_15)), core["_30" /* ɵdid */](101, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_16)), core["_30" /* ɵdid */](104, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_17)), core["_30" /* ɵdid */](107, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_18)), core["_30" /* ɵdid */](110, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_19)), core["_30" /* ɵdid */](113, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_20)), core["_30" /* ɵdid */](116, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_21)), core["_30" /* ɵdid */](119, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_22)), core["_30" /* ɵdid */](122, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_23)), core["_30" /* ɵdid */](125, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_24)), core["_30" /* ɵdid */](128, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_25)), core["_30" /* ɵdid */](131, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_CoreSettingsAboutPage_26)), core["_30" /* ɵdid */](134, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 6, 0); _ck(_v, 53, 0); var currVal_8 = _co.privacyPolicy; _ck(_v, 59, 0, currVal_8); var currVal_10 = _co.versionName; _ck(_v, 74, 0, currVal_10); var currVal_11 = _co.versionCode; _ck(_v, 77, 0, currVal_11); var currVal_12 = (_co.compilationTime || _co.lastCommit); _ck(_v, 80, 0, currVal_12); var currVal_13 = _co.fileSystemRoot; _ck(_v, 83, 0, currVal_13); var currVal_14 = (_co.navigator && _co.navigator.userAgent); _ck(_v, 86, 0, currVal_14); var currVal_15 = (_co.navigator && _co.navigator.language); _ck(_v, 89, 0, currVal_15); var currVal_16 = _co.locationHref; _ck(_v, 92, 0, currVal_16); var currVal_17 = _co.appReady; _ck(_v, 95, 0, currVal_17); var currVal_18 = _co.deviceType; _ck(_v, 98, 0, currVal_18); var currVal_19 = _co.deviceOs; _ck(_v, 101, 0, currVal_19); var currVal_20 = _co.currentLanguage; _ck(_v, 104, 0, currVal_20); var currVal_21 = _co.networkStatus; _ck(_v, 107, 0, currVal_21); var currVal_22 = _co.wifiConnection; _ck(_v, 110, 0, currVal_22); var currVal_23 = _co.deviceWebWorkers; _ck(_v, 113, 0, currVal_23); var currVal_24 = (_co.device && _co.device.cordova); _ck(_v, 116, 0, currVal_24); var currVal_25 = (_co.device && _co.device.platform); _ck(_v, 119, 0, currVal_25); var currVal_26 = (_co.device && _co.device.version); _ck(_v, 122, 0, currVal_26); var currVal_27 = (_co.device && _co.device.model); _ck(_v, 125, 0, currVal_27); var currVal_28 = (_co.device && _co.device.uuid); _ck(_v, 128, 0, currVal_28); var currVal_29 = _co.pushId; _ck(_v, 131, 0, currVal_29); var currVal_30 = _co.localNotifAvailable; _ck(_v, 134, 0, currVal_30); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = core["_44" /* ɵnov */](_v, 5)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 5)._sbPadding; _ck(_v, 4, 0, currVal_0, currVal_1); var currVal_2 = core["_56" /* ɵunv */](_v, 10, 0, core["_44" /* ɵnov */](_v, 11).transform("core.settings.about")); _ck(_v, 10, 0, currVal_2); var currVal_3 = core["_44" /* ɵnov */](_v, 16).statusbarPadding; var currVal_4 = core["_44" /* ɵnov */](_v, 16)._hasRefresher; _ck(_v, 15, 0, currVal_3, currVal_4); var currVal_5 = _co.appName; var currVal_6 = _co.versionName; _ck(_v, 26, 0, currVal_5, currVal_6); var currVal_7 = core["_56" /* ɵunv */](_v, 38, 0, core["_44" /* ɵnov */](_v, 39).transform("core.settings.license")); _ck(_v, 38, 0, currVal_7); var currVal_9 = core["_56" /* ɵunv */](_v, 70, 0, core["_44" /* ɵnov */](_v, 71).transform("core.settings.deviceinfo")); _ck(_v, 70, 0, currVal_9); }); }
+function View_CoreSettingsAboutPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-core-settings-about", [], null, null, null, View_CoreSettingsAboutPage_0, RenderType_CoreSettingsAboutPage)), core["_30" /* ɵdid */](1, 49152, null, 0, about_CoreSettingsAboutPage, [platform_platform["a" /* Platform */], _ionic_native_device["a" /* Device */], app["a" /* CoreAppProvider */], file["a" /* CoreFileProvider */], init["a" /* CoreInitDelegate */], lang["a" /* CoreLangProvider */], sites["a" /* CoreSitesProvider */], local_notifications["a" /* CoreLocalNotificationsProvider */], pushnotifications["a" /* CorePushNotificationsProvider */]], null, null)], null, null); }
+var CoreSettingsAboutPageNgFactory = core["_27" /* ɵccf */]("page-core-settings-about", about_CoreSettingsAboutPage, View_CoreSettingsAboutPage_Host_0, {}, {}, []);
+
+//# sourceMappingURL=about.ngfactory.js.map
+// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
+var esm5_forms = __webpack_require__(22);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
+var translate_loader = __webpack_require__(361);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
+var translate_compiler = __webpack_require__(362);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
+var translate_parser = __webpack_require__(364);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
+var missing_translation_handler = __webpack_require__(363);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
+var translate_store = __webpack_require__(470);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
+var ionic_angular_module = __webpack_require__(712);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
+var module_loader = __webpack_require__(269);
+
+// CONCATENATED MODULE: ./src/core/settings/pages/about/about.module.ngfactory.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSettingsAboutPageModuleNgFactory", function() { return CoreSettingsAboutPageModuleNgFactory; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var CoreSettingsAboutPageModuleNgFactory = core["_28" /* ɵcmf */](about_module_CoreSettingsAboutPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], bs_tooltip_ngfactory["a" /* CoreBSTooltipComponentNgFactory */], CoreSettingsAboutPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["w" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* CoreComponentsModule */], components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, about_module_CoreSettingsAboutPageModule, about_module_CoreSettingsAboutPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], about_CoreSettingsAboutPage, [])]); });
+
+//# sourceMappingURL=about.module.ngfactory.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=43.js.map
