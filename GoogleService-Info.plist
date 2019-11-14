@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>578987199728-q3q1uumpi64oudbclsdoijl4d6t5rh8v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.578987199728-q3q1uumpi64oudbclsdoijl4d6t5rh8v</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>578987199728-ia3t8nl7jj5bv4furbmfvisl7v343abh.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKkuczVYWExQuUqkV5tiKtRZoj6ADbhdc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>578987199728</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vidyamantra.cmoodleapp189</string>
+	<key>PROJECT_ID</key>
+	<string>vidyamantra-1ce46</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vidyamantra-1ce46.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:578987199728:ios:3ef9d806e4ca91f3a3c635</string>
+	<key>DATABASE_URL</key>
+	<string>https://vidyamantra-1ce46.firebaseio.com</string>
+</dict>
+</plist>
