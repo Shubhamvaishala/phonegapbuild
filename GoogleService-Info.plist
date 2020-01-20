@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>578987199728-c5qkh82a4p9tolms7m1rtll7ef9lb414.apps.googleusercontent.com</string>
+	<string>578987199728-2vbs2eghqvef3sjnad81n25jodrrd8ik.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.578987199728-c5qkh82a4p9tolms7m1rtll7ef9lb414</string>
+	<string>com.googleusercontent.apps.578987199728-2vbs2eghqvef3sjnad81n25jodrrd8ik</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>578987199728-bmonbrb1ppkbs8i0m56d5pd50u00f63l.apps.googleusercontent.com</string>
+	<string>578987199728-joi0dqocppal1aiqo2om7vrdg4k0rt8g.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDKkuczVYWExQuUqkV5tiKtRZoj6ADbhdc</string>
 	<key>GCM_SENDER_ID</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.vidyamantra.cmoodleapp188</string>
+	<string>com.vidyamantra.deftiq195</string>
 	<key>PROJECT_ID</key>
 	<string>vidyamantra-1ce46</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:578987199728:ios:516a7f819965f251a3c635</string>
+	<string>1:578987199728:ios:b0db7c2f93194f87a3c635</string>
 	<key>DATABASE_URL</key>
 	<string>https://vidyamantra-1ce46.firebaseio.com</string>
 </dict>
