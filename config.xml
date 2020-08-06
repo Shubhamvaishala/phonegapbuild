@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="37100" id="com.vidyamantra.cmoodleapp188" version="3.7.1" versionCode="37100" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="37200" id="com.vidyamantra.cmoodleapp188" version="3.7.2" versionCode="37200" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>IDMBLS</name>
     <description>
         IDM Botswana Campus offers Botswana Qualifications Authority bachelors’ degrees.
     </description>
     <author email="sales@vidyamantra.com" href="https://www.keytoschool.com/moodle-mobile-app/">Vidya Mantra EduSystems Pvt. Ltd.</author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.7.1</string>
+        <string>3.7.2</string>
     </edit-config>
     <gap:platform name="ios" />
     <gap:platform name="android" />
